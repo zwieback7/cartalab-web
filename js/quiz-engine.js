@@ -234,9 +234,15 @@ function generatePoster() {
     captureArea.style.backgroundImage = 'none';
     
     // Ensure content box has a solid background (alpha transparency can cause black boxes)
+    // CRITICAL for iOS: Remove backdrop-filter which causes Safari to crash or render blank canvas
     const contentBox = document.getElementById('result-content');
     const oldContentBg = contentBox.style.background;
+    const oldBackdrop = contentBox.style.backdropFilter;
+    const oldWebkitBackdrop = contentBox.style.webkitBackdropFilter;
+    
     contentBox.style.background = "#F0EDE9";
+    contentBox.style.backdropFilter = "none";
+    contentBox.style.webkitBackdropFilter = "none";
     
     // Fix scroll cutoff issue on iOS
     const originalScrollY = window.scrollY;
@@ -245,16 +251,20 @@ function generatePoster() {
     // Give browser time to repaint after scrolling and style changes
     setTimeout(() => {
         html2canvas(captureArea, {
-            scale: 1.5, // Balance between clarity and memory limits
+            scale: window.innerWidth < 600 ? 1 : 1.5, // 1 on mobile prevents OOM, 1.5 on desktop for clarity
             useCORS: true,
             allowTaint: true,
             backgroundColor: getComputedStyle(document.body).backgroundColor,
-            scrollY: 0
+            scrollY: 0,
+            windowHeight: captureArea.scrollHeight
         }).then(canvas => {
             // Restore styles
             captureArea.style.background = oldBg;
             captureArea.style.backgroundImage = oldBgImage;
             contentBox.style.background = oldContentBg;
+            contentBox.style.backdropFilter = oldBackdrop;
+            contentBox.style.webkitBackdropFilter = oldWebkitBackdrop;
+            
             posterBtn.style.display = 'flex';
             posterLoading.style.display = 'none';
             window.scrollTo(0, originalScrollY);
@@ -273,6 +283,9 @@ function generatePoster() {
             captureArea.style.background = oldBg;
             captureArea.style.backgroundImage = oldBgImage;
             contentBox.style.background = oldContentBg;
+            contentBox.style.backdropFilter = oldBackdrop;
+            contentBox.style.webkitBackdropFilter = oldWebkitBackdrop;
+            
             posterBtn.style.display = 'flex';
             posterLoading.style.display = 'none';
             window.scrollTo(0, originalScrollY);
