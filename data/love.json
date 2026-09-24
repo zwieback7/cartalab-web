@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "亲密防御机制",
+        "subtitle": "透视你在关系中的潜意识恐惧与底牌",
+        "themeColor": "#9C5F66",
+        "upsellText": "解锁《亲密关系破局指南》",
+        "quote": "你如何推开别人，就如何推开自己",
+        "footerCta": "携带此档案编号，返回解锁《亲密关系安全感重塑指南》"
+    },
+    "axes": [
+        { "id": "abandon", "label": "被弃恐惧" },
+        { "id": "engulf", "label": "吞噬恐惧" },
+        { "id": "control", "label": "控制欲" },
+        { "id": "idealize", "label": "理想化" },
+        { "id": "avoid", "label": "冷漠隔离" }
+    ],
+    "questions": [
+        { "q": "当伴侣在吵架时突然沉默不语、甚至摔门离去时，你的第一反应是：", "options": [
+            { "text": "极度恐慌，拼命打电话或发信息，一定要对方立刻把话说明白", "types": { "A": 1 }, "scores": { "abandon": 10, "engulf": 1, "control": 8, "idealize": 4, "avoid": 1 } },
+            { "text": "冷笑一声，觉得对方幼稚，我也顺势切断联系，看谁憋得过谁", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 8, "control": 6, "idealize": 2, "avoid": 10 } }
+        ]},
+        { "q": "在一段感情刚刚开始、处于极度甜蜜的暧昧期时，你潜意识里会有：", "options": [
+            { "text": "患得患失，害怕这一切美好都是幻觉，害怕对方突然就不喜欢我了", "types": { "A": 1 }, "scores": { "abandon": 9, "engulf": 2, "control": 6, "idealize": 8, "avoid": 2 } },
+            { "text": "一种莫名的窒息感，觉得对方靠得太近，甚至想下意识地挑点刺推开他", "types": { "B": 1 }, "scores": { "abandon": 3, "engulf": 10, "control": 3, "idealize": 3, "avoid": 8 } }
+        ]},
+        { "q": "你如何看待伴侣看你的手机？", "options": [
+            { "text": "无所谓，我没有任何秘密，甚至希望彼此毫无保留地分享一切", "types": { "A": 1 }, "scores": { "abandon": 7, "engulf": 1, "control": 5, "idealize": 9, "avoid": 1 } },
+            { "text": "极度反感，不管里面有没有秘密，这是对我绝对边界的严重侵犯", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 9, "control": 8, "idealize": 2, "avoid": 9 } }
+        ]},
+        { "q": "在过去的感情经历中，你更常扮演的角色是：", "options": [
+            { "text": "永远是那个付出更多、妥协更多、最后被留下来舔舐伤口的人", "types": { "A": 1 }, "scores": { "abandon": 9, "engulf": 2, "control": 7, "idealize": 8, "avoid": 2 } },
+            { "text": "那个在对方越来越情绪化时，感到疲惫并冷静提出分手的人", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 8, "control": 6, "idealize": 3, "avoid": 9 } }
+        ]},
+        { "q": "当你感觉到对方有抽离或冷淡的迹象时，你会：", "options": [
+            { "text": "加大投入，或者通过作闹、制造危机感来试图拉回对方的注意力", "types": { "A": 1 }, "scores": { "abandon": 10, "engulf": 2, "control": 9, "idealize": 5, "avoid": 1 } },
+            { "text": "比对方更早一步撤退，启动自我保护机制，甚至说服自己“我根本不需要他”", "types": { "B": 1 }, "scores": { "abandon": 4, "engulf": 7, "control": 7, "idealize": 2, "avoid": 10 } }
+        ]},
+        { "q": "对于“独立空间”，你的真实需求是：", "options": [
+            { "text": "如果有条件，我希望两个人像连体婴一样，不需要太多所谓的个人空间", "types": { "A": 1 }, "scores": { "abandon": 8, "engulf": 1, "control": 8, "idealize": 7, "avoid": 1 } },
+            { "text": "这是我的生命线，如果无法保证独处的时间，再爱的人我也会厌烦", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 10, "control": 4, "idealize": 3, "avoid": 9 } }
+        ]},
+        { "q": "当你一个人处于极其脆弱、生病或低谷时：", "options": [
+            { "text": "极度渴望伴侣在身边照顾我、安慰我，这是检验真爱的时刻", "types": { "A": 1 }, "scores": { "abandon": 9, "engulf": 2, "control": 5, "idealize": 8, "avoid": 1 } },
+            { "text": "习惯性地躲进洞穴，不想让任何人看到我狼狈的样子，自己消化", "types": { "B": 1 }, "scores": { "abandon": 3, "engulf": 8, "control": 3, "idealize": 2, "avoid": 10 } }
+        ]},
+        { "q": "在评价你的前任时，你最常浮现的想法是：", "options": [
+            { "text": "为什么他/她最后变成了这样？为什么不能一直像一开始那么好？", "types": { "A": 1 }, "scores": { "abandon": 8, "engulf": 3, "control": 7, "idealize": 10, "avoid": 2 } },
+            { "text": "他/她太情绪化了，要求太多了，我真的觉得很累", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 9, "control": 5, "idealize": 2, "avoid": 8 } }
+        ]},
+        { "q": "你如何看待伴侣对你的“要求”和“期待”？", "options": [
+            { "text": "如果他期待我变好，我会努力去迎合，因为我怕他不爱我了", "types": { "A": 1 }, "scores": { "abandon": 10, "engulf": 2, "control": 4, "idealize": 6, "avoid": 2 } },
+            { "text": "本能地感到抗拒和沉重，一旦感受到压力，我就想逃避", "types": { "B": 1 }, "scores": { "abandon": 3, "engulf": 10, "control": 6, "idealize": 2, "avoid": 9 } }
+        ]},
+        { "q": "如果在恋爱中发现了一点点瑕疵（比如三观某个点不合）：", "options": [
+            { "text": "试图通过沟通或者争吵来同化对方，坚信只要有爱就能磨合", "types": { "A": 1 }, "scores": { "abandon": 8, "engulf": 3, "control": 9, "idealize": 8, "avoid": 2 } },
+            { "text": "在心里默默扣分，当分数扣完，就会毫无预兆地离开", "types": { "B": 1 }, "scores": { "abandon": 3, "engulf": 8, "control": 7, "idealize": 5, "avoid": 10 } }
+        ]},
+        { "q": "你觉得自己在恋爱中最常体会到的情绪是：", "options": [
+            { "text": "焦虑、不甘心、委屈、以及偶尔极度狂热的甜蜜", "types": { "A": 1 }, "scores": { "abandon": 10, "engulf": 2, "control": 7, "idealize": 8, "avoid": 1 } },
+            { "text": "疲惫、压力、需要空间、以及偶尔觉得一个人挺好的", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 9, "control": 4, "idealize": 2, "avoid": 9 } }
+        ]},
+        { "q": "对于“承诺”（比如结婚、买房、终身绑定），你的感受是：", "options": [
+            { "text": "那是关系最美好的归宿，只有白纸黑字的绑定才能让我安心", "types": { "A": 1 }, "scores": { "abandon": 9, "engulf": 2, "control": 8, "idealize": 10, "avoid": 1 } },
+            { "text": "像是一场缓慢的处刑，我会拖延或者极度恐惧那种彻底失去退路的感觉", "types": { "B": 1 }, "scores": { "abandon": 3, "engulf": 10, "control": 5, "idealize": 3, "avoid": 9 } }
+        ]},
+        { "q": "如果你给对方发了信息，对方过了三个小时才回，你会：", "options": [
+            { "text": "脑补出一百种可能，心神不宁，甚至带入对方是不是不在乎我了", "types": { "A": 1 }, "scores": { "abandon": 10, "engulf": 2, "control": 7, "idealize": 5, "avoid": 1 } },
+            { "text": "甚至没注意到过了三个小时，因为我也有自己的事情要忙", "types": { "B": 1 }, "scores": { "abandon": 1, "engulf": 7, "control": 3, "idealize": 2, "avoid": 8 } }
+        ]},
+        { "q": "在关系平淡期，你会如何处理？", "options": [
+            { "text": "觉得不安，总是试图制造一些波澜、惊喜（或争吵）来确认爱的浓度", "types": { "A": 1 }, "scores": { "abandon": 8, "engulf": 3, "control": 8, "idealize": 7, "avoid": 2 } },
+            { "text": "觉得这是最好的状态，没有情绪的大起大落，大家都轻松", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 8, "control": 4, "idealize": 3, "avoid": 7 } }
+        ]},
+        { "q": "剖析内心，你觉得你真正害怕的到底是：", "options": [
+            { "text": "害怕我全心全意付出后，最终还是被残忍地抛下", "types": { "A": 1 }, "scores": { "abandon": 10, "engulf": 1, "control": 7, "idealize": 6, "avoid": 1 } },
+            { "text": "害怕在这段关系中彻底迷失自我，被另一个人吞噬殆尽", "types": { "B": 1 }, "scores": { "abandon": 2, "engulf": 10, "control": 5, "idealize": 2, "avoid": 10 } }
+        ]}
+    ],
+    "results": {
+        "A": {
+            "name": "焦虑型依恋 · 情感索取者",
+            "content": "<div class=\"result-section-title\">潜意识底牌：深渊般的被弃恐惧</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>在关系中就像一个<span class=\"highlight\">极度缺水的旅人</span>。你所有的作闹、控制欲、患得患失，底层都源于一个黑洞般的恐惧：“他最终会离开我”。为了证明他不离开，你不断地去测试他的底线，直到把对方逼疯，最后你反而松了一口气：<em>“你看，我就知道男人没一个好东西，我注定是被抛弃的。”</em></div><div class=\"result-section-title\">破局箴言</div><div class=\"result-desc\">你的爱太重了，重到变成了一种勒索。你把对方当成了救生圈，但没有人能永远承受另一个人全部的重量。停止向外抓取，去学会在没有人的时候，自己拥抱那个内心深处瑟瑟发抖的小孩。</div>"
+        },
+        "B": {
+            "name": "回避型依恋 · 冰封孤岛",
+            "content": "<div class=\"result-section-title\">潜意识底牌：极度的吞噬恐惧</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>在亲密关系中是一个<span class=\"highlight\">优雅的逃兵</span>。当别人靠近你时，你的第一反应不是喜悦，而是警惕。你极度害怕被另一个人完全占有、同化、甚至吞噬。你用“冷漠、讲理、需要空间”作为高墙，把所有热烈的情感挡在门外。你以为自己足够独立，其实你只是个躲在装甲车里的懦夫。</div><div class=\"result-section-title\">破局箴言</div><div class=\"result-desc\">不要再用“我性格就是这样比较冷淡”来美化自己的退缩。你之所以回避，是因为你根本不相信自己值得被无条件接纳。试着在某一次想逃跑的时候，留在原地，告诉对方：“其实我现在很害怕。”这比冷暴力要勇敢一万倍。</div>"
+        }
+    }
+}

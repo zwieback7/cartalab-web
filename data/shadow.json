@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "暗影特质解码",
+        "subtitle": "直面你极力隐藏的暗黑天赋与人格反面",
+        "themeColor": "#404040",
+        "upsellText": "解锁《暗黑人格力量整合手册》",
+        "quote": "你的阴影中，藏着你最大的力量",
+        "footerCta": "携带此档案编号，返回解锁《暗黑人格力量整合手册》"
+    },
+    "axes": [
+        { "id": "manipulate", "label": "心理操控" },
+        { "id": "narcissism", "label": "隐性自恋" },
+        { "id": "ruthless", "label": "情感冷漠" },
+        { "id": "rebellion", "label": "反叛指数" },
+        { "id": "paranoia", "label": "偏执妄想" }
+    ],
+    "questions": [
+        { "q": "在一个团队中，如果你发现领导做了一个愚蠢的决定，你会：", "options": [
+            { "text": "保持沉默，避免冲突，甚至会为了合群而假装赞同", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 1, "paranoia": 4 } },
+            { "text": "不动声色地引导别人去质疑，自己则隔岸观火，寻找夺权的机会", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 7, "ruthless": 8, "rebellion": 9, "paranoia": 6 } }
+        ]},
+        { "q": "当别人向你倾诉他们极度痛苦的遭遇时，你潜意识的真实反应往往是：", "options": [
+            { "text": "深深地共情，甚至会跟着一起掉眼泪，觉得他们好可怜", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 1, "rebellion": 2, "paranoia": 3 } },
+            { "text": "大脑冷静得像一台机器，只是在模仿该有的表情，甚至觉得他们有点蠢", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 9, "ruthless": 10, "rebellion": 6, "paranoia": 5 } }
+        ]},
+        { "q": "你如何看待“说谎”这件事？", "options": [
+            { "text": "很有负罪感，哪怕是善意的谎言，说的时候也会心虚", "types": { "A": 1 }, "scores": { "manipulate": 1, "narcissism": 2, "ruthless": 3, "rebellion": 2, "paranoia": 5 } },
+            { "text": "谎言只是一种工具，只要目的正当且逻辑闭环，说谎没有任何心理负担", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 7, "ruthless": 8, "rebellion": 8, "paranoia": 4 } }
+        ]},
+        { "q": "面对规章制度和道德约束，你内心深处的声音是：", "options": [
+            { "text": "规则是保护弱者的，我们必须遵守，社会才能运转", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 2, "rebellion": 1, "paranoia": 4 } },
+            { "text": "规则是用来束缚蠢人的，聪明人知道如何利用规则甚至打破它", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 10, "ruthless": 7, "rebellion": 10, "paranoia": 5 } }
+        ]},
+        { "q": "如果你拥有可以不留痕迹毁掉一个仇人的能力，你会：", "options": [
+            { "text": "不会去做，因果循环，我不想让自己的灵魂背负罪恶", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 3, "paranoia": 5 } },
+            { "text": "毫不犹豫地执行，我信奉弱肉强食，背叛我的人必须付出代价", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 8, "ruthless": 10, "rebellion": 9, "paranoia": 9 } }
+        ]},
+        { "q": "在亲密关系中，如果需要，你能多快地切断所有情感联系？", "options": [
+            { "text": "极难，我会反复纠缠、怀念，沉浸在回忆里几个月甚至几年", "types": { "A": 1 }, "scores": { "manipulate": 3, "narcissism": 3, "ruthless": 1, "rebellion": 2, "paranoia": 6 } },
+            { "text": "只要我想，一秒钟就能把心门焊死，对方瞬间就像个陌生人", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 8, "ruthless": 10, "rebellion": 7, "paranoia": 4 } }
+        ]},
+        { "q": "对于“权力”，你最底层的渴望是：", "options": [
+            { "text": "权力带来责任，我其实害怕承担别人的命运，顺其自然就好", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 3, "rebellion": 2, "paranoia": 3 } },
+            { "text": "绝对的迷恋。喜欢能够像摆弄棋子一样操纵局势和人心的感觉", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 9, "ruthless": 8, "rebellion": 9, "paranoia": 7 } }
+        ]},
+        { "q": "看到比你光芒万丈、抢了你风头的人，你表面微笑，心里：", "options": [
+            { "text": "真的觉得对方很棒，产生由衷的敬佩甚至自卑", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 1, "paranoia": 4 } },
+            { "text": "在疯狂寻找对方的弱点和破绽，思考如何有一天把他踩在脚下", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 10, "ruthless": 8, "rebellion": 8, "paranoia": 9 } }
+        ]},
+        { "q": "你如何看待人与人之间的“信任”？", "options": [
+            { "text": "信任是基石，我总是倾向于先相信别人，直到被骗", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 2, "rebellion": 2, "paranoia": 2 } },
+            { "text": "人性经不起考验。我不相信任何人，所有人都可能在背叛我，我只相信利益绑定", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 7, "ruthless": 8, "rebellion": 7, "paranoia": 10 } }
+        ]},
+        { "q": "如果你为了达到一个伟大的目的，必须要牺牲几个无辜者的利益：", "options": [
+            { "text": "绝对做不到，我不允许自己的手变脏，手段必须纯粹", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 1, "rebellion": 2, "paranoia": 4 } },
+            { "text": "这只是必要的代价。伟大的建筑注定要建立在累累白骨之上", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 9, "ruthless": 10, "rebellion": 8, "paranoia": 5 } }
+        ]},
+        { "q": "你是否曾在某些瞬间，觉得自己是个冷血动物？", "options": [
+            { "text": "很少，我经常被感动，甚至对路边的小动物都会有极强的同情心", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 1, "rebellion": 2, "paranoia": 3 } },
+            { "text": "经常。看着别人陷入歇斯底里的情绪，我内心深处竟然觉得有点无聊甚至想笑", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 8, "ruthless": 10, "rebellion": 6, "paranoia": 6 } }
+        ]},
+        { "q": "你觉得自己在人群中扮演的通常是什么角色？", "options": [
+            { "text": "调节者、老好人，害怕冲突，总想让所有人都满意", "types": { "A": 1 }, "scores": { "manipulate": 3, "narcissism": 2, "ruthless": 2, "rebellion": 1, "paranoia": 5 } },
+            { "text": "披着羊皮的狼，表面人畜无害，实际上所有人都在不知不觉中按照我的剧本走", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 9, "ruthless": 7, "rebellion": 8, "paranoia": 6 } }
+        ]},
+        { "q": "当别人夸奖你时，你潜意识的第一反应是：", "options": [
+            { "text": "受宠若惊，觉得可能自己没有他们说的那么好", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 2, "paranoia": 4 } },
+            { "text": "理所当然，并且在心里暗暗盘算对方夸我是不是有什么企图", "types": { "B": 1 }, "scores": { "manipulate": 7, "narcissism": 10, "ruthless": 6, "rebellion": 5, "paranoia": 9 } }
+        ]},
+        { "q": "关于“复仇”，你更倾向于哪种方式？", "options": [
+            { "text": "随着时间放下，原谅别人也是放过自己", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 1, "rebellion": 2, "paranoia": 3 } },
+            { "text": "十年不晚。像毒蛇一样潜伏，找到对方最致命的软肋，一击毙命，还要让他不知道是谁干的", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 8, "ruthless": 9, "rebellion": 9, "paranoia": 10 } }
+        ]},
+        { "q": "最后，你敢于承认自己内心有个怪物吗？", "options": [
+            { "text": "我害怕那个怪物，我只想做一个正常的好人", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 2, "paranoia": 5 } },
+            { "text": "我就是那个怪物本身，且我深深为此着迷", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 10, "ruthless": 10, "rebellion": 10, "paranoia": 6 } }
+        ]}
+    ],
+    "results": {
+        "A": {
+            "name": "光明面具 · 压抑的羔羊",
+            "content": "<div class=\"result-section-title\">暗影特质：被阉割的攻击性</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>极力地扮演着一个<span class=\"highlight\">完美的好人</span>。你的暗影人格被你深深地锁在了地下室。你极度害怕冲突，讨厌竞争，甚至对于获取权力和金钱有一种潜意识的“道德负罪感”。但这种过度的压抑，导致你的能量场是虚弱的，你容易成为被欺凌、被索取的“血包”。</div><div class=\"result-section-title\">整合箴言</div><div class=\"result-desc\">你的课题不是变得更好，而是允许自己“变坏”。去找回你那部分被阉割的自私、攻击性和野心。没有阴影的光明是苍白无力的。记住，只有拥有獠牙，你才有资格谈论善良。</div>"
+        },
+        "B": {
+            "name": "深渊凝视 · 马基雅维利者",
+            "content": "<div class=\"result-section-title\">暗影特质：极致的心理操控与冷漠</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的内心住着一个<span class=\"highlight\">优雅的暴君</span>。你在心理操控、情感冷漠和隐性自恋维度上得分极高。你有着令人胆寒的冷静，道德和规则在你眼里只是工具。你能够轻易看穿人性的弱点，并毫不留情地利用它们来达成自己的目的。你天生适合在权力的斗兽场中厮杀。</div><div class=\"result-section-title\">整合箴言</div><div class=\"result-desc\">这股暗黑力量赋予了你极高的社会竞争力，但也极易让你走向孤立无援和偏执狂的深渊。不要试图消灭它，而是要“驯化”它。学会把你的操控欲变成卓越的领导力，把冷酷变成关键时刻的决断力。最顶级的玩家，是能够驾驭魔鬼，而不是被魔鬼吞噬。</div>"
+        }
+    }
+}

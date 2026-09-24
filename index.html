@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Carta Lab | 深度测算</title>
+    <!-- 引入 html2canvas 用于生成长截图海报 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="css/carta-core.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- 主页大厅 (如果没传 id) -->
+    <div id="section-catalog" class="section active">
+        <div class="intro-wrap">
+            <div class="brand-logo">
+                <div class="logo-mark"></div>
+                <div class="logo-text">CARTA LAB</div>
+            </div>
+            <div class="title" style="font-size:24px;">探索你的潜意识</div>
+            <div class="subtitle" style="margin-bottom:30px;">选择一个测算，开启深度解读</div>
+            
+            <div class="catalog-list" id="catalog-list">
+                <!-- 动态注入列表 -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 测试封面页 -->
+    <div id="section-intro" class="section">
+        <div class="intro-wrap">
+            <div class="brand-logo">
+                <div class="logo-mark"></div>
+                <div class="logo-text">CARTA LAB</div>
+            </div>
+            <div id="intro-title" class="title">加载中...</div>
+            <div id="intro-subtitle" class="subtitle">...</div>
+            <button class="btn" onclick="startQuiz()">开始深度测算</button>
+        </div>
+    </div>
+
+    <!-- 答题页 -->
+    <div id="section-quiz" class="section">
+        <div class="progress"><span id="curr-q">1</span> / <span id="total-q">15</span></div>
+        <div id="question-text" class="question-text"></div>
+        <div id="options-container" class="options"></div>
+    </div>
+
+    <!-- 分析中 -->
+    <div id="section-analyzing" class="section">
+        <div class="analyzing">重构深层频率 . . .</div>
+    </div>
+
+    <!-- 结果页 -->
+    <div id="section-result" class="section">
+        <div class="result-wrap" id="capture-area">
+            <div class="brand-logo" style="margin-bottom: 25px; transform: scale(0.8);">
+                <div class="logo-mark"></div>
+                <div class="logo-text">CARTA LAB</div>
+            </div>
+            <div class="result-type"><span class="theme-block" style="width:8px;height:8px;margin-right:8px;margin-bottom:1px;"></span>YOUR FREQUENCY</div>
+            <div id="result-title" class="result-title"></div>
+            <div id="radar-chart" class="radar-chart-container"></div>
+            
+            <div class="result-content-box" id="result-content"></div>
+            
+            <div class="action-area" id="action-area">
+                <button class="btn" id="poster-btn" onclick="generatePoster()">生成专属长图海报</button>
+                <div id="poster-loading" style="display:none; font-size:12px; letter-spacing:2px; color:var(--text-secondary); margin-top:20px;">正在为您渲染排版...</div>
+                
+                <div class="report-footer">
+                    <div class="footer-meta">
+                        <div class="meta-row"><span>CARTA LAB // DEEP SCAN</span><span id="report-id"></span></div>
+                        <div class="meta-row"><span>STATUS: COMPLETED</span><span id="report-date"></span></div>
+                    </div>
+                    <div class="footer-quote" id="footer-quote">
+                        <!-- 动态引言 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="upsell-container">
+            <a href="https://www.xiaohongshu.com/goods/" class="btn upsell-btn" id="upsell-btn">解锁深度手册</a>
+        </div>
+    </div>
+</div>
+
+<!-- 海报展示弹窗 -->
+<div class="poster-overlay" id="poster-overlay">
+    <div class="poster-overlay-tip">👇 长按下方图片保存至相册 👇</div>
+    <img id="poster-image" src="" alt="您的专属解析海报">
+    <button class="poster-close" onclick="closePoster()">返回页面</button>
+</div>
+
+<script src="js/quiz-engine.js"></script>
+</body>
+</html>

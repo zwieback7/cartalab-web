@@ -1,0 +1,139 @@
+{
+    "meta": {
+        "title": "潜意识座驾匹配",
+        "subtitle": "测算你的性格基因最契合的新能源与奢华品牌",
+        "themeColor": "#2C3E50",
+        "upsellText": "解锁《个人座驾能量场分析报告》",
+        "quote": "你选择的不仅是代步工具，而是你的性格外化",
+        "footerCta": "携带此档案编号，返回解锁《个人座驾能量场深度报告》"
+    },
+    "axes": [
+        { "id": "tech", "label": "科技尝鲜" },
+        { "id": "family", "label": "家庭权重" },
+        { "id": "social", "label": "圈层价值" },
+        { "id": "control", "label": "驾控本能" },
+        { "id": "pragmatism", "label": "阶层彰显" }
+    ],
+    "questions": [
+        { "q": "买一件贵重物品时，你最看重：", "options": [
+            { "text": "它是行业内绝对的技术颠覆者，哪怕有初代bug", "types": { "tesla": 3, "xiaomi": 2 }, "scores": { "tech": 9, "family": 2, "social": 4, "control": 6, "pragmatism": 2 } },
+            { "text": "它稳定、省心、性价比高，销量经过大众验证", "types": { "byd": 3, "li": 2 }, "scores": { "tech": 3, "family": 8, "social": 3, "control": 2, "pragmatism": 3 } },
+            { "text": "它是百年传承的经典，带有极高的品牌溢价和老钱质感", "types": { "porsche": 3, "rolls": 2 }, "scores": { "tech": 2, "family": 3, "social": 8, "control": 5, "pragmatism": 9 } },
+            { "text": "它必须极其稀有、极其高调，能瞬间吸引所有人的目光", "types": { "ferrari": 3 }, "scores": { "tech": 4, "family": 1, "social": 9, "control": 9, "pragmatism": 10 } }
+        ]},
+        { "q": "周末的理想休闲状态是：", "options": [
+            { "text": "带全家人去郊区露营，重点是大家待在一起舒服", "types": { "li": 3, "byd": 1, "nio": 1 }, "scores": { "tech": 2, "family": 10, "social": 6, "control": 2, "pragmatism": 2 } },
+            { "text": "自己一个人跑山，享受弯道中肾上腺素飙升的纯粹快感", "types": { "ferrari": 2, "porsche": 3, "zeekr": 2 }, "scores": { "tech": 4, "family": 1, "social": 4, "control": 10, "pragmatism": 6 } },
+            { "text": "在顶级高尔夫球场或私人会所，与高净值圈层谈生意", "types": { "rolls": 3, "nio": 2 }, "scores": { "tech": 2, "family": 4, "social": 10, "control": 1, "pragmatism": 10 } }
+        ]},
+        { "q": "对待“面子”和“圈层”，你的真实态度是：", "options": [
+            { "text": "极度理性，只为核心产品力买单，不需要别人教我做事", "types": { "tesla": 3, "zeekr": 2, "byd": 2 }, "scores": { "tech": 8, "family": 3, "social": 1, "control": 8, "pragmatism": 1 } },
+            { "text": "愿意为情绪价值和服务买单，喜欢和自己同频的社区", "types": { "nio": 3, "xiaomi": 1 }, "scores": { "tech": 6, "family": 4, "social": 8, "control": 4, "pragmatism": 4 } },
+            { "text": "面子就是底气，我需要用最顶级的符号来确立我的阶层不可撼动", "types": { "rolls": 3, "ferrari": 2 }, "scores": { "tech": 2, "family": 3, "social": 10, "control": 3, "pragmatism": 10 } }
+        ]},
+        { "q": "对于车内空间，你最底层的需求是：", "options": [
+            { "text": "可以随时变成移动的客厅或电影院，包容所有人", "types": { "li": 3 }, "scores": { "tech": 4, "family": 10, "social": 7, "control": 2, "pragmatism": 3 } },
+            { "text": "是一个属于我自己的驾驶舱，极简、人车合一", "types": { "tesla": 3, "xiaomi": 2 }, "scores": { "tech": 8, "family": 1, "social": 3, "control": 9, "pragmatism": 2 } },
+            { "text": "如同头等舱般的奢华后排，最好有星空顶，前排是司机的事", "types": { "rolls": 3 }, "scores": { "tech": 2, "family": 6, "social": 10, "control": 1, "pragmatism": 10 } },
+            { "text": "空间大小无所谓，重点是必须能听到背后引擎的轰鸣声", "types": { "ferrari": 3, "porsche": 2 }, "scores": { "tech": 3, "family": 1, "social": 8, "control": 10, "pragmatism": 8 } }
+        ]},
+        { "q": "遇到别人质疑你的消费选择，你的反应：", "options": [
+            { "text": "懒得解释，我相信第一性原理，这对我就是最优解", "types": { "tesla": 3, "byd": 2 }, "scores": { "tech": 7, "family": 3, "social": 2, "control": 6, "pragmatism": 2 } },
+            { "text": "他们只是买不起而已，燕雀安知鸿鹄之志", "types": { "ferrari": 2, "rolls": 2, "porsche": 1 }, "scores": { "tech": 2, "family": 2, "social": 9, "control": 5, "pragmatism": 10 } },
+            { "text": "甩出一堆参数、生态和测评数据，证明我的选择最牛", "types": { "xiaomi": 3, "zeekr": 2 }, "scores": { "tech": 9, "family": 2, "social": 7, "control": 8, "pragmatism": 4 } }
+        ]},
+        { "q": "如果用一个词形容你的做事风格：", "options": [
+            { "text": "极致效率，剔除一切多余的装饰，直奔结果", "types": { "tesla": 3, "byd": 1 }, "scores": { "tech": 9, "family": 1, "social": 2, "control": 8, "pragmatism": 2 } },
+            { "text": "八面玲珑，照顾到所有人的情绪，提供情绪价值", "types": { "nio": 3, "li": 2 }, "scores": { "tech": 4, "family": 8, "social": 10, "control": 2, "pragmatism": 4 } },
+            { "text": "高调张扬，充满攻击性，要么不做要么做到最吸引眼球", "types": { "ferrari": 3 }, "scores": { "tech": 4, "family": 1, "social": 9, "control": 9, "pragmatism": 9 } },
+            { "text": "低调沉稳，运筹帷幄，不需要向外人证明什么", "types": { "rolls": 3, "porsche": 2 }, "scores": { "tech": 3, "family": 6, "social": 8, "control": 4, "pragmatism": 10 } }
+        ]},
+        { "q": "你如何看待“生态互联”与“自动驾驶”？", "options": [
+            { "text": "这是未来的终极形态，我需要一切设备无缝流转且自动", "types": { "xiaomi": 3, "tesla": 2 }, "scores": { "tech": 10, "family": 4, "social": 6, "control": 7, "pragmatism": 3 } },
+            { "text": "这些都是电子玩具，真正的豪华来源于底蕴和无可挑剔的材质", "types": { "rolls": 3, "porsche": 2 }, "scores": { "tech": 1, "family": 4, "social": 9, "control": 4, "pragmatism": 10 } },
+            { "text": "我宁愿自己掌控方向盘，自动驾驶剥夺了开车的乐趣", "types": { "ferrari": 3, "zeekr": 2 }, "scores": { "tech": 4, "family": 1, "social": 5, "control": 10, "pragmatism": 6 } }
+        ]},
+        { "q": "你觉得“品牌基因”最重要的是什么？", "options": [
+            { "text": "历史底蕴，或者代表着某种人类工业皇冠上的明珠", "types": { "rolls": 3, "porsche": 3 }, "scores": { "tech": 3, "family": 4, "social": 9, "control": 5, "pragmatism": 10 } },
+            { "text": "绝对的性能霸权，是赛道上用胜利堆砌出来的图腾", "types": { "ferrari": 3 }, "scores": { "tech": 6, "family": 1, "social": 8, "control": 10, "pragmatism": 9 } },
+            { "text": "用户共创，品牌和用户像朋友一样一起成长", "types": { "nio": 3, "xiaomi": 2 }, "scores": { "tech": 6, "family": 4, "social": 10, "control": 5, "pragmatism": 3 } },
+            { "text": "科技平权，用最高的效率干翻所有不合理的高溢价", "types": { "byd": 3, "tesla": 2 }, "scores": { "tech": 8, "family": 5, "social": 2, "control": 5, "pragmatism": 1 } }
+        ]},
+        { "q": "如果让你去试驾，你最先体验的是：", "options": [
+            { "text": "一脚到底的狂暴推背感，和引擎在背后的咆哮声", "types": { "ferrari": 3, "porsche": 2 }, "scores": { "tech": 5, "family": 1, "social": 6, "control": 10, "pragmatism": 7 } },
+            { "text": "底盘的高级感，方向盘的指向性，机械的精密反馈", "types": { "zeekr": 3, "porsche": 2 }, "scores": { "tech": 6, "family": 3, "social": 4, "control": 9, "pragmatism": 6 } },
+            { "text": "后排座椅软不软，避震是不是像魔毯一样过滤所有颠簸", "types": { "rolls": 3, "li": 2 }, "scores": { "tech": 3, "family": 8, "social": 9, "control": 1, "pragmatism": 9 } },
+            { "text": "车机的流畅度，智能语音能听懂多少指令", "types": { "xiaomi": 3, "tesla": 2 }, "scores": { "tech": 10, "family": 4, "social": 5, "control": 5, "pragmatism": 3 } }
+        ]},
+        { "q": "你平时的消费习惯更倾向于：", "options": [
+            { "text": "相信大众的选择，销量冠军大概率不会出错", "types": { "byd": 3, "li": 1 }, "scores": { "tech": 3, "family": 8, "social": 4, "control": 2, "pragmatism": 1 } },
+            { "text": "带点叛逆，越小众、越有独特标签的东西我越喜欢", "types": { "zeekr": 3, "nio": 1 }, "scores": { "tech": 6, "family": 2, "social": 8, "control": 8, "pragmatism": 4 } },
+            { "text": "只买最贵的、最限量的，价格本身就是一种门槛", "types": { "rolls": 3, "ferrari": 3 }, "scores": { "tech": 2, "family": 2, "social": 10, "control": 5, "pragmatism": 10 } }
+        ]},
+        { "q": "假设你的车在路上出了小故障，你希望的体验是：", "options": [
+            { "text": "我自己下车，利用随车工具或者手机叫救援，干脆利落", "types": { "tesla": 3, "zeekr": 2 }, "scores": { "tech": 7, "family": 2, "social": 2, "control": 9, "pragmatism": 2 } },
+            { "text": "在APP上点击一下，专属管家立刻联系我，并安排代步车", "types": { "nio": 3, "li": 1 }, "scores": { "tech": 4, "family": 5, "social": 10, "control": 2, "pragmatism": 4 } },
+            { "text": "我的司机或私人助理会把一切处理好，我不需要操心", "types": { "rolls": 3, "porsche": 1 }, "scores": { "tech": 2, "family": 4, "social": 10, "control": 1, "pragmatism": 10 } }
+        ]},
+        { "q": "对于生活中的“妥协”，你的看法是：", "options": [
+            { "text": "成长就是学会妥协，家人的快乐比我一个人的快乐重要", "types": { "li": 3, "byd": 2 }, "scores": { "tech": 3, "family": 10, "social": 5, "control": 1, "pragmatism": 2 } },
+            { "text": "绝不妥协，如果连开什么车都要听别人的，那人生太无趣", "types": { "zeekr": 3, "ferrari": 2 }, "scores": { "tech": 8, "family": 1, "social": 4, "control": 10, "pragmatism": 6 } },
+            { "text": "我制定的规则就是规则，不需要妥协", "types": { "rolls": 3, "porsche": 2 }, "scores": { "tech": 4, "family": 3, "social": 10, "control": 6, "pragmatism": 10 } }
+        ]},
+        { "q": "关于车辆的“声浪”，你认为：", "options": [
+            { "text": "越安静越好，纯电的静谧性才是高级感", "types": { "li": 3, "nio": 2 }, "scores": { "tech": 6, "family": 8, "social": 5, "control": 2, "pragmatism": 3 } },
+            { "text": "大排量内燃机的轰鸣是不可替代的艺术品", "types": { "ferrari": 3, "porsche": 3 }, "scores": { "tech": 2, "family": 1, "social": 8, "control": 10, "pragmatism": 8 } },
+            { "text": "无所谓，重要的是车内音响得是顶级的", "types": { "rolls": 2, "xiaomi": 1 }, "scores": { "tech": 5, "family": 5, "social": 7, "control": 4, "pragmatism": 7 } }
+        ]},
+        { "q": "当你停下车，回头看它一眼时，你脑海中的念头是：", "options": [
+            { "text": "“这真是一个完美的工业艺术品，像头野兽”", "types": { "ferrari": 3, "porsche": 2 }, "scores": { "tech": 4, "family": 1, "social": 8, "control": 10, "pragmatism": 8 } },
+            { "text": "“有了它，去哪里都很安心”", "types": { "li": 3, "byd": 3 }, "scores": { "tech": 3, "family": 10, "social": 4, "control": 2, "pragmatism": 2 } },
+            { "text": "“这个科技玩具真酷”", "types": { "tesla": 3, "xiaomi": 3 }, "scores": { "tech": 10, "family": 3, "social": 5, "control": 7, "pragmatism": 2 } },
+            { "text": "“这是我身份与权力的延伸”", "types": { "rolls": 3 }, "scores": { "tech": 2, "family": 4, "social": 10, "control": 3, "pragmatism": 10 } }
+        ]},
+        { "q": "最后，车对你来说到底是什么？", "options": [
+            { "text": "它是一个极其精密的智能终端，是我科技生活的延伸", "types": { "tesla": 3, "xiaomi": 2 }, "scores": { "tech": 10, "family": 3, "social": 5, "control": 7, "pragmatism": 2 } },
+            { "text": "它是移动的家，是风雨中保护我和我爱的人的堡垒", "types": { "li": 3, "byd": 2 }, "scores": { "tech": 3, "family": 10, "social": 6, "control": 2, "pragmatism": 1 } },
+            { "text": "它是一个放大器，能放大我的肾上腺素和桀骜不驯", "types": { "ferrari": 3, "zeekr": 2 }, "scores": { "tech": 4, "family": 1, "social": 7, "control": 10, "pragmatism": 7 } },
+            { "text": "它是移动的宫殿，用来隔绝外面的嘈杂与平凡", "types": { "rolls": 3, "porsche": 1 }, "scores": { "tech": 2, "family": 5, "social": 10, "control": 2, "pragmatism": 10 } }
+        ]}
+    ],
+    "results": {
+        "tesla": {
+            "name": "极简孤星 · 特斯拉 Tesla",
+            "content": "<div class=\"result-section-title\">性格基因：科技原教旨主义者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的内核是<span class=\"highlight\">极度理性的第一性原理</span>。你不喜欢花里胡哨的装饰，讨厌被传统规矩束缚。在人群中，你往往是那个“看起来有点冷，但看问题极度通透”的人。特斯拉不只是一台车，它是你向世界宣告“我不需要迎合任何人”的赛博朋克极简利器。</div>"
+        },
+        "li": {
+            "name": "实用守护者 · 理想 Li Auto",
+            "content": "<div class=\"result-section-title\">性格基因：温和的世俗大赢家</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>早已经过了需要用外在标榜自己的年纪，<span class=\"highlight\">家庭和舒适</span>是你当前人生的绝对主轴。你极其务实，看透了所谓“操控”的虚妄，明白让老婆孩子在后排舒舒服服看彩电才是真理。你是那种在生活中靠谱、情绪稳定、把一切打理得井井有条的“大家长”。</div>"
+        },
+        "nio": {
+            "name": "高维社交家 · 蔚来 NIO",
+            "content": "<div class=\"result-section-title\">性格基因：美学与情绪的共情者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>对生活有着<span class=\"highlight\">极高的审美要求</span>，你不止是在买一个产品，你是在买一种“生活方式”。你愿意为情绪价值、卓越的服务和有温度的连接支付溢价。蔚来不仅是一台车，它是你拓展高净值社交圈的VIP门票。</div>"
+        },
+        "xiaomi": {
+            "name": "潮流挑战者 · 小米 Xiaomi",
+            "content": "<div class=\"result-section-title\">性格基因：流量时代的破局者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>永远走在<span class=\"highlight\">时代趋势的最前沿</span>。你网感极佳，懂得运用杠杆，拥抱最新的生态互联。你不甘平庸，渴望用最高的效率获取最顶级的体验。选择它，证明你既有着对驾驶激情的渴望，又有着全生态互联的极客思维。</div>"
+        },
+        "zeekr": {
+            "name": "机械叛逆者 · 极氪 Zeekr",
+            "content": "<div class=\"result-section-title\">性格基因：绝不妥协的猎手</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>骨子里带着一种<span class=\"highlight\">迷人的叛逆感</span>。你不喜欢随波逐流的“街车”，对“机械素质”有着狂热的偏执。你觉得开车如果只是为了代步，那和坐地铁有什么区别？那颗狂野且不羁的灵魂，需要底盘与方向盘的直接交流。</div>"
+        },
+        "byd": {
+            "name": "理性架构师 · 比亚迪 BYD",
+            "content": "<div class=\"result-section-title\">性格基因：不可撼动的务实派</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是消费主义陷阱的<span class=\"highlight\">天然免疫者</span>。你极度理性，只相信数据、销量和技术底蕴。你不需要花里胡哨的营销。在这个浮躁的时代，你的稳重和对“性价比”的精准计算，是你最大的底气。</div>"
+        },
+        "porsche": {
+            "name": "底蕴传承者 · 保时捷 Porsche",
+            "content": "<div class=\"result-section-title\">性格基因：经典与品味的老钱</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>对事物的追求跨越了简单的工具属性，你极度看重<span class=\"highlight\">血统、底蕴和机械纯粹感</span>。你不需要通过夸张的造型来博取眼球，你欣赏的是经过时间洗礼的经典线条和完美的驾驶质感。你的生活方式从容、有格调，带着一丝不容置疑的精英气息。</div>"
+        },
+        "ferrari": {
+            "name": "红色荷尔蒙 · 法拉利 Ferrari",
+            "content": "<div class=\"result-section-title\">性格基因：绝对的高调捕食者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是天生的<span class=\"highlight\">焦点与舞台中心</span>。你拒绝平庸，讨厌妥协，你的人生信条就是极致的张扬与毫不掩饰的野心。你追求纯粹的肾上腺素和听觉的炸裂，比起所谓的“实用性”，你更在乎自己是否能瞬间成为整条街上唯一的王。</div>"
+        },
+        "rolls": {
+            "name": "权势金字塔 · 劳斯莱斯 Rolls-Royce",
+            "content": "<div class=\"result-section-title\">性格基因：从容不迫的终极上位者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的能量场已经无需向外人证明什么，你追求的是<span class=\"highlight\">绝对的隔绝感与终极奢华</span>。你不需要自己掌控方向盘，因为你已经掌控了更大的局面。这台车对你而言，是一座移动的行宫，用来挡住凡尘的喧嚣，承载你沉稳、运筹帷幄的顶级阶层底气。</div>"
+        }
+    }
+}
