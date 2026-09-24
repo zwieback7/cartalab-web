@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《全球数字游民定居与地理套利指南》</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&display=swap');
+
+        :root {
+            --bg-color: #E6E2DD;
+            --text-primary: #3B3836;
+            --text-secondary: #7A7571;
+            --theme-accent: #5B7C6B;
+            --border-color: #CFCBC6;
+            --surface-color: #F0EDE9;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Noto Serif SC', serif;
+            line-height: 2;
+            padding: 30px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+        
+        .handbook-container {
+            background: var(--surface-color);
+            padding: 40px 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.03);
+            border: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        /* Brand Logo */
+        .brand-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .logo-mark {
+            position: relative;
+            width: 44px;
+            height: 16px;
+            border-top: 1.5px solid rgba(163, 158, 147, 0.65); 
+            border-left: 0.5px solid rgba(163, 158, 147, 0.35); 
+            border-right: 0.5px solid rgba(163, 158, 147, 0.35); 
+            border-bottom: none; 
+            border-radius: 22px 22px 0 0; 
+            margin-bottom: 16px;
+        }
+
+        .logo-mark::before,
+        .logo-mark::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 32px; 
+            height: 7px;
+            border-bottom: none;
+        }
+
+        .logo-mark::before {
+            left: -32px;
+            border-top: 0.5px solid rgba(163, 158, 147, 0.35);
+            border-left: 1.5px solid rgba(163, 158, 147, 0.65);
+            border-right: none; 
+        }
+
+        .logo-mark::after {
+            right: -32px;
+            border-top: 0.5px solid rgba(163, 158, 147, 0.35);
+            border-right: 1.5px solid rgba(163, 158, 147, 0.65);
+            border-left: none; 
+        }
+
+        .logo-text {
+            font-size: 9px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: var(--text-secondary);
+            margin-right: -10px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            color: var(--theme-accent);
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: 2px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+        
+        h2 {
+            color: var(--text-primary);
+            margin-top: 45px;
+            font-size: 18px;
+            font-weight: 600;
+            border-left: 3px solid var(--theme-accent);
+            padding-left: 12px;
+            letter-spacing: 1px;
+        }
+        
+        h3 {
+            color: var(--theme-accent);
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 14.5px;
+        }
+        
+        b {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        
+        ul {
+            color: var(--text-primary);
+            padding-left: 20px;
+            font-size: 14.5px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+        }
+
+        i {
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text-secondary);
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 13px;
+        }
+        
+        .watermark {
+            text-align: center;
+            font-size: 10px;
+            color: rgba(122, 117, 113, 0.4);
+            margin-top: 60px;
+            letter-spacing: 3px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            border-top: 0.5px solid rgba(163, 158, 147, 0.4);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="handbook-container">
+        <div class="brand-logo">
+            <div class="logo-mark"></div>
+            <div class="logo-text">CARTA LAB</div>
+        </div>
+        
+        
+        <h1>全球数字游民定居与地理套利指南</h1>
+        <p>你的物理空间不仅是居住地，更是你能量的放大器。本手册将为你拆解全球地理套利的核心逻辑。</p>
+
+        <h2>第一部分：地理套利的核心公式</h2>
+        <p><b>高势能收入 + 低势能消费 = 自由最大化</b></p>
+        <p>如果你赚取的是美元/欧元/人民币，而在泰铢/印尼盾/比索的地区生活，你将立刻获得3-5倍的财富放大效应。这就是数字游民的核心秘密。</p>
+
+        <h2>第二部分：五大栖息地原型深度定居指南</h2>
+        <h3>1. 极简堡垒（秩序修道士）</h3>
+        <p><b>定居建议：</b>你需要绝对的基础设施稳定。推荐：瑞士、新加坡、日本。高昂的物价对你来说是买到了“不被打扰的清净”。<br><b>避坑：</b>绝对不要去南美或东南亚的背包客聚集地，混乱的网速和过分热情的邻居会让你崩溃。</p>
+
+        <h3>2. 有机聚落（烟火漫游者）</h3>
+        <p><b>定居建议：</b>你需要浓烈的人文气息。推荐：柏林、巴塞罗那、台北、伊斯坦布尔。你要去有百年老街和无数独立咖啡馆的地方。<br><b>避坑：</b>不要去像迪拜这种纯粹由钢筋水泥和豪车堆砌起来的沙漠新城，你会觉得毫无灵魂。</p>
+        
+        <h3>3. 游牧节点（全球数字浪人）</h3>
+        <p><b>定居建议：</b>你是天生的套利者。推荐：清迈、巴厘岛Canggu、里斯本、麦德林。跟着全球游民地图走，哪里性价比最高就去哪里。<br><b>避坑：</b>不要在任何地方买房，不要绑定30年的房贷，流动性就是你的生命。</p>
+
+        <h3>4. 权力中枢（能量捕食者）</h3>
+        <p><b>定居建议：</b>你需要最顶级的竞技场。推荐：纽约、伦敦、香港、上海。高压和竞争是你最好的肾上腺素。<br><b>避坑：</b>不要去山清水秀但毫无产业的乡村，你会因为没有对手而感到拔剑四顾心茫然。</p>
+
+        <h3>5. 避世庄园（治愈系隐士）</h3>
+        <p><b>定居建议：</b>你需要极致的自然结界。推荐：新西兰南岛、冰岛、瑞士阿尔卑斯山谷。用距离换取灵魂的安宁。<br><b>避坑：</b>远离所有人口超过一千万的超级都市，那里的能量场对你来说太过嘈杂和有毒。</p>
+        
+        
+        <div class="watermark">CARTA LAB // DEEP SCAN CONFIDENTIAL FILE</div>
+    </div>
+</body>
+</html>

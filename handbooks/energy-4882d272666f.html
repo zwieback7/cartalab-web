@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《能量体质修复与防泄漏指南》</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;700&display=swap');
+
+        :root {
+            --bg-color: #E6E2DD;
+            --text-primary: #3B3836;
+            --text-secondary: #7A7571;
+            --theme-accent: #D4A373;
+            --border-color: #CFCBC6;
+            --surface-color: #F0EDE9;
+        }
+        
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            font-family: 'Noto Serif SC', serif;
+            line-height: 2;
+            padding: 30px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 300;
+        }
+        
+        .handbook-container {
+            background: var(--surface-color);
+            padding: 40px 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.03);
+            border: 1px solid var(--border-color);
+            position: relative;
+        }
+
+        /* Brand Logo */
+        .brand-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .logo-mark {
+            position: relative;
+            width: 44px;
+            height: 16px;
+            border-top: 1.5px solid rgba(163, 158, 147, 0.65); 
+            border-left: 0.5px solid rgba(163, 158, 147, 0.35); 
+            border-right: 0.5px solid rgba(163, 158, 147, 0.35); 
+            border-bottom: none; 
+            border-radius: 22px 22px 0 0; 
+            margin-bottom: 16px;
+        }
+
+        .logo-mark::before,
+        .logo-mark::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            width: 32px; 
+            height: 7px;
+            border-bottom: none;
+        }
+
+        .logo-mark::before {
+            left: -32px;
+            border-top: 0.5px solid rgba(163, 158, 147, 0.35);
+            border-left: 1.5px solid rgba(163, 158, 147, 0.65);
+            border-right: none; 
+        }
+
+        .logo-mark::after {
+            right: -32px;
+            border-top: 0.5px solid rgba(163, 158, 147, 0.35);
+            border-right: 1.5px solid rgba(163, 158, 147, 0.65);
+            border-left: none; 
+        }
+
+        .logo-text {
+            font-size: 9px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+            font-weight: 400;
+            color: var(--text-secondary);
+            margin-right: -10px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+            color: var(--theme-accent);
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+            letter-spacing: 2px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+        
+        h2 {
+            color: var(--text-primary);
+            margin-top: 45px;
+            font-size: 18px;
+            font-weight: 600;
+            border-left: 3px solid var(--theme-accent);
+            padding-left: 12px;
+            letter-spacing: 1px;
+        }
+        
+        h3 {
+            color: var(--theme-accent);
+            margin-top: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        
+        p {
+            color: var(--text-primary);
+            margin-bottom: 20px;
+            text-align: justify;
+            font-size: 14.5px;
+        }
+        
+        b {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+        
+        ul {
+            color: var(--text-primary);
+            padding-left: 20px;
+            font-size: 14.5px;
+        }
+        
+        li {
+            margin-bottom: 12px;
+        }
+
+        i {
+            font-style: italic;
+            font-family: Georgia, 'Times New Roman', serif;
+            color: var(--text-secondary);
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 13px;
+        }
+        
+        .watermark {
+            text-align: center;
+            font-size: 10px;
+            color: rgba(122, 117, 113, 0.4);
+            margin-top: 60px;
+            letter-spacing: 3px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            border-top: 0.5px solid rgba(163, 158, 147, 0.4);
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="handbook-container">
+        <div class="brand-logo">
+            <div class="logo-mark"></div>
+            <div class="logo-text">CARTA LAB</div>
+        </div>
+        
+        
+        <h1>能量体质修复与防泄漏指南</h1>
+        <p>在这个信息过载的时代，保护你的能量比保护你的钱包更重要。本手册将为你提供定制化的能量管理协议。</p>
+
+        <h2>第一部分：五大体质防泄漏协议</h2>
+        <h3>1. 黑洞体质（高敏吸收型）</h3>
+        <p><b>能量漏斗：</b>别人的负面情绪、嘈杂的环境、密集的社交。<br><b>防泄漏协议：</b>建立物理与精神结界。下班后断网，定期去大自然排毒，停止做所有人的“情感垃圾桶”。</p>
+
+        <h3>2. 恒星体质（无界放射型）</h3>
+        <p><b>能量漏斗：</b>过度燃烧自己去照亮别人，缺乏自我关怀导致的突然枯竭。<br><b>防泄漏协议：</b>学会拒绝。你的能量很强，但不是无限的。每天留出一个小时，切断所有对他人的输出，只取悦你自己。</p>
+
+        <h3>3. 镜像体质（环境反射型）</h3>
+        <p><b>能量漏斗：</b>身处低频、抱怨、有毒的团队或圈层中。<br><b>防泄漏协议：</b>孟母三迁。你是一张白纸，必须极其残酷地筛选你的朋友圈和工作环境。靠近高频的人，远离消耗你的人。</p>
+
+        <h3>4. 电池体质（独处蓄能型）</h3>
+        <p><b>能量漏斗：</b>被迫的无效社交、连续无休的团队作战。<br><b>防泄漏协议：</b>坚决捍卫独处权。你的能量必须在绝对孤独中才能充满。告诉身边的人你的模式，不要为“我不爱社交”感到任何抱歉。</p>
+
+        <h3>5. 聚变体质（目标燃烧型）</h3>
+        <p><b>能量漏斗：</b>失去目标感、陷入无意义的琐事重复。<br><b>防泄漏协议：</b>永远给自己设定一个稍微有点难度的挑战。一旦生活变得太平庸，你就会失去动力。但同时要注意身体透支，强制设定休假机制。</p>
+        
+        
+        <div class="watermark">CARTA LAB // DEEP SCAN CONFIDENTIAL FILE</div>
+    </div>
+</body>
+</html>
