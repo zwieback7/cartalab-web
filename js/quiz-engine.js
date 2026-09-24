@@ -74,6 +74,15 @@ function initQuiz() {
     if(config.meta.upsellText) {
         document.getElementById('upsell-btn').innerText = config.meta.upsellText;
     }
+    if(config.meta.handbookUrl) {
+        document.getElementById('upsell-btn').href = config.meta.handbookUrl;
+    } else {
+        document.getElementById('upsell-btn').href = "#";
+        document.getElementById('upsell-btn').onclick = (e) => {
+            e.preventDefault();
+            alert("深度手册整理中，敬请期待！");
+        };
+    }
     document.getElementById('footer-quote').innerHTML = `"${config.meta.quote}"<br><span class="footer-cta">${config.meta.footerCta}</span>`;
     
     switchSection('section-intro');
