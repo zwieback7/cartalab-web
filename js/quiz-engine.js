@@ -213,35 +213,71 @@ function showResult() {
 }
 
 function generatePoster() {
-    document.getElementById('poster-btn').style.display = 'none';
-    document.getElementById('poster-loading').style.display = 'block';
+    const posterBtn = document.getElementById('poster-btn');
+    const posterLoading = document.getElementById('poster-loading');
+    
+    posterBtn.style.display = 'none';
+    posterLoading.style.display = 'block';
+    
+    // Tell html2canvas to ignore the button and loading text
+    posterBtn.setAttribute('data-html2canvas-ignore', 'true');
+    posterLoading.setAttribute('data-html2canvas-ignore', 'true');
     
     const captureArea = document.getElementById('capture-area');
     captureArea.style.opacity = '1';
     captureArea.style.animation = 'none';
     
+    // Remove complex gradients that crash html2canvas
     const oldBg = captureArea.style.background;
+    const oldBgImage = captureArea.style.backgroundImage;
     captureArea.style.background = getComputedStyle(document.body).backgroundColor;
+    captureArea.style.backgroundImage = 'none';
     
+    // Ensure content box has a solid background (alpha transparency can cause black boxes)
     const contentBox = document.getElementById('result-content');
-    contentBox.style.background = "rgba(240, 237, 233, 0.8)";
+    const oldContentBg = contentBox.style.background;
+    contentBox.style.background = "#F0EDE9";
     
+    // Fix scroll cutoff issue on iOS
+    const originalScrollY = window.scrollY;
+    window.scrollTo(0, 0);
+    
+    // Give browser time to repaint after scrolling and style changes
     setTimeout(() => {
         html2canvas(captureArea, {
-            scale: 3, 
+            scale: 1.5, // Balance between clarity and memory limits
             useCORS: true,
-            backgroundColor: null
+            allowTaint: true,
+            backgroundColor: getComputedStyle(document.body).backgroundColor,
+            scrollY: 0
         }).then(canvas => {
+            // Restore styles
             captureArea.style.background = oldBg;
-            contentBox.style.background = "";
-            document.getElementById('poster-btn').style.display = 'flex';
-            document.getElementById('poster-loading').style.display = 'none';
+            captureArea.style.backgroundImage = oldBgImage;
+            contentBox.style.background = oldContentBg;
+            posterBtn.style.display = 'flex';
+            posterLoading.style.display = 'none';
+            window.scrollTo(0, originalScrollY);
             
-            const imgUrl = canvas.toDataURL("image/png");
-            document.getElementById('poster-image').src = imgUrl;
-            document.getElementById('poster-overlay').style.display = 'flex';
+            try {
+                // Use JPEG to avoid massive PNG data URIs that crash mobile browsers
+                const imgUrl = canvas.toDataURL("image/jpeg", 0.9);
+                document.getElementById('poster-image').src = imgUrl;
+                document.getElementById('poster-overlay').style.display = 'flex';
+            } catch(e) {
+                alert("生成图片数据时发生错误，可能是内存不足，请手动截图保存。");
+            }
+        }).catch(err => {
+            console.error("Poster generation failed:", err);
+            alert("海报生成失败，请稍后重试或尝试截图保存");
+            captureArea.style.background = oldBg;
+            captureArea.style.backgroundImage = oldBgImage;
+            contentBox.style.background = oldContentBg;
+            posterBtn.style.display = 'flex';
+            posterLoading.style.display = 'none';
+            window.scrollTo(0, originalScrollY);
         });
-    }, 300);
+    }, 500);
 }
 
 function closePoster() {
