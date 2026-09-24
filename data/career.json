@@ -16,74 +16,116 @@
     ],
     "questions": [
         { "q": "遇到一个刚刚兴起、但规则极度不完善的风口时：", "options": [
-            { "text": "保持警惕，等别人蹚雷、模式清晰后再带着核心技能下场", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 2, "longterm": 8, "resource": 3, "solo": 9 } },
-            { "text": "第一时间冲进去，哪怕是草莽期，先占住坑位和流量再说", "types": { "B": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 3, "resource": 9, "solo": 3 } }
+            { "text": "保持警惕，等别人蹚雷、模式清晰后再带着核心技能下场", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 2, "longterm": 8, "resource": 3, "solo": 9 } },
+            { "text": "第一时间冲进去，哪怕是草莽期，先占住坑位和流量再说", "types": { "B": 3, "D": 2 }, "scores": { "traffic": 9, "risk": 8, "longterm": 3, "resource": 9, "solo": 3 } },
+            { "text": "在旁边写分析文章、做内容科普，靠卖水和吸引粉丝赚钱", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 3, "longterm": 6, "resource": 4, "solo": 8 } },
+            { "text": "快速拼凑一个项目，赚到第一波快钱就立刻撤退，绝不恋战", "types": { "D": 3 }, "scores": { "traffic": 8, "risk": 9, "longterm": 1, "resource": 5, "solo": 5 } }
         ]},
         { "q": "在团队合作中，你最讨厌的状况是：", "options": [
-            { "text": "队友不够专业，频繁打断我的工作心流，还要我替他们擦屁股", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 7, "resource": 2, "solo": 10 } },
-            { "text": "大家都在低头做事，却没有一个懂战略的人把资源拼起来变现", "types": { "B": 1 }, "scores": { "traffic": 8, "risk": 6, "longterm": 4, "resource": 10, "solo": 2 } }
+            { "text": "队友不够专业，频繁打断我的工作心流，还要我替他们擦屁股", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 7, "resource": 2, "solo": 10 } },
+            { "text": "大家都在低头做事，却没有一个懂战略的人把资源拼起来变现", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 8, "risk": 6, "longterm": 4, "resource": 10, "solo": 2 } },
+            { "text": "团队氛围死气沉沉，没有情绪共鸣和价值观愿景", "types": { "C": 3 }, "scores": { "traffic": 7, "risk": 3, "longterm": 5, "resource": 6, "solo": 7 } },
+            { "text": "决策流程太长，一个简单的赚钱机会非要开五次会讨论", "types": { "D": 3, "B": 1 }, "scores": { "traffic": 6, "risk": 8, "longterm": 2, "resource": 7, "solo": 4 } }
         ]},
         { "q": "如果你要开启一项副业，你倾向的冷启动方式是：", "options": [
-            { "text": "先花半年时间打磨一个完美的产品或技能，再推向市场", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 9, "resource": 3, "solo": 8 } },
-            { "text": "用一周时间搞个MVP(最小可行产品)或找渠道，边卖边优化", "types": { "B": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 2, "resource": 8, "solo": 4 } }
-        ]},
-        { "q": "面对“社交混圈子”，你的真实感受是：", "options": [
-            { "text": "极其消耗能量，我觉得只要自身实力够硬，资源自然会找上门", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 8, "resource": 2, "solo": 10 } },
-            { "text": "这是商业的常态，我很擅长在看似闲聊中捕捉信息差和交易机会", "types": { "B": 1 }, "scores": { "traffic": 8, "risk": 7, "longterm": 4, "resource": 10, "solo": 2 } }
+            { "text": "先花半年时间打磨一个完美的产品或技能，再推向市场", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 9, "resource": 3, "solo": 8 } },
+            { "text": "用一周时间搞个MVP(最小可行产品)，一边卖一边迭代", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 2, "resource": 8, "solo": 4 } },
+            { "text": "先从零开始写几十篇文章或者做视频，把人设和IP立住", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 3, "longterm": 7, "resource": 2, "solo": 9 } },
+            { "text": "先到处去抄别人跑通的模式，直接买号或者砸钱买量测试", "types": { "D": 3, "B": 1 }, "scores": { "traffic": 8, "risk": 9, "longterm": 1, "resource": 6, "solo": 3 } }
         ]},
         { "q": "看到别人靠一些“吸眼球但没深度”的内容赚了大钱，你会：", "options": [
-            { "text": "在心里有一丝不屑，坚信长期的价值终将战胜短期的喧嚣", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 10, "resource": 3, "solo": 7 } },
-            { "text": "立刻拆解对方的流量密码，思考自己能不能用更高的维度复制一遍", "types": { "B": 1 }, "scores": { "traffic": 10, "risk": 7, "longterm": 3, "resource": 8, "solo": 4 } }
+            { "text": "在心里有一丝不屑，坚信长期的价值终将战胜短期的喧嚣", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 10, "resource": 3, "solo": 7 } },
+            { "text": "立刻拆解对方的流量密码，思考自己能不能用更高的维度复制一遍", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 10, "risk": 7, "longterm": 3, "resource": 8, "solo": 4 } },
+            { "text": "痛心疾首，并写长文批判这种现象，反而收获了一波认同自己的粉丝", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 4, "longterm": 6, "resource": 4, "solo": 8 } },
+            { "text": "眼红，立刻去买个同样的模板，甚至搞矩阵号批量做", "types": { "D": 3 }, "scores": { "traffic": 9, "risk": 8, "longterm": 1, "resource": 5, "solo": 3 } }
         ]},
-        { "q": "关于“打造个人IP”，你的顾虑主要在于：", "options": [
-            { "text": "害怕被误解，厌恶过度包装自己，觉得太虚荣了", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 7, "resource": 4, "solo": 8 } },
-            { "text": "没什么顾虑，IP只是我变现的杠杆，能卖出去东西最重要", "types": { "B": 1 }, "scores": { "traffic": 10, "risk": 8, "longterm": 3, "resource": 9, "solo": 2 } }
-        ]},
-        { "q": "你如何看待“外包”这件事？", "options": [
-            { "text": "核心环节必须自己把控，别人做的东西我总是不放心质量", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 2, "longterm": 8, "resource": 3, "solo": 9 } },
-            { "text": "只要ROI算得过账，能外包的全部丢出去，我只做核心决策", "types": { "B": 1 }, "scores": { "traffic": 7, "risk": 8, "longterm": 4, "resource": 10, "solo": 2 } }
+        { "q": "你如何看待“打造个人IP”？", "options": [
+            { "text": "害怕被误解，厌恶过度包装自己，觉得太虚荣了", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 7, "resource": 4, "solo": 8 } },
+            { "text": "IP只是杠杆，我不介意扮演某个角色，能卖出去东西最重要", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 10, "risk": 8, "longterm": 3, "resource": 9, "solo": 2 } },
+            { "text": "IP就是我真实的延伸，我渴望在这个世界上留下自己的声音和理念", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 4, "longterm": 8, "resource": 3, "solo": 9 } },
+            { "text": "觉得打造IP太慢了，我更喜欢躲在幕后搞不用露脸的流量生意", "types": { "D": 3, "A": 1 }, "scores": { "traffic": 7, "risk": 7, "longterm": 2, "resource": 5, "solo": 6 } }
         ]},
         { "q": "遇到事业上的低谷或瓶颈时，你通常的解决方式是：", "options": [
-            { "text": "把自己关起来，死磕专业技能，试图通过硬实力的突破来破局", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 4, "longterm": 9, "resource": 2, "solo": 10 } },
-            { "text": "找不同圈层的人喝咖啡、聊项目，从外部的信息碰撞中找新出路", "types": { "B": 1 }, "scores": { "traffic": 8, "risk": 7, "longterm": 3, "resource": 10, "solo": 2 } }
-        ]},
-        { "q": "如果在职场上，你的领导给你分配了一个风险极大但曝光极高的项目：", "options": [
-            { "text": "会觉得压力巨大，相比于出风头，我更害怕搞砸后的名声受损", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 2, "longterm": 7, "resource": 4, "solo": 6 } },
-            { "text": "极度兴奋，这正是拉开阶层差距、获取政治资本的绝佳机会", "types": { "B": 1 }, "scores": { "traffic": 8, "risk": 10, "longterm": 4, "resource": 8, "solo": 3 } }
-        ]},
-        { "q": "面对每天海量的商业资讯和新概念，你的状态是：", "options": [
-            { "text": "很少被焦虑裹挟，我有自己专注的垂直领域和稳定的节奏", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 10, "resource": 3, "solo": 8 } },
-            { "text": "时刻保持敏锐，生怕错过任何一个微小的财富信号和套利空间", "types": { "B": 1 }, "scores": { "traffic": 10, "risk": 8, "longterm": 3, "resource": 8, "solo": 3 } }
-        ]},
-        { "q": "你最欣赏的企业家类型是：", "options": [
-            { "text": "几十年如一日死磕技术的极客，用产品默默改变世界", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 10, "resource": 3, "solo": 9 } },
-            { "text": "精通人性、长袖善舞的战略家，能把毫无关系的东西整合变现", "types": { "B": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 4, "resource": 10, "solo": 2 } }
-        ]},
-        { "q": "关于“赚钱”，你潜意识里最认同的一句话是：", "options": [
-            { "text": "赚钱是提供优质服务和创造深度价值后的自然结果", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 3, "longterm": 9, "resource": 4, "solo": 7 } },
-            { "text": "赚钱是信息差、流量差和资源错配的降维打击", "types": { "B": 1 }, "scores": { "traffic": 10, "risk": 8, "longterm": 3, "resource": 9, "solo": 3 } }
+            { "text": "把自己关起来，死磕专业技能，试图通过硬实力的突破来破局", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 4, "longterm": 9, "resource": 2, "solo": 10 } },
+            { "text": "找不同圈层的人喝咖啡、聊项目，从外部的信息碰撞中找新出路", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 8, "risk": 7, "longterm": 3, "resource": 10, "solo": 2 } },
+            { "text": "在社交媒体上记录自己的低谷期，反而获得了粉丝的鼓励和新连接", "types": { "C": 3 }, "scores": { "traffic": 8, "risk": 4, "longterm": 7, "resource": 5, "solo": 8 } },
+            { "text": "果断放弃当前沉没成本，迅速切换到一个完全不同的快钱赛道", "types": { "D": 3 }, "scores": { "traffic": 7, "risk": 9, "longterm": 1, "resource": 5, "solo": 3 } }
         ]},
         { "q": "如果明天你要开除团队里的一个人，你会选：", "options": [
-            { "text": "那个很会社交拍马屁，但业务能力一塌糊涂的“公关人”", "types": { "A": 1 }, "scores": { "traffic": 4, "risk": 4, "longterm": 7, "resource": 2, "solo": 8 } },
-            { "text": "那个业务极其扎实，但性格孤僻、经常破坏团队气氛的“老黄牛”", "types": { "B": 1 }, "scores": { "traffic": 7, "risk": 6, "longterm": 4, "resource": 9, "solo": 2 } }
+            { "text": "那个很会社交拍马屁，但业务能力一塌糊涂的“公关人”", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 4, "risk": 4, "longterm": 7, "resource": 2, "solo": 8 } },
+            { "text": "那个业务极其扎实，但性格孤僻、经常破坏团队气氛的“老黄牛”", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 7, "risk": 6, "longterm": 4, "resource": 9, "solo": 2 } },
+            { "text": "那个只看短期利益，为了赚钱经常损害客户信任的“套利者”", "types": { "E": 3, "C": 2 }, "scores": { "traffic": 4, "risk": 5, "longterm": 10, "resource": 8, "solo": 5 } },
+            { "text": "那个每天喊口号画大饼，但一个单子都拿不回来的“理想主义者”", "types": { "D": 3, "B": 2 }, "scores": { "traffic": 8, "risk": 7, "longterm": 2, "resource": 7, "solo": 3 } }
         ]},
         { "q": "当你获得了一笔不错的利润时，你下一步最可能会：", "options": [
-            { "text": "升级自己的生产力工具，或者报门高阶课程继续深造手艺", "types": { "A": 1 }, "scores": { "traffic": 2, "risk": 2, "longterm": 9, "resource": 3, "solo": 9 } },
-            { "text": "拿出一大半去请客吃饭结交更高阶的大佬，或者砸广告放大流量", "types": { "B": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 3, "resource": 10, "solo": 2 } }
+            { "text": "升级自己的生产力工具，或者报门高阶课程继续深造手艺", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 2, "longterm": 9, "resource": 3, "solo": 9 } },
+            { "text": "拿出一大半去请客吃饭结交更高阶的大佬，或者砸广告放大流量", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 3, "resource": 10, "solo": 2 } },
+            { "text": "把钱花在提升自己的生活美学和外在包装上，继续强化人设", "types": { "C": 3 }, "scores": { "traffic": 8, "risk": 4, "longterm": 6, "resource": 4, "solo": 7 } },
+            { "text": "全部拿去买流量、加杠杆，试图在风口结束前再翻一倍", "types": { "D": 3 }, "scores": { "traffic": 8, "risk": 10, "longterm": 1, "resource": 6, "solo": 2 } }
         ]},
         { "q": "想象五年后的自己，你最理想的商业形态是：", "options": [
-            { "text": "成为某个垂直领域的顶尖专家，拥有一间极具溢价的小而美工作室", "types": { "A": 1 }, "scores": { "traffic": 3, "risk": 3, "longterm": 10, "resource": 4, "solo": 10 } },
-            { "text": "成为站在幕后的操盘手，掌控多家公司的资源分配和流量密码", "types": { "B": 1 }, "scores": { "traffic": 10, "risk": 9, "longterm": 4, "resource": 10, "solo": 2 } }
+            { "text": "成为某个垂直领域的顶尖专家，拥有一间极具溢价的小而美工作室", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 3, "risk": 3, "longterm": 10, "resource": 4, "solo": 10 } },
+            { "text": "成为站在幕后的操盘手，掌控多家公司的资源分配和流量密码", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 10, "risk": 9, "longterm": 4, "resource": 10, "solo": 2 } },
+            { "text": "成为精神领袖或头部IP，拥有千万级极度忠诚的超级个体粉丝群", "types": { "C": 3 }, "scores": { "traffic": 10, "risk": 4, "longterm": 8, "resource": 6, "solo": 9 } },
+            { "text": "早就赚够了钱退休，每天在海边炒炒币或者做点短线投资", "types": { "D": 3 }, "scores": { "traffic": 6, "risk": 9, "longterm": 1, "resource": 3, "solo": 5 } }
+        ]},
+        { "q": "面对一门能大幅提升你核心竞争力的昂贵课程或技能，你会：", "options": [
+            { "text": "毫不犹豫地买下并闭关修炼，我相信硬技能是唯一的护城河", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 9, "resource": 3, "solo": 10 } },
+            { "text": "看是谁讲的，如果是能带给我顶级人脉圈的大佬我就买", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 8, "risk": 7, "longterm": 4, "resource": 10, "solo": 3 } },
+            { "text": "买来不仅自己学，还要立刻做笔记输出，吸粉并打造爱学习的人设", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 4, "longterm": 7, "resource": 4, "solo": 7 } },
+            { "text": "去二手平台找个盗版或者随便看几篇免费文章，直接拿去实操搞钱", "types": { "D": 3 }, "scores": { "traffic": 9, "risk": 8, "longterm": 1, "resource": 5, "solo": 4 } }
+        ]},
+        { "q": "如果你的项目遭遇了重大失败，并且损失惨重，你的第一反应是：", "options": [
+            { "text": "极度自责，认为是自己不够专业导致了瑕疵，陷入深度的复盘", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 4, "longterm": 8, "resource": 2, "solo": 9 } },
+            { "text": "赶紧安抚核心投资人和关键资源节点，把锅甩给大环境或不可抗力", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 7, "risk": 8, "longterm": 3, "resource": 10, "solo": 2 } },
+            { "text": "开诚布公地写一篇长文向粉丝道歉，顺便分享失败经验，赢得同情", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 5, "longterm": 7, "resource": 5, "solo": 7 } },
+            { "text": "无所谓，直接注销公司换个马甲，马不停蹄地去追下一个风口", "types": { "D": 3 }, "scores": { "traffic": 7, "risk": 10, "longterm": 1, "resource": 4, "solo": 5 } }
+        ]},
+        { "q": "看到竞争对手原封不动地抄袭了你的产品或模式，并且卖得更好，你会：", "options": [
+            { "text": "鄙视这种行为，但我会花双倍时间研发出他绝对抄不出的2.0版本", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 10, "resource": 2, "solo": 10 } },
+            { "text": "利用我的渠道优势直接进行价格战和流量压制，在商业上捏死他", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 9, "risk": 8, "longterm": 4, "resource": 10, "solo": 3 } },
+            { "text": "在社交媒体上挂他，通过维权制造话题，反而给自己导一波流量", "types": { "C": 3, "B": 1 }, "scores": { "traffic": 10, "risk": 5, "longterm": 6, "resource": 5, "solo": 7 } },
+            { "text": "承认他流量玩得比我好，立刻去加他微信，问能不能一起合作赚钱", "types": { "D": 3, "B": 2 }, "scores": { "traffic": 10, "risk": 7, "longterm": 2, "resource": 8, "solo": 3 } }
+        ]},
+        { "q": "如果有一个年薪百万但在大厂做螺丝钉的机会，和一个年薪十万但可能改变行业的创业机会，你选：", "options": [
+            { "text": "选大厂，我的手艺在哪里都能发挥，稳定高薪能让我更安心打磨技术", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 3, "risk": 2, "longterm": 8, "resource": 3, "solo": 9 } },
+            { "text": "选大厂，但我会利用大厂的光环去疯狂结交人脉，接私活套利", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 8, "risk": 6, "longterm": 3, "resource": 9, "solo": 2 } },
+            { "text": "选创业，我不能忍受当螺丝钉，我需要为伟大的愿景和世界级的挑战燃烧自己", "types": { "E": 3, "C": 1 }, "scores": { "traffic": 7, "risk": 9, "longterm": 10, "resource": 8, "solo": 4 } },
+            { "text": "谁给的钱马上能到账就选谁，不听画大饼，大厂工资到账了再去炒股", "types": { "D": 3 }, "scores": { "traffic": 7, "risk": 8, "longterm": 1, "resource": 4, "solo": 5 } }
+        ]},
+        { "q": "你手下一个核心骨干突然要求工资翻倍，否则就离职，你会：", "options": [
+            { "text": "觉得这是对团队秩序的挑衅，宁愿自己累死重新招人也绝不妥协", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 8, "resource": 2, "solo": 9 } },
+            { "text": "跟他算一笔账，用提成或者更虚的期权来替换现金，把他稳住", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 7, "risk": 7, "longterm": 5, "resource": 10, "solo": 3 } },
+            { "text": "动之以情晓之以理，谈公司的困难和情怀，希望他能体谅", "types": { "C": 3 }, "scores": { "traffic": 6, "risk": 3, "longterm": 6, "resource": 5, "solo": 6 } },
+            { "text": "立刻答应，只要他能给我赚回三倍的钱，给他十倍工资又怎样", "types": { "D": 3, "B": 1 }, "scores": { "traffic": 9, "risk": 10, "longterm": 2, "resource": 8, "solo": 3 } }
+        ]},
+        { "q": "每天早上醒来，你打开手机第一眼想看的商业数据是：", "options": [
+            { "text": "产品的交付进度、报错日志或客户的深度长文反馈", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 2, "longterm": 9, "resource": 3, "solo": 10 } },
+            { "text": "人脉圈大佬的最新动态，或者各个社群里的风口八卦", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 8, "risk": 6, "longterm": 3, "resource": 10, "solo": 2 } },
+            { "text": "各个平台的粉丝增长数、点赞数、或者内容后台的数据", "types": { "C": 3 }, "scores": { "traffic": 10, "risk": 4, "longterm": 7, "resource": 4, "solo": 8 } },
+            { "text": "昨晚跑出的利润表、广告ROI（投产比）或者币圈的K线", "types": { "D": 3 }, "scores": { "traffic": 10, "risk": 10, "longterm": 1, "resource": 6, "solo": 4 } }
         ]}
     ],
     "results": {
         "A": {
             "name": "匠人原型 · 深度执行者",
-            "content": "<div class=\"result-section-title\">核心诊断：用硬实力构筑壁垒的长期主义者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是一个绝对的<span class=\"highlight\">价值信徒</span>。在你的商业基因里，对“手艺”、“专业”和“产品”有着近乎苛刻的信仰。你不喜欢虚无缥缈的营销包装，极度讨厌无意义的社交应酬，你坚信“是金子总会发光”。你的内核极其稳定，能在极度枯燥和不被理解的孤独中，日复一日地打磨出令对手绝望的护城河。你的商业原型不是在舞台上跳舞的明星，而是那个在幕后锻造绝世神兵的顶级铸剑师。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【孤独作业力】绝对巅峰（高于90%）：</b>你根本不需要别人给你打鸡血，你可以把自己关在房间里一个月不出门，只为了死磕一个技术难点。在深度思考和复杂交付上，你是绝对的王者。</div><div class=\"result-desc\"><b>【长期主义】坚不可摧（高于85%）：</b>你不眼红别人赚快钱，你对“时间复利”有着最深的敬畏。你做的每一个决策，都在为五年、十年后铺路，这使得你的事业具有极强的抗风险韧性。</div><div class=\"result-desc\"><b>【流量嗅觉】深度匮乏（低于25%）：</b>这是你最致命的短板。你排斥“眼球经济”，总觉得在社交媒体上吆喝是一件很掉价的事情。在这个“酒香也怕巷子深”的时代，你不懂如何放大自己的声量。</div><div class=\"result-desc\"><b>【资源整合】极度内倾（低于30%）：</b>你习惯了单打独斗，遇到问题的第一反应永远是“我自己去学、自己去搞定”。你学不会借力打力，甚至潜意识里觉得欠别人人情是一件非常麻烦的事。</div><div class=\"result-desc\"><b>【风险耐受】保守防御（低于40%）：</b>你讨厌不确定性，在没有把产品打磨到99%完美之前，你绝不敢推向市场。这导致你经常错过抢占风口的最优时机。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的变现卡点在于<span class=\"highlight\">杠杆率太低</span>。你一直在用加法赚钱，而这个世界真正赚钱的人都在用乘法。你必须立刻停止“完美主义陷阱”。去寻找一个性格互补的“猎手型”合伙人（帮你卖东西的人），或者逼自己学一套极简的流量投放逻辑。你的手艺已经是90分了，哪怕你只花10%的精力去学习“如何讲好一个故事”，你的收入也能瞬间翻上三倍！</div>"
+            "content": "<div class=\"result-section-title\">核心诊断：用硬实力构筑壁垒的长期主义者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是一个绝对的<span class=\"highlight\">价值信徒</span>。在你的商业基因里，对“手艺”、“专业”和“产品”有着近乎苛刻的信仰。你不喜欢虚无缥缈的营销包装，极度讨厌无意义的社交应酬，你坚信“是金子总会发光”。你的内核极其稳定，能在极度枯燥和不被理解的孤独中，日复一日地打磨出令对手绝望的护城河。你的商业原型不是在舞台上跳舞的明星，而是那个在幕后锻造绝世神兵的顶级铸剑师。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【孤独作业力】绝对巅峰（高于90%）：</b>你根本不需要别人给你打鸡血，你可以死磕一个难点。在深度交付上，你是王者。</div><div class=\"result-desc\"><b>【长期主义】坚不可摧（高于85%）：</b>你不眼红别人赚快钱，你对“时间复利”有着最深的敬畏。</div><div class=\"result-desc\"><b>【流量嗅觉】深度匮乏（低于25%）：</b>这是你致命短板。你排斥“眼球经济”，不懂如何放大自己的声量。</div><div class=\"result-desc\"><b>【资源整合】极度内倾（低于30%）：</b>你习惯了单打独斗，潜意识里觉得欠别人人情是一件麻烦事。</div><div class=\"result-desc\"><b>【风险耐受】保守防御（低于40%）：</b>你讨厌不确定性，产品没打磨到99%完美前不敢推向市场。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的变现卡点在于<span class=\"highlight\">杠杆率太低</span>。你一直在用加法赚钱，而这个世界赚钱的人都在用乘法。立刻停止“完美主义陷阱”。去寻找一个性格互补的“猎手型”合伙人（帮你卖东西的人）。你的手艺已经是90分了，只要花10%的精力学习“如何讲故事”，收入就能翻三倍！</div>"
         },
         "B": {
             "name": "猎手原型 · 杠杆资源家",
-            "content": "<div class=\"result-section-title\">核心诊断：无中生有的套利捕食者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>拥有极度敏锐的<span class=\"highlight\">商业嗅觉与人际雷达</span>。你深知商业的本质就是连接和交易。你不一定是某个垂直领域的顶尖技术专家，但你是天生的“资源翻译官”和“流量捕手”。你永远能在看似毫无关联的A和B之间，找到巨大的信息差并从中套利。你善于利用人脉、工具、外包来放大自己的势能，你是那种能把1分力杠杆出10分结果的顶级操盘手。在你的世界里，万物皆可被交易。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【流量嗅觉】嗜血般敏锐（高于90%）：</b>你有着极强的网感，任何一个新的平台崛起或热点爆发，你都能第一时间闻到钱的味道，并且迅速找到切入点，快速跑通变现闭环。</div><div class=\"result-desc\"><b>【资源整合】无界限杠杆（高于85%）：</b>你是个没有边界感的人，这也是你最大的天赋。你不懂技术？没关系，你能找到最懂技术的人为你打工。你总是能把别人的时间、资金和能力，拼凑成你的一盘大棋。</div><div class=\"result-desc\"><b>【风险耐受】高空走钢丝（高于80%）：</b>你享受豪赌。在别人还在犹豫观望、等风口彻底明朗时，你早就已经冲进去插上了自己的旗帜。你敢于承担极大的不确定性，甚至能在混乱中如鱼得水。</div><div class=\"result-desc\"><b>【长期主义】极度匮乏（低于30%）：</b>这是你最隐蔽的定时炸弹。你太聪明，太擅长抓短平快的风口，导致你根本沉不下心去十年如一日地打磨一件护城河级别的产品。赚快钱很容易让你上瘾。</div><div class=\"result-desc\"><b>【孤独作业力】严重不足（低于20%）：</b>一旦离开人群、断开信息流，或者让你坐在电脑前写一万字的深度代码/文章，你会感到极度枯燥和抓狂。你需要外部的刺激才能维持高能量。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的变现卡点在于<span class=\"highlight\">缺乏不可替代的核心根基</span>。如果脱离了风口、红利和外部资源，你个人的硬核交付能力其实是虚胖的。当潮水褪去，那些缺乏壁垒的套利模式会迅速崩塌。你现在的当务之急，是强迫自己停下来，用赚来的快钱去投资（或者购买）一项“时间越久越值钱”的硬核资产/技能。你需要从一个到处打猎的游牧民族，进化成一个拥有自己城堡的领主。</div>"
+            "content": "<div class=\"result-section-title\">核心诊断：无中生有的套利捕食者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>拥有极度敏锐的<span class=\"highlight\">商业嗅觉与人际雷达</span>。你深知商业的本质就是连接和交易。你不一定是顶尖技术专家，但你是天生的“资源翻译官”。你永远能在A和B之间，找到巨大的信息差并从中套利。你善于利用人脉、外包来放大自己的势能，你是那种能把1分力杠杆出10分结果的操盘手。在你的世界里，万物皆可被交易。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【流量嗅觉】嗜血般敏锐（高于90%）：</b>任何新平台或热点爆发，你都能第一时间闻到钱的味道。</div><div class=\"result-desc\"><b>【资源整合】无界限杠杆（高于85%）：</b>你没有边界感，能把别人的时间、资金和能力拼凑成你的一盘大棋。</div><div class=\"result-desc\"><b>【风险耐受】高空走钢丝（高于80%）：</b>你敢于承担不确定性，甚至能在混乱中如鱼得水。</div><div class=\"result-desc\"><b>【长期主义】极度匮乏（低于30%）：</b>这是你的定时炸弹。太擅长抓快钱，导致你根本沉不下心打磨护城河。</div><div class=\"result-desc\"><b>【孤独作业力】严重不足（低于20%）：</b>一旦离开人群，让你写代码或深度思考，你会感到抓狂。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的变现卡点在于<span class=\"highlight\">缺乏不可替代的核心根基</span>。脱离了风口，你个人的硬核交付能力是虚胖的。当潮水褪去，缺乏壁垒的套利模式会迅速崩塌。现在的当务之急，是强迫自己停下来，用赚来的快钱去投资一项“时间越久越值钱”的硬核资产。你需要从游牧民族，进化成拥有城堡的领主。</div>"
+        },
+        "C": {
+            "name": "传教士原型 · 情绪布道者",
+            "content": "<div class=\"result-section-title\">核心诊断：共情力变现的超级IP</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是天生的<span class=\"highlight\">内容创作者与精神领袖</span>。你对人类的情绪、痛点和渴望有着极其惊人的感知力。你不仅能把一件普通的事情讲得令人热血沸腾或潸然泪下，你更擅长将自己的真实经历（甚至是痛苦和低谷）转化为强大的内容杠杆。你吸引别人的不是冰冷的技术，而是你的价值观、你的人设、你的魅力。在这个AI可以取代一切代码的时代，你的“情绪共鸣能力”是你最无敌的商业护城河。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【流量嗅觉】算法舞者（高于85%）：</b>你非常清楚大众喜欢看什么、容易被什么激怒或感动。</div><div class=\"result-desc\"><b>【孤独作业力】镜头前的高手（约80%）：</b>你能在深夜独自一人对着键盘或镜头，完成极具感染力的创作。</div><div class=\"result-desc\"><b>【长期主义】价值观复利（高于75%）：</b>你知道粉丝的信任需要长时间的积累，你爱惜羽毛，绝不轻易割韭菜。</div><div class=\"result-desc\"><b>【资源整合】社群驱动（约60%）：</b>你不擅长商业谈判，但你极其擅长通过粉丝群和铁粉网络来完成资源置换。</div><div class=\"result-desc\"><b>【风险耐受】口碑护体（中等）：</b>你不喜欢做高资金风险的投资，你的风险在于“人设崩塌”。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的变现卡点在于<span class=\"highlight\">后端交付能力的薄弱与过度的情感内耗</span>。你有很多粉丝，大家都爱你，但一提到卖课或卖高客单价服务，你就会产生深深的负罪感。你需要立刻搭建一个闭环：找一个极其冷酷理性的运营帮你设计商业漏斗。不要让“不好意思谈钱”毁了你的才华。你的内容越有价值，你越有责任去收费！</div>"
+        },
+        "D": {
+            "name": "游侠原型 · 敏捷淘金者",
+            "content": "<div class=\"result-section-title\">核心诊断：绝对灵活的快钱投机客</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是一个没有任何包袱的<span class=\"highlight\">敏捷淘金者</span>。你对“长期主义”、“企业愿景”、“工匠精神”这些词嗤之以鼻。你的商业哲学极其简单粗暴：哪里有快钱，我就去哪里。你极其擅长“短平快”的项目，比如流量倒卖、矩阵号薅羊毛、短线交易等。你没有任何行业执念，随时可以清空沉没成本切换赛道。你是一条在商业汪洋中游动极快的鲨鱼，只咬一口就走，绝不被任何笨重的资产拖累。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【风险耐受】极端高危（高于95%）：</b>你敢于重仓押注短期的概率事件，你享受这种心跳加速的快感。</div><div class=\"result-desc\"><b>【流量嗅觉】野路子专家（高于85%）：</b>你比谁都懂如何突破平台规则、如何利用灰产思维搞到低价流量。</div><div class=\"result-desc\"><b>【长期主义】绝对零度（低于10%）：</b>你所有的项目生命周期都不会超过三个月，你根本不想深耕任何领域。</div><div class=\"result-desc\"><b>【资源整合】短期雇佣兵（中等）：</b>你需要人的时候花钱买他们的时间，用完即弃，不建立任何深度绑定。</div><div class=\"result-desc\"><b>【孤独作业力】耐力极差（极低）：</b>如果一个项目不能在一个月内看到回头钱，你就会迅速焦虑并放弃。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的变现卡点在于<span class=\"highlight\">狗熊掰棒子式的零积累</span>。你确实赚过快钱，但每过一两年，随着风口关闭，你就会被打回原形，陷入深深的焦虑中重新找项目。你用战术的极度勤奋掩盖了战略上的极度懒惰。你必须用赚来的其中一笔快钱，强行购买一项不动产或长期被动收入基金，将“水流”变成“蓄水池”。否则，到了中年，你的体力和嗅觉一旦下降，你将被彻底边缘化。</div>"
+        },
+        "E": {
+            "name": "领主原型 · 护城河构建者",
+            "content": "<div class=\"result-section-title\">核心诊断：大开大合的系统架构师</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是天生的<span class=\"highlight\">企业领导者与生态构建者</span>。你既不像“匠人”那样只盯着代码，也不像“猎手”那样只看短期利润。你拥有极其宏大的战略视角，你思考的永远是“十年后这个行业会是什么样”。你极其擅长搭建系统、制定规则、并且让不同类型的人在你的系统里为你打工。你买地、建城、收税。你渴望的是那种不可撼动的垄断优势，你是真正意义上的商业世界顶层玩家。</div><div class=\"result-section-title\">五维变现基因解析</div><div class=\"result-desc\"><b>【长期主义】战略级宏图（高于95%）：</b>你愿意忍受长达数年的亏损和黑暗，只为了构建极高的竞争壁垒。</div><div class=\"result-desc\"><b>【资源整合】权谋大师（高于95%）：</b>你不仅能整合资金和人，你还能整合趋势和政策，你是一个优秀的政客。</div><div class=\"result-desc\"><b>【风险耐受】大而不倒（高于80%）：</b>你赌的不是一个风口，你赌的是一个时代的变迁，你敢于承受系统级风险。</div><div class=\"result-desc\"><b>【流量嗅觉】宏观把控（中等偏上）：</b>你不关注短视频的爆款技巧，你关注的是平台底层流量算法的迁徙。</div><div class=\"result-desc\"><b>【孤独作业力】权力孤岛（极低）：</b>你的价值在于决策而不是执行，如果没有团队支撑，你单兵作战能力其实很弱。</div><div class=\"result-section-title\">破局箴言与变现指令</div><div class=\"result-desc\">你的卡点在于<span class=\"highlight\">过度沉迷于宏大叙事而导致现金流断裂</span>。你经常因为画的大饼太大、铺的摊子太广，而导致团队被活活拖死。你需要一个极度抠门、极度务实的CFO（财务官）或者“匠人型”合伙人来死死拽住你。不要为了建一座完美的城堡，而在这个冬天冻死在工地上。学会先做轻量级的 MVP 跑通现金流，用赚来的利润去养你的伟大梦想。</div>"
         }
     }
 }

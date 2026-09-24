@@ -219,78 +219,49 @@ function generatePoster() {
     posterBtn.style.display = 'none';
     posterLoading.style.display = 'block';
     
-    // Tell html2canvas to ignore the button and loading text
-    posterBtn.setAttribute('data-html2canvas-ignore', 'true');
-    posterLoading.setAttribute('data-html2canvas-ignore', 'true');
-    
     const captureArea = document.getElementById('capture-area');
-    captureArea.style.opacity = '1';
-    captureArea.style.animation = 'none';
-    
-    // Remove complex gradients that crash html2canvas
-    const oldBg = captureArea.style.background;
-    const oldBgImage = captureArea.style.backgroundImage;
-    captureArea.style.background = getComputedStyle(document.body).backgroundColor;
-    captureArea.style.backgroundImage = 'none';
     
     // Ensure content box has a solid background (alpha transparency can cause black boxes)
-    // CRITICAL for iOS: Remove backdrop-filter which causes Safari to crash or render blank canvas
     const contentBox = document.getElementById('result-content');
     const oldContentBg = contentBox.style.background;
-    const oldBackdrop = contentBox.style.backdropFilter;
-    const oldWebkitBackdrop = contentBox.style.webkitBackdropFilter;
-    
     contentBox.style.background = "#F0EDE9";
-    contentBox.style.backdropFilter = "none";
-    contentBox.style.webkitBackdropFilter = "none";
     
     // Fix scroll cutoff issue on iOS
     const originalScrollY = window.scrollY;
     window.scrollTo(0, 0);
     
-    // Give browser time to repaint after scrolling and style changes
+    // Give browser time to repaint after scrolling
     setTimeout(() => {
-        html2canvas(captureArea, {
-            scale: window.innerWidth < 600 ? 1 : 1.5, // 1 on mobile prevents OOM, 1.5 on desktop for clarity
-            useCORS: true,
-            allowTaint: true,
+        // Use html-to-image which is much more reliable on iOS Safari
+        htmlToImage.toJpeg(captureArea, {
+            quality: 0.85,
+            pixelRatio: window.innerWidth < 600 ? 1.2 : 1.5, // Balance between clarity and memory limits
             backgroundColor: getComputedStyle(document.body).backgroundColor,
-            scrollY: 0,
-            windowHeight: captureArea.scrollHeight
-        }).then(canvas => {
+            filter: (node) => {
+                // Ignore the buttons in the screenshot
+                if (node.id === 'poster-btn' || node.id === 'poster-loading' || (node.classList && node.classList.contains('upsell-container'))) {
+                    return false;
+                }
+                return true;
+            }
+        }).then(dataUrl => {
             // Restore styles
-            captureArea.style.background = oldBg;
-            captureArea.style.backgroundImage = oldBgImage;
             contentBox.style.background = oldContentBg;
-            contentBox.style.backdropFilter = oldBackdrop;
-            contentBox.style.webkitBackdropFilter = oldWebkitBackdrop;
-            
             posterBtn.style.display = 'flex';
             posterLoading.style.display = 'none';
             window.scrollTo(0, originalScrollY);
             
-            try {
-                // Use JPEG to avoid massive PNG data URIs that crash mobile browsers
-                const imgUrl = canvas.toDataURL("image/jpeg", 0.9);
-                document.getElementById('poster-image').src = imgUrl;
-                document.getElementById('poster-overlay').style.display = 'flex';
-            } catch(e) {
-                alert("生成图片数据时发生错误，可能是内存不足，请手动截图保存。");
-            }
+            document.getElementById('poster-image').src = dataUrl;
+            document.getElementById('poster-overlay').style.display = 'flex';
         }).catch(err => {
             console.error("Poster generation failed:", err);
-            alert("海报生成失败，请稍后重试或尝试截图保存");
-            captureArea.style.background = oldBg;
-            captureArea.style.backgroundImage = oldBgImage;
+            alert("海报生成失败，请尝试刷新页面或直接截图保存");
             contentBox.style.background = oldContentBg;
-            contentBox.style.backdropFilter = oldBackdrop;
-            contentBox.style.webkitBackdropFilter = oldWebkitBackdrop;
-            
             posterBtn.style.display = 'flex';
             posterLoading.style.display = 'none';
             window.scrollTo(0, originalScrollY);
         });
-    }, 500);
+    }, 400);
 }
 
 function closePoster() {

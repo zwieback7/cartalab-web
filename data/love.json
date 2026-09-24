@@ -56,6 +56,54 @@
             { "text": "紧紧缠绕的藤蔓，越没有安全感，就缠得越紧，直到双方窒息", "types": { "B": 3 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 8, "drama": 9 } },
             { "text": "浑身带刺的刺猬，渴望拥抱，但一旦别人靠近又会把别人扎伤", "types": { "C": 3 }, "scores": { "trust": 1, "control": 1, "merge": 7, "sacrifice": 5, "drama": 10 } },
             { "text": "羽毛绚丽的孔雀，总是展示最完美的一面，但绝不付出真心", "types": { "E": 3 }, "scores": { "trust": 4, "control": 8, "merge": 3, "sacrifice": 1, "drama": 9 } }
+        ]},
+        { "q": "对于查看伴侣的手机，你内心的真实想法是：", "options": [
+            { "text": "极其厌恶这种行为，这是对隐私的严重侵犯，我也绝对不看", "types": { "A": 3, "D": 2 }, "scores": { "trust": 9, "control": 8, "merge": 1, "sacrifice": 3, "drama": 1 } },
+            { "text": "虽然知道不好，但总忍不住想去翻，哪怕没查出什么也会过度解读", "types": { "B": 3, "C": 1 }, "scores": { "trust": 1, "control": 2, "merge": 9, "sacrifice": 7, "drama": 9 } },
+            { "text": "如果他主动给我看，我就看；如果是偷偷看，我觉得没必要", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 5, "sacrifice": 5, "drama": 2 } },
+            { "text": "无所谓，我更怕他看我的手机，因为我总需要保留一点秘密", "types": { "E": 3 }, "scores": { "trust": 4, "control": 7, "merge": 2, "sacrifice": 1, "drama": 7 } }
+        ]},
+        { "q": "当伴侣向你倾诉前任的伤害时，你的第一反应是：", "options": [
+            { "text": "觉得这是他自己的事，听听就好，内心毫无波澜甚至想快点结束话题", "types": { "A": 3 }, "scores": { "trust": 5, "control": 8, "merge": 2, "sacrifice": 2, "drama": 3 } },
+            { "text": "极度共情，心疼他，甚至在心里发誓一定要用加倍的爱去弥补他", "types": { "B": 3, "E": 1 }, "scores": { "trust": 6, "control": 3, "merge": 10, "sacrifice": 9, "drama": 7 } },
+            { "text": "表面倾听，但内心开始疯狂嫉妒那个前任，甚至会在以后吵架时翻旧账", "types": { "C": 3, "B": 1 }, "scores": { "trust": 2, "control": 2, "merge": 8, "sacrifice": 5, "drama": 10 } },
+            { "text": "理性分析他们分手的原因，帮他梳理情绪，但不会让自己卷入其中", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 4, "sacrifice": 4, "drama": 1 } }
+        ]},
+        { "q": "当伴侣提出“我最近压力很大，想一个人静几天”时，你会：", "options": [
+            { "text": "求之不得，正好我也需要个人空间，完全不觉得这有什么问题", "types": { "A": 3, "D": 1 }, "scores": { "trust": 8, "control": 9, "merge": 1, "sacrifice": 2, "drama": 2 } },
+            { "text": "立刻觉得天塌了，认定他是在冷暴力或者想分手，开始疯狂夺命连环call", "types": { "B": 3 }, "scores": { "trust": 1, "control": 1, "merge": 10, "sacrifice": 8, "drama": 10 } },
+            { "text": "非常受伤，觉得被推开了，于是决定在他回来之前，我先“精神离开”", "types": { "C": 3 }, "scores": { "trust": 2, "control": 4, "merge": 6, "sacrifice": 4, "drama": 9 } },
+            { "text": "尊重他的需求，并且告诉他：“随时找我，我都在。”", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 6, "sacrifice": 6, "drama": 1 } }
+        ]},
+        { "q": "你最擅长用来表达爱意的方式是：", "options": [
+            { "text": "通过实际行动帮忙解决问题，或者提供物质支持，极少说“我爱你”", "types": { "A": 3, "D": 1 }, "scores": { "trust": 6, "control": 8, "merge": 3, "sacrifice": 5, "drama": 2 } },
+            { "text": "全天候的情绪价值提供、无微不至的照顾，甚至包办对方的生活", "types": { "B": 3 }, "scores": { "trust": 5, "control": 3, "merge": 10, "sacrifice": 10, "drama": 7 } },
+            { "text": "忽冷忽热，用一些戏剧性的浪漫惊喜或者突然的推开来证明存在感", "types": { "E": 3, "C": 2 }, "scores": { "trust": 3, "control": 6, "merge": 5, "sacrifice": 3, "drama": 10 } },
+            { "text": "坦诚的沟通、深度的赞美，以及高质量的陪伴时间", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 7, "sacrifice": 6, "drama": 1 } }
+        ]},
+        { "q": "在一次激烈的争吵中，你突然意识到确实是自己做错了，你会：", "options": [
+            { "text": "用沉默来掩饰尴尬，或者直接转移话题，绝口不提道歉的事", "types": { "A": 3, "E": 1 }, "scores": { "trust": 4, "control": 8, "merge": 2, "sacrifice": 2, "drama": 5 } },
+            { "text": "立刻跪求原谅，甚至痛哭流涕，把姿态放得极低，直到对方心软", "types": { "B": 3, "C": 1 }, "scores": { "trust": 3, "control": 2, "merge": 9, "sacrifice": 9, "drama": 10 } },
+            { "text": "恼羞成怒，强行找出对方的一点小错来反击，因为无法面对自己的脆弱", "types": { "C": 3 }, "scores": { "trust": 2, "control": 3, "merge": 6, "sacrifice": 4, "drama": 9 } },
+            { "text": "坦诚地承认错误：“抱歉，这件事是我没做好。”然后给出改进方案", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 6, "sacrifice": 5, "drama": 1 } }
+        ]},
+        { "q": "当你们的关系即将进入下一个重大阶段（如见家长、同居、结婚）时，你的潜意识反应是：", "options": [
+            { "text": "感到巨大的压迫感和窒息感，甚至想要临阵脱逃或者故意搞砸", "types": { "A": 3, "C": 1 }, "scores": { "trust": 2, "control": 7, "merge": 1, "sacrifice": 3, "drama": 8 } },
+            { "text": "狂喜且焦虑，恨不得立刻把所有流程办完，生怕夜长梦多", "types": { "B": 3 }, "scores": { "trust": 4, "control": 2, "merge": 10, "sacrifice": 8, "drama": 7 } },
+            { "text": "无所谓，甚至觉得这只是游戏的一环，随时可以撤出", "types": { "E": 3 }, "scores": { "trust": 5, "control": 8, "merge": 2, "sacrifice": 1, "drama": 6 } },
+            { "text": "虽然有压力，但会觉得这是一起开启人生新篇章的自然过程", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 7, "sacrifice": 7, "drama": 2 } }
+        ]},
+        { "q": "看到伴侣在事业上取得了巨大的成功或升职，你会：", "options": [
+            { "text": "觉得这是他自己的事，不会过度反应，甚至潜意识里觉得他可能不需要我了", "types": { "A": 3, "C": 1 }, "scores": { "trust": 4, "control": 8, "merge": 2, "sacrifice": 3, "drama": 5 } },
+            { "text": "感到深深的恐慌，觉得他变得太耀眼了，随时可能会抛弃我", "types": { "B": 3 }, "scores": { "trust": 2, "control": 2, "merge": 9, "sacrifice": 8, "drama": 9 } },
+            { "text": "利用他的光环来炫耀自己，或者趁机要求更多的物质回报", "types": { "E": 3 }, "scores": { "trust": 3, "control": 7, "merge": 4, "sacrifice": 1, "drama": 6 } },
+            { "text": "由衷地为他感到骄傲，并和他一起庆祝，相信这会让你们更好", "types": { "D": 3 }, "scores": { "trust": 10, "control": 9, "merge": 6, "sacrifice": 5, "drama": 1 } }
+        ]},
+        { "q": "在一段关系中，最能让你感到“极致安全感”的时刻是：", "options": [
+            { "text": "大家都在各自的房间里做自己的事，互不打扰，但知道对方在", "types": { "A": 3, "D": 1 }, "scores": { "trust": 8, "control": 9, "merge": 2, "sacrifice": 3, "drama": 1 } },
+            { "text": "他为了我拒绝了所有社交，24小时粘在一起，手机密码也给我", "types": { "B": 3 }, "scores": { "trust": 2, "control": 1, "merge": 10, "sacrifice": 9, "drama": 8 } },
+            { "text": "经历了一次极其惨烈的争吵和濒临分手，但他最终还是没有走", "types": { "C": 3, "E": 1 }, "scores": { "trust": 1, "control": 2, "merge": 8, "sacrifice": 6, "drama": 10 } },
+            { "text": "他遇到重大挫折时，第一时间向我展示脆弱并寻求我的意见", "types": { "D": 3 }, "scores": { "trust": 9, "control": 8, "merge": 8, "sacrifice": 7, "drama": 2 } }
         ]}
     ],
     "results": {

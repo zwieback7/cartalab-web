@@ -85,6 +85,24 @@
             { "text": "在全球各地飞来飞去，掌握更多资源，体验最极致的奢华", "types": { "B": 3, "D": 1 }, "scores": { "deserve": 9, "drive": 10, "risk": 9, "material": 10, "purity": 2 } },
             { "text": "什么都不干，也不乱花钱，就靠利息过极其安稳的日子", "types": { "C": 3 }, "scores": { "deserve": 6, "drive": 3, "risk": 1, "material": 5, "purity": 6 } },
             { "text": "建立自己的商业帝国或基金会，按照自己的意志改变世界", "types": { "E": 3 }, "scores": { "deserve": 10, "drive": 9, "risk": 8, "material": 4, "purity": 3 } }
+        ]},
+        { "q": "当非常亲密的朋友向你借一笔金额不小的钱，你的第一反应是：", "options": [
+            { "text": "内心非常抗拒，觉得借钱会毁了关系，找借口委婉拒绝", "types": { "A": 3, "C": 1 }, "scores": { "deserve": 4, "drive": 3, "risk": 2, "material": 5, "purity": 9 } },
+            { "text": "看他能给我带来什么核心利益，如果是高价值人脉就借", "types": { "B": 3, "E": 1 }, "scores": { "deserve": 8, "drive": 8, "risk": 6, "material": 7, "purity": 2 } },
+            { "text": "不好意思拒绝，自己即使手头紧也会硬着头皮借给他", "types": { "D": 3, "A": 1 }, "scores": { "deserve": 2, "drive": 2, "risk": 7, "material": 6, "purity": 8 } },
+            { "text": "只借出我能承受完全收不回来的那部分，并做好送给他的心理准备", "types": { "E": 3, "C": 2 }, "scores": { "deserve": 9, "drive": 7, "risk": 5, "material": 3, "purity": 5 } }
+        ]},
+        { "q": "面对一个当前薪水减半，但未来有可能拿到巨大股权收益的创业机会，你会：", "options": [
+            { "text": "绝对不考虑，我只相信每个月按时到账的现金，画饼充饥太虚幻", "types": { "C": 3, "A": 1 }, "scores": { "deserve": 5, "drive": 4, "risk": 1, "material": 8, "purity": 5 } },
+            { "text": "毫不犹豫地加入，我极度渴望这种阶层跃迁的暴击机会", "types": { "B": 3, "D": 2 }, "scores": { "deserve": 9, "drive": 10, "risk": 10, "material": 7, "purity": 2 } },
+            { "text": "冷酷地做详尽的尽职调查，看商业模式和创始人胜率再下注", "types": { "E": 3 }, "scores": { "deserve": 8, "drive": 8, "risk": 7, "material": 4, "purity": 4 } },
+            { "text": "觉得创业太累太卷，拿命换钱不值得，还是按时上下班舒服", "types": { "A": 3 }, "scores": { "deserve": 4, "drive": 2, "risk": 2, "material": 3, "purity": 9 } }
+        ]},
+        { "q": "如果你无意中发现了一个处于灰色地带、但能迅速来钱的系统漏洞，你会：", "options": [
+            { "text": "立刻疯狂利用它套利，闷声发大财，直到漏洞被修复", "types": { "B": 3, "D": 1 }, "scores": { "deserve": 8, "drive": 10, "risk": 9, "material": 9, "purity": 1 } },
+            { "text": "觉得这是非分之财，拿了会遭报应，坚决不碰", "types": { "A": 3, "C": 1 }, "scores": { "deserve": 3, "drive": 2, "risk": 1, "material": 2, "purity": 10 } },
+            { "text": "不会自己下场，而是把这个信息卖给敢做的人，规避法律风险", "types": { "E": 3 }, "scores": { "deserve": 9, "drive": 8, "risk": 6, "material": 5, "purity": 3 } },
+            { "text": "小试一把赚点零花钱，因为害怕出事很快就收手了", "types": { "C": 3, "D": 2 }, "scores": { "deserve": 5, "drive": 5, "risk": 4, "material": 6, "purity": 5 } }
         ]}
     ],
     "results": {
