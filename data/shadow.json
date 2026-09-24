@@ -1,89 +1,83 @@
 {
     "meta": {
-        "title": "潜意识暗影",
-        "subtitle": "直视你内心深处不被社会允许的阴暗面",
+        "title": "暗面人格",
+        "subtitle": "直视你内心深处被压抑的禁忌冲动",
         "themeColor": "#2C2C2C",
-        "upsellText": "解锁《深层暗影整合与觉醒指南》",
-        "quote": "直到你使潜意识意识化，它将主导你的人生并被称为命运",
-        "footerCta": "携带此档案编号，返回解锁《暗影面整合与能量转化高级指南》"
+        "upsellText": "解锁《暗面人格整合与阴影炼金术指南》",
+        "quote": "那些你极力隐藏的，才是你真正的力量源泉",
+        "footerCta": "携带此档案编号，返回解锁《荣格阴影整合高阶炼金术》"
     },
     "axes": [
-        { "id": "destruction", "label": "自毁倾向" },
-        { "id": "jealousy", "label": "隐性嫉妒" },
-        { "id": "manipulation", "label": "精神操控" },
-        { "id": "narcissism", "label": "暗黑自恋" },
-        { "id": "apathy", "label": "情感剥夺" }
+        { "id": "control", "label": "控制欲望" },
+        { "id": "nihilism", "label": "虚无倾向" },
+        { "id": "manipulation", "label": "情感操控" },
+        { "id": "destruction", "label": "毁灭冲动" },
+        { "id": "perfection", "label": "秩序审判" }
     ],
     "questions": [
-        { "q": "当一个一直不如你的朋友，突然在某方面取得了极其耀眼的成就时，你的第一反应是：", "options": [
-            { "text": "表面热情祝贺，但内心深处涌起一阵强烈的刺痛感，甚至想找出Ta成功的漏洞", "types": { "A": 1 }, "scores": { "destruction": 4, "jealousy": 10, "manipulation": 6, "narcissism": 8, "apathy": 2 } },
-            { "text": "觉得这是理所应当的随机事件，不觉得受威胁，甚至开始思考怎么利用Ta的新资源", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 3, "manipulation": 9, "narcissism": 6, "apathy": 8 } }
+        { "q": "当一个你曾经极度信任的人背叛了你，你脑海中闪过的第一个念头是：", "options": [
+            { "text": "我一定要让他付出十倍的代价，让他彻底身败名裂", "types": { "A": 3, "E": 1 }, "scores": { "control": 9, "nihilism": 2, "manipulation": 5, "destruction": 10, "perfection": 3 } },
+            { "text": "觉得非常可笑，果然人类本性就是如此，一切都毫无意义", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 3, "perfection": 2 } },
+            { "text": "不会表现出任何愤怒，而是利用他的软肋慢慢地折磨他，让他生不如死", "types": { "D": 3, "A": 1 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 6, "perfection": 1 } },
+            { "text": "立刻将他从我的世界彻底抹杀，像清理一个系统bug一样冷酷", "types": { "C": 3 }, "scores": { "control": 7, "nihilism": 3, "manipulation": 1, "destruction": 4, "perfection": 10 } }
         ]},
-        { "q": "如果要在一段关系中获得安全感，你更倾向于使用哪种隐秘的手段？", "options": [
-            { "text": "过度付出，把自己变成对方不可或缺的“拯救者”，让对方充满负罪感并离不开我", "types": { "A": 1 }, "scores": { "destruction": 8, "jealousy": 4, "manipulation": 9, "narcissism": 3, "apathy": 1 } },
-            { "text": "巧妙地贬低对方的自信，切断Ta与其他人的深度连接，让Ta只能依赖我的判断", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 6, "manipulation": 10, "narcissism": 9, "apathy": 9 } }
+        { "q": "如果你拥有一种绝对的超能力，且不需要承担任何道德后果，你会选择：", "options": [
+            { "text": "能够完全操控他人的思想和情感，让他们成为我绝对忠诚的傀儡", "types": { "D": 3, "A": 1 }, "scores": { "control": 8, "nihilism": 1, "manipulation": 10, "destruction": 2, "perfection": 2 } },
+            { "text": "能够随时摧毁一座建筑或者一个系统，我喜欢看事物崩塌的壮丽感", "types": { "E": 3 }, "scores": { "control": 4, "nihilism": 4, "manipulation": 1, "destruction": 10, "perfection": 1 } },
+            { "text": "让时间停止或重置，这样我就能把所有事情都做到最完美的极致", "types": { "C": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 2, "destruction": 1, "perfection": 10 } },
+            { "text": "能够静止时间并冷眼旁观，看着人类像虫子一样忙忙碌碌", "types": { "B": 3 }, "scores": { "control": 2, "nihilism": 10, "manipulation": 1, "destruction": 2, "perfection": 1 } }
         ]},
-        { "q": "当你看到极其纯洁、美好、甚至显得有些天真愚蠢的人或事物时：", "options": [
-            { "text": "会产生一种复杂的酸楚，甚至有一种想用现实的残酷去戳破Ta粉红泡泡的冲动", "types": { "A": 1 }, "scores": { "destruction": 7, "jealousy": 9, "manipulation": 4, "narcissism": 6, "apathy": 5 } },
-            { "text": "只觉得他们是极易被收割的猎物，在心里冷笑他们的天真，并保持距离", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 8, "narcissism": 10, "apathy": 10 } }
+        { "q": "在团队中，当所有人都做出一个极其愚蠢的决定时，你会：", "options": [
+            { "text": "用极其严厉甚至羞辱的方式，强行剥夺他们的决策权，接管一切", "types": { "A": 3, "C": 1 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 4, "destruction": 6, "perfection": 8 } },
+            { "text": "什么都不说，默默看着他们走向毁灭，甚至在心里觉得很痛快", "types": { "B": 3, "E": 1 }, "scores": { "control": 2, "nihilism": 9, "manipulation": 1, "destruction": 8, "perfection": 1 } },
+            { "text": "表面附和，但在背后通过挑拨离间和暗示，诱导他们按我的意思办", "types": { "D": 3 }, "scores": { "control": 7, "nihilism": 3, "manipulation": 10, "destruction": 3, "perfection": 2 } },
+            { "text": "立刻退出团队并冷酷地划清界限，我绝不允许我的履历沾染愚蠢", "types": { "C": 3 }, "scores": { "control": 5, "nihilism": 4, "manipulation": 1, "destruction": 1, "perfection": 9 } }
         ]},
-        { "q": "在深夜情绪极度崩溃、压力爆表时，你最常浮现的破坏性念头是：", "options": [
-            { "text": "想把所有搞砸，想消失，想用伤害自己的方式让那些在乎我的人感到痛苦和后悔", "types": { "A": 1 }, "scores": { "destruction": 10, "jealousy": 5, "manipulation": 8, "narcissism": 4, "apathy": 3 } },
-            { "text": "想狠狠地报复那个导致我陷入困境的人，在脑海里演练如何摧毁对方的社会关系", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 8, "manipulation": 9, "narcissism": 9, "apathy": 7 } }
+        { "q": "深夜独自一人时，让你感到最深的恐惧或空虚感来源于：", "options": [
+            { "text": "意识到我所拥有的一切权力、财富或地位，随时可能失去控制", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 3, "manipulation": 4, "destruction": 2, "perfection": 4 } },
+            { "text": "整个宇宙是盲目运转的机器，我所做的一切挣扎都毫无意义", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 2, "perfection": 1 } },
+            { "text": "觉得自己内心里有一个极其狂暴的野兽，有一天我会压抑不住它", "types": { "E": 3 }, "scores": { "control": 2, "nihilism": 4, "manipulation": 2, "destruction": 10, "perfection": 1 } },
+            { "text": "不管我怎么努力，依然无法达到那种完美无瑕、绝对洁净的状态", "types": { "C": 3 }, "scores": { "control": 6, "nihilism": 2, "manipulation": 1, "destruction": 1, "perfection": 10 } }
         ]},
-        { "q": "你如何看待“说谎”这件事？", "options": [
-            { "text": "经常因为害怕冲突或想维持完美人设而说谎，事后又陷入极度的自我厌恶", "types": { "A": 1 }, "scores": { "destruction": 7, "jealousy": 4, "manipulation": 5, "narcissism": 8, "apathy": 2 } },
-            { "text": "只要能达到目的，说谎只是一种高效的工具，我可以说得面不改色且毫无负罪感", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 3, "manipulation": 10, "narcissism": 8, "apathy": 9 } }
+        { "q": "如果你写了一本关于人性的禁忌之书，它的核心主题会是：", "options": [
+            { "text": "《统治术：如何利用恐惧和利益绝对支配他人》", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 8, "destruction": 3, "perfection": 4 } },
+            { "text": "《魅惑的虚伪：情感吸血鬼的捕猎指南》", "types": { "D": 3 }, "scores": { "control": 6, "nihilism": 3, "manipulation": 10, "destruction": 4, "perfection": 1 } },
+            { "text": "《崩坏美学：人类文明必须被清零的十个理由》", "types": { "E": 3 }, "scores": { "control": 3, "nihilism": 6, "manipulation": 1, "destruction": 10, "perfection": 2 } },
+            { "text": "《极夜之海：论道德、信仰与希望的终极幻灭》", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 2, "destruction": 2, "perfection": 1 } }
         ]},
-        { "q": "当别人当众指出你的某个致命缺点时，你潜意识的反应是：", "options": [
-            { "text": "感到极度的羞耻和崩溃，觉得自己的虚假外壳被击碎了，甚至想找个地缝钻进去", "types": { "A": 1 }, "scores": { "destruction": 9, "jealousy": 7, "manipulation": 2, "narcissism": 10, "apathy": 1 } },
-            { "text": "表面不动声色甚至微笑承认，但内心已经把对方拉入黑名单，并寻找机会反击", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 8, "manipulation": 9, "narcissism": 9, "apathy": 8 } }
+        { "q": "面对一个极度弱小、且完全崇拜你、依赖你的人，你潜意识最想做的是：", "options": [
+            { "text": "觉得他非常可怜且恶心，想用极其残酷的规则去重塑他、剥削他", "types": { "A": 3, "C": 1 }, "scores": { "control": 9, "nihilism": 2, "manipulation": 4, "destruction": 6, "perfection": 8 } },
+            { "text": "极其享受这种被神化的感觉，并通过不断施舍和剥夺来操控他的情绪", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 1, "manipulation": 10, "destruction": 3, "perfection": 2 } },
+            { "text": "毫无感觉，甚至想一脚把他踢开，因为弱者没有生存的价值", "types": { "B": 3 }, "scores": { "control": 2, "nihilism": 9, "manipulation": 1, "destruction": 2, "perfection": 1 } },
+            { "text": "有一种莫名其妙想毁掉他、捏碎他的冲动，就像捏死一只蝴蝶", "types": { "E": 3 }, "scores": { "control": 4, "nihilism": 3, "manipulation": 2, "destruction": 10, "perfection": 1 } }
         ]},
-        { "q": "在你看来，这个世界的底层运转逻辑是：", "options": [
-            { "text": "充满伤害和背叛，所有人最终都会离开我，我注定是个孤独的悲剧主角", "types": { "A": 1 }, "scores": { "destruction": 9, "jealousy": 5, "manipulation": 4, "narcissism": 8, "apathy": 3 } },
-            { "text": "只有权力和利益的交换。弱肉强食，任何情感都可以被标价和利用", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 4, "manipulation": 8, "narcissism": 9, "apathy": 10 } }
-        ]},
-        { "q": "在性或极度亲密的互动中，你更渴望体验到的是：", "options": [
-            { "text": "一种完全被融化、被接纳、甚至带有某种自我献祭般的情感纠缠", "types": { "A": 1 }, "scores": { "destruction": 8, "jealousy": 3, "manipulation": 5, "narcissism": 4, "apathy": 1 } },
-            { "text": "绝对的掌控感，看着对方在自己的引导下失控，这能极大满足我的权力欲", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 10, "narcissism": 9, "apathy": 8 } }
-        ]},
-        { "q": "如果你意外掌握了一个竞争对手极其致命的隐私把柄：", "options": [
-            { "text": "会感到内心挣扎，害怕遭到报应，可能最终只敢用它来进行隐晦的试探", "types": { "A": 1 }, "scores": { "destruction": 6, "jealousy": 7, "manipulation": 4, "narcissism": 3, "apathy": 2 } },
-            { "text": "毫不犹豫地在最关键的时刻将其引爆，干净利落地摧毁对方的防线", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 5, "manipulation": 10, "narcissism": 8, "apathy": 10 } }
-        ]},
-        { "q": "当听到一个原本高高在上、让你嫉妒的人突然跌落神坛时，你内心：", "options": [
-            { "text": "会涌起一阵无法抑制的狂喜，甚至觉得这是宇宙在替你讨回公道", "types": { "A": 1 }, "scores": { "destruction": 3, "jealousy": 10, "manipulation": 3, "narcissism": 7, "apathy": 4 } },
-            { "text": "觉得很有趣，只当做茶余饭后的笑料，并思考能从Ta的尸体上分到什么资源", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 4, "manipulation": 8, "narcissism": 6, "apathy": 9 } }
-        ]},
-        { "q": "你如何看待自己内心的“阴暗面”？", "options": [
-            { "text": "极力压抑和隐藏，觉得它们很肮脏，害怕被别人发现真实的自己是如此不堪", "types": { "A": 1 }, "scores": { "destruction": 8, "jealousy": 7, "manipulation": 3, "narcissism": 9, "apathy": 2 } },
-            { "text": "完全接纳它们作为我生存武器库的一部分，甚至对自己的冷酷感到一种优越感", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 9, "narcissism": 10, "apathy": 8 } }
-        ]},
-        { "q": "如果别人向你倾诉极度痛苦的创伤经历，你的真实状态是：", "options": [
-            { "text": "会深度共情，甚至把对方的痛苦吸收到自己身上，感觉自己快被淹没了", "types": { "A": 1 }, "scores": { "destruction": 7, "jealousy": 2, "manipulation": 4, "narcissism": 2, "apathy": 1 } },
-            { "text": "表面伪装出共情，但内心其实毫无波澜，甚至觉得对方有些脆弱和聒噪", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 1, "manipulation": 8, "narcissism": 7, "apathy": 10 } }
-        ]},
-        { "q": "对于“权力”，你最隐秘的渴望是：", "options": [
-            { "text": "希望获得权力，这样就可以证明给那些曾经看不起我的人看，让他们后悔", "types": { "A": 1 }, "scores": { "destruction": 5, "jealousy": 9, "manipulation": 4, "narcissism": 10, "apathy": 2 } },
-            { "text": "希望拥有绝对的规则制定权，享受那种可以随意操纵别人命运的快感", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 4, "manipulation": 10, "narcissism": 9, "apathy": 9 } }
-        ]},
-        { "q": "当一段感情或合作眼看注定要失败时，你最可能做出的极端行为是：", "options": [
-            { "text": "抢先一步亲手把它彻底砸碎，只要是我主动毁掉的，我就不算被抛弃", "types": { "A": 1 }, "scores": { "destruction": 10, "jealousy": 4, "manipulation": 7, "narcissism": 6, "apathy": 2 } },
-            { "text": "在表面维持和平的同时，暗中转移所有的核心资源，榨干最后的剩余价值", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 3, "manipulation": 9, "narcissism": 6, "apathy": 10 } }
-        ]},
-        { "q": "用一个词来形容你灵魂最深处的底色，是：", "options": [
-            { "text": "一团燃烧的、带着剧毒的嫉妒与自我拉扯的火焰", "types": { "A": 1 }, "scores": { "destruction": 9, "jealousy": 10, "manipulation": 5, "narcissism": 8, "apathy": 2 } },
-            { "text": "一片绝对零度、没有任何温度但极其锋利的万年冰川", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 10, "narcissism": 9, "apathy": 10 } }
+        { "q": "如果在一段完美的关系中，对方对你百依百顺，你会：", "options": [
+            { "text": "很快感到索然无味，甚至会故意制造巨大的混乱和痛苦来寻找刺激", "types": { "E": 3 }, "scores": { "control": 3, "nihilism": 4, "manipulation": 2, "destruction": 10, "perfection": 1 } },
+            { "text": "理所当然地享受这种绝对的主导权，如果他敢反抗，我会让他生不如死", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 7, "destruction": 5, "perfection": 4 } },
+            { "text": "不断用放大镜去寻找他微小的瑕疵，一旦发现不完美就极度烦躁", "types": { "C": 3 }, "scores": { "control": 6, "nihilism": 2, "manipulation": 2, "destruction": 2, "perfection": 10 } },
+            { "text": "会用煤气灯效应（Gaslighting）让他变得更自我怀疑，从而彻底离不开我", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 4, "perfection": 1 } }
         ]}
     ],
     "results": {
         "A": {
-            "name": "高敏型献祭者 · 隐秘的施虐狂",
-            "content": "<div class=\"result-section-title\">核心诊断：披着羊皮的自我毁灭者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的阴暗面是一座<span class=\"highlight\">随时准备引爆的活火山</span>。在外界看来，你可能是个好人、甚至是个习惯性讨好别人的“牺牲者”。但这正是你最可怕的伪装。你的潜意识里充满了对这个世界的不满与“凭什么”的剧毒嫉妒。你极度渴望被看见、被认可，但又极度自卑。于是，你发展出了一种极其扭曲的“弱者控制术”：你通过不断的自我牺牲、自我伤害，让周围的人对你产生巨大的负罪感。你不是在爱别人，你是在用“我为你付出了这么多”这根沾满毒液的鞭子，对你的伴侣和亲人进行极其残忍的隐性施虐。</div><div class=\"result-section-title\">五维暗影基因解析</div><div class=\"result-desc\"><b>【隐性嫉妒】腐蚀级剧毒（高于90%）：</b>你见不得别人好，尤其是身边原本不如你的人。当他们超越你时，你内心会产生强烈的酸楚和怨恨。你习惯于在心里给别人挑刺，试图通过贬低别人来维持自己那摇摇欲坠的优越感。</div><div class=\"result-desc\"><b>【自毁倾向】毁灭级爆表（高于85%）：</b>“我得不到的，那就一起毁灭吧。”当关系或事业走向失控时，你会爆发出可怕的破坏欲。你会亲手砸碎那些最美好的东西，用伤害自己的方式来惩罚别人，在极度的痛苦中体验一种病态的快感。</div><div class=\"result-desc\"><b>【暗黑自恋】隐秘的优越（高于75%）：</b>你看起来自卑，其实骨子里极度自恋。你觉得别人都不懂你，你认为自己的痛苦是独一无二、最高尚的。你沉浸在一种“悲剧主角”的剧本里无法自拔。</div><div class=\"result-desc\"><b>【精神操控】受害者绑架（高于70%）：</b>你不会像暴君那样去命令别人，你会用眼泪、用沉默、用自虐来逼迫别人就范。你用“我是弱者”的姿态，榨取着身边人的情绪价值，让每一个靠近你的人都感到窒息。</div><div class=\"result-desc\"><b>【情感剥夺】低级阈值（低于30%）：</b>你依然具有强烈的共情能力，你会因为别人的痛苦而痛苦。这也正是你拉扯和痛苦的根源：你无法像真正的反社会人格那样彻底冷酷，你永远在爱与恨的边缘被撕裂。</div><div class=\"result-section-title\">暗影整合与觉醒指令</div><div class=\"result-desc\">你的卡点在于，你把自己的<span class=\"highlight\">攻击性全部倒转向了内部</span>。你必须停止玩“受害者”的游戏。承认你的嫉妒，承认你的虚荣，承认你也想赢！这没什么大不了的。当你不再用“牺牲”去绑架别人，而是光明正大地把你的野心和攻击性释放在事业或者竞争中时，你的阴暗面就会转化成一种极其强大的、不达目的誓不罢休的生命核动力。去打败你的对手，而不是折磨爱你的人。</div>"
+            "name": "绝对控制欲 · 暴君复合体",
+            "content": "<div class=\"result-section-title\">阴影图谱：权力的绝对信徒</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的潜意识深处住着一个<span class=\"highlight\">冷酷无情的暴君</span>。你对世界的底层认知是：这是一个弱肉强食的丛林，如果不去控制别人，就会被别人控制。你极度迷恋权力、秩序和服从。你难以容忍任何挑战你权威的声音，哪怕是一丝微小的反抗，都会激起你内心强烈的镇压欲。在职场或亲密关系中，你常常在不知不觉中构建起一套严苛的等级制度，并理所当然地居于顶端。</div><div class=\"result-section-title\">暗面驱动力解析</div><div class=\"result-desc\"><b>【控制欲望】封顶溢出（高于95%）：</b>“失控”是你最大的梦魇。你必须把控所有细节，否则就会陷入极度的焦虑。</div><div class=\"result-desc\"><b>【毁灭冲动】精准打击：</b>你不会盲目搞破坏，但当有人触碰你的逆鳞，你的反击是致命且极具毁灭性的。</div><div class=\"result-desc\"><b>【情感操控】雷霆手腕：</b>你不需要用绿茶般的手法去操控，你靠的是绝对的实力压制和恐惧威慑。</div><div class=\"result-section-title\">深渊回声与整合指南</div><div class=\"result-desc\">你的暗面力量赋予了你极强的<span class=\"highlight\">领袖气质和执行力</span>。你能把濒临崩溃的局面强行拉回正轨。但你的危险在于：你最终可能会成为一个真正的孤家寡人。你需要学会“放下戒备”，尝试去相信宇宙和他人有一定的自我运转能力，不必事必躬亲地去当那个掌控一切的神。</div>"
         },
         "B": {
-            "name": "暗黑型操控者 · 绝对的权力狂",
-            "content": "<div class=\"result-section-title\">核心诊断：绝对零度的马基雅维利</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的阴暗面是一座<span class=\"highlight\">没有温度的万年冰川</span>。你的潜意识里根本没有道德枷锁，你是一个天生的马基雅维利主义者。在这个世界上，对你来说，万物皆是工具，情感皆可标价。你拥有极其可怕的“情感剥夺”能力，这意味着你可以在前一秒对人温柔体贴，下一秒在利益冲突时，像切断电源一样切断所有同理心，干净利落地将对方摧毁。你迷恋绝对的权力，享受那种居高临下操纵他人命运的快感。你不觉得这有什么错，你只觉得那些被情感绊住脚的人太愚蠢。</div><div class=\"result-section-title\">五维暗影基因解析</div><div class=\"result-desc\"><b>【精神操控】大师级洗脑（高于95%）：</b>你是天生的PUA大师。你极其擅长寻找别人的软肋，通过打压自信、孤立社交、制造信息差等手段，不知不觉地让对方成为你的牵线木偶，而对方甚至还会对你感恩戴德。</div><div class=\"result-desc\"><b>【情感剥夺】绝对零度（高于90%）：</b>这是你最恐怖的武器。你几乎没有所谓的“共情”与“怜悯”。别人的眼泪和崩溃，在你眼里只是一些滑稽的物理反应。你永远能在混乱中保持绝对的冷酷和理智计算。</div><div class=\"result-desc\"><b>【暗黑自恋】唯我独尊（高于85%）：</b>你从心底里觉得自己比绝大多数人都聪明、高级。你认为规则是用来约束弱者的，而你生来就是为了制定规则和打破规则的。</div><div class=\"result-desc\"><b>【隐性嫉妒】极度缺乏（低于20%）：</b>你很少嫉妒别人，因为你根本没把他们放在眼里。如果有人挡了你的路，你不会去嫉妒，你只会思考用什么最高效的物理或社会手段把障碍清除。</div><div class=\"result-desc\"><b>【自毁倾向】绝缘体（低于15%）：</b>你极其爱惜自己的羽毛和利益。你绝不会为了惩罚别人而伤害自己。在任何极端情况下，你都会做出对自己最有利、哪怕极其残忍的保底决策。</div><div class=\"result-section-title\">暗影整合与觉醒指令</div><div class=\"result-desc\">你并没有被内耗困扰，但你的卡点在于<span class=\"highlight\">极度缺乏真实的生命体验</span>。你把生活变成了一局只有输赢的国际象棋，虽然你总是赢，但你的灵魂正在极度枯萎。长期下去，你会陷入一种巨大的、无法填补的虚无感。你需要尝试在极少数绝对安全的关系里，稍微卸下你那层坚不可摧的“冷酷装甲”。去体验一次不带任何目的性的失控，去允许别人看到你无能为力的一面。只有当你找回那一点点“人的弱点”，你才不至于被高处不胜寒的冰冷彻底冻死。</div>"
+            "name": "虚无主义 · 深渊凝视者",
+            "content": "<div class=\"result-section-title\">阴影图谱：绝对冰冷的观测者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的潜意识深处是一片<span class=\"highlight\">极其荒凉的极夜之海</span>。你早已看透了人类社会那些虚伪的道德、可笑的野心和廉价的情感。你患有深度的“存在主义虚无综合征”。对你来说，万物皆空，宇宙只是一场没有意义的盲目运动。你的阴影不是去伤害别人，而是带着一种极度冰冷、甚至有些傲慢的悲悯，看着所有人像工蚁一样为了那些幻象而奔波。</div><div class=\"result-section-title\">暗面驱动力解析</div><div class=\"result-desc\"><b>【虚无倾向】黑洞级别（高于95%）：</b>你随时可以消解一切意义。爱情？不过是多巴胺。事业？不过是资本的齿轮。</div><div class=\"result-desc\"><b>【控制欲望】极度淡漠（低于15%）：</b>你懒得去控制任何人，因为你觉得他们根本不值得你费心。</div><div class=\"result-desc\"><b>【毁灭冲动】冷眼旁观：</b>你不会主动毁灭世界，但如果世界明天就要毁灭，你可能连眼皮都不会抬一下。</div><div class=\"result-section-title\">深渊回声与整合指南</div><div class=\"result-desc\">你的暗面力量赋予了你<span class=\"highlight\">极度清醒的头脑和抗压能力</span>，因为在你的价值观里，最坏的结果也不过是虚无。但你的危险在于：你会陷入深度的抑郁和生机剥夺。去尝试建立一些微小的、具体的“连接”。哪怕是养一盆植物，或者喝一杯极好的咖啡。不要试图去寻找宏大的意义，去拥抱那些具体的、当下的真实触感。</div>"
+        },
+        "C": {
+            "name": "完美执念 · 审判官原型",
+            "content": "<div class=\"result-section-title\">阴影图谱：容不得沙子的神明</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的潜意识深处是一个<span class=\"highlight\">手持天平、冷酷无情的异端审判官</span>。你对这个世界的“肮脏、愚蠢和不完美”有着极度的生理性厌恶。你的阴影不是混乱，而是极其恐怖的绝对秩序。一旦有任何人（包括你自己）达不到你心中那个极度严苛、近乎变态的完美标准，你的内心就会涌起一种将其“彻底抹杀”或“打入地狱”的审判冲动。你常常因为别人的愚蠢而感到暴怒。</div><div class=\"result-section-title\">暗面驱动力解析</div><div class=\"result-desc\"><b>【秩序审判】绝对洁癖（高于95%）：</b>你的精神洁癖达到了令人发指的地步。一点点瑕疵就会毁掉你的整个世界。</div><div class=\"result-desc\"><b>【毁灭冲动】净化式抹杀：</b>你的毁灭不是为了发泄，而是为了“清理系统”，为了恢复完美的洁净。</div><div class=\"result-desc\"><b>【控制欲望】强迫症级别（高于85%）：</b>你试图通过控制每一个细节来维持运转的完美无瑕。</div><div class=\"result-section-title\">深渊回声与整合指南</div><div class=\"result-desc\">你的暗面力量赋予了你<span class=\"highlight\">近乎变态的专业素养和极致的品味</span>。你是能够创造出传世神作或者建立顶级系统的天才。但你的危险在于：这种审判之剑最终会反噬你自己，让你陷入极度的内耗和社交绝缘。你需要学习容忍“灰度”，明白宇宙的本质正是熵增与混乱，绝对的完美只存在于死亡之中。</div>"
+        },
+        "D": {
+            "name": "情感剥削 · 魅魔人格",
+            "content": "<div class=\"result-section-title\">阴影图谱：操纵人心的暗夜舞者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的潜意识深处住着一个<span class=\"highlight\">极其高智商的情感吸血鬼</span>。你拥有极其敏锐的共情能力，但你用它不是为了爱，而是为了“捕猎”。你能够瞬间洞察别人的软肋、恐惧和渴望。你会通过极具欺骗性的示弱、恰到好处的赞美、以及高超的煤气灯效应（Gaslighting），让别人一步步陷入对你的绝对依赖。当你看到别人为了你而疯狂、为你抛弃底线时，你会获得极大的成就感。</div><div class=\"result-section-title\">暗面驱动力解析</div><div class=\"result-desc\"><b>【情感操控】登峰造极（高于95%）：</b>你是人际博弈中的王者。你不需要暴力，就能让别人自愿把灵魂交给你。</div><div class=\"result-desc\"><b>【控制欲望】心理植入（高于85%）：</b>你追求的不是身体或行为的控制，而是深度的精神洗脑和绝对的服从。</div><div class=\"result-desc\"><b>【毁灭冲动】折磨游戏：</b>你喜欢慢慢地玩弄猎物，而不是一击毙命。</div><div class=\"result-section-title\">深渊回声与整合指南</div><div class=\"result-desc\">你的暗面力量赋予了你<span class=\"highlight\">恐怖的洞察力和顶级的社交手腕</span>。如果放在商业谈判、公关危机或心理学领域，你是绝对的大师。但你的危险在于：你会逐渐丧失真正“爱人”的能力，最终在不断更换的情感猎物中感到极致的空虚。你需要把这种洞察力转化为真正的疗愈，或者用于建立双赢的商业联盟，而不是单向的剥削。</div>"
+        },
+        "E": {
+            "name": "毁灭冲动 · 混乱制造者",
+            "content": "<div class=\"result-section-title\">阴影图谱：凝视深渊的纵火犯</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的潜意识深处蛰伏着一只<span class=\"highlight\">追求极致混乱的狂暴野兽</span>。当生活过于平静、一切都井井有条时，你的内心就会感到一种极度压抑的焦躁感。你潜意识里有一种“想把一切美好的事物砸碎听响”的冲动。你喜欢看高塔倒塌、喜欢看体面人出丑、喜欢制造不可挽回的戏剧性冲突。对你来说，混乱不是灾难，混乱是一阶梯，混乱是生命力最真实的展现。</div><div class=\"result-section-title\">暗面驱动力解析</div><div class=\"result-desc\"><b>【毁灭冲动】火山级别（高于95%）：</b>你体内有一股极其庞大的破坏性能量，如果找不到出口，就会自我反噬。</div><div class=\"result-desc\"><b>【虚无倾向】疯狂小丑：</b>你不像B型那样冷漠，你是“既然世界没有意义，那不如我们一起狂欢走向毁灭”。</div><div class=\"result-desc\"><b>【秩序审判】彻底颠覆（极低）：</b>你极度厌恶陈规陋习、道德束缚和那些虚伪的条条框框。</div><div class=\"result-section-title\">深渊回声与整合指南</div><div class=\"result-desc\">你的暗面力量赋予了你<span class=\"highlight\">打破一切陈旧规则的破冰能力和革命者潜质</span>。你是那种能在绝境中通过破釜沉舟找到生路的人。但你的危险在于：你会像一颗不定时炸弹，把身边最亲近的人和自己好不容易建立的基业炸得粉碎。你需要将这种破坏欲升华，去从事一些具有极高挑战性、需要不断颠覆重组的工作，比如极限运动、前卫艺术或颠覆式创业。</div>"
         }
     }
 }

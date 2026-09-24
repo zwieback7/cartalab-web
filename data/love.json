@@ -3,9 +3,9 @@
         "title": "亲密关系防御机制",
         "subtitle": "拆解你在爱里潜意识的恐惧与控制策略",
         "themeColor": "#8C4A5B",
-        "upsellText": "解锁《深层依恋创伤修复指南》",
+        "upsellText": "解锁《深层依恋创伤修复与破局指南》",
         "quote": "你推开的，往往是你最渴望的",
-        "footerCta": "携带此档案编号，返回解锁《亲密关系深层防御卸载指南》"
+        "footerCta": "携带此档案编号，返回解锁《亲密关系深层防御卸载高级指南》"
     },
     "axes": [
         { "id": "trust", "label": "信任门槛" },
@@ -16,74 +16,68 @@
     ],
     "questions": [
         { "q": "当伴侣突然变得极其热情，开始疯狂表达爱意时，你内心的真实感受是：", "options": [
-            { "text": "本能地感到窒息和警惕，甚至想立刻找借口独处一会儿", "types": { "A": 1 }, "scores": { "trust": 2, "control": 8, "merge": 1, "sacrifice": 2, "drama": 3 } },
-            { "text": "感到一种被填满的安全感，并用同等甚至更强烈的热情回应", "types": { "B": 1 }, "scores": { "trust": 8, "control": 2, "merge": 10, "sacrifice": 8, "drama": 8 } }
+            { "text": "本能地感到窒息和警惕，甚至想立刻找借口独处一会儿", "types": { "A": 3, "C": 1 }, "scores": { "trust": 2, "control": 8, "merge": 1, "sacrifice": 2, "drama": 3 } },
+            { "text": "感到一种被填满的安全感，并用同等的热情疯狂回应", "types": { "B": 3, "E": 1 }, "scores": { "trust": 8, "control": 2, "merge": 10, "sacrifice": 8, "drama": 8 } },
+            { "text": "一半开心一半恐慌，害怕这只是短暂的幻觉，随时会失去", "types": { "C": 3, "B": 1 }, "scores": { "trust": 2, "control": 3, "merge": 8, "sacrifice": 6, "drama": 9 } },
+            { "text": "欣然接受并开心回应，但不觉得这是什么特别了不起的事", "types": { "D": 3 }, "scores": { "trust": 9, "control": 8, "merge": 6, "sacrifice": 5, "drama": 2 } }
         ]},
         { "q": "如果对方已经有三个小时没有回复你的消息，你会：", "options": [
-            { "text": "完全不在意，甚至有点享受这段不被打扰的时光", "types": { "A": 1 }, "scores": { "trust": 7, "control": 9, "merge": 2, "sacrifice": 3, "drama": 2 } },
-            { "text": "开始在脑海中上演各种灾难大片，频繁查看手机，情绪逐渐崩溃", "types": { "B": 1 }, "scores": { "trust": 2, "control": 1, "merge": 9, "sacrifice": 8, "drama": 10 } }
+            { "text": "完全不在意，甚至有点享受这段不被打扰的时光", "types": { "A": 3, "D": 2 }, "scores": { "trust": 7, "control": 9, "merge": 2, "sacrifice": 3, "drama": 2 } },
+            { "text": "开始在脑海中上演灾难大片，频繁查看手机，情绪逐渐崩溃", "types": { "B": 3 }, "scores": { "trust": 2, "control": 1, "merge": 9, "sacrifice": 8, "drama": 10 } },
+            { "text": "心里很不爽，决定等Ta回复以后，我也故意晾Ta三个小时", "types": { "E": 3, "C": 2 }, "scores": { "trust": 3, "control": 5, "merge": 4, "sacrifice": 4, "drama": 9 } },
+            { "text": "直接打个电话过去问怎么了，如果不接就自己去忙别的了", "types": { "D": 3 }, "scores": { "trust": 9, "control": 8, "merge": 5, "sacrifice": 5, "drama": 1 } }
         ]},
         { "q": "在关系发生严重争吵，且双方情绪都达到沸点时，你最常用的终极策略是：", "options": [
-            { "text": "物理消失或者绝对沉默，把自己封闭起来，切断一切沟通渠道", "types": { "A": 1 }, "scores": { "trust": 3, "control": 8, "merge": 1, "sacrifice": 2, "drama": 4 } },
-            { "text": "声嘶力竭地逼迫对方当下立刻解决，绝不允许对方以沉默逃避", "types": { "B": 1 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 7, "drama": 10 } }
-        ]},
-        { "q": "你如何看待伴侣查看你的手机或个人物品？", "options": [
-            { "text": "这是对我人格绝对的侵犯，一旦发生，信任感直接降为负数", "types": { "A": 1 }, "scores": { "trust": 1, "control": 7, "merge": 1, "sacrifice": 2, "drama": 5 } },
-            { "text": "如果这能给Ta安全感，我不介意，因为我也想看Ta的", "types": { "B": 1 }, "scores": { "trust": 8, "control": 4, "merge": 9, "sacrifice": 7, "drama": 8 } }
+            { "text": "物理消失或者绝对沉默，切断一切沟通渠道", "types": { "A": 3 }, "scores": { "trust": 3, "control": 8, "merge": 1, "sacrifice": 2, "drama": 4 } },
+            { "text": "声嘶力竭地逼迫对方立刻解决，绝不允许对方逃避", "types": { "B": 3 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 7, "drama": 10 } },
+            { "text": "说出极其恶毒、伤人的话，甚至主动提分手来测试对方", "types": { "C": 3, "E": 2 }, "scores": { "trust": 1, "control": 1, "merge": 8, "sacrifice": 4, "drama": 10 } },
+            { "text": "要求大家先冷静30分钟，然后再坐下来就事论事地谈", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 5, "sacrifice": 6, "drama": 1 } }
         ]},
         { "q": "当你在关系中感到极度受伤时，你最常浮现的潜台词是：", "options": [
-            { "text": "“果然，除了我自己，没有任何人是靠得住的，我不需要这段关系。”", "types": { "A": 1 }, "scores": { "trust": 1, "control": 9, "merge": 1, "sacrifice": 3, "drama": 3 } },
-            { "text": "“我为你付出了那么多，你凭什么这样对我？你是不是根本不爱我？”", "types": { "B": 1 }, "scores": { "trust": 2, "control": 2, "merge": 9, "sacrifice": 10, "drama": 9 } }
-        ]},
-        { "q": "关于“独立空间”，你在这段关系里的底线是：", "options": [
-            { "text": "我必须拥有不被打扰的物理和精神洞穴，这比爱情本身更重要", "types": { "A": 1 }, "scores": { "trust": 4, "control": 8, "merge": 1, "sacrifice": 2, "drama": 2 } },
-            { "text": "两个人既然在一起了，就应该像连体婴一样，不需要太多秘密空间", "types": { "B": 1 }, "scores": { "trust": 7, "control": 2, "merge": 10, "sacrifice": 8, "drama": 8 } }
-        ]},
-        { "q": "如果伴侣因为工作原因，需要去外地出差三个月：", "options": [
-            { "text": "觉得挺好的，刚好可以重新找回久违的单身自由感", "types": { "A": 1 }, "scores": { "trust": 8, "control": 9, "merge": 2, "sacrifice": 3, "drama": 2 } },
-            { "text": "感到一种即将被抛弃的恐慌，甚至会试图用各种理由阻止对方去", "types": { "B": 1 }, "scores": { "trust": 2, "control": 3, "merge": 9, "sacrifice": 7, "drama": 9 } }
-        ]},
-        { "q": "在表达自己的脆弱或需求时，你通常：", "options": [
-            { "text": "极度困难，话到嘴边又咽回去，觉得示弱是一种耻辱和把柄", "types": { "A": 1 }, "scores": { "trust": 1, "control": 9, "merge": 2, "sacrifice": 2, "drama": 3 } },
-            { "text": "会用一种带有指责或情绪化的方式表达出来，希望对方能立刻接住我", "types": { "B": 1 }, "scores": { "trust": 4, "control": 1, "merge": 9, "sacrifice": 8, "drama": 9 } }
+            { "text": "“果然，除了我自己，没有任何人是靠得住的，我不需要爱。”", "types": { "A": 3, "C": 1 }, "scores": { "trust": 1, "control": 9, "merge": 1, "sacrifice": 3, "drama": 3 } },
+            { "text": "“我为你付出了那么多，你凭什么这样对我？你根本不爱我！”", "types": { "B": 3 }, "scores": { "trust": 2, "control": 2, "merge": 9, "sacrifice": 10, "drama": 9 } },
+            { "text": "“我就知道会这样，我不配拥有幸福，一切都被我毁了。”", "types": { "C": 3 }, "scores": { "trust": 1, "control": 1, "merge": 7, "sacrifice": 5, "drama": 9 } },
+            { "text": "“这种互相伤害没有意义，我们需要调整相处模式或者分开。”", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 4, "sacrifice": 5, "drama": 1 } }
         ]},
         { "q": "一段平平淡淡、没有任何波澜的长期关系，会让你觉得：", "options": [
-            { "text": "非常舒适，我就喜欢这种如同室友般可控、不消耗能量的相处模式", "types": { "A": 1 }, "scores": { "trust": 7, "control": 9, "merge": 3, "sacrifice": 4, "drama": 1 } },
-            { "text": "有些不安，觉得爱情是不是已经消失了，甚至会主动制造一些小摩擦来验证", "types": { "B": 1 }, "scores": { "trust": 3, "control": 3, "merge": 8, "sacrifice": 7, "drama": 10 } }
-        ]},
-        { "q": "你如何看待“在关系中为对方改变自己”？", "options": [
-            { "text": "绝不妥协我的核心边界，如果必须改变才能在一起，那宁可分开", "types": { "A": 1 }, "scores": { "trust": 3, "control": 8, "merge": 2, "sacrifice": 1, "drama": 4 } },
-            { "text": "只要能维系这段感情，哪怕把我重塑成另外一个人，我也愿意", "types": { "B": 1 }, "scores": { "trust": 7, "control": 2, "merge": 9, "sacrifice": 10, "drama": 8 } }
+            { "text": "非常舒适，我就喜欢这种如同室友般可控、不消耗能量的模式", "types": { "A": 3 }, "scores": { "trust": 7, "control": 9, "merge": 3, "sacrifice": 4, "drama": 1 } },
+            { "text": "充满不安，觉得爱情已经消失了，甚至会主动制造小摩擦来验证", "types": { "B": 3, "C": 1 }, "scores": { "trust": 3, "control": 3, "merge": 8, "sacrifice": 7, "drama": 10 } },
+            { "text": "极其无聊，我会迅速失去新鲜感，想要去寻找新的刺激和暧昧", "types": { "E": 3 }, "scores": { "trust": 5, "control": 7, "merge": 2, "sacrifice": 1, "drama": 9 } },
+            { "text": "这才是生活真实的底色，平淡中蕴含着最深厚的信任和羁绊", "types": { "D": 3 }, "scores": { "trust": 10, "control": 9, "merge": 7, "sacrifice": 7, "drama": 1 } }
         ]},
         { "q": "当一段感情走到尽头，你通常的离开方式是：", "options": [
-            { "text": "极度冷酷地抽身，可能在心里早就演练了无数遍，表面看似毫无波澜", "types": { "A": 1 }, "scores": { "trust": 4, "control": 10, "merge": 1, "sacrifice": 3, "drama": 2 } },
-            { "text": "反复拉扯，经历极其痛苦的戒断反应，甚至做出一些歇斯底里的挽留", "types": { "B": 1 }, "scores": { "trust": 2, "control": 1, "merge": 8, "sacrifice": 9, "drama": 10 } }
-        ]},
-        { "q": "当你对伴侣的某个行为感到不舒服时，你会：", "options": [
-            { "text": "默默记在心里扣分，等分数扣完，就会突然宣布死刑，毫无商量余地", "types": { "A": 1 }, "scores": { "trust": 2, "control": 9, "merge": 2, "sacrifice": 3, "drama": 3 } },
-            { "text": "立刻发作，通过情绪施压或哭闹，要求对方马上给出保证和补偿", "types": { "B": 1 }, "scores": { "trust": 3, "control": 2, "merge": 8, "sacrifice": 6, "drama": 9 } }
-        ]},
-        { "q": "关于“掌控感”，你在关系中最害怕的是：", "options": [
-            { "text": "失去对自己的掌控，变得像个患得患失的疯子，这是我绝对不允许的", "types": { "A": 1 }, "scores": { "trust": 2, "control": 10, "merge": 1, "sacrifice": 2, "drama": 2 } },
-            { "text": "失去对伴侣的掌控，害怕Ta随时会被别人抢走或者不再关注我", "types": { "B": 1 }, "scores": { "trust": 1, "control": 1, "merge": 10, "sacrifice": 9, "drama": 9 } }
+            { "text": "极度冷酷地抽身，在心里早就演练了无数遍，表面毫无波澜", "types": { "A": 3 }, "scores": { "trust": 4, "control": 10, "merge": 1, "sacrifice": 3, "drama": 2 } },
+            { "text": "反复拉扯，经历极其痛苦的戒断反应，甚至做出歇斯底里的挽留", "types": { "B": 3, "C": 1 }, "scores": { "trust": 2, "control": 1, "merge": 8, "sacrifice": 9, "drama": 10 } },
+            { "text": "必须由我来做那个“坏人”甩掉对方，这样我就有了控制感", "types": { "E": 3 }, "scores": { "trust": 4, "control": 8, "merge": 2, "sacrifice": 2, "drama": 8 } },
+            { "text": "好好说再见，即使难过也会接受现实，祝对方未来安好", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 4, "sacrifice": 5, "drama": 1 } }
         ]},
         { "q": "如果用一种动物来形容你在爱情中的防御姿态，是：", "options": [
-            { "text": "一只躲在坚硬壳里的蜗牛，稍有风吹草动，就彻底缩回去锁死", "types": { "A": 1 }, "scores": { "trust": 1, "control": 8, "merge": 2, "sacrifice": 2, "drama": 3 } },
-            { "text": "一条紧紧缠绕树木的藤蔓，越没有安全感，就缠得越紧，直到双方窒息", "types": { "B": 1 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 8, "drama": 9 } }
-        ]},
-        { "q": "你潜意识里觉得，“真爱”的本质是：", "options": [
-            { "text": "在保持各自绝对独立的前提下，进行的某种克制且互利的能量交换", "types": { "A": 1 }, "scores": { "trust": 5, "control": 9, "merge": 1, "sacrifice": 2, "drama": 1 } },
-            { "text": "你中有我、我中有你的粉身碎骨，如果没有这种极致的浓烈，就不算爱过", "types": { "B": 1 }, "scores": { "trust": 3, "control": 1, "merge": 10, "sacrifice": 10, "drama": 10 } }
+            { "text": "躲在壳里的蜗牛，稍有风吹草动，就彻底缩回去锁死", "types": { "A": 3 }, "scores": { "trust": 1, "control": 8, "merge": 2, "sacrifice": 2, "drama": 3 } },
+            { "text": "紧紧缠绕的藤蔓，越没有安全感，就缠得越紧，直到双方窒息", "types": { "B": 3 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 8, "drama": 9 } },
+            { "text": "浑身带刺的刺猬，渴望拥抱，但一旦别人靠近又会把别人扎伤", "types": { "C": 3 }, "scores": { "trust": 1, "control": 1, "merge": 7, "sacrifice": 5, "drama": 10 } },
+            { "text": "羽毛绚丽的孔雀，总是展示最完美的一面，但绝不付出真心", "types": { "E": 3 }, "scores": { "trust": 4, "control": 8, "merge": 3, "sacrifice": 1, "drama": 9 } }
         ]}
     ],
     "results": {
         "A": {
             "name": "回避型壁垒 · 孤岛防线",
-            "content": "<div class=\"result-section-title\">核心诊断：极度冷酷的自我防御者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂深处矗立着一座高不可攀的<span class=\"highlight\">防御壁垒</span>。在亲密关系中，你极度害怕“失控”与“被吞噬”。你看起来独立、清醒、甚至有些冷酷，但实际上，这只是你掩饰内心恐惧的坚硬外壳。一旦关系进入深水区，一旦对方试图打破你的边界，或者向你索取更深层的情感共鸣，你的“逃生机制”就会瞬间激活。你会本能地推开那个最爱你的人，用沉默、冷暴力或者突然的抽离，来重建你那可怜的安全感。你不是不渴望爱，你只是认定“所有靠近我的人，最终都会伤害我或者拖累我”。</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【边界融合】绝对抗拒（低于20%）：</b>你视“私人空间”如命。你极度反感伴侣试图查岗或者要求你汇报行踪。在你的世界里，即使是最亲密的人，也必须跨过一道清晰的楚河汉界，你永远要给自己留一条退路。</div><div class=\"result-desc\"><b>【情绪掌控】冰川级压抑（高于90%）：</b>你极度厌恶歇斯底里，你认为流露脆弱和情绪化是极其软弱的表现。当发生冲突时，你最擅长的是“切断电源”，用一种高高在上的冷漠，看着对方崩溃，这其实是你最残忍的防御。</div><div class=\"result-desc\"><b>【信任门槛】地狱级难度（低于15%）：</b>你潜意识里根本不相信有无条件的爱。你在关系中永远在默默地给对方“扣分”，并且从不把扣分原因说出来。一旦分数扣光，你会直接宣布死刑，这让伴侣觉得你冷血至极。</div><div class=\"result-desc\"><b>【自我牺牲】精致利己（低于25%）：</b>你几乎不会在关系中为了对方而牺牲自己的核心利益或生活方式。如果一份爱需要你委曲求全，你会毫不犹豫地选择丢弃它，你永远把自己排在第一位。</div><div class=\"result-desc\"><b>【戏剧张力】极度真空（低于20%）：</b>你讨厌任何琼瑶式的抓马剧情。你理想的恋爱模式更像是一场“合伙人协议”，平静、高效、互不打扰。过度的热情和浓烈会让你感到严重的生理不适。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你的卡点在于，你正在用<span class=\"highlight\">“看似安全”的孤独，扼杀自己体验真实生命的权利</span>。你一直以为推开别人是在保护自己，其实你只是在把自己关进一座没有空气的孤岛。下一次，当你想逃跑、想冷战、想推开对方的时候，试着强迫自己留在原地。看着对方的眼睛，说出那句你永远不敢说的话：“我现在有些害怕，我不知道该怎么处理这种感觉，你能抱抱我吗？”只要你敢裂开一道缝隙，光才能照进你冰封的潜意识。</div>"
+            "content": "<div class=\"result-section-title\">核心诊断：极度冷酷的自我防御者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂深处矗立着一座高不可攀的<span class=\"highlight\">防御壁垒</span>。在亲密关系中，你极度害怕“失控”与“被吞噬”。你看起来独立、清醒、甚至有些冷酷，但这只是你掩饰内心恐惧的外壳。一旦对方试图打破你的边界，或者向你索取更深的情感共鸣，你的“逃生机制”就会激活。你会本能地推开最爱你的人，用沉默、冷暴力或者突然的抽离，来重建可怜的安全感。你不是不渴望爱，你只是认定“所有靠近我的人，最终都会伤害我或拖累我”。</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【边界融合】绝对抗拒（低于20%）：</b>你视“私人空间”如命。即使是最亲密的人，也必须跨过一道楚河汉界。</div><div class=\"result-desc\"><b>【情绪掌控】冰川级压抑（高于90%）：</b>你极度厌恶歇斯底里，当发生冲突时，你最擅长的是“切断电源”。</div><div class=\"result-desc\"><b>【信任门槛】地狱级难度（低于15%）：</b>你潜意识里不相信有无条件的爱，你永远在默默地给对方“扣分”。</div><div class=\"result-desc\"><b>【自我牺牲】精致利己（低于25%）：</b>如果一份爱需要你委曲求全，你会毫不犹豫地选择丢弃它。</div><div class=\"result-desc\"><b>【戏剧张力】极度真空（低于20%）：</b>你理想的恋爱模式像是一场“合伙人协议”，平静、高效、互不打扰。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你的卡点在于，你正在用<span class=\"highlight\">“看似安全”的孤独，扼杀自己体验真实生命的权利</span>。下一次，当你想逃跑、想冷战时，试着强迫自己留在原地。看着对方的眼睛，说出：“我现在有些害怕，你能抱抱我吗？”只要你敢裂开一道缝隙，光才能照进你冰封的潜意识。</div>"
         },
         "B": {
             "name": "焦灼型藤蔓 · 镜像共生",
-            "content": "<div class=\"result-section-title\">核心诊断：极度缺爱的索取者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>在亲密关系中，像是一条极其渴望依附的<span class=\"highlight\">吸血藤蔓</span>。你的潜意识深处有一个巨大的黑洞，你需要伴侣用200%的高浓度关注、随时随地的秒回、以及近乎窒息的融合感来填满它。你极度缺乏安全感，任何微小的冷淡或距离，都会在你的脑海中被放大成“他要抛弃我了”的灾难。为了避免被抛弃，你可以毫无底线地牺牲自我，或者用极具戏剧性的情绪爆发来“绑架”对方。你以为这是深爱，但这其实是一场打着爱的幌子的疯狂控制。</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【边界融合】病态共生（高于95%）：</b>你根本没有“边界”的概念。你觉得既然相爱，就不应该有任何秘密和隐私。你试图钻进对方的每一个毛孔，你想掌控他的行踪、他的圈子甚至他的思想，你的爱极度让人窒息。</div><div class=\"result-desc\"><b>【情绪掌控】彻底失控（低于10%）：</b>你是情绪的绝对奴隶。一旦触发了“被抛弃”的开关，你的理智会瞬间归零。你可以做出疯狂查手机、夺命连环call、甚至用伤害自己来威胁对方的极端行为，事后又陷入极度自责。</div><div class=\"result-desc\"><b>【自我牺牲】献祭式付出（高于90%）：</b>你常常在关系中感动自己，为了伴侣你可以放弃事业、放弃朋友、甚至重塑性格。但这种“无私”背后，藏着最恐怖的索取条件：“我都为你这样了，你怎么可以离开我？”</div><div class=\"result-desc\"><b>【戏剧张力】琼瑶式成瘾（高于85%）：</b>你潜意识里觉得，平平淡淡的感情就是不爱了。你甚至会下意识地制造冲突、制造猜忌，然后通过“激烈争吵-痛哭流涕-疯狂和好”的抓马循环，来反复验证对方对你的爱。</div><div class=\"result-desc\"><b>【信任门槛】脆弱如纸（波动极不稳）：</b>你前一秒可以对伴侣深信不疑，下一秒因为他晚回了三分钟信息，你就觉得他在背叛你。你的信任不需要证据来摧毁，只需要你自己的脑补就能全线崩塌。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你的卡点在于，你把<span class=\"highlight\">伴侣当成了填补你内在虚空的止痛药</span>。但没有人能承受另一个灵魂的全部重量，你的“窒息之爱”最终只会逼退所有人。你现在的必修课，是学会将注意力从“他爱不爱我”转移到“我爱不爱自己”。当你感到焦虑要爆发时，立刻把手机锁进抽屉，强迫自己去跑个步或者看场电影。记住，健康的爱，是两个独立且完整的圆产生交集，而不是你硬生生地把自己塞进对方的圆里。你要成为树，而不是藤蔓。</div>"
+            "content": "<div class=\"result-section-title\">核心诊断：极度缺爱的索取者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>在亲密关系中，像是一条极其渴望依附的<span class=\"highlight\">吸血藤蔓</span>。你的潜意识深处有一个巨大的黑洞，你需要伴侣用200%的高浓度关注、随时随地的秒回、以及近乎窒息的融合感来填满它。你极度缺乏安全感，任何微小的冷淡，都会被放大成“他要抛弃我”的灾难。为了避免被抛弃，你可以毫无底线地牺牲自我，或者用戏剧性的情绪爆发来“绑架”对方。你以为这是深爱，但这其实是一场打着爱的幌子的疯狂控制。</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【边界融合】病态共生（高于95%）：</b>你没有“边界”的概念。你试图钻进对方的每一个毛孔，爱得让人窒息。</div><div class=\"result-desc\"><b>【情绪掌控】彻底失控（低于10%）：</b>一旦触发了“被抛弃”的开关，你的理智会瞬间归零，做出疯狂举动。</div><div class=\"result-desc\"><b>【自我牺牲】献祭式付出（高于90%）：</b>你常常感动自己，但背后藏着最恐怖的索取条件：“你凭什么离开我？”</div><div class=\"result-desc\"><b>【戏剧张力】琼瑶式成瘾（高于85%）：</b>你觉得平淡就是不爱了，甚至会主动制造争吵来验证对方的爱。</div><div class=\"result-desc\"><b>【信任门槛】脆弱如纸：</b>你的信任不需要证据来摧毁，只需要你自己的脑补就能全线崩塌。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你的卡点在于，你把<span class=\"highlight\">伴侣当成了填补你内在虚空的止痛药</span>。没有人能承受另一个灵魂的全部重量。当你焦虑要爆发时，立刻把手机锁起来，强迫自己去跑步。记住，你要成为独立的树，而不是缠绕的藤蔓。</div>"
+        },
+        "C": {
+            "name": "迷宫型沼泽 · 恐惧回避复合体",
+            "content": "<div class=\"result-section-title\">核心诊断：冰与火的撕裂者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是亲密关系中最让人心碎、也最让人崩溃的<span class=\"highlight\">恐惧型依恋</span>。你同时拥有“焦灼”与“回避”两种极端特质。你像一只浑身带刺的刺猬，极度渴望被拥抱，但当别人真的靠近时，你又会因为极度的恐惧而疯狂扎伤对方。你的内心戏是：“别靠近我，我会伤害你；别离开我，我会死。”你不断地在关系中上演推拉游戏，直到把对方的耐心耗尽，然后你就会在绝望中证明：“看吧，我就知道没有人会真正爱我。”</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【信任门槛】地心级深渊（近乎0%）：</b>你不相信别人，你甚至不相信自己。你觉得所有美好的事物都必然会破碎。</div><div class=\"result-desc\"><b>【情绪掌控】冰火两重天（极度不稳定）：</b>你可以前一秒冷若冰霜，下一秒又歇斯底里地痛哭流涕，让人无法捉摸。</div><div class=\"result-desc\"><b>【戏剧张力】毁灭级内耗（高于95%）：</b>你会在关系中进行惨烈的自残式试探，逼着对方证明无论你怎么作他都不会走。</div><div class=\"result-desc\"><b>【边界融合】混乱不堪：</b>你既想要融合，又害怕被吞噬，你的边界随时在崩溃和重建中反复横跳。</div><div class=\"result-desc\"><b>【自我牺牲】自虐式补偿：</b>你会在伤害对方后陷入极度自责，然后用极端的自我牺牲来求和。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你正在经历<span class=\"highlight\">最惨烈的潜意识内耗</span>。你必须明白，你不需要通过不断的破坏来测试爱的坚固度。去寻找一个内核极其稳定、包容度极高的安全型伴侣，并且在推开对方的时候，勇敢地说出：“对不起，我现在的推开不是因为不爱你，是因为我太害怕了。”</div>"
+        },
+        "D": {
+            "name": "安全型港湾 · 独立同盟",
+            "content": "<div class=\"result-section-title\">核心诊断：内核稳定的完美合伙人</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>拥有现代人最稀缺的<span class=\"highlight\">安全型依恋人格</span>。在爱情里，你既不是卑微的乞讨者，也不是冷酷的防御者。你拥有极其健康的配得感。你深知爱情是生活的一部分，但不是全部。你能在关系中给予对方极大的自由和信任，同时又能提供坚实的依靠。你不害怕暴露脆弱，也不屑于玩心理游戏。你就像是一个温暖且防风的港湾，任何和你在一起的人，都会感到一种久违的踏实和力量感。</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【信任门槛】宽容且坚定（高于85%）：</b>你默认人性向善，给予对方充分的信任，但一旦触碰底线，你会果断离开。</div><div class=\"result-desc\"><b>【情绪掌控】高维稳定（高于90%）：</b>你极少情绪失控，你擅长“非暴力沟通”，能就事论事地解决问题。</div><div class=\"result-desc\"><b>【戏剧张力】绝对绝缘（低于10%）：</b>你极其反感作闹和无意义的猜忌，你认为平平淡淡才是真实的底色。</div><div class=\"result-desc\"><b>【边界融合】弹性连接（约60%）：</b>你们是两个独立相交的圆，有共同的重合部分，也有绝对私人的独立空间。</div><div class=\"result-desc\"><b>【自我牺牲】理性付出（中等）：</b>你会为了爱人付出，但绝不会以牺牲自己核心尊严和底线为前提。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你是最适合走进婚姻的人格。但你的卡点在于，你<span class=\"highlight\">有时显得过于理智和缺乏激情</span>。偶尔放下你那完美的沟通模板，允许自己在对方面前“失控”一次，允许自己展露一点不讲道理的占有欲。这会让你们的关系增添几分令人心跳加速的荷尔蒙。</div>"
+        },
+        "E": {
+            "name": "戏剧型舞台 · 多巴胺狩猎者",
+            "content": "<div class=\"result-section-title\">核心诊断：沉迷暧昧的幻觉玩家</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>对待爱情，就像是在对待一场<span class=\"highlight\">极具刺激感的游戏</span>。你不追求天长地久的稳定，你只追求肾上腺素飙升的瞬间。你拥有极强的魅力和社交手腕，你很享受在一段关系中占据“高位”、让别人为你神魂颠倒的感觉。但是，一旦关系进入平淡期，或者对方完全被你征服，你会瞬间失去兴趣，并转头去寻找下一个猎物。你爱的其实不是任何一个具体的人，你爱的是“那种被爱、被追逐的感觉”。</div><div class=\"result-section-title\">五维防御基因解析</div><div class=\"result-desc\"><b>【戏剧张力】舞台级爆发（高于95%）：</b>你喜欢拉扯、喜欢暧昧、喜欢那种忽明忽暗的刺激感。</div><div class=\"result-desc\"><b>【信任门槛】表面低，内核极高（伪装）：</b>你很容易和人打得火热，但你从未真正把心交出去，别人看到的只是你的面具。</div><div class=\"result-desc\"><b>【自我牺牲】绝对利己（极低）：</b>你很懂得怎么用最小的付出换取最大的情绪回报，你绝不会让自己吃亏。</div><div class=\"result-desc\"><b>【情绪掌控】随心所欲（波动）：</b>你的情绪是可以被你当做武器来使用的，该哭时哭，该走时走，毫不拖泥带水。</div><div class=\"result-desc\"><b>【边界融合】浅尝辄止（低于30%）：</b>你极力避免深度的灵魂羁绊，因为那意味着沉重的责任。</div><div class=\"result-section-title\">破局箴言与卸载指令</div><div class=\"result-desc\">你的卡点在于<span class=\"highlight\">陷入了虚无的多巴胺循环</span>。你不断地更换伴侣，却越来越感到孤独和空虚。因为没有一段深刻的羁绊能真正锚定你的灵魂。你需要停止把爱情当成证明自己魅力的秀场。试着在一段平淡的关系里待久一点，去品尝一下那种没有多巴胺刺激、但却能细水长流的真实人生。</div>"
         }
     }
 }

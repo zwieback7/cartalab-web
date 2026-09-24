@@ -16,74 +16,74 @@
     ],
     "questions": [
         { "q": "清晨推开窗，你最希望第一眼看到的是：", "options": [
-            { "text": "起伏的森林边界或一望无际的静谧湖水，听不到汽车引擎声", "types": { "A": 1 }, "scores": { "nature": 10, "culture": 3, "speed": 2, "social": 8, "chaos": 2 } },
-            { "text": "楼下已经开始运转的咖啡馆，或者错落有致的城市天际线", "types": { "B": 1 }, "scores": { "nature": 2, "culture": 9, "speed": 8, "social": 4, "chaos": 7 } }
+            { "text": "起伏的森林边界或一望无际的静谧湖水，听不到汽车引擎声", "types": { "A": 2, "E": 3 }, "scores": { "nature": 10, "culture": 2, "speed": 1, "social": 9, "chaos": 1 } },
+            { "text": "楼下已经开始运转的咖啡馆，或者错落有致的城市天际线", "types": { "B": 3, "C": 1 }, "scores": { "nature": 2, "culture": 9, "speed": 8, "social": 4, "chaos": 7 } },
+            { "text": "热带沙滩的日出，背着冲浪板准备下海的数字游民", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 6, "speed": 4, "social": 3, "chaos": 6 } },
+            { "text": "高耸入云的金融中心CBD，下面是如工蚁般涌动的早高峰人群", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 4, "speed": 10, "social": 2, "chaos": 3 } }
         ]},
-        { "q": "如果要在以下两种“不完美”的居住环境中二选一，你宁愿：", "options": [
-            { "text": "极其安静但极度不便，买杯咖啡都要开车20分钟，且没有外卖", "types": { "A": 1 }, "scores": { "nature": 8, "culture": 2, "speed": 1, "social": 9, "chaos": 3 } },
-            { "text": "下楼就是繁华商圈，但楼下永远有喧嚣声，空间拥挤且没有绿化", "types": { "B": 1 }, "scores": { "nature": 1, "culture": 8, "speed": 9, "social": 3, "chaos": 8 } }
+        { "q": "如果要在以下“不完美”的居住环境中选择，你宁愿：", "options": [
+            { "text": "极其安静但极度不便，买杯咖啡都要开车20分钟", "types": { "E": 3, "A": 2 }, "scores": { "nature": 9, "culture": 1, "speed": 1, "social": 10, "chaos": 2 } },
+            { "text": "下楼就是繁华商圈，但楼下永远有喧嚣声和游客", "types": { "B": 3, "D": 1 }, "scores": { "nature": 1, "culture": 8, "speed": 9, "social": 3, "chaos": 8 } },
+            { "text": "网络极快、生活极其便利，但空气污浊、竞争极度高压", "types": { "D": 3, "A": 1 }, "scores": { "nature": 1, "culture": 3, "speed": 10, "social": 8, "chaos": 2 } },
+            { "text": "生活成本极低且气候极好，但医疗落后、网络偶尔断连", "types": { "C": 3, "E": 1 }, "scores": { "nature": 8, "culture": 5, "speed": 2, "social": 4, "chaos": 7 } }
         ]},
         { "q": "关于“邻里关系”，你理想的状态是：", "options": [
-            { "text": "保持绝对的边界感，见面点头微笑，但绝不探寻彼此的私生活", "types": { "A": 1 }, "scores": { "nature": 4, "culture": 4, "speed": 6, "social": 10, "chaos": 2 } },
-            { "text": "有一种恰到好处的人情味，甚至可以偶尔去熟识的邻居家蹭杯酒", "types": { "B": 1 }, "scores": { "nature": 5, "culture": 8, "speed": 4, "social": 2, "chaos": 6 } }
-        ]},
-        { "q": "你对一座城市“效率”的底线要求是：", "options": [
-            { "text": "只要网络极速、物流准时，我不需要这座城市有太多娱乐设施", "types": { "A": 1 }, "scores": { "nature": 6, "culture": 3, "speed": 9, "social": 8, "chaos": 1 } },
-            { "text": "如果一座城市连个像样的艺术展和Livehouse都没有，效率再高也是荒漠", "types": { "B": 1 }, "scores": { "nature": 4, "culture": 10, "speed": 4, "social": 4, "chaos": 8 } }
+            { "text": "保持绝对的边界感，见面点头微笑，但绝不探寻彼此的私生活", "types": { "A": 3, "D": 2 }, "scores": { "nature": 4, "culture": 4, "speed": 8, "social": 10, "chaos": 2 } },
+            { "text": "有一种恰到好处的人情味，甚至可以偶尔去熟识的邻居家蹭杯酒", "types": { "B": 3, "C": 1 }, "scores": { "nature": 5, "culture": 9, "speed": 4, "social": 2, "chaos": 6 } },
+            { "text": "大家都是来自世界各地暂居的旅人，随时聚餐，随时告别", "types": { "C": 3 }, "scores": { "nature": 6, "culture": 7, "speed": 5, "social": 1, "chaos": 5 } },
+            { "text": "不需要邻居，甚至最好连附近的几英亩地都是我私人的", "types": { "E": 3 }, "scores": { "nature": 10, "culture": 2, "speed": 2, "social": 10, "chaos": 1 } }
         ]},
         { "q": "走在一个陌生的街区，让你觉得最有安全感的气息是：", "options": [
-            { "text": "干净整洁、秩序井然，甚至有一点冰冷的规则感（如东京、苏黎世）", "types": { "A": 1 }, "scores": { "nature": 3, "culture": 5, "speed": 7, "social": 8, "chaos": 1 } },
-            { "text": "墙上的涂鸦、街头艺人，有一种充满生命力的无序感（如柏林、曼谷）", "types": { "B": 1 }, "scores": { "nature": 5, "culture": 9, "speed": 6, "social": 3, "chaos": 10 } }
-        ]},
-        { "q": "你认为什么样的天气最能激发你的创造力或深度思考？", "options": [
-            { "text": "阴沉沉的雨天或者寒冷的大雪，把自己裹在屋里，感到极度安全", "types": { "A": 1 }, "scores": { "nature": 8, "culture": 4, "speed": 3, "social": 9, "chaos": 2 } },
-            { "text": "灿烂的阳光，微风，必须出门走走，去有人的地方吸收能量", "types": { "B": 1 }, "scores": { "nature": 6, "culture": 8, "speed": 7, "social": 2, "chaos": 6 } }
-        ]},
-        { "q": "如果给你放一个月长假，没有任何工作打扰，你最想做的事是：", "options": [
-            { "text": "去北欧的某个小木屋，只有网络和壁炉，彻底断绝无用社交", "types": { "A": 1 }, "scores": { "nature": 10, "culture": 2, "speed": 2, "social": 10, "chaos": 1 } },
-            { "text": "去纽约或巴黎的某个小公寓，每天看展、看戏，混入当地的亚文化圈", "types": { "B": 1 }, "scores": { "nature": 2, "culture": 10, "speed": 8, "social": 3, "chaos": 8 } }
-        ]},
-        { "q": "当你感到压力爆表时，你修复能量的方式是：", "options": [
-            { "text": "走进深山或者潜入深海，只需要跟非人类的自然生命待在一起", "types": { "A": 1 }, "scores": { "nature": 10, "culture": 2, "speed": 2, "social": 9, "chaos": 2 } },
-            { "text": "扎进人声鼎沸的夜市或者拥挤的酒吧，用烟火气冲淡内心的焦虑", "types": { "B": 1 }, "scores": { "nature": 2, "culture": 8, "speed": 7, "social": 2, "chaos": 9 } }
+            { "text": "干净整洁、秩序井然，甚至有一点冰冷的规则感（如东京、苏黎世）", "types": { "A": 3, "D": 1 }, "scores": { "nature": 3, "culture": 5, "speed": 7, "social": 9, "chaos": 1 } },
+            { "text": "墙上的涂鸦、街头艺人，有一种充满生命力的无序感（如柏林、巴塞罗那）", "types": { "B": 3 }, "scores": { "nature": 4, "culture": 9, "speed": 6, "social": 4, "chaos": 10 } },
+            { "text": "满街都是高级跑车、奢侈品店和极具压迫感的地标建筑（如纽约、迪拜）", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 5, "speed": 10, "social": 6, "chaos": 4 } },
+            { "text": "到处都是廉价但美味的街头小吃，大家都穿着人字拖（如曼谷、巴厘岛）", "types": { "C": 3, "B": 1 }, "scores": { "nature": 6, "culture": 7, "speed": 3, "social": 2, "chaos": 8 } }
         ]},
         { "q": "你如何看待一座城市里的“历史遗迹”与“老旧建筑”？", "options": [
-            { "text": "更偏爱现代化的极简建筑和智能家居，老房子意味着管道老化和虫害", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 3, "speed": 8, "social": 7, "chaos": 2 } },
-            { "text": "极度迷恋踩在百年木地板上的嘎吱声，那里面藏着时间的灵魂", "types": { "B": 1 }, "scores": { "nature": 6, "culture": 10, "speed": 3, "social": 4, "chaos": 8 } }
+            { "text": "更偏爱现代化的极简建筑和智能家居，老房子意味着管道老化", "types": { "A": 3, "D": 2 }, "scores": { "nature": 2, "culture": 2, "speed": 9, "social": 8, "chaos": 1 } },
+            { "text": "极度迷恋踩在百年木地板上的嘎吱声，那里面藏着时间的灵魂", "types": { "B": 3, "E": 1 }, "scores": { "nature": 5, "culture": 10, "speed": 3, "social": 5, "chaos": 6 } },
+            { "text": "觉得它们只是用来拍照发朋友圈的背景，我只关心生活成不成本低", "types": { "C": 3 }, "scores": { "nature": 7, "culture": 4, "speed": 6, "social": 3, "chaos": 4 } },
+            { "text": "只关心这座城市未来的规划潜力和商业聚集度，历史不能当饭吃", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 3, "speed": 10, "social": 7, "chaos": 3 } }
         ]},
-        { "q": "对于饮食，你的偏好更接近：", "options": [
-            { "text": "高度标准化、成分清晰的健康餐，为了维持身体的最佳运转效率", "types": { "A": 1 }, "scores": { "nature": 3, "culture": 2, "speed": 9, "social": 8, "chaos": 1 } },
-            { "text": "愿意在破败的小巷子里排队一小时，只为吃一口带有锅气的老字号", "types": { "B": 1 }, "scores": { "nature": 4, "culture": 9, "speed": 3, "social": 3, "chaos": 10 } }
-        ]},
-        { "q": "你理想中的办公环境是：", "options": [
-            { "text": "绝对隔音、恒温的独立书房，几块巨大的显示屏，没有任何人打扰", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 2, "speed": 8, "social": 10, "chaos": 1 } },
-            { "text": "有着白噪音的咖啡馆，或者布置得像画廊一样的联合办公空间，能看到不同的人", "types": { "B": 1 }, "scores": { "nature": 4, "culture": 8, "speed": 6, "social": 3, "chaos": 7 } }
-        ]},
-        { "q": "你最无法忍受哪一种环境缺陷？", "options": [
-            { "text": "到处都是人，去哪里都要排队，空气污浊，没有一块属于自己的清净地", "types": { "A": 1 }, "scores": { "nature": 8, "culture": 3, "speed": 3, "social": 10, "chaos": 2 } },
-            { "text": "千篇一律的街道，没有一家独立书店或特色餐厅，生活枯燥得像一潭死水", "types": { "B": 1 }, "scores": { "nature": 3, "culture": 10, "speed": 4, "social": 2, "chaos": 8 } }
-        ]},
-        { "q": "如果你要挑选一件家具，你最看重的是：", "options": [
-            { "text": "绝对的人体工学和功能性，最好是冷峻的金属或极简的线条设计", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 3, "speed": 8, "social": 6, "chaos": 1 } },
-            { "text": "木材的纹理，或者某位中古设计师的情感表达，有一点瑕疵也无所谓", "types": { "B": 1 }, "scores": { "nature": 8, "culture": 10, "speed": 3, "social": 4, "chaos": 7 } }
+        { "q": "如果给你放一个月长假，没有任何工作打扰，你最想做的事是：", "options": [
+            { "text": "去北欧的某个极简小木屋，只有网络和壁炉，彻底断绝社交", "types": { "A": 3, "E": 2 }, "scores": { "nature": 8, "culture": 2, "speed": 2, "social": 10, "chaos": 1 } },
+            { "text": "去巴黎的某个小公寓，每天看展、看戏，混入当地的亚文化圈", "types": { "B": 3 }, "scores": { "nature": 2, "culture": 10, "speed": 7, "social": 3, "chaos": 8 } },
+            { "text": "飞到南美或东南亚的数字游民村，学冲浪、做瑜伽，花很少的钱", "types": { "C": 3 }, "scores": { "nature": 9, "culture": 6, "speed": 3, "social": 2, "chaos": 7 } },
+            { "text": "去极度隐秘的私人庄园或高端禅修中心，进行深度的心灵排毒", "types": { "E": 3 }, "scores": { "nature": 10, "culture": 4, "speed": 1, "social": 9, "chaos": 2 } }
         ]},
         { "q": "你对“四季分明”的执念有多深？", "options": [
-            { "text": "最好一年四季都是恒温的春天，我不喜欢为了极端天气改变生活节拍", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 4, "speed": 8, "social": 5, "chaos": 2 } },
-            { "text": "必须感受到落叶、大雪和蝉鸣，没有季节流转的地方就像是楚门的世界", "types": { "B": 1 }, "scores": { "nature": 10, "culture": 8, "speed": 3, "social": 5, "chaos": 8 } }
+            { "text": "最好一年四季都是恒温的春天，我不喜欢为了极端天气改变生活节拍", "types": { "A": 3, "D": 2 }, "scores": { "nature": 2, "culture": 4, "speed": 9, "social": 6, "chaos": 2 } },
+            { "text": "必须感受到落叶、大雪和蝉鸣，没有季节流转的地方就像楚门的世界", "types": { "B": 3, "E": 1 }, "scores": { "nature": 9, "culture": 8, "speed": 3, "social": 5, "chaos": 7 } },
+            { "text": "只想要永远的夏天，我讨厌穿厚重的衣服，喜欢随时下海", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 3, "speed": 4, "social": 2, "chaos": 5 } },
+            { "text": "气候越极端、越荒凉越好，比如冰岛，我喜欢那种遗世独立的悲壮感", "types": { "E": 3, "A": 1 }, "scores": { "nature": 10, "culture": 5, "speed": 1, "social": 10, "chaos": 3 } }
         ]},
         { "q": "最终，你觉得物理空间对你而言，本质上是什么？", "options": [
-            { "text": "一个保护壳。把外界的噪音和无序挡在外面，供我高效地自我运转", "types": { "A": 1 }, "scores": { "nature": 4, "culture": 3, "speed": 9, "social": 10, "chaos": 1 } },
-            { "text": "一个巨大的灵感矿场。我需要从城市的缝隙和人群的故事中汲取养分", "types": { "B": 1 }, "scores": { "nature": 6, "culture": 10, "speed": 6, "social": 2, "chaos": 10 } }
+            { "text": "一个保护壳。把噪音挡在外面，供我高效地自我运转", "types": { "A": 3 }, "scores": { "nature": 3, "culture": 2, "speed": 9, "social": 10, "chaos": 1 } },
+            { "text": "一个巨大的灵感矿场。我需要从城市和人群中汲取养分", "types": { "B": 3 }, "scores": { "nature": 5, "culture": 10, "speed": 7, "social": 2, "chaos": 9 } },
+            { "text": "一个地理套利的工具，哪里生活成本低且自由，我就去哪里", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 5, "speed": 5, "social": 2, "chaos": 6 } },
+            { "text": "一个能量竞技场。谁能在最昂贵、最激烈的城市立足，谁就是赢家", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 6, "speed": 10, "social": 8, "chaos": 3 } }
         ]}
     ],
     "results": {
         "A": {
             "name": "极简堡垒 · 秩序修道士",
-            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂构造具有极强的<span class=\"highlight\">内倾性与结界感</span>。对你而言，城市不是用来逛的，而是用来提供“高效运转的底层协议”。你极度厌恶无序的噪音、低效的排队、和毫无边界感的人际摩擦。你是一个现代数字世界的修道士，你不需要用繁复的市井烟火来填补内心的空虚。只要有一根千兆网线、一杯成分精确的手冲咖啡、和绝对的安静，你就能构筑出庞大的精神宇宙。你无法在脏乱差和过于热情的地方生存，你需要的是“冷峻、精准、极度体面”的秩序感。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 瑞士 · 苏黎世 (Zurich, Switzerland)</b><br>这里是为你量身打造的终极物理空间。苏黎世就像一块运转完美的百达翡丽，街道干净得令人发指，电车精准到秒。这里的人极度注重隐私，见面礼貌但绝不越界。背靠雪山和清澈的苏黎世湖，你能在这里体会到最高级别的“孤独的体面”。</div><div class=\"result-desc\"><b>📍 日本 · 京都 (Kyoto, Japan)</b><br>如果你需要一点东方禅意，京都是完美的避风港。这座城市的“结界感”是刻在骨子里的。枯山水的极简美学、严格的空间秩序、以及日本人保持的绝对社交距离，能完美安抚你害怕失控的神经。你可以把自己藏在鸭川旁的一栋老町屋里，安静地做一个数字游民。</div><div class=\"result-desc\"><b>📍 美国 · 西雅图近郊 (Seattle Suburbs, USA)</b><br>终年阴雨绵绵、被巨大的针叶林环绕。西雅图的阴郁天气反而会给你极大的“洞穴安全感”。这里有着全球最顶级的科技基础设施（微软与亚马逊的总部所在地），你在森林里敲下代码，就能直接调动全世界的服务器资源，无需见任何一个活人。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">东南亚（如曼谷、马尼拉）或南美（如里约）</span>。那里的闷热、无序的交通、吵闹的夜市和极度粘稠的熟人社交文化，会让你在一周内感到精神崩溃。</div>"
+            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂构造具有极强的<span class=\"highlight\">内倾性与结界感</span>。对你而言，城市不是用来逛的，而是用来提供“高效运转的底层协议”。你极度厌恶无序的噪音、低效的排队、和毫无边界感的人际摩擦。你是一个现代数字世界的修道士，你不需要用繁复的市井烟火来填补内心的空虚。只要有一根千兆网线、一杯成分精确的手冲咖啡、和绝对的安静，你就能构筑出庞大的精神宇宙。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 瑞士 · 苏黎世 (Zurich)</b><br>苏黎世就像一块运转完美的百达翡丽，街道干净得令人发指，电车精准到秒。这里的人极度注重隐私，见面礼貌但绝不越界。背靠雪山和清澈的湖水，你能在这里体会到最高级别的“孤独的体面”。</div><div class=\"result-desc\"><b>📍 日本 · 京都 (Kyoto)</b><br>这里的枯山水极简美学、严格的空间秩序、以及日本人保持的绝对社交距离，能完美安抚你害怕失控的神经。你可以把自己藏在鸭川旁的一栋老町屋里。</div><div class=\"result-desc\"><b>📍 新加坡 (Singapore)</b><br>全球最极致的“人工秩序岛屿”。一切都被规划得完美无瑕，绝对的安全、绝对的高效，没有任何意外和混乱会打扰你的运转。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">南美（如里约）或意大利南部（如那不勒斯）</span>。那里的热情、无序、吵闹和极度粘稠的熟人社交文化，会让你在一周内感到精神崩溃。</div>"
         },
         "B": {
             "name": "有机聚落 · 烟火漫游者",
-            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂是一个巨大的<span class=\"highlight\">感受器</span>。你无法在真空、无菌、过度规矩的环境里生存，那样会让你觉得生命在枯萎。你需要空气中飘荡着咖啡香气、需要街头艺人的音乐、甚至需要一些无伤大雅的杂乱和涂鸦。空间的斑驳、历史的沉淀、街头路人的神态，都是你汲取生命能量的养料。你迷恋那种充满变数、极其丰富、带有迷人混乱感的生态系统。对你而言，城市是一本永远读不完的立体小说，你需要用双脚去“漫游”它。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 德国 · 柏林 (Berlin, Germany)</b><br>这个世界上没有哪座城市比柏林更适合容纳你“不羁的灵魂”。这里有着最粗粝的历史伤痕、墙上肆意的涂鸦、全球最野生的地下Techno俱乐部，以及极具包容性的亚文化圈层。在柏林，贫穷是性感的，混乱是迷人的，你可以在十字山区（Kreuzberg）的街头，端着啤酒跟任何一个陌生艺术家聊到天亮。</div><div class=\"result-desc\"><b>📍 西班牙 · 巴塞罗那 (Barcelona, Spain)</b><br>阳光、海滩、高迪的建筑，以及永远喧闹的Tapas小酒馆。这座城市是活的，它有着最顶级的烟火气。巴塞罗那极其适合你在阳光下发呆，它的网格状街区和小巷子里藏着无数惊喜。这种极度热情、随时可以跟陌生人举杯的“南欧节奏”，能瞬间治愈你所有的精神内耗。</div><div class=\"result-desc\"><b>📍 泰国 · 清迈 (Chiang Mai, Thailand)</b><br>作为全球数字游民的耶路撒冷，清迈为你提供了一种“低成本但极高密度的人文体验”。满街的独立咖啡馆、古老的寺庙、便宜的夜市和来自全世界的有趣旅人。这里的节奏很慢，但能量极强，你不需要花很多钱就能每天泡在不同的文化社群里，汲取无数的灵感。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">新加坡、杜拜、或者是美国的中西部大平原</span>。那些地方要么像一个毫无瑕疵但冰冷的巨型商场，要么就是没有灵魂的汽车城市。如果没有充满细节的小巷子让你步行探索，你会觉得自己被关进了精致的监狱。</div>"
+            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂是一个巨大的<span class=\"highlight\">感受器</span>。你无法在真空、过度规矩的环境里生存，那样会让你觉得生命在枯萎。你需要空气中飘荡着咖啡香气、需要街头艺人的音乐、甚至需要一些无伤大雅的杂乱和涂鸦。空间的斑驳、历史的沉淀、街头路人的神态，都是你汲取生命能量的养料。你迷恋那种充满变数、带有迷人混乱感的生态系统。城市是一本立体小说，你需要用双脚去“漫游”它。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 德国 · 柏林 (Berlin)</b><br>这里有着最粗粝的历史伤痕、墙上肆意的涂鸦、全球最野生的地下Techno俱乐部，以及极具包容性的亚文化。在柏林，贫穷是性感的，混乱是迷人的。</div><div class=\"result-desc\"><b>📍 西班牙 · 巴塞罗那 (Barcelona)</b><br>高迪的建筑，以及永远喧闹的Tapas小酒馆。巴塞罗那极其适合你在阳光下发呆，它的网格状街区和小巷子里藏着无数惊喜。这种“南欧节奏”能瞬间治愈你所有的精神内耗。</div><div class=\"result-desc\"><b>📍 台湾 · 台北 (Taipei)</b><br>充满了浓郁得化不开的人情味、永远亮着灯的诚品书店、以及隐秘的巷弄文化。你可以随时和咖啡店老板聊上一个下午。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">迪拜或者是美国的中西部大平原</span>。那些地方要么像一个冰冷的巨型商场，要么就是没有灵魂的汽车城市。如果没有充满细节的小巷子让你探索，你会觉得自己被关进了精致的监狱。</div>"
+        },
+        "C": {
+            "name": "游牧节点 · 全球数字浪人",
+            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是一个<span class=\"highlight\">绝对的自由主义者</span>，你的双脚是用来流浪的。你不执着于买房，也不在乎什么阶层鄙视链。你极其看重“地理套利”——赚取高纬度国家的货币，去低物价、好气候、高颜值的国家享受生活。你需要阳光、沙滩、廉价但美味的食物、以及一群和你一样随时准备出发的“世界公民”。你的行李箱永远打包着，你把整个地球当成了自己的游乐场。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 泰国 · 清迈 (Chiang Mai)</b><br>作为全球数字游民的耶路撒冷，这里为你提供了一种“低成本但极高密度的人文体验”。满街的独立咖啡馆、古老的寺庙和廉价夜市。这里的节奏很慢，但能量极强。</div><div class=\"result-desc\"><b>📍 印度尼西亚 · 巴厘岛 (Canggu, Bali)</b><br>冲浪、瑜伽、素食碗，以及无数带着电脑在海边工作的自由职业者。这里有着最顶级的热带度假氛围和极具感染力的狂欢派对。</div><div class=\"result-desc\"><b>📍 葡萄牙 · 里斯本 (Lisbon)</b><br>欧洲最欢迎游民的城市。温暖的阳光、便宜的红酒、大西洋的海风。你可以在这里的百年电车旁，过着极具性价比的欧洲慢生活。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">极寒地带或生活成本极高、天气阴郁的城市（如伦敦、斯德哥尔摩）</span>。昂贵的物价会立刻剥夺你的自由感，阴郁的天气会直接抽干你的生命力。</div>"
+        },
+        "D": {
+            "name": "权力中枢 · 能量捕食者",
+            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂是一台<span class=\"highlight\">永动机</span>，你迷恋权力的味道、资源的密度和财富的轰鸣声。你根本不在乎什么山川湖泊或者慢生活，你认为那都是弱者逃避现实的借口。你需要把自己放在全球竞争最激烈、门槛最高的竞技场中心。你喜欢高耸入云的摩天大楼、极度昂贵的消费场所、和那些与你一样野心勃勃、眼神里透着狼性的同类。只有在那种极度高压的榨取中，你才能感受到自己活着的价值。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 美国 · 纽约 (New York)</b><br>曼哈顿的钢铁森林，华尔街的资本永不眠。这里是全球能量密度最高的地方，充满了冷酷的交易、顶级的艺术和让人窒息的竞争。你在这里要么成为传奇，要么被碾碎。</div><div class=\"result-desc\"><b>📍 中国 · 香港 (Hong Kong)</b><br>维多利亚港的夜景是财富最极致的具象化。这里有着最快的步速、最残酷的丛林法则、以及最直白的金钱崇拜。在这里，能力是唯一的通行证。</div><div class=\"result-desc\"><b>📍 英国 · 伦敦 (London)</b><br>在历史的厚重感之上，叠加了全球顶级金融中心的冷酷。你可以在这里穿最讲究的西装，喝最贵的下午茶，同时进行着最残忍的商业掠夺。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">风景秀丽但缺乏核心产业的小镇（如大理、新西兰南岛）</span>。不到三天，你就会因为缺乏智力刺激和竞争对手而感到极度的无聊和焦虑，仿佛自己被世界遗忘了。</div>"
+        },
+        "E": {
+            "name": "避世庄园 · 治愈系隐士",
+            "content": "<div class=\"result-section-title\">精神底色与空间诉求</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂非常疲惫，或者极其高能，以至于你需要<span class=\"highlight\">极其强大的自然结界</span>来承载你。你厌恶了人类社会的勾心斗角和无意义的内卷。你想要的不是小资的咖啡馆，而是壮丽的、令人敬畏的、足以将人类的渺小完全吞没的“大自然”。你渴望一片完全属于自己的领地，可能是雪山脚下，可能是悬崖边。你需要绝对的清净来排毒、冥想、或者完成某种灵性上的深刻连接。</div><div class=\"result-section-title\">你的天选全球坐标 (TOP 3)</div><div class=\"result-desc\"><b>📍 新西兰 · 皇后镇近郊 (Queenstown, NZ)</b><br>这里是中土世界的尽头。面对着深邃的湖泊和连绵的雪山，你的邻居只有羊群。你可以买下一大片土地，过着一种极度奢侈的、只与星空和大地对话的生活。</div><div class=\"result-desc\"><b>📍 冰岛 · 雷克雅未克以北 (Iceland)</b><br>极夜、极昼、火山、黑沙滩。这里的风景带有一种极其荒凉的悲壮感。在这个地球上最像外星的地方，你能彻底忘掉人类社会的所有烦恼，获得灵魂的彻底洗涤。</div><div class=\"result-desc\"><b>📍 瑞士 · 阿尔卑斯山谷 (Swiss Alps)</b><br>顶级富豪的终极避世地。在与世隔绝的山谷里，享受着最洁净的空气和最高端隐秘的医疗康养服务。这是一种用顶级财力堆砌出来的、最原始也最奢侈的隐居。</div><div class=\"result-section-title\">避坑指南</div><div class=\"result-desc\">千万不要去<span class=\"highlight\">任何人口密度极大的超级都市（如东京、孟买、甚至纽约）</span>。在那种地方，你高敏的神经会像海绵一样吸满整座城市的焦虑和负能量，导致你出现严重的生理或心理不适。</div>"
         }
     }
 }
