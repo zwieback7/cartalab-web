@@ -5,106 +5,915 @@
         "themeColor": "#5B7C6B",
         "upsellText": "解锁《全球数字游民定居与地理套利指南》",
         "quote": "你最终选择定居的城市，是你内心情绪的物理显化",
-        "footerCta": "携带此档案编号，返回解锁《地理套利与灵魂栖息全景指南》"
+        "footerCta": "携带此档案编号，返回解锁《地理套利与灵魂栖息全景指南》",
+        "handbookUrl": "/handbooks/habitat-112a56450f87.html"
     },
     "axes": [
-        { "id": "nature", "label": "自然渴望" },
-        { "id": "culture", "label": "人文粘性" },
-        { "id": "speed", "label": "节奏适应" },
-        { "id": "social", "label": "社交距离" },
-        { "id": "chaos", "label": "混乱包容" }
+        {
+            "id": "nature",
+            "label": "自然渴望"
+        },
+        {
+            "id": "culture",
+            "label": "人文粘性"
+        },
+        {
+            "id": "speed",
+            "label": "节奏适应"
+        },
+        {
+            "id": "social",
+            "label": "社交距离"
+        },
+        {
+            "id": "chaos",
+            "label": "混乱包容"
+        }
     ],
     "questions": [
-        { "q": "清晨推开窗，你最希望第一眼看到的是：", "options": [
-            { "text": "起伏的森林边界或一望无际的静谧湖水，听不到汽车引擎声", "types": { "A": 2, "E": 3 }, "scores": { "nature": 10, "culture": 2, "speed": 1, "social": 9, "chaos": 1 } },
-            { "text": "楼下已经开始运转的咖啡馆，或者错落有致的城市天际线", "types": { "B": 3, "C": 1 }, "scores": { "nature": 2, "culture": 9, "speed": 8, "social": 4, "chaos": 7 } },
-            { "text": "热带沙滩的日出，背着冲浪板准备下海的数字游民", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 6, "speed": 4, "social": 3, "chaos": 6 } },
-            { "text": "高耸入云的金融中心CBD，下面是如工蚁般涌动的早高峰人群", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 4, "speed": 10, "social": 2, "chaos": 3 } }
-        ]},
-        { "q": "如果要在以下“不完美”的居住环境中选择，你宁愿：", "options": [
-            { "text": "极其安静但极度不便，买杯咖啡都要开车20分钟", "types": { "E": 3, "A": 2 }, "scores": { "nature": 9, "culture": 1, "speed": 1, "social": 10, "chaos": 2 } },
-            { "text": "下楼就是繁华商圈，但楼下永远有喧嚣声和游客", "types": { "B": 3, "D": 1 }, "scores": { "nature": 1, "culture": 8, "speed": 9, "social": 3, "chaos": 8 } },
-            { "text": "网络极快、生活极其便利，但空气污浊、竞争极度高压", "types": { "D": 3, "A": 1 }, "scores": { "nature": 1, "culture": 3, "speed": 10, "social": 8, "chaos": 2 } },
-            { "text": "生活成本极低且气候极好，但医疗落后、网络偶尔断连", "types": { "C": 3, "E": 1 }, "scores": { "nature": 8, "culture": 5, "speed": 2, "social": 4, "chaos": 7 } }
-        ]},
-        { "q": "关于“邻里关系”，你理想的状态是：", "options": [
-            { "text": "保持绝对的边界感，见面点头微笑，但绝不探寻彼此的私生活", "types": { "A": 3, "D": 2 }, "scores": { "nature": 4, "culture": 4, "speed": 8, "social": 10, "chaos": 2 } },
-            { "text": "有一种恰到好处的人情味，甚至可以偶尔去熟识的邻居家蹭杯酒", "types": { "B": 3, "C": 1 }, "scores": { "nature": 5, "culture": 9, "speed": 4, "social": 2, "chaos": 6 } },
-            { "text": "大家都是来自世界各地暂居的旅人，随时聚餐，随时告别", "types": { "C": 3 }, "scores": { "nature": 6, "culture": 7, "speed": 5, "social": 1, "chaos": 5 } },
-            { "text": "不需要邻居，甚至最好连附近的几英亩地都是我私人的", "types": { "E": 3 }, "scores": { "nature": 10, "culture": 2, "speed": 2, "social": 10, "chaos": 1 } }
-        ]},
-        { "q": "走在一个陌生的街区，让你觉得最有安全感的气息是：", "options": [
-            { "text": "干净整洁、秩序井然，甚至有一点冰冷的规则感（如东京、苏黎世）", "types": { "A": 3, "D": 1 }, "scores": { "nature": 3, "culture": 5, "speed": 7, "social": 9, "chaos": 1 } },
-            { "text": "墙上的涂鸦、街头艺人，有一种充满生命力的无序感（如柏林、巴塞罗那）", "types": { "B": 3 }, "scores": { "nature": 4, "culture": 9, "speed": 6, "social": 4, "chaos": 10 } },
-            { "text": "满街都是高级跑车、奢侈品店和极具压迫感的地标建筑（如纽约、迪拜）", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 5, "speed": 10, "social": 6, "chaos": 4 } },
-            { "text": "到处都是廉价但美味的街头小吃，大家都穿着人字拖（如曼谷、巴厘岛）", "types": { "C": 3, "B": 1 }, "scores": { "nature": 6, "culture": 7, "speed": 3, "social": 2, "chaos": 8 } }
-        ]},
-        { "q": "你如何看待一座城市里的“历史遗迹”与“老旧建筑”？", "options": [
-            { "text": "更偏爱现代化的极简建筑和智能家居，老房子意味着管道老化", "types": { "A": 3, "D": 2 }, "scores": { "nature": 2, "culture": 2, "speed": 9, "social": 8, "chaos": 1 } },
-            { "text": "极度迷恋踩在百年木地板上的嘎吱声，那里面藏着时间的灵魂", "types": { "B": 3, "E": 1 }, "scores": { "nature": 5, "culture": 10, "speed": 3, "social": 5, "chaos": 6 } },
-            { "text": "觉得它们只是用来拍照发朋友圈的背景，我只关心生活成不成本低", "types": { "C": 3 }, "scores": { "nature": 7, "culture": 4, "speed": 6, "social": 3, "chaos": 4 } },
-            { "text": "只关心这座城市未来的规划潜力和商业聚集度，历史不能当饭吃", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 3, "speed": 10, "social": 7, "chaos": 3 } }
-        ]},
-        { "q": "如果给你放一个月长假，没有任何工作打扰，你最想做的事是：", "options": [
-            { "text": "去北欧的某个极简小木屋，只有网络和壁炉，彻底断绝社交", "types": { "A": 3, "E": 2 }, "scores": { "nature": 8, "culture": 2, "speed": 2, "social": 10, "chaos": 1 } },
-            { "text": "去巴黎的某个小公寓，每天看展、看戏，混入当地的亚文化圈", "types": { "B": 3 }, "scores": { "nature": 2, "culture": 10, "speed": 7, "social": 3, "chaos": 8 } },
-            { "text": "飞到南美或东南亚的数字游民村，学冲浪、做瑜伽，花很少的钱", "types": { "C": 3 }, "scores": { "nature": 9, "culture": 6, "speed": 3, "social": 2, "chaos": 7 } },
-            { "text": "去极度隐秘的私人庄园或高端禅修中心，进行深度的心灵排毒", "types": { "E": 3 }, "scores": { "nature": 10, "culture": 4, "speed": 1, "social": 9, "chaos": 2 } }
-        ]},
-        { "q": "你对“四季分明”的执念有多深？", "options": [
-            { "text": "最好一年四季都是恒温的春天，我不喜欢为了极端天气改变生活节拍", "types": { "A": 3, "D": 2 }, "scores": { "nature": 2, "culture": 4, "speed": 9, "social": 6, "chaos": 2 } },
-            { "text": "必须感受到落叶、大雪和蝉鸣，没有季节流转的地方就像楚门的世界", "types": { "B": 3, "E": 1 }, "scores": { "nature": 9, "culture": 8, "speed": 3, "social": 5, "chaos": 7 } },
-            { "text": "只想要永远的夏天，我讨厌穿厚重的衣服，喜欢随时下海", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 3, "speed": 4, "social": 2, "chaos": 5 } },
-            { "text": "气候越极端、越荒凉越好，比如冰岛，我喜欢那种遗世独立的悲壮感", "types": { "E": 3, "A": 1 }, "scores": { "nature": 10, "culture": 5, "speed": 1, "social": 10, "chaos": 3 } }
-        ]},
-        { "q": "最终，你觉得物理空间对你而言，本质上是什么？", "options": [
-            { "text": "一个保护壳。把噪音挡在外面，供我高效地自我运转", "types": { "A": 3 }, "scores": { "nature": 3, "culture": 2, "speed": 9, "social": 10, "chaos": 1 } },
-            { "text": "一个巨大的灵感矿场。我需要从城市和人群中汲取养分", "types": { "B": 3 }, "scores": { "nature": 5, "culture": 10, "speed": 7, "social": 2, "chaos": 9 } },
-            { "text": "一个地理套利的工具，哪里生活成本低且自由，我就去哪里", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 5, "speed": 5, "social": 2, "chaos": 6 } },
-            { "text": "一个能量竞技场。谁能在最昂贵、最激烈的城市立足，谁就是赢家", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 6, "speed": 10, "social": 8, "chaos": 3 } }
-        ]},
-        { "q": "在一个新的城市，你最希望的主要出行方式是：", "options": [
-            { "text": "极度准时、安静、不和任何人交流的轨道交通或私家车", "types": { "A": 3, "D": 1 }, "scores": { "nature": 2, "culture": 3, "speed": 9, "social": 9, "chaos": 1 } },
-            { "text": "骑着自行车或者干脆走路，可以随时停下来钻进小巷子探店", "types": { "B": 3, "C": 1 }, "scores": { "nature": 6, "culture": 9, "speed": 4, "social": 3, "chaos": 7 } },
-            { "text": "租个小踏板摩托车，吹着海风穿梭在椰林或者梯田之间", "types": { "C": 3 }, "scores": { "nature": 9, "culture": 5, "speed": 3, "social": 4, "chaos": 8 } },
-            { "text": "只坐后座有防窥玻璃、冷气极强的专车，在后座开电话会议", "types": { "D": 3, "A": 1 }, "scores": { "nature": 1, "culture": 2, "speed": 10, "social": 10, "chaos": 2 } }
-        ]},
-        { "q": "你对当地“饮食文化”的最底线要求是：", "options": [
-            { "text": "必须有极高标准、极度卫生的连锁轻食或者米其林餐厅", "types": { "A": 3, "D": 2 }, "scores": { "nature": 2, "culture": 3, "speed": 8, "social": 8, "chaos": 2 } },
-            { "text": "越地道越好，苍蝇馆子、路边摊、当地人排队的老字号我都爱", "types": { "B": 3, "C": 1 }, "scores": { "nature": 5, "culture": 10, "speed": 5, "social": 3, "chaos": 9 } },
-            { "text": "最好能花很少的钱吃到大量的海鲜和新鲜热带水果", "types": { "C": 3, "E": 1 }, "scores": { "nature": 8, "culture": 6, "speed": 4, "social": 4, "chaos": 6 } },
-            { "text": "能提供最高级的应酬场所、顶级红酒和私密包间用来谈生意", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 4, "speed": 9, "social": 7, "chaos": 3 } }
-        ]},
-        { "q": "如果你搬去一个母语非你第一语言的国家，你的态度是：", "options": [
-            { "text": "如果不是大家都说流利英语，沟通效率太低我会受不了", "types": { "A": 3, "D": 2 }, "scores": { "nature": 3, "culture": 4, "speed": 9, "social": 7, "chaos": 2 } },
-            { "text": "立刻兴致勃勃地去学当地语言，这是融入当地文化的灵魂", "types": { "B": 3 }, "scores": { "nature": 4, "culture": 10, "speed": 5, "social": 2, "chaos": 8 } },
-            { "text": "无所谓，大家都用翻译软件或者肢体语言，开心就好", "types": { "C": 3 }, "scores": { "nature": 7, "culture": 6, "speed": 3, "social": 3, "chaos": 9 } },
-            { "text": "我会雇一个当地的顶级双语助理帮我处理一切麻烦", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 3, "speed": 10, "social": 9, "chaos": 2 } }
-        ]},
-        { "q": "你的理想周末，通常会在哪里度过？", "options": [
-            { "text": "在极简风格的家里深度冥想，或者独自去一家无人的画廊", "types": { "A": 3 }, "scores": { "nature": 4, "culture": 6, "speed": 8, "social": 10, "chaos": 1 } },
-            { "text": "混迹于跳蚤市场、独立书店或者地下音乐节，直到凌晨", "types": { "B": 3 }, "scores": { "nature": 3, "culture": 10, "speed": 6, "social": 2, "chaos": 9 } },
-            { "text": "参加一个森林里的瑜伽静修营，或者去冲浪、徒步、潜水", "types": { "E": 3, "C": 2 }, "scores": { "nature": 10, "culture": 4, "speed": 2, "social": 6, "chaos": 4 } },
-            { "text": "在高尔夫球场或者高级俱乐部，和其他行业精英进行资源互换", "types": { "D": 3 }, "scores": { "nature": 2, "culture": 5, "speed": 10, "social": 7, "chaos": 2 } }
-        ]},
-        { "q": "你如何看待一个城市的“规则与秩序”？", "options": [
-            { "text": "必须绝对严苛，垃圾分类要精确到克，半夜不准冲马桶最好", "types": { "A": 3 }, "scores": { "nature": 2, "culture": 3, "speed": 8, "social": 9, "chaos": 1 } },
-            { "text": "规则是死的，我喜欢那种有弹性、有温度、偶尔能通融的地方", "types": { "B": 3 }, "scores": { "nature": 5, "culture": 9, "speed": 5, "social": 3, "chaos": 8 } },
-            { "text": "别管我就是最好的，我讨厌繁文缛节和签证政策极其严苛的地方", "types": { "C": 3 }, "scores": { "nature": 8, "culture": 4, "speed": 4, "social": 2, "chaos": 9 } },
-            { "text": "我只关心这里的税率、商业政策对我的财富增值是否有绝对优势", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 4, "speed": 10, "social": 6, "chaos": 3 } }
-        ]},
-        { "q": "在一个你打算长居的地方，你希望当地人如何对待你？", "options": [
-            { "text": "把我当空气，提供极其专业且冰冷的服务，不要跟我寒暄", "types": { "A": 3, "D": 1 }, "scores": { "nature": 3, "culture": 2, "speed": 9, "social": 10, "chaos": 2 } },
-            { "text": "把我当成自家人，老板娘会记住我不吃香菜，街坊会跟我打招呼", "types": { "B": 3 }, "scores": { "nature": 4, "culture": 10, "speed": 4, "social": 1, "chaos": 8 } },
-            { "text": "把我当成一个有趣的异乡人，带我去体验他们最野生的派对", "types": { "C": 3, "B": 1 }, "scores": { "nature": 7, "culture": 8, "speed": 5, "social": 2, "chaos": 9 } },
-            { "text": "对我保持敬畏和高度的尊重，承认我所在阶层应得的特权", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 5, "speed": 10, "social": 8, "chaos": 2 } }
-        ]},
-        { "q": "如果你的房间里只能留下一件最核心的家具/物品，你会选：", "options": [
-            { "text": "一张符合人体工学的顶级办公椅和极速网络路由器", "types": { "A": 3, "D": 1 }, "scores": { "nature": 2, "culture": 2, "speed": 10, "social": 9, "chaos": 1 } },
-            { "text": "一张巨大的、坐过无数朋友、沾着红酒渍的复古实木长桌", "types": { "B": 3 }, "scores": { "nature": 4, "culture": 10, "speed": 4, "social": 2, "chaos": 7 } },
-            { "text": "一个巨大的落地窗，窗外必须是无遮挡的森林、雪山或大海", "types": { "E": 3, "C": 2 }, "scores": { "nature": 10, "culture": 4, "speed": 1, "social": 7, "chaos": 3 } },
-            { "text": "一个极其宽大的真皮老板椅，和一个可以俯瞰全城最贵地段的阳台", "types": { "D": 3 }, "scores": { "nature": 1, "culture": 5, "speed": 10, "social": 8, "chaos": 2 } }
-        ]}
+        {
+            "q": "清晨推开窗，你最希望第一眼看到的是：",
+            "options": [
+                {
+                    "text": "起伏的森林边界或一望无际的静谧湖水，听不到汽车引擎声",
+                    "types": {
+                        "A": 2,
+                        "E": 3
+                    },
+                    "scores": {
+                        "nature": 10,
+                        "culture": 2,
+                        "speed": 1,
+                        "social": 9,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "楼下已经开始运转的咖啡馆，或者错落有致的城市天际线",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 9,
+                        "speed": 8,
+                        "social": 4,
+                        "chaos": 7
+                    }
+                },
+                {
+                    "text": "热带沙滩的日出，背着冲浪板准备下海的数字游民",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 6,
+                        "speed": 4,
+                        "social": 3,
+                        "chaos": 6
+                    }
+                },
+                {
+                    "text": "高耸入云的金融中心CBD，下面是如工蚁般涌动的早高峰人群",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 4,
+                        "speed": 10,
+                        "social": 2,
+                        "chaos": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果要在以下“不完美”的居住环境中选择，你宁愿：",
+            "options": [
+                {
+                    "text": "极其安静但极度不便，买杯咖啡都要开车20分钟",
+                    "types": {
+                        "E": 3,
+                        "A": 2
+                    },
+                    "scores": {
+                        "nature": 9,
+                        "culture": 1,
+                        "speed": 1,
+                        "social": 10,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "下楼就是繁华商圈，但楼下永远有喧嚣声和游客",
+                    "types": {
+                        "B": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 8,
+                        "speed": 9,
+                        "social": 3,
+                        "chaos": 8
+                    }
+                },
+                {
+                    "text": "网络极快、生活极其便利，但空气污浊、竞争极度高压",
+                    "types": {
+                        "D": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 3,
+                        "speed": 10,
+                        "social": 8,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "生活成本极低且气候极好，但医疗落后、网络偶尔断连",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 5,
+                        "speed": 2,
+                        "social": 4,
+                        "chaos": 7
+                    }
+                }
+            ]
+        },
+        {
+            "q": "关于“邻里关系”，你理想的状态是：",
+            "options": [
+                {
+                    "text": "保持绝对的边界感，见面点头微笑，但绝不探寻彼此的私生活",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "nature": 4,
+                        "culture": 4,
+                        "speed": 8,
+                        "social": 10,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "有一种恰到好处的人情味，甚至可以偶尔去熟识的邻居家蹭杯酒",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "nature": 5,
+                        "culture": 9,
+                        "speed": 4,
+                        "social": 2,
+                        "chaos": 6
+                    }
+                },
+                {
+                    "text": "大家都是来自世界各地暂居的旅人，随时聚餐，随时告别",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 6,
+                        "culture": 7,
+                        "speed": 5,
+                        "social": 1,
+                        "chaos": 5
+                    }
+                },
+                {
+                    "text": "不需要邻居，甚至最好连附近的几英亩地都是我私人的",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "nature": 10,
+                        "culture": 2,
+                        "speed": 2,
+                        "social": 10,
+                        "chaos": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "走在一个陌生的街区，让你觉得最有安全感的气息是：",
+            "options": [
+                {
+                    "text": "干净整洁、秩序井然，甚至有一点冰冷的规则感（如东京、苏黎世）",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "nature": 3,
+                        "culture": 5,
+                        "speed": 7,
+                        "social": 9,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "墙上的涂鸦、街头艺人，有一种充满生命力的无序感（如柏林、巴塞罗那）",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 4,
+                        "culture": 9,
+                        "speed": 6,
+                        "social": 4,
+                        "chaos": 10
+                    }
+                },
+                {
+                    "text": "满街都是高级跑车、奢侈品店和极具压迫感的地标建筑（如纽约、迪拜）",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 5,
+                        "speed": 10,
+                        "social": 6,
+                        "chaos": 4
+                    }
+                },
+                {
+                    "text": "到处都是廉价但美味的街头小吃，大家都穿着人字拖（如曼谷、巴厘岛）",
+                    "types": {
+                        "C": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "nature": 6,
+                        "culture": 7,
+                        "speed": 3,
+                        "social": 2,
+                        "chaos": 8
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你如何看待一座城市里的“历史遗迹”与“老旧建筑”？",
+            "options": [
+                {
+                    "text": "更偏爱现代化的极简建筑和智能家居，老房子意味着管道老化",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 2,
+                        "speed": 9,
+                        "social": 8,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "极度迷恋踩在百年木地板上的嘎吱声，那里面藏着时间的灵魂",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "nature": 5,
+                        "culture": 10,
+                        "speed": 3,
+                        "social": 5,
+                        "chaos": 6
+                    }
+                },
+                {
+                    "text": "觉得它们只是用来拍照发朋友圈的背景，我只关心生活成不成本低",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 7,
+                        "culture": 4,
+                        "speed": 6,
+                        "social": 3,
+                        "chaos": 4
+                    }
+                },
+                {
+                    "text": "只关心这座城市未来的规划潜力和商业聚集度，历史不能当饭吃",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 3,
+                        "speed": 10,
+                        "social": 7,
+                        "chaos": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果给你放一个月长假，没有任何工作打扰，你最想做的事是：",
+            "options": [
+                {
+                    "text": "去北欧的某个极简小木屋，只有网络和壁炉，彻底断绝社交",
+                    "types": {
+                        "A": 3,
+                        "E": 2
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 2,
+                        "speed": 2,
+                        "social": 10,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "去巴黎的某个小公寓，每天看展、看戏，混入当地的亚文化圈",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 10,
+                        "speed": 7,
+                        "social": 3,
+                        "chaos": 8
+                    }
+                },
+                {
+                    "text": "飞到南美或东南亚的数字游民村，学冲浪、做瑜伽，花很少的钱",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 9,
+                        "culture": 6,
+                        "speed": 3,
+                        "social": 2,
+                        "chaos": 7
+                    }
+                },
+                {
+                    "text": "去极度隐秘的私人庄园或高端禅修中心，进行深度的心灵排毒",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "nature": 10,
+                        "culture": 4,
+                        "speed": 1,
+                        "social": 9,
+                        "chaos": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你对“四季分明”的执念有多深？",
+            "options": [
+                {
+                    "text": "最好一年四季都是恒温的春天，我不喜欢为了极端天气改变生活节拍",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 4,
+                        "speed": 9,
+                        "social": 6,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "必须感受到落叶、大雪和蝉鸣，没有季节流转的地方就像楚门的世界",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "nature": 9,
+                        "culture": 8,
+                        "speed": 3,
+                        "social": 5,
+                        "chaos": 7
+                    }
+                },
+                {
+                    "text": "只想要永远的夏天，我讨厌穿厚重的衣服，喜欢随时下海",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 3,
+                        "speed": 4,
+                        "social": 2,
+                        "chaos": 5
+                    }
+                },
+                {
+                    "text": "气候越极端、越荒凉越好，比如冰岛，我喜欢那种遗世独立的悲壮感",
+                    "types": {
+                        "E": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "nature": 10,
+                        "culture": 5,
+                        "speed": 1,
+                        "social": 10,
+                        "chaos": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "最终，你觉得物理空间对你而言，本质上是什么？",
+            "options": [
+                {
+                    "text": "一个保护壳。把噪音挡在外面，供我高效地自我运转",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "nature": 3,
+                        "culture": 2,
+                        "speed": 9,
+                        "social": 10,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "一个巨大的灵感矿场。我需要从城市和人群中汲取养分",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 5,
+                        "culture": 10,
+                        "speed": 7,
+                        "social": 2,
+                        "chaos": 9
+                    }
+                },
+                {
+                    "text": "一个地理套利的工具，哪里生活成本低且自由，我就去哪里",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 5,
+                        "speed": 5,
+                        "social": 2,
+                        "chaos": 6
+                    }
+                },
+                {
+                    "text": "一个能量竞技场。谁能在最昂贵、最激烈的城市立足，谁就是赢家",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 6,
+                        "speed": 10,
+                        "social": 8,
+                        "chaos": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在一个新的城市，你最希望的主要出行方式是：",
+            "options": [
+                {
+                    "text": "极度准时、安静、不和任何人交流的轨道交通或私家车",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 3,
+                        "speed": 9,
+                        "social": 9,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "骑着自行车或者干脆走路，可以随时停下来钻进小巷子探店",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "nature": 6,
+                        "culture": 9,
+                        "speed": 4,
+                        "social": 3,
+                        "chaos": 7
+                    }
+                },
+                {
+                    "text": "租个小踏板摩托车，吹着海风穿梭在椰林或者梯田之间",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 9,
+                        "culture": 5,
+                        "speed": 3,
+                        "social": 4,
+                        "chaos": 8
+                    }
+                },
+                {
+                    "text": "只坐后座有防窥玻璃、冷气极强的专车，在后座开电话会议",
+                    "types": {
+                        "D": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 2,
+                        "speed": 10,
+                        "social": 10,
+                        "chaos": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你对当地“饮食文化”的最底线要求是：",
+            "options": [
+                {
+                    "text": "必须有极高标准、极度卫生的连锁轻食或者米其林餐厅",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 3,
+                        "speed": 8,
+                        "social": 8,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "越地道越好，苍蝇馆子、路边摊、当地人排队的老字号我都爱",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "nature": 5,
+                        "culture": 10,
+                        "speed": 5,
+                        "social": 3,
+                        "chaos": 9
+                    }
+                },
+                {
+                    "text": "最好能花很少的钱吃到大量的海鲜和新鲜热带水果",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 6,
+                        "speed": 4,
+                        "social": 4,
+                        "chaos": 6
+                    }
+                },
+                {
+                    "text": "能提供最高级的应酬场所、顶级红酒和私密包间用来谈生意",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 4,
+                        "speed": 9,
+                        "social": 7,
+                        "chaos": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你搬去一个母语非你第一语言的国家，你的态度是：",
+            "options": [
+                {
+                    "text": "如果不是大家都说流利英语，沟通效率太低我会受不了",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "nature": 3,
+                        "culture": 4,
+                        "speed": 9,
+                        "social": 7,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "立刻兴致勃勃地去学当地语言，这是融入当地文化的灵魂",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 4,
+                        "culture": 10,
+                        "speed": 5,
+                        "social": 2,
+                        "chaos": 8
+                    }
+                },
+                {
+                    "text": "无所谓，大家都用翻译软件或者肢体语言，开心就好",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 7,
+                        "culture": 6,
+                        "speed": 3,
+                        "social": 3,
+                        "chaos": 9
+                    }
+                },
+                {
+                    "text": "我会雇一个当地的顶级双语助理帮我处理一切麻烦",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 3,
+                        "speed": 10,
+                        "social": 9,
+                        "chaos": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你的理想周末，通常会在哪里度过？",
+            "options": [
+                {
+                    "text": "在极简风格的家里深度冥想，或者独自去一家无人的画廊",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "nature": 4,
+                        "culture": 6,
+                        "speed": 8,
+                        "social": 10,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "混迹于跳蚤市场、独立书店或者地下音乐节，直到凌晨",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 3,
+                        "culture": 10,
+                        "speed": 6,
+                        "social": 2,
+                        "chaos": 9
+                    }
+                },
+                {
+                    "text": "参加一个森林里的瑜伽静修营，或者去冲浪、徒步、潜水",
+                    "types": {
+                        "E": 3,
+                        "C": 2
+                    },
+                    "scores": {
+                        "nature": 10,
+                        "culture": 4,
+                        "speed": 2,
+                        "social": 6,
+                        "chaos": 4
+                    }
+                },
+                {
+                    "text": "在高尔夫球场或者高级俱乐部，和其他行业精英进行资源互换",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 5,
+                        "speed": 10,
+                        "social": 7,
+                        "chaos": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你如何看待一个城市的“规则与秩序”？",
+            "options": [
+                {
+                    "text": "必须绝对严苛，垃圾分类要精确到克，半夜不准冲马桶最好",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 3,
+                        "speed": 8,
+                        "social": 9,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "规则是死的，我喜欢那种有弹性、有温度、偶尔能通融的地方",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 5,
+                        "culture": 9,
+                        "speed": 5,
+                        "social": 3,
+                        "chaos": 8
+                    }
+                },
+                {
+                    "text": "别管我就是最好的，我讨厌繁文缛节和签证政策极其严苛的地方",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "nature": 8,
+                        "culture": 4,
+                        "speed": 4,
+                        "social": 2,
+                        "chaos": 9
+                    }
+                },
+                {
+                    "text": "我只关心这里的税率、商业政策对我的财富增值是否有绝对优势",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 4,
+                        "speed": 10,
+                        "social": 6,
+                        "chaos": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在一个你打算长居的地方，你希望当地人如何对待你？",
+            "options": [
+                {
+                    "text": "把我当空气，提供极其专业且冰冷的服务，不要跟我寒暄",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "nature": 3,
+                        "culture": 2,
+                        "speed": 9,
+                        "social": 10,
+                        "chaos": 2
+                    }
+                },
+                {
+                    "text": "把我当成自家人，老板娘会记住我不吃香菜，街坊会跟我打招呼",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 4,
+                        "culture": 10,
+                        "speed": 4,
+                        "social": 1,
+                        "chaos": 8
+                    }
+                },
+                {
+                    "text": "把我当成一个有趣的异乡人，带我去体验他们最野生的派对",
+                    "types": {
+                        "C": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "nature": 7,
+                        "culture": 8,
+                        "speed": 5,
+                        "social": 2,
+                        "chaos": 9
+                    }
+                },
+                {
+                    "text": "对我保持敬畏和高度的尊重，承认我所在阶层应得的特权",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 5,
+                        "speed": 10,
+                        "social": 8,
+                        "chaos": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你的房间里只能留下一件最核心的家具/物品，你会选：",
+            "options": [
+                {
+                    "text": "一张符合人体工学的顶级办公椅和极速网络路由器",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "nature": 2,
+                        "culture": 2,
+                        "speed": 10,
+                        "social": 9,
+                        "chaos": 1
+                    }
+                },
+                {
+                    "text": "一张巨大的、坐过无数朋友、沾着红酒渍的复古实木长桌",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "nature": 4,
+                        "culture": 10,
+                        "speed": 4,
+                        "social": 2,
+                        "chaos": 7
+                    }
+                },
+                {
+                    "text": "一个巨大的落地窗，窗外必须是无遮挡的森林、雪山或大海",
+                    "types": {
+                        "E": 3,
+                        "C": 2
+                    },
+                    "scores": {
+                        "nature": 10,
+                        "culture": 4,
+                        "speed": 1,
+                        "social": 7,
+                        "chaos": 3
+                    }
+                },
+                {
+                    "text": "一个极其宽大的真皮老板椅，和一个可以俯瞰全城最贵地段的阳台",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "nature": 1,
+                        "culture": 5,
+                        "speed": 10,
+                        "social": 8,
+                        "chaos": 2
+                    }
+                }
+            ]
+        }
     ],
     "results": {
         "A": {

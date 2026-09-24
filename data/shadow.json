@@ -5,100 +5,848 @@
         "themeColor": "#2C2C2C",
         "upsellText": "解锁《暗面人格整合与阴影炼金术指南》",
         "quote": "那些你极力隐藏的，才是你真正的力量源泉",
-        "footerCta": "携带此档案编号，返回解锁《荣格阴影整合高阶炼金术》"
+        "footerCta": "携带此档案编号，返回解锁《荣格阴影整合高阶炼金术》",
+        "handbookUrl": "/handbooks/shadow-85660d2d454d.html"
     },
     "axes": [
-        { "id": "control", "label": "控制欲望" },
-        { "id": "nihilism", "label": "虚无倾向" },
-        { "id": "manipulation", "label": "情感操控" },
-        { "id": "destruction", "label": "毁灭冲动" },
-        { "id": "perfection", "label": "秩序审判" }
+        {
+            "id": "control",
+            "label": "控制欲望"
+        },
+        {
+            "id": "nihilism",
+            "label": "虚无倾向"
+        },
+        {
+            "id": "manipulation",
+            "label": "情感操控"
+        },
+        {
+            "id": "destruction",
+            "label": "毁灭冲动"
+        },
+        {
+            "id": "perfection",
+            "label": "秩序审判"
+        }
     ],
     "questions": [
-        { "q": "当一个你曾经极度信任的人背叛了你，你脑海中闪过的第一个念头是：", "options": [
-            { "text": "我一定要让他付出十倍的代价，让他彻底身败名裂", "types": { "A": 3, "E": 1 }, "scores": { "control": 9, "nihilism": 2, "manipulation": 5, "destruction": 10, "perfection": 3 } },
-            { "text": "觉得非常可笑，果然人类本性就是如此，一切都毫无意义", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 3, "perfection": 2 } },
-            { "text": "不会表现出任何愤怒，而是利用他的软肋慢慢地折磨他，让他生不如死", "types": { "D": 3, "A": 1 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 6, "perfection": 1 } },
-            { "text": "立刻将他从我的世界彻底抹杀，像清理一个系统bug一样冷酷", "types": { "C": 3 }, "scores": { "control": 7, "nihilism": 3, "manipulation": 1, "destruction": 4, "perfection": 10 } }
-        ]},
-        { "q": "如果你拥有一种绝对的超能力，且不需要承担任何道德后果，你会选择：", "options": [
-            { "text": "能够完全操控他人的思想和情感，让他们成为我绝对忠诚的傀儡", "types": { "D": 3, "A": 1 }, "scores": { "control": 8, "nihilism": 1, "manipulation": 10, "destruction": 2, "perfection": 2 } },
-            { "text": "能够随时摧毁一座建筑或者一个系统，我喜欢看事物崩塌的壮丽感", "types": { "E": 3 }, "scores": { "control": 4, "nihilism": 4, "manipulation": 1, "destruction": 10, "perfection": 1 } },
-            { "text": "让时间停止或重置，这样我就能把所有事情都做到最完美的极致", "types": { "C": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 2, "destruction": 1, "perfection": 10 } },
-            { "text": "能够静止时间并冷眼旁观，看着人类像虫子一样忙忙碌碌", "types": { "B": 3 }, "scores": { "control": 2, "nihilism": 10, "manipulation": 1, "destruction": 2, "perfection": 1 } }
-        ]},
-        { "q": "在团队中，当所有人都做出一个极其愚蠢的决定时，你会：", "options": [
-            { "text": "用极其严厉甚至羞辱的方式，强行剥夺他们的决策权，接管一切", "types": { "A": 3, "C": 1 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 4, "destruction": 6, "perfection": 8 } },
-            { "text": "什么都不说，默默看着他们走向毁灭，甚至在心里觉得很痛快", "types": { "B": 3, "E": 1 }, "scores": { "control": 2, "nihilism": 9, "manipulation": 1, "destruction": 8, "perfection": 1 } },
-            { "text": "表面附和，但在背后通过挑拨离间和暗示，诱导他们按我的意思办", "types": { "D": 3 }, "scores": { "control": 7, "nihilism": 3, "manipulation": 10, "destruction": 3, "perfection": 2 } },
-            { "text": "立刻退出团队并冷酷地划清界限，我绝不允许我的履历沾染愚蠢", "types": { "C": 3 }, "scores": { "control": 5, "nihilism": 4, "manipulation": 1, "destruction": 1, "perfection": 9 } }
-        ]},
-        { "q": "深夜独自一人时，让你感到最深的恐惧或空虚感来源于：", "options": [
-            { "text": "意识到我所拥有的一切权力、财富或地位，随时可能失去控制", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 3, "manipulation": 4, "destruction": 2, "perfection": 4 } },
-            { "text": "整个宇宙是盲目运转的机器，我所做的一切挣扎都毫无意义", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 2, "perfection": 1 } },
-            { "text": "觉得自己内心里有一个极其狂暴的野兽，有一天我会压抑不住它", "types": { "E": 3 }, "scores": { "control": 2, "nihilism": 4, "manipulation": 2, "destruction": 10, "perfection": 1 } },
-            { "text": "不管我怎么努力，依然无法达到那种完美无瑕、绝对洁净的状态", "types": { "C": 3 }, "scores": { "control": 6, "nihilism": 2, "manipulation": 1, "destruction": 1, "perfection": 10 } }
-        ]},
-        { "q": "如果你写了一本关于人性的禁忌之书，它的核心主题会是：", "options": [
-            { "text": "《统治术：如何利用恐惧和利益绝对支配他人》", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 8, "destruction": 3, "perfection": 4 } },
-            { "text": "《魅惑的虚伪：情感吸血鬼的捕猎指南》", "types": { "D": 3 }, "scores": { "control": 6, "nihilism": 3, "manipulation": 10, "destruction": 4, "perfection": 1 } },
-            { "text": "《崩坏美学：人类文明必须被清零的十个理由》", "types": { "E": 3 }, "scores": { "control": 3, "nihilism": 6, "manipulation": 1, "destruction": 10, "perfection": 2 } },
-            { "text": "《极夜之海：论道德、信仰与希望的终极幻灭》", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 2, "destruction": 2, "perfection": 1 } }
-        ]},
-        { "q": "面对一个极度弱小、且完全崇拜你、依赖你的人，你潜意识最想做的是：", "options": [
-            { "text": "觉得他非常可怜且恶心，想用极其残酷的规则去重塑他、剥削他", "types": { "A": 3, "C": 1 }, "scores": { "control": 9, "nihilism": 2, "manipulation": 4, "destruction": 6, "perfection": 8 } },
-            { "text": "极其享受这种被神化的感觉，并通过不断施舍和剥夺来操控他的情绪", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 1, "manipulation": 10, "destruction": 3, "perfection": 2 } },
-            { "text": "毫无感觉，甚至想一脚把他踢开，因为弱者没有生存的价值", "types": { "B": 3 }, "scores": { "control": 2, "nihilism": 9, "manipulation": 1, "destruction": 2, "perfection": 1 } },
-            { "text": "有一种莫名其妙想毁掉他、捏碎他的冲动，就像捏死一只蝴蝶", "types": { "E": 3 }, "scores": { "control": 4, "nihilism": 3, "manipulation": 2, "destruction": 10, "perfection": 1 } }
-        ]},
-        { "q": "如果在一段完美的关系中，对方对你百依百顺，你会：", "options": [
-            { "text": "很快感到索然无味，甚至会故意制造巨大的混乱和痛苦来寻找刺激", "types": { "E": 3 }, "scores": { "control": 3, "nihilism": 4, "manipulation": 2, "destruction": 10, "perfection": 1 } },
-            { "text": "理所当然地享受这种绝对的主导权，如果他敢反抗，我会让他生不如死", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 7, "destruction": 5, "perfection": 4 } },
-            { "text": "不断用放大镜去寻找他微小的瑕疵，一旦发现不完美就极度烦躁", "types": { "C": 3 }, "scores": { "control": 6, "nihilism": 2, "manipulation": 2, "destruction": 2, "perfection": 10 } },
-            { "text": "会用煤气灯效应（Gaslighting）让他变得更自我怀疑，从而彻底离不开我", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 4, "perfection": 1 } }
-        ]},
-        { "q": "你如何看待社会道德与法律法规？", "options": [
-            { "text": "那只是统治阶级用来约束弱者的工具，只要不被抓到，一切皆可为", "types": { "A": 3, "D": 2 }, "scores": { "control": 9, "nihilism": 5, "manipulation": 8, "destruction": 3, "perfection": 1 } },
-            { "text": "一群虫子为了抱团取暖而制定的无聊契约，毫无神圣性可言", "types": { "B": 3 }, "scores": { "control": 2, "nihilism": 10, "manipulation": 2, "destruction": 3, "perfection": 1 } },
-            { "text": "现有的规则太肮脏和漏洞百出了，我渴望用极其铁血的手段来清洗它", "types": { "C": 3, "E": 1 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 2, "destruction": 7, "perfection": 10 } },
-            { "text": "表面的规则是用来打破的，我喜欢游走在灰色地带享受破坏的快感", "types": { "E": 3 }, "scores": { "control": 4, "nihilism": 4, "manipulation": 4, "destruction": 10, "perfection": 1 } }
-        ]},
-        { "q": "当你看到一个完美无瑕、幸福美满的家庭或个人时，你心底闪过的一丝阴暗念头是：", "options": [
-            { "text": "想亲手撕下他们虚伪的面具，看看他们背地里有多肮脏", "types": { "C": 3, "E": 1 }, "scores": { "control": 4, "nihilism": 2, "manipulation": 3, "destruction": 8, "perfection": 9 } },
-            { "text": "如果有机会，我想把那个人拉下神坛，让他变成依赖我的奴隶", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 4, "perfection": 2 } },
-            { "text": "觉得恶心，这不过是宇宙毁灭前短暂且毫无意义的幻象", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 3, "perfection": 1 } },
-            { "text": "如果有必要，我不介意剥夺他们的幸福来成就我自己", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 3, "manipulation": 6, "destruction": 5, "perfection": 2 } }
-        ]},
-        { "q": "在某些隐秘的时刻，你会在别人的不幸中获得怎样的快感？", "options": [
-            { "text": "如果那个人曾经冒犯过我，我会享受那种大仇得报的极度快感", "types": { "A": 3 }, "scores": { "control": 9, "nihilism": 2, "manipulation": 3, "destruction": 8, "perfection": 4 } },
-            { "text": "看到那些自命清高的人跌落泥潭，会让我有一种变态的愉悦感", "types": { "C": 3, "E": 1 }, "scores": { "control": 5, "nihilism": 4, "manipulation": 4, "destruction": 7, "perfection": 9 } },
-            { "text": "我不仅享受，我还会假装同情去安慰他，从而彻底掌控他脆弱的精神", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 4, "perfection": 2 } },
-            { "text": "没有任何快感，别人的死活与我何干，一切都令人厌倦", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 2, "perfection": 1 } }
-        ]},
-        { "q": "当你的生活陷入极度枯燥和无聊时，你最可能做出的危险举动是：", "options": [
-            { "text": "挑起一场人际关系的巨大冲突，只是为了看他们像小丑一样互相撕咬", "types": { "D": 3, "E": 1 }, "scores": { "control": 6, "nihilism": 4, "manipulation": 10, "destruction": 7, "perfection": 1 } },
-            { "text": "疯狂地去寻找一些极度刺激、甚至边缘化的高危体验来确认自己还活着", "types": { "E": 3 }, "scores": { "control": 2, "nihilism": 5, "manipulation": 2, "destruction": 10, "perfection": 1 } },
-            { "text": "在脑海中无数次模拟如何完美地策划一场惊天劫案或完美犯罪", "types": { "C": 3, "A": 1 }, "scores": { "control": 8, "nihilism": 3, "manipulation": 4, "destruction": 5, "perfection": 10 } },
-            { "text": "直接躺平，陷入极度的抑郁和解离状态，觉得死了也没什么", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 4, "perfection": 1 } }
-        ]},
-        { "q": "想象世界末日到来，人类退化回丛林法则，你最可能扮演的角色是：", "options": [
-            { "text": "建立绝对独裁的暴君，用铁血和杀戮统治幸存者", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 7, "destruction": 5, "perfection": 4 } },
-            { "text": "隐藏在幕后的国师，用谎言和信仰操控那个明面上的暴君", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 3, "manipulation": 10, "destruction": 3, "perfection": 2 } },
-            { "text": "四处流浪的拾荒者，看着人类文明的废墟，觉得这才是它应有的归宿", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 4, "perfection": 2 } },
-            { "text": "极端的净化主义者，认为所有带着旧世界恶习的人都必须被杀光", "types": { "C": 3, "E": 1 }, "scores": { "control": 7, "nihilism": 4, "manipulation": 2, "destruction": 9, "perfection": 10 } }
-        ]},
-        { "q": "如果你面前有一个按钮，按下去可以随机消灭地球上一半的人口，你会：", "options": [
-            { "text": "毫不犹豫地按下去，人类就像地球的癌细胞，早该被清理了", "types": { "E": 3, "C": 1 }, "scores": { "control": 4, "nihilism": 6, "manipulation": 1, "destruction": 10, "perfection": 8 } },
-            { "text": "绝不按随机键，我要亲自挑选哪些人该死，哪些人该活，建立新的秩序", "types": { "A": 3, "C": 1 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 5, "destruction": 7, "perfection": 9 } },
-            { "text": "不会按，这种粗暴的方式太无聊了，我更喜欢看着人类在欲望中自相残杀", "types": { "D": 3, "B": 1 }, "scores": { "control": 6, "nihilism": 7, "manipulation": 10, "destruction": 4, "perfection": 1 } },
-            { "text": "随便按不按，反正剩下的一半人最终还是会走向灭亡，没什么区别", "types": { "B": 3 }, "scores": { "control": 1, "nihilism": 10, "manipulation": 1, "destruction": 5, "perfection": 1 } }
-        ]},
-        { "q": "你内心深处最隐秘、最不想让人知道的幻想是：", "options": [
-            { "text": "把所有伤害过我、看不起我的人踩在脚下，让他们像狗一样乞求我", "types": { "A": 3 }, "scores": { "control": 10, "nihilism": 2, "manipulation": 5, "destruction": 7, "perfection": 3 } },
-            { "text": "看着这个世界的金融体系、道德体系和政治体系在一天内全部崩溃", "types": { "E": 3, "B": 1 }, "scores": { "control": 3, "nihilism": 7, "manipulation": 2, "destruction": 10, "perfection": 2 } },
-            { "text": "让某个人（或一群人）对我产生神明般的崇拜，我可以随意地摧毁他们的心智", "types": { "D": 3 }, "scores": { "control": 8, "nihilism": 2, "manipulation": 10, "destruction": 5, "perfection": 1 } },
-            { "text": "彻底抹去自己存在过的所有痕迹，就像从来没有来过这个恶心的世界", "types": { "B": 3, "C": 1 }, "scores": { "control": 2, "nihilism": 10, "manipulation": 1, "destruction": 6, "perfection": 8 } }
-        ]}
+        {
+            "q": "当一个你曾经极度信任的人背叛了你，你脑海中闪过的第一个念头是：",
+            "options": [
+                {
+                    "text": "我一定要让他付出十倍的代价，让他彻底身败名裂",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 9,
+                        "nihilism": 2,
+                        "manipulation": 5,
+                        "destruction": 10,
+                        "perfection": 3
+                    }
+                },
+                {
+                    "text": "觉得非常可笑，果然人类本性就是如此，一切都毫无意义",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 3,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "不会表现出任何愤怒，而是利用他的软肋慢慢地折磨他，让他生不如死",
+                    "types": {
+                        "D": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 10,
+                        "destruction": 6,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "立刻将他从我的世界彻底抹杀，像清理一个系统bug一样冷酷",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "control": 7,
+                        "nihilism": 3,
+                        "manipulation": 1,
+                        "destruction": 4,
+                        "perfection": 10
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你拥有一种绝对的超能力，且不需要承担任何道德后果，你会选择：",
+            "options": [
+                {
+                    "text": "能够完全操控他人的思想和情感，让他们成为我绝对忠诚的傀儡",
+                    "types": {
+                        "D": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 1,
+                        "manipulation": 10,
+                        "destruction": 2,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "能够随时摧毁一座建筑或者一个系统，我喜欢看事物崩塌的壮丽感",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 4,
+                        "nihilism": 4,
+                        "manipulation": 1,
+                        "destruction": 10,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "让时间停止或重置，这样我就能把所有事情都做到最完美的极致",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 2,
+                        "destruction": 1,
+                        "perfection": 10
+                    }
+                },
+                {
+                    "text": "能够静止时间并冷眼旁观，看着人类像虫子一样忙忙碌碌",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 2,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在团队中，当所有人都做出一个极其愚蠢的决定时，你会：",
+            "options": [
+                {
+                    "text": "用极其严厉甚至羞辱的方式，强行剥夺他们的决策权，接管一切",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 2,
+                        "manipulation": 4,
+                        "destruction": 6,
+                        "perfection": 8
+                    }
+                },
+                {
+                    "text": "什么都不说，默默看着他们走向毁灭，甚至在心里觉得很痛快",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 9,
+                        "manipulation": 1,
+                        "destruction": 8,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "表面附和，但在背后通过挑拨离间和暗示，诱导他们按我的意思办",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 7,
+                        "nihilism": 3,
+                        "manipulation": 10,
+                        "destruction": 3,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "立刻退出团队并冷酷地划清界限，我绝不允许我的履历沾染愚蠢",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "control": 5,
+                        "nihilism": 4,
+                        "manipulation": 1,
+                        "destruction": 1,
+                        "perfection": 9
+                    }
+                }
+            ]
+        },
+        {
+            "q": "深夜独自一人时，让你感到最深的恐惧或空虚感来源于：",
+            "options": [
+                {
+                    "text": "意识到我所拥有的一切权力、财富或地位，随时可能失去控制",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 3,
+                        "manipulation": 4,
+                        "destruction": 2,
+                        "perfection": 4
+                    }
+                },
+                {
+                    "text": "整个宇宙是盲目运转的机器，我所做的一切挣扎都毫无意义",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 2,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "觉得自己内心里有一个极其狂暴的野兽，有一天我会压抑不住它",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 4,
+                        "manipulation": 2,
+                        "destruction": 10,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "不管我怎么努力，依然无法达到那种完美无瑕、绝对洁净的状态",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "control": 6,
+                        "nihilism": 2,
+                        "manipulation": 1,
+                        "destruction": 1,
+                        "perfection": 10
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你写了一本关于人性的禁忌之书，它的核心主题会是：",
+            "options": [
+                {
+                    "text": "《统治术：如何利用恐惧和利益绝对支配他人》",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 2,
+                        "manipulation": 8,
+                        "destruction": 3,
+                        "perfection": 4
+                    }
+                },
+                {
+                    "text": "《魅惑的虚伪：情感吸血鬼的捕猎指南》",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 6,
+                        "nihilism": 3,
+                        "manipulation": 10,
+                        "destruction": 4,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "《崩坏美学：人类文明必须被清零的十个理由》",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 3,
+                        "nihilism": 6,
+                        "manipulation": 1,
+                        "destruction": 10,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "《极夜之海：论道德、信仰与希望的终极幻灭》",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 2,
+                        "destruction": 2,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "面对一个极度弱小、且完全崇拜你、依赖你的人，你潜意识最想做的是：",
+            "options": [
+                {
+                    "text": "觉得他非常可怜且恶心，想用极其残酷的规则去重塑他、剥削他",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "control": 9,
+                        "nihilism": 2,
+                        "manipulation": 4,
+                        "destruction": 6,
+                        "perfection": 8
+                    }
+                },
+                {
+                    "text": "极其享受这种被神化的感觉，并通过不断施舍和剥夺来操控他的情绪",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 1,
+                        "manipulation": 10,
+                        "destruction": 3,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "毫无感觉，甚至想一脚把他踢开，因为弱者没有生存的价值",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 9,
+                        "manipulation": 1,
+                        "destruction": 2,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "有一种莫名其妙想毁掉他、捏碎他的冲动，就像捏死一只蝴蝶",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 4,
+                        "nihilism": 3,
+                        "manipulation": 2,
+                        "destruction": 10,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果在一段完美的关系中，对方对你百依百顺，你会：",
+            "options": [
+                {
+                    "text": "很快感到索然无味，甚至会故意制造巨大的混乱和痛苦来寻找刺激",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 3,
+                        "nihilism": 4,
+                        "manipulation": 2,
+                        "destruction": 10,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "理所当然地享受这种绝对的主导权，如果他敢反抗，我会让他生不如死",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 2,
+                        "manipulation": 7,
+                        "destruction": 5,
+                        "perfection": 4
+                    }
+                },
+                {
+                    "text": "不断用放大镜去寻找他微小的瑕疵，一旦发现不完美就极度烦躁",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "control": 6,
+                        "nihilism": 2,
+                        "manipulation": 2,
+                        "destruction": 2,
+                        "perfection": 10
+                    }
+                },
+                {
+                    "text": "会用煤气灯效应（Gaslighting）让他变得更自我怀疑，从而彻底离不开我",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 10,
+                        "destruction": 4,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你如何看待社会道德与法律法规？",
+            "options": [
+                {
+                    "text": "那只是统治阶级用来约束弱者的工具，只要不被抓到，一切皆可为",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "control": 9,
+                        "nihilism": 5,
+                        "manipulation": 8,
+                        "destruction": 3,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "一群虫子为了抱团取暖而制定的无聊契约，毫无神圣性可言",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 10,
+                        "manipulation": 2,
+                        "destruction": 3,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "现有的规则太肮脏和漏洞百出了，我渴望用极其铁血的手段来清洗它",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 2,
+                        "destruction": 7,
+                        "perfection": 10
+                    }
+                },
+                {
+                    "text": "表面的规则是用来打破的，我喜欢游走在灰色地带享受破坏的快感",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 4,
+                        "nihilism": 4,
+                        "manipulation": 4,
+                        "destruction": 10,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你看到一个完美无瑕、幸福美满的家庭或个人时，你心底闪过的一丝阴暗念头是：",
+            "options": [
+                {
+                    "text": "想亲手撕下他们虚伪的面具，看看他们背地里有多肮脏",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 4,
+                        "nihilism": 2,
+                        "manipulation": 3,
+                        "destruction": 8,
+                        "perfection": 9
+                    }
+                },
+                {
+                    "text": "如果有机会，我想把那个人拉下神坛，让他变成依赖我的奴隶",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 10,
+                        "destruction": 4,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "觉得恶心，这不过是宇宙毁灭前短暂且毫无意义的幻象",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 3,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "如果有必要，我不介意剥夺他们的幸福来成就我自己",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 3,
+                        "manipulation": 6,
+                        "destruction": 5,
+                        "perfection": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在某些隐秘的时刻，你会在别人的不幸中获得怎样的快感？",
+            "options": [
+                {
+                    "text": "如果那个人曾经冒犯过我，我会享受那种大仇得报的极度快感",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 9,
+                        "nihilism": 2,
+                        "manipulation": 3,
+                        "destruction": 8,
+                        "perfection": 4
+                    }
+                },
+                {
+                    "text": "看到那些自命清高的人跌落泥潭，会让我有一种变态的愉悦感",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 5,
+                        "nihilism": 4,
+                        "manipulation": 4,
+                        "destruction": 7,
+                        "perfection": 9
+                    }
+                },
+                {
+                    "text": "我不仅享受，我还会假装同情去安慰他，从而彻底掌控他脆弱的精神",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 10,
+                        "destruction": 4,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "没有任何快感，别人的死活与我何干，一切都令人厌倦",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 2,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你的生活陷入极度枯燥和无聊时，你最可能做出的危险举动是：",
+            "options": [
+                {
+                    "text": "挑起一场人际关系的巨大冲突，只是为了看他们像小丑一样互相撕咬",
+                    "types": {
+                        "D": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 6,
+                        "nihilism": 4,
+                        "manipulation": 10,
+                        "destruction": 7,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "疯狂地去寻找一些极度刺激、甚至边缘化的高危体验来确认自己还活着",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 5,
+                        "manipulation": 2,
+                        "destruction": 10,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "在脑海中无数次模拟如何完美地策划一场惊天劫案或完美犯罪",
+                    "types": {
+                        "C": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 3,
+                        "manipulation": 4,
+                        "destruction": 5,
+                        "perfection": 10
+                    }
+                },
+                {
+                    "text": "直接躺平，陷入极度的抑郁和解离状态，觉得死了也没什么",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 4,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "想象世界末日到来，人类退化回丛林法则，你最可能扮演的角色是：",
+            "options": [
+                {
+                    "text": "建立绝对独裁的暴君，用铁血和杀戮统治幸存者",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 2,
+                        "manipulation": 7,
+                        "destruction": 5,
+                        "perfection": 4
+                    }
+                },
+                {
+                    "text": "隐藏在幕后的国师，用谎言和信仰操控那个明面上的暴君",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 3,
+                        "manipulation": 10,
+                        "destruction": 3,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "四处流浪的拾荒者，看着人类文明的废墟，觉得这才是它应有的归宿",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 4,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "极端的净化主义者，认为所有带着旧世界恶习的人都必须被杀光",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "control": 7,
+                        "nihilism": 4,
+                        "manipulation": 2,
+                        "destruction": 9,
+                        "perfection": 10
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你面前有一个按钮，按下去可以随机消灭地球上一半的人口，你会：",
+            "options": [
+                {
+                    "text": "毫不犹豫地按下去，人类就像地球的癌细胞，早该被清理了",
+                    "types": {
+                        "E": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "control": 4,
+                        "nihilism": 6,
+                        "manipulation": 1,
+                        "destruction": 10,
+                        "perfection": 8
+                    }
+                },
+                {
+                    "text": "绝不按随机键，我要亲自挑选哪些人该死，哪些人该活，建立新的秩序",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 2,
+                        "manipulation": 5,
+                        "destruction": 7,
+                        "perfection": 9
+                    }
+                },
+                {
+                    "text": "不会按，这种粗暴的方式太无聊了，我更喜欢看着人类在欲望中自相残杀",
+                    "types": {
+                        "D": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "control": 6,
+                        "nihilism": 7,
+                        "manipulation": 10,
+                        "destruction": 4,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "随便按不按，反正剩下的一半人最终还是会走向灭亡，没什么区别",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "control": 1,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 5,
+                        "perfection": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你内心深处最隐秘、最不想让人知道的幻想是：",
+            "options": [
+                {
+                    "text": "把所有伤害过我、看不起我的人踩在脚下，让他们像狗一样乞求我",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "control": 10,
+                        "nihilism": 2,
+                        "manipulation": 5,
+                        "destruction": 7,
+                        "perfection": 3
+                    }
+                },
+                {
+                    "text": "看着这个世界的金融体系、道德体系和政治体系在一天内全部崩溃",
+                    "types": {
+                        "E": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "control": 3,
+                        "nihilism": 7,
+                        "manipulation": 2,
+                        "destruction": 10,
+                        "perfection": 2
+                    }
+                },
+                {
+                    "text": "让某个人（或一群人）对我产生神明般的崇拜，我可以随意地摧毁他们的心智",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "control": 8,
+                        "nihilism": 2,
+                        "manipulation": 10,
+                        "destruction": 5,
+                        "perfection": 1
+                    }
+                },
+                {
+                    "text": "彻底抹去自己存在过的所有痕迹，就像从来没有来过这个恶心的世界",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "control": 2,
+                        "nihilism": 10,
+                        "manipulation": 1,
+                        "destruction": 6,
+                        "perfection": 8
+                    }
+                }
+            ]
+        }
     ],
     "results": {
         "A": {

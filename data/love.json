@@ -5,106 +5,909 @@
         "themeColor": "#8C4A5B",
         "upsellText": "解锁《深层依恋创伤修复与破局指南》",
         "quote": "你推开的，往往是你最渴望的",
-        "footerCta": "携带此档案编号，返回解锁《亲密关系深层防御卸载高级指南》"
+        "footerCta": "携带此档案编号，返回解锁《亲密关系深层防御卸载高级指南》",
+        "handbookUrl": "/handbooks/love-21cda8102e50.html"
     },
     "axes": [
-        { "id": "trust", "label": "信任门槛" },
-        { "id": "control", "label": "情绪掌控" },
-        { "id": "merge", "label": "边界融合" },
-        { "id": "sacrifice", "label": "自我牺牲" },
-        { "id": "drama", "label": "戏剧张力" }
+        {
+            "id": "trust",
+            "label": "信任门槛"
+        },
+        {
+            "id": "control",
+            "label": "情绪掌控"
+        },
+        {
+            "id": "merge",
+            "label": "边界融合"
+        },
+        {
+            "id": "sacrifice",
+            "label": "自我牺牲"
+        },
+        {
+            "id": "drama",
+            "label": "戏剧张力"
+        }
     ],
     "questions": [
-        { "q": "当伴侣突然变得极其热情，开始疯狂表达爱意时，你内心的真实感受是：", "options": [
-            { "text": "本能地感到窒息和警惕，甚至想立刻找借口独处一会儿", "types": { "A": 3, "C": 1 }, "scores": { "trust": 2, "control": 8, "merge": 1, "sacrifice": 2, "drama": 3 } },
-            { "text": "感到一种被填满的安全感，并用同等的热情疯狂回应", "types": { "B": 3, "E": 1 }, "scores": { "trust": 8, "control": 2, "merge": 10, "sacrifice": 8, "drama": 8 } },
-            { "text": "一半开心一半恐慌，害怕这只是短暂的幻觉，随时会失去", "types": { "C": 3, "B": 1 }, "scores": { "trust": 2, "control": 3, "merge": 8, "sacrifice": 6, "drama": 9 } },
-            { "text": "欣然接受并开心回应，但不觉得这是什么特别了不起的事", "types": { "D": 3 }, "scores": { "trust": 9, "control": 8, "merge": 6, "sacrifice": 5, "drama": 2 } }
-        ]},
-        { "q": "如果对方已经有三个小时没有回复你的消息，你会：", "options": [
-            { "text": "完全不在意，甚至有点享受这段不被打扰的时光", "types": { "A": 3, "D": 2 }, "scores": { "trust": 7, "control": 9, "merge": 2, "sacrifice": 3, "drama": 2 } },
-            { "text": "开始在脑海中上演灾难大片，频繁查看手机，情绪逐渐崩溃", "types": { "B": 3 }, "scores": { "trust": 2, "control": 1, "merge": 9, "sacrifice": 8, "drama": 10 } },
-            { "text": "心里很不爽，决定等Ta回复以后，我也故意晾Ta三个小时", "types": { "E": 3, "C": 2 }, "scores": { "trust": 3, "control": 5, "merge": 4, "sacrifice": 4, "drama": 9 } },
-            { "text": "直接打个电话过去问怎么了，如果不接就自己去忙别的了", "types": { "D": 3 }, "scores": { "trust": 9, "control": 8, "merge": 5, "sacrifice": 5, "drama": 1 } }
-        ]},
-        { "q": "在关系发生严重争吵，且双方情绪都达到沸点时，你最常用的终极策略是：", "options": [
-            { "text": "物理消失或者绝对沉默，切断一切沟通渠道", "types": { "A": 3 }, "scores": { "trust": 3, "control": 8, "merge": 1, "sacrifice": 2, "drama": 4 } },
-            { "text": "声嘶力竭地逼迫对方立刻解决，绝不允许对方逃避", "types": { "B": 3 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 7, "drama": 10 } },
-            { "text": "说出极其恶毒、伤人的话，甚至主动提分手来测试对方", "types": { "C": 3, "E": 2 }, "scores": { "trust": 1, "control": 1, "merge": 8, "sacrifice": 4, "drama": 10 } },
-            { "text": "要求大家先冷静30分钟，然后再坐下来就事论事地谈", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 5, "sacrifice": 6, "drama": 1 } }
-        ]},
-        { "q": "当你在关系中感到极度受伤时，你最常浮现的潜台词是：", "options": [
-            { "text": "“果然，除了我自己，没有任何人是靠得住的，我不需要爱。”", "types": { "A": 3, "C": 1 }, "scores": { "trust": 1, "control": 9, "merge": 1, "sacrifice": 3, "drama": 3 } },
-            { "text": "“我为你付出了那么多，你凭什么这样对我？你根本不爱我！”", "types": { "B": 3 }, "scores": { "trust": 2, "control": 2, "merge": 9, "sacrifice": 10, "drama": 9 } },
-            { "text": "“我就知道会这样，我不配拥有幸福，一切都被我毁了。”", "types": { "C": 3 }, "scores": { "trust": 1, "control": 1, "merge": 7, "sacrifice": 5, "drama": 9 } },
-            { "text": "“这种互相伤害没有意义，我们需要调整相处模式或者分开。”", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 4, "sacrifice": 5, "drama": 1 } }
-        ]},
-        { "q": "一段平平淡淡、没有任何波澜的长期关系，会让你觉得：", "options": [
-            { "text": "非常舒适，我就喜欢这种如同室友般可控、不消耗能量的模式", "types": { "A": 3 }, "scores": { "trust": 7, "control": 9, "merge": 3, "sacrifice": 4, "drama": 1 } },
-            { "text": "充满不安，觉得爱情已经消失了，甚至会主动制造小摩擦来验证", "types": { "B": 3, "C": 1 }, "scores": { "trust": 3, "control": 3, "merge": 8, "sacrifice": 7, "drama": 10 } },
-            { "text": "极其无聊，我会迅速失去新鲜感，想要去寻找新的刺激和暧昧", "types": { "E": 3 }, "scores": { "trust": 5, "control": 7, "merge": 2, "sacrifice": 1, "drama": 9 } },
-            { "text": "这才是生活真实的底色，平淡中蕴含着最深厚的信任和羁绊", "types": { "D": 3 }, "scores": { "trust": 10, "control": 9, "merge": 7, "sacrifice": 7, "drama": 1 } }
-        ]},
-        { "q": "当一段感情走到尽头，你通常的离开方式是：", "options": [
-            { "text": "极度冷酷地抽身，在心里早就演练了无数遍，表面毫无波澜", "types": { "A": 3 }, "scores": { "trust": 4, "control": 10, "merge": 1, "sacrifice": 3, "drama": 2 } },
-            { "text": "反复拉扯，经历极其痛苦的戒断反应，甚至做出歇斯底里的挽留", "types": { "B": 3, "C": 1 }, "scores": { "trust": 2, "control": 1, "merge": 8, "sacrifice": 9, "drama": 10 } },
-            { "text": "必须由我来做那个“坏人”甩掉对方，这样我就有了控制感", "types": { "E": 3 }, "scores": { "trust": 4, "control": 8, "merge": 2, "sacrifice": 2, "drama": 8 } },
-            { "text": "好好说再见，即使难过也会接受现实，祝对方未来安好", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 4, "sacrifice": 5, "drama": 1 } }
-        ]},
-        { "q": "如果用一种动物来形容你在爱情中的防御姿态，是：", "options": [
-            { "text": "躲在壳里的蜗牛，稍有风吹草动，就彻底缩回去锁死", "types": { "A": 3 }, "scores": { "trust": 1, "control": 8, "merge": 2, "sacrifice": 2, "drama": 3 } },
-            { "text": "紧紧缠绕的藤蔓，越没有安全感，就缠得越紧，直到双方窒息", "types": { "B": 3 }, "scores": { "trust": 3, "control": 2, "merge": 10, "sacrifice": 8, "drama": 9 } },
-            { "text": "浑身带刺的刺猬，渴望拥抱，但一旦别人靠近又会把别人扎伤", "types": { "C": 3 }, "scores": { "trust": 1, "control": 1, "merge": 7, "sacrifice": 5, "drama": 10 } },
-            { "text": "羽毛绚丽的孔雀，总是展示最完美的一面，但绝不付出真心", "types": { "E": 3 }, "scores": { "trust": 4, "control": 8, "merge": 3, "sacrifice": 1, "drama": 9 } }
-        ]},
-        { "q": "对于查看伴侣的手机，你内心的真实想法是：", "options": [
-            { "text": "极其厌恶这种行为，这是对隐私的严重侵犯，我也绝对不看", "types": { "A": 3, "D": 2 }, "scores": { "trust": 9, "control": 8, "merge": 1, "sacrifice": 3, "drama": 1 } },
-            { "text": "虽然知道不好，但总忍不住想去翻，哪怕没查出什么也会过度解读", "types": { "B": 3, "C": 1 }, "scores": { "trust": 1, "control": 2, "merge": 9, "sacrifice": 7, "drama": 9 } },
-            { "text": "如果他主动给我看，我就看；如果是偷偷看，我觉得没必要", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 5, "sacrifice": 5, "drama": 2 } },
-            { "text": "无所谓，我更怕他看我的手机，因为我总需要保留一点秘密", "types": { "E": 3 }, "scores": { "trust": 4, "control": 7, "merge": 2, "sacrifice": 1, "drama": 7 } }
-        ]},
-        { "q": "当伴侣向你倾诉前任的伤害时，你的第一反应是：", "options": [
-            { "text": "觉得这是他自己的事，听听就好，内心毫无波澜甚至想快点结束话题", "types": { "A": 3 }, "scores": { "trust": 5, "control": 8, "merge": 2, "sacrifice": 2, "drama": 3 } },
-            { "text": "极度共情，心疼他，甚至在心里发誓一定要用加倍的爱去弥补他", "types": { "B": 3, "E": 1 }, "scores": { "trust": 6, "control": 3, "merge": 10, "sacrifice": 9, "drama": 7 } },
-            { "text": "表面倾听，但内心开始疯狂嫉妒那个前任，甚至会在以后吵架时翻旧账", "types": { "C": 3, "B": 1 }, "scores": { "trust": 2, "control": 2, "merge": 8, "sacrifice": 5, "drama": 10 } },
-            { "text": "理性分析他们分手的原因，帮他梳理情绪，但不会让自己卷入其中", "types": { "D": 3 }, "scores": { "trust": 8, "control": 9, "merge": 4, "sacrifice": 4, "drama": 1 } }
-        ]},
-        { "q": "当伴侣提出“我最近压力很大，想一个人静几天”时，你会：", "options": [
-            { "text": "求之不得，正好我也需要个人空间，完全不觉得这有什么问题", "types": { "A": 3, "D": 1 }, "scores": { "trust": 8, "control": 9, "merge": 1, "sacrifice": 2, "drama": 2 } },
-            { "text": "立刻觉得天塌了，认定他是在冷暴力或者想分手，开始疯狂夺命连环call", "types": { "B": 3 }, "scores": { "trust": 1, "control": 1, "merge": 10, "sacrifice": 8, "drama": 10 } },
-            { "text": "非常受伤，觉得被推开了，于是决定在他回来之前，我先“精神离开”", "types": { "C": 3 }, "scores": { "trust": 2, "control": 4, "merge": 6, "sacrifice": 4, "drama": 9 } },
-            { "text": "尊重他的需求，并且告诉他：“随时找我，我都在。”", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 6, "sacrifice": 6, "drama": 1 } }
-        ]},
-        { "q": "你最擅长用来表达爱意的方式是：", "options": [
-            { "text": "通过实际行动帮忙解决问题，或者提供物质支持，极少说“我爱你”", "types": { "A": 3, "D": 1 }, "scores": { "trust": 6, "control": 8, "merge": 3, "sacrifice": 5, "drama": 2 } },
-            { "text": "全天候的情绪价值提供、无微不至的照顾，甚至包办对方的生活", "types": { "B": 3 }, "scores": { "trust": 5, "control": 3, "merge": 10, "sacrifice": 10, "drama": 7 } },
-            { "text": "忽冷忽热，用一些戏剧性的浪漫惊喜或者突然的推开来证明存在感", "types": { "E": 3, "C": 2 }, "scores": { "trust": 3, "control": 6, "merge": 5, "sacrifice": 3, "drama": 10 } },
-            { "text": "坦诚的沟通、深度的赞美，以及高质量的陪伴时间", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 7, "sacrifice": 6, "drama": 1 } }
-        ]},
-        { "q": "在一次激烈的争吵中，你突然意识到确实是自己做错了，你会：", "options": [
-            { "text": "用沉默来掩饰尴尬，或者直接转移话题，绝口不提道歉的事", "types": { "A": 3, "E": 1 }, "scores": { "trust": 4, "control": 8, "merge": 2, "sacrifice": 2, "drama": 5 } },
-            { "text": "立刻跪求原谅，甚至痛哭流涕，把姿态放得极低，直到对方心软", "types": { "B": 3, "C": 1 }, "scores": { "trust": 3, "control": 2, "merge": 9, "sacrifice": 9, "drama": 10 } },
-            { "text": "恼羞成怒，强行找出对方的一点小错来反击，因为无法面对自己的脆弱", "types": { "C": 3 }, "scores": { "trust": 2, "control": 3, "merge": 6, "sacrifice": 4, "drama": 9 } },
-            { "text": "坦诚地承认错误：“抱歉，这件事是我没做好。”然后给出改进方案", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 6, "sacrifice": 5, "drama": 1 } }
-        ]},
-        { "q": "当你们的关系即将进入下一个重大阶段（如见家长、同居、结婚）时，你的潜意识反应是：", "options": [
-            { "text": "感到巨大的压迫感和窒息感，甚至想要临阵脱逃或者故意搞砸", "types": { "A": 3, "C": 1 }, "scores": { "trust": 2, "control": 7, "merge": 1, "sacrifice": 3, "drama": 8 } },
-            { "text": "狂喜且焦虑，恨不得立刻把所有流程办完，生怕夜长梦多", "types": { "B": 3 }, "scores": { "trust": 4, "control": 2, "merge": 10, "sacrifice": 8, "drama": 7 } },
-            { "text": "无所谓，甚至觉得这只是游戏的一环，随时可以撤出", "types": { "E": 3 }, "scores": { "trust": 5, "control": 8, "merge": 2, "sacrifice": 1, "drama": 6 } },
-            { "text": "虽然有压力，但会觉得这是一起开启人生新篇章的自然过程", "types": { "D": 3 }, "scores": { "trust": 9, "control": 9, "merge": 7, "sacrifice": 7, "drama": 2 } }
-        ]},
-        { "q": "看到伴侣在事业上取得了巨大的成功或升职，你会：", "options": [
-            { "text": "觉得这是他自己的事，不会过度反应，甚至潜意识里觉得他可能不需要我了", "types": { "A": 3, "C": 1 }, "scores": { "trust": 4, "control": 8, "merge": 2, "sacrifice": 3, "drama": 5 } },
-            { "text": "感到深深的恐慌，觉得他变得太耀眼了，随时可能会抛弃我", "types": { "B": 3 }, "scores": { "trust": 2, "control": 2, "merge": 9, "sacrifice": 8, "drama": 9 } },
-            { "text": "利用他的光环来炫耀自己，或者趁机要求更多的物质回报", "types": { "E": 3 }, "scores": { "trust": 3, "control": 7, "merge": 4, "sacrifice": 1, "drama": 6 } },
-            { "text": "由衷地为他感到骄傲，并和他一起庆祝，相信这会让你们更好", "types": { "D": 3 }, "scores": { "trust": 10, "control": 9, "merge": 6, "sacrifice": 5, "drama": 1 } }
-        ]},
-        { "q": "在一段关系中，最能让你感到“极致安全感”的时刻是：", "options": [
-            { "text": "大家都在各自的房间里做自己的事，互不打扰，但知道对方在", "types": { "A": 3, "D": 1 }, "scores": { "trust": 8, "control": 9, "merge": 2, "sacrifice": 3, "drama": 1 } },
-            { "text": "他为了我拒绝了所有社交，24小时粘在一起，手机密码也给我", "types": { "B": 3 }, "scores": { "trust": 2, "control": 1, "merge": 10, "sacrifice": 9, "drama": 8 } },
-            { "text": "经历了一次极其惨烈的争吵和濒临分手，但他最终还是没有走", "types": { "C": 3, "E": 1 }, "scores": { "trust": 1, "control": 2, "merge": 8, "sacrifice": 6, "drama": 10 } },
-            { "text": "他遇到重大挫折时，第一时间向我展示脆弱并寻求我的意见", "types": { "D": 3 }, "scores": { "trust": 9, "control": 8, "merge": 8, "sacrifice": 7, "drama": 2 } }
-        ]}
+        {
+            "q": "当伴侣突然变得极其热情，开始疯狂表达爱意时，你内心的真实感受是：",
+            "options": [
+                {
+                    "text": "本能地感到窒息和警惕，甚至想立刻找借口独处一会儿",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 8,
+                        "merge": 1,
+                        "sacrifice": 2,
+                        "drama": 3
+                    }
+                },
+                {
+                    "text": "感到一种被填满的安全感，并用同等的热情疯狂回应",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 2,
+                        "merge": 10,
+                        "sacrifice": 8,
+                        "drama": 8
+                    }
+                },
+                {
+                    "text": "一半开心一半恐慌，害怕这只是短暂的幻觉，随时会失去",
+                    "types": {
+                        "C": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 3,
+                        "merge": 8,
+                        "sacrifice": 6,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "欣然接受并开心回应，但不觉得这是什么特别了不起的事",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 8,
+                        "merge": 6,
+                        "sacrifice": 5,
+                        "drama": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果对方已经有三个小时没有回复你的消息，你会：",
+            "options": [
+                {
+                    "text": "完全不在意，甚至有点享受这段不被打扰的时光",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "trust": 7,
+                        "control": 9,
+                        "merge": 2,
+                        "sacrifice": 3,
+                        "drama": 2
+                    }
+                },
+                {
+                    "text": "开始在脑海中上演灾难大片，频繁查看手机，情绪逐渐崩溃",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 1,
+                        "merge": 9,
+                        "sacrifice": 8,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "心里很不爽，决定等Ta回复以后，我也故意晾Ta三个小时",
+                    "types": {
+                        "E": 3,
+                        "C": 2
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 5,
+                        "merge": 4,
+                        "sacrifice": 4,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "直接打个电话过去问怎么了，如果不接就自己去忙别的了",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 8,
+                        "merge": 5,
+                        "sacrifice": 5,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在关系发生严重争吵，且双方情绪都达到沸点时，你最常用的终极策略是：",
+            "options": [
+                {
+                    "text": "物理消失或者绝对沉默，切断一切沟通渠道",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 8,
+                        "merge": 1,
+                        "sacrifice": 2,
+                        "drama": 4
+                    }
+                },
+                {
+                    "text": "声嘶力竭地逼迫对方立刻解决，绝不允许对方逃避",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 2,
+                        "merge": 10,
+                        "sacrifice": 7,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "说出极其恶毒、伤人的话，甚至主动提分手来测试对方",
+                    "types": {
+                        "C": 3,
+                        "E": 2
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 1,
+                        "merge": 8,
+                        "sacrifice": 4,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "要求大家先冷静30分钟，然后再坐下来就事论事地谈",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 5,
+                        "sacrifice": 6,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你在关系中感到极度受伤时，你最常浮现的潜台词是：",
+            "options": [
+                {
+                    "text": "“果然，除了我自己，没有任何人是靠得住的，我不需要爱。”",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 9,
+                        "merge": 1,
+                        "sacrifice": 3,
+                        "drama": 3
+                    }
+                },
+                {
+                    "text": "“我为你付出了那么多，你凭什么这样对我？你根本不爱我！”",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 2,
+                        "merge": 9,
+                        "sacrifice": 10,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "“我就知道会这样，我不配拥有幸福，一切都被我毁了。”",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 1,
+                        "merge": 7,
+                        "sacrifice": 5,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "“这种互相伤害没有意义，我们需要调整相处模式或者分开。”",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 4,
+                        "sacrifice": 5,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "一段平平淡淡、没有任何波澜的长期关系，会让你觉得：",
+            "options": [
+                {
+                    "text": "非常舒适，我就喜欢这种如同室友般可控、不消耗能量的模式",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "trust": 7,
+                        "control": 9,
+                        "merge": 3,
+                        "sacrifice": 4,
+                        "drama": 1
+                    }
+                },
+                {
+                    "text": "充满不安，觉得爱情已经消失了，甚至会主动制造小摩擦来验证",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 3,
+                        "merge": 8,
+                        "sacrifice": 7,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "极其无聊，我会迅速失去新鲜感，想要去寻找新的刺激和暧昧",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "trust": 5,
+                        "control": 7,
+                        "merge": 2,
+                        "sacrifice": 1,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "这才是生活真实的底色，平淡中蕴含着最深厚的信任和羁绊",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 10,
+                        "control": 9,
+                        "merge": 7,
+                        "sacrifice": 7,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当一段感情走到尽头，你通常的离开方式是：",
+            "options": [
+                {
+                    "text": "极度冷酷地抽身，在心里早就演练了无数遍，表面毫无波澜",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 10,
+                        "merge": 1,
+                        "sacrifice": 3,
+                        "drama": 2
+                    }
+                },
+                {
+                    "text": "反复拉扯，经历极其痛苦的戒断反应，甚至做出歇斯底里的挽留",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 1,
+                        "merge": 8,
+                        "sacrifice": 9,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "必须由我来做那个“坏人”甩掉对方，这样我就有了控制感",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 8,
+                        "merge": 2,
+                        "sacrifice": 2,
+                        "drama": 8
+                    }
+                },
+                {
+                    "text": "好好说再见，即使难过也会接受现实，祝对方未来安好",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 4,
+                        "sacrifice": 5,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果用一种动物来形容你在爱情中的防御姿态，是：",
+            "options": [
+                {
+                    "text": "躲在壳里的蜗牛，稍有风吹草动，就彻底缩回去锁死",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 8,
+                        "merge": 2,
+                        "sacrifice": 2,
+                        "drama": 3
+                    }
+                },
+                {
+                    "text": "紧紧缠绕的藤蔓，越没有安全感，就缠得越紧，直到双方窒息",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 2,
+                        "merge": 10,
+                        "sacrifice": 8,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "浑身带刺的刺猬，渴望拥抱，但一旦别人靠近又会把别人扎伤",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 1,
+                        "merge": 7,
+                        "sacrifice": 5,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "羽毛绚丽的孔雀，总是展示最完美的一面，但绝不付出真心",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 8,
+                        "merge": 3,
+                        "sacrifice": 1,
+                        "drama": 9
+                    }
+                }
+            ]
+        },
+        {
+            "q": "对于查看伴侣的手机，你内心的真实想法是：",
+            "options": [
+                {
+                    "text": "极其厌恶这种行为，这是对隐私的严重侵犯，我也绝对不看",
+                    "types": {
+                        "A": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 8,
+                        "merge": 1,
+                        "sacrifice": 3,
+                        "drama": 1
+                    }
+                },
+                {
+                    "text": "虽然知道不好，但总忍不住想去翻，哪怕没查出什么也会过度解读",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 2,
+                        "merge": 9,
+                        "sacrifice": 7,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "如果他主动给我看，我就看；如果是偷偷看，我觉得没必要",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 5,
+                        "sacrifice": 5,
+                        "drama": 2
+                    }
+                },
+                {
+                    "text": "无所谓，我更怕他看我的手机，因为我总需要保留一点秘密",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 7,
+                        "merge": 2,
+                        "sacrifice": 1,
+                        "drama": 7
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当伴侣向你倾诉前任的伤害时，你的第一反应是：",
+            "options": [
+                {
+                    "text": "觉得这是他自己的事，听听就好，内心毫无波澜甚至想快点结束话题",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "trust": 5,
+                        "control": 8,
+                        "merge": 2,
+                        "sacrifice": 2,
+                        "drama": 3
+                    }
+                },
+                {
+                    "text": "极度共情，心疼他，甚至在心里发誓一定要用加倍的爱去弥补他",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "trust": 6,
+                        "control": 3,
+                        "merge": 10,
+                        "sacrifice": 9,
+                        "drama": 7
+                    }
+                },
+                {
+                    "text": "表面倾听，但内心开始疯狂嫉妒那个前任，甚至会在以后吵架时翻旧账",
+                    "types": {
+                        "C": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 2,
+                        "merge": 8,
+                        "sacrifice": 5,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "理性分析他们分手的原因，帮他梳理情绪，但不会让自己卷入其中",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 4,
+                        "sacrifice": 4,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当伴侣提出“我最近压力很大，想一个人静几天”时，你会：",
+            "options": [
+                {
+                    "text": "求之不得，正好我也需要个人空间，完全不觉得这有什么问题",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 1,
+                        "sacrifice": 2,
+                        "drama": 2
+                    }
+                },
+                {
+                    "text": "立刻觉得天塌了，认定他是在冷暴力或者想分手，开始疯狂夺命连环call",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 1,
+                        "merge": 10,
+                        "sacrifice": 8,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "非常受伤，觉得被推开了，于是决定在他回来之前，我先“精神离开”",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 4,
+                        "merge": 6,
+                        "sacrifice": 4,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "尊重他的需求，并且告诉他：“随时找我，我都在。”",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 9,
+                        "merge": 6,
+                        "sacrifice": 6,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你最擅长用来表达爱意的方式是：",
+            "options": [
+                {
+                    "text": "通过实际行动帮忙解决问题，或者提供物质支持，极少说“我爱你”",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "trust": 6,
+                        "control": 8,
+                        "merge": 3,
+                        "sacrifice": 5,
+                        "drama": 2
+                    }
+                },
+                {
+                    "text": "全天候的情绪价值提供、无微不至的照顾，甚至包办对方的生活",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 5,
+                        "control": 3,
+                        "merge": 10,
+                        "sacrifice": 10,
+                        "drama": 7
+                    }
+                },
+                {
+                    "text": "忽冷忽热，用一些戏剧性的浪漫惊喜或者突然的推开来证明存在感",
+                    "types": {
+                        "E": 3,
+                        "C": 2
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 6,
+                        "merge": 5,
+                        "sacrifice": 3,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "坦诚的沟通、深度的赞美，以及高质量的陪伴时间",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 9,
+                        "merge": 7,
+                        "sacrifice": 6,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在一次激烈的争吵中，你突然意识到确实是自己做错了，你会：",
+            "options": [
+                {
+                    "text": "用沉默来掩饰尴尬，或者直接转移话题，绝口不提道歉的事",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 8,
+                        "merge": 2,
+                        "sacrifice": 2,
+                        "drama": 5
+                    }
+                },
+                {
+                    "text": "立刻跪求原谅，甚至痛哭流涕，把姿态放得极低，直到对方心软",
+                    "types": {
+                        "B": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 2,
+                        "merge": 9,
+                        "sacrifice": 9,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "恼羞成怒，强行找出对方的一点小错来反击，因为无法面对自己的脆弱",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 3,
+                        "merge": 6,
+                        "sacrifice": 4,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "坦诚地承认错误：“抱歉，这件事是我没做好。”然后给出改进方案",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 9,
+                        "merge": 6,
+                        "sacrifice": 5,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你们的关系即将进入下一个重大阶段（如见家长、同居、结婚）时，你的潜意识反应是：",
+            "options": [
+                {
+                    "text": "感到巨大的压迫感和窒息感，甚至想要临阵脱逃或者故意搞砸",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 7,
+                        "merge": 1,
+                        "sacrifice": 3,
+                        "drama": 8
+                    }
+                },
+                {
+                    "text": "狂喜且焦虑，恨不得立刻把所有流程办完，生怕夜长梦多",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 2,
+                        "merge": 10,
+                        "sacrifice": 8,
+                        "drama": 7
+                    }
+                },
+                {
+                    "text": "无所谓，甚至觉得这只是游戏的一环，随时可以撤出",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "trust": 5,
+                        "control": 8,
+                        "merge": 2,
+                        "sacrifice": 1,
+                        "drama": 6
+                    }
+                },
+                {
+                    "text": "虽然有压力，但会觉得这是一起开启人生新篇章的自然过程",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 9,
+                        "merge": 7,
+                        "sacrifice": 7,
+                        "drama": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "看到伴侣在事业上取得了巨大的成功或升职，你会：",
+            "options": [
+                {
+                    "text": "觉得这是他自己的事，不会过度反应，甚至潜意识里觉得他可能不需要我了",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "trust": 4,
+                        "control": 8,
+                        "merge": 2,
+                        "sacrifice": 3,
+                        "drama": 5
+                    }
+                },
+                {
+                    "text": "感到深深的恐慌，觉得他变得太耀眼了，随时可能会抛弃我",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 2,
+                        "merge": 9,
+                        "sacrifice": 8,
+                        "drama": 9
+                    }
+                },
+                {
+                    "text": "利用他的光环来炫耀自己，或者趁机要求更多的物质回报",
+                    "types": {
+                        "E": 3
+                    },
+                    "scores": {
+                        "trust": 3,
+                        "control": 7,
+                        "merge": 4,
+                        "sacrifice": 1,
+                        "drama": 6
+                    }
+                },
+                {
+                    "text": "由衷地为他感到骄傲，并和他一起庆祝，相信这会让你们更好",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 10,
+                        "control": 9,
+                        "merge": 6,
+                        "sacrifice": 5,
+                        "drama": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在一段关系中，最能让你感到“极致安全感”的时刻是：",
+            "options": [
+                {
+                    "text": "大家都在各自的房间里做自己的事，互不打扰，但知道对方在",
+                    "types": {
+                        "A": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "trust": 8,
+                        "control": 9,
+                        "merge": 2,
+                        "sacrifice": 3,
+                        "drama": 1
+                    }
+                },
+                {
+                    "text": "他为了我拒绝了所有社交，24小时粘在一起，手机密码也给我",
+                    "types": {
+                        "B": 3
+                    },
+                    "scores": {
+                        "trust": 2,
+                        "control": 1,
+                        "merge": 10,
+                        "sacrifice": 9,
+                        "drama": 8
+                    }
+                },
+                {
+                    "text": "经历了一次极其惨烈的争吵和濒临分手，但他最终还是没有走",
+                    "types": {
+                        "C": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "trust": 1,
+                        "control": 2,
+                        "merge": 8,
+                        "sacrifice": 6,
+                        "drama": 10
+                    }
+                },
+                {
+                    "text": "他遇到重大挫折时，第一时间向我展示脆弱并寻求我的意见",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "trust": 9,
+                        "control": 8,
+                        "merge": 8,
+                        "sacrifice": 7,
+                        "drama": 2
+                    }
+                }
+            ]
+        }
     ],
     "results": {
         "A": {

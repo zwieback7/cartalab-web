@@ -5,106 +5,922 @@
         "themeColor": "#4A6B8C",
         "upsellText": "解锁《商业变现定制手册》",
         "quote": "你的性格就是你的商业杠杆",
-        "footerCta": "携带此档案编号，返回解锁《个体商业变现路径定制手册》"
+        "footerCta": "携带此档案编号，返回解锁《个体商业变现路径定制手册》",
+        "handbookUrl": "/handbooks/career-a9888d4ec87d.html"
     },
     "axes": [
-        { "id": "traffic", "label": "流量嗅觉" },
-        { "id": "risk", "label": "风险耐受" },
-        { "id": "longterm", "label": "长期主义" },
-        { "id": "resource", "label": "资源整合" },
-        { "id": "solo", "label": "孤独作业力" }
+        {
+            "id": "traffic",
+            "label": "流量嗅觉"
+        },
+        {
+            "id": "risk",
+            "label": "风险耐受"
+        },
+        {
+            "id": "longterm",
+            "label": "长期主义"
+        },
+        {
+            "id": "resource",
+            "label": "资源整合"
+        },
+        {
+            "id": "solo",
+            "label": "孤独作业力"
+        }
     ],
     "questions": [
-        { "q": "遇到一个刚刚兴起、但规则极度不完善的风口时：", "options": [
-            { "text": "保持警惕，等别人蹚雷、模式清晰后再带着核心技能下场", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 2, "longterm": 8, "resource": 3, "solo": 9 } },
-            { "text": "第一时间冲进去，哪怕是草莽期，先占住坑位和流量再说", "types": { "B": 3, "D": 2 }, "scores": { "traffic": 9, "risk": 8, "longterm": 3, "resource": 9, "solo": 3 } },
-            { "text": "在旁边写分析文章、做内容科普，靠卖水和吸引粉丝赚钱", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 3, "longterm": 6, "resource": 4, "solo": 8 } },
-            { "text": "快速拼凑一个项目，赚到第一波快钱就立刻撤退，绝不恋战", "types": { "D": 3 }, "scores": { "traffic": 8, "risk": 9, "longterm": 1, "resource": 5, "solo": 5 } }
-        ]},
-        { "q": "在团队合作中，你最讨厌的状况是：", "options": [
-            { "text": "队友不够专业，频繁打断我的工作心流，还要我替他们擦屁股", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 7, "resource": 2, "solo": 10 } },
-            { "text": "大家都在低头做事，却没有一个懂战略的人把资源拼起来变现", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 8, "risk": 6, "longterm": 4, "resource": 10, "solo": 2 } },
-            { "text": "团队氛围死气沉沉，没有情绪共鸣和价值观愿景", "types": { "C": 3 }, "scores": { "traffic": 7, "risk": 3, "longterm": 5, "resource": 6, "solo": 7 } },
-            { "text": "决策流程太长，一个简单的赚钱机会非要开五次会讨论", "types": { "D": 3, "B": 1 }, "scores": { "traffic": 6, "risk": 8, "longterm": 2, "resource": 7, "solo": 4 } }
-        ]},
-        { "q": "如果你要开启一项副业，你倾向的冷启动方式是：", "options": [
-            { "text": "先花半年时间打磨一个完美的产品或技能，再推向市场", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 9, "resource": 3, "solo": 8 } },
-            { "text": "用一周时间搞个MVP(最小可行产品)，一边卖一边迭代", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 2, "resource": 8, "solo": 4 } },
-            { "text": "先从零开始写几十篇文章或者做视频，把人设和IP立住", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 3, "longterm": 7, "resource": 2, "solo": 9 } },
-            { "text": "先到处去抄别人跑通的模式，直接买号或者砸钱买量测试", "types": { "D": 3, "B": 1 }, "scores": { "traffic": 8, "risk": 9, "longterm": 1, "resource": 6, "solo": 3 } }
-        ]},
-        { "q": "看到别人靠一些“吸眼球但没深度”的内容赚了大钱，你会：", "options": [
-            { "text": "在心里有一丝不屑，坚信长期的价值终将战胜短期的喧嚣", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 10, "resource": 3, "solo": 7 } },
-            { "text": "立刻拆解对方的流量密码，思考自己能不能用更高的维度复制一遍", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 10, "risk": 7, "longterm": 3, "resource": 8, "solo": 4 } },
-            { "text": "痛心疾首，并写长文批判这种现象，反而收获了一波认同自己的粉丝", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 4, "longterm": 6, "resource": 4, "solo": 8 } },
-            { "text": "眼红，立刻去买个同样的模板，甚至搞矩阵号批量做", "types": { "D": 3 }, "scores": { "traffic": 9, "risk": 8, "longterm": 1, "resource": 5, "solo": 3 } }
-        ]},
-        { "q": "你如何看待“打造个人IP”？", "options": [
-            { "text": "害怕被误解，厌恶过度包装自己，觉得太虚荣了", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 7, "resource": 4, "solo": 8 } },
-            { "text": "IP只是杠杆，我不介意扮演某个角色，能卖出去东西最重要", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 10, "risk": 8, "longterm": 3, "resource": 9, "solo": 2 } },
-            { "text": "IP就是我真实的延伸，我渴望在这个世界上留下自己的声音和理念", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 4, "longterm": 8, "resource": 3, "solo": 9 } },
-            { "text": "觉得打造IP太慢了，我更喜欢躲在幕后搞不用露脸的流量生意", "types": { "D": 3, "A": 1 }, "scores": { "traffic": 7, "risk": 7, "longterm": 2, "resource": 5, "solo": 6 } }
-        ]},
-        { "q": "遇到事业上的低谷或瓶颈时，你通常的解决方式是：", "options": [
-            { "text": "把自己关起来，死磕专业技能，试图通过硬实力的突破来破局", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 4, "longterm": 9, "resource": 2, "solo": 10 } },
-            { "text": "找不同圈层的人喝咖啡、聊项目，从外部的信息碰撞中找新出路", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 8, "risk": 7, "longterm": 3, "resource": 10, "solo": 2 } },
-            { "text": "在社交媒体上记录自己的低谷期，反而获得了粉丝的鼓励和新连接", "types": { "C": 3 }, "scores": { "traffic": 8, "risk": 4, "longterm": 7, "resource": 5, "solo": 8 } },
-            { "text": "果断放弃当前沉没成本，迅速切换到一个完全不同的快钱赛道", "types": { "D": 3 }, "scores": { "traffic": 7, "risk": 9, "longterm": 1, "resource": 5, "solo": 3 } }
-        ]},
-        { "q": "如果明天你要开除团队里的一个人，你会选：", "options": [
-            { "text": "那个很会社交拍马屁，但业务能力一塌糊涂的“公关人”", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 4, "risk": 4, "longterm": 7, "resource": 2, "solo": 8 } },
-            { "text": "那个业务极其扎实，但性格孤僻、经常破坏团队气氛的“老黄牛”", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 7, "risk": 6, "longterm": 4, "resource": 9, "solo": 2 } },
-            { "text": "那个只看短期利益，为了赚钱经常损害客户信任的“套利者”", "types": { "E": 3, "C": 2 }, "scores": { "traffic": 4, "risk": 5, "longterm": 10, "resource": 8, "solo": 5 } },
-            { "text": "那个每天喊口号画大饼，但一个单子都拿不回来的“理想主义者”", "types": { "D": 3, "B": 2 }, "scores": { "traffic": 8, "risk": 7, "longterm": 2, "resource": 7, "solo": 3 } }
-        ]},
-        { "q": "当你获得了一笔不错的利润时，你下一步最可能会：", "options": [
-            { "text": "升级自己的生产力工具，或者报门高阶课程继续深造手艺", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 2, "longterm": 9, "resource": 3, "solo": 9 } },
-            { "text": "拿出一大半去请客吃饭结交更高阶的大佬，或者砸广告放大流量", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 9, "risk": 8, "longterm": 3, "resource": 10, "solo": 2 } },
-            { "text": "把钱花在提升自己的生活美学和外在包装上，继续强化人设", "types": { "C": 3 }, "scores": { "traffic": 8, "risk": 4, "longterm": 6, "resource": 4, "solo": 7 } },
-            { "text": "全部拿去买流量、加杠杆，试图在风口结束前再翻一倍", "types": { "D": 3 }, "scores": { "traffic": 8, "risk": 10, "longterm": 1, "resource": 6, "solo": 2 } }
-        ]},
-        { "q": "想象五年后的自己，你最理想的商业形态是：", "options": [
-            { "text": "成为某个垂直领域的顶尖专家，拥有一间极具溢价的小而美工作室", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 3, "risk": 3, "longterm": 10, "resource": 4, "solo": 10 } },
-            { "text": "成为站在幕后的操盘手，掌控多家公司的资源分配和流量密码", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 10, "risk": 9, "longterm": 4, "resource": 10, "solo": 2 } },
-            { "text": "成为精神领袖或头部IP，拥有千万级极度忠诚的超级个体粉丝群", "types": { "C": 3 }, "scores": { "traffic": 10, "risk": 4, "longterm": 8, "resource": 6, "solo": 9 } },
-            { "text": "早就赚够了钱退休，每天在海边炒炒币或者做点短线投资", "types": { "D": 3 }, "scores": { "traffic": 6, "risk": 9, "longterm": 1, "resource": 3, "solo": 5 } }
-        ]},
-        { "q": "面对一门能大幅提升你核心竞争力的昂贵课程或技能，你会：", "options": [
-            { "text": "毫不犹豫地买下并闭关修炼，我相信硬技能是唯一的护城河", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 9, "resource": 3, "solo": 10 } },
-            { "text": "看是谁讲的，如果是能带给我顶级人脉圈的大佬我就买", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 8, "risk": 7, "longterm": 4, "resource": 10, "solo": 3 } },
-            { "text": "买来不仅自己学，还要立刻做笔记输出，吸粉并打造爱学习的人设", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 4, "longterm": 7, "resource": 4, "solo": 7 } },
-            { "text": "去二手平台找个盗版或者随便看几篇免费文章，直接拿去实操搞钱", "types": { "D": 3 }, "scores": { "traffic": 9, "risk": 8, "longterm": 1, "resource": 5, "solo": 4 } }
-        ]},
-        { "q": "如果你的项目遭遇了重大失败，并且损失惨重，你的第一反应是：", "options": [
-            { "text": "极度自责，认为是自己不够专业导致了瑕疵，陷入深度的复盘", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 4, "longterm": 8, "resource": 2, "solo": 9 } },
-            { "text": "赶紧安抚核心投资人和关键资源节点，把锅甩给大环境或不可抗力", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 7, "risk": 8, "longterm": 3, "resource": 10, "solo": 2 } },
-            { "text": "开诚布公地写一篇长文向粉丝道歉，顺便分享失败经验，赢得同情", "types": { "C": 3 }, "scores": { "traffic": 9, "risk": 5, "longterm": 7, "resource": 5, "solo": 7 } },
-            { "text": "无所谓，直接注销公司换个马甲，马不停蹄地去追下一个风口", "types": { "D": 3 }, "scores": { "traffic": 7, "risk": 10, "longterm": 1, "resource": 4, "solo": 5 } }
-        ]},
-        { "q": "看到竞争对手原封不动地抄袭了你的产品或模式，并且卖得更好，你会：", "options": [
-            { "text": "鄙视这种行为，但我会花双倍时间研发出他绝对抄不出的2.0版本", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 2, "risk": 3, "longterm": 10, "resource": 2, "solo": 10 } },
-            { "text": "利用我的渠道优势直接进行价格战和流量压制，在商业上捏死他", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 9, "risk": 8, "longterm": 4, "resource": 10, "solo": 3 } },
-            { "text": "在社交媒体上挂他，通过维权制造话题，反而给自己导一波流量", "types": { "C": 3, "B": 1 }, "scores": { "traffic": 10, "risk": 5, "longterm": 6, "resource": 5, "solo": 7 } },
-            { "text": "承认他流量玩得比我好，立刻去加他微信，问能不能一起合作赚钱", "types": { "D": 3, "B": 2 }, "scores": { "traffic": 10, "risk": 7, "longterm": 2, "resource": 8, "solo": 3 } }
-        ]},
-        { "q": "如果有一个年薪百万但在大厂做螺丝钉的机会，和一个年薪十万但可能改变行业的创业机会，你选：", "options": [
-            { "text": "选大厂，我的手艺在哪里都能发挥，稳定高薪能让我更安心打磨技术", "types": { "A": 3, "C": 1 }, "scores": { "traffic": 3, "risk": 2, "longterm": 8, "resource": 3, "solo": 9 } },
-            { "text": "选大厂，但我会利用大厂的光环去疯狂结交人脉，接私活套利", "types": { "B": 3, "D": 1 }, "scores": { "traffic": 8, "risk": 6, "longterm": 3, "resource": 9, "solo": 2 } },
-            { "text": "选创业，我不能忍受当螺丝钉，我需要为伟大的愿景和世界级的挑战燃烧自己", "types": { "E": 3, "C": 1 }, "scores": { "traffic": 7, "risk": 9, "longterm": 10, "resource": 8, "solo": 4 } },
-            { "text": "谁给的钱马上能到账就选谁，不听画大饼，大厂工资到账了再去炒股", "types": { "D": 3 }, "scores": { "traffic": 7, "risk": 8, "longterm": 1, "resource": 4, "solo": 5 } }
-        ]},
-        { "q": "你手下一个核心骨干突然要求工资翻倍，否则就离职，你会：", "options": [
-            { "text": "觉得这是对团队秩序的挑衅，宁愿自己累死重新招人也绝不妥协", "types": { "A": 3, "E": 1 }, "scores": { "traffic": 3, "risk": 4, "longterm": 8, "resource": 2, "solo": 9 } },
-            { "text": "跟他算一笔账，用提成或者更虚的期权来替换现金，把他稳住", "types": { "B": 3, "E": 2 }, "scores": { "traffic": 7, "risk": 7, "longterm": 5, "resource": 10, "solo": 3 } },
-            { "text": "动之以情晓之以理，谈公司的困难和情怀，希望他能体谅", "types": { "C": 3 }, "scores": { "traffic": 6, "risk": 3, "longterm": 6, "resource": 5, "solo": 6 } },
-            { "text": "立刻答应，只要他能给我赚回三倍的钱，给他十倍工资又怎样", "types": { "D": 3, "B": 1 }, "scores": { "traffic": 9, "risk": 10, "longterm": 2, "resource": 8, "solo": 3 } }
-        ]},
-        { "q": "每天早上醒来，你打开手机第一眼想看的商业数据是：", "options": [
-            { "text": "产品的交付进度、报错日志或客户的深度长文反馈", "types": { "A": 3 }, "scores": { "traffic": 2, "risk": 2, "longterm": 9, "resource": 3, "solo": 10 } },
-            { "text": "人脉圈大佬的最新动态，或者各个社群里的风口八卦", "types": { "B": 3, "E": 1 }, "scores": { "traffic": 8, "risk": 6, "longterm": 3, "resource": 10, "solo": 2 } },
-            { "text": "各个平台的粉丝增长数、点赞数、或者内容后台的数据", "types": { "C": 3 }, "scores": { "traffic": 10, "risk": 4, "longterm": 7, "resource": 4, "solo": 8 } },
-            { "text": "昨晚跑出的利润表、广告ROI（投产比）或者币圈的K线", "types": { "D": 3 }, "scores": { "traffic": 10, "risk": 10, "longterm": 1, "resource": 6, "solo": 4 } }
-        ]}
+        {
+            "q": "遇到一个刚刚兴起、但规则极度不完善的风口时：",
+            "options": [
+                {
+                    "text": "保持警惕，等别人蹚雷、模式清晰后再带着核心技能下场",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 2,
+                        "longterm": 8,
+                        "resource": 3,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "第一时间冲进去，哪怕是草莽期，先占住坑位和流量再说",
+                    "types": {
+                        "B": 3,
+                        "D": 2
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 8,
+                        "longterm": 3,
+                        "resource": 9,
+                        "solo": 3
+                    }
+                },
+                {
+                    "text": "在旁边写分析文章、做内容科普，靠卖水和吸引粉丝赚钱",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 3,
+                        "longterm": 6,
+                        "resource": 4,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "快速拼凑一个项目，赚到第一波快钱就立刻撤退，绝不恋战",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 9,
+                        "longterm": 1,
+                        "resource": 5,
+                        "solo": 5
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在团队合作中，你最讨厌的状况是：",
+            "options": [
+                {
+                    "text": "队友不够专业，频繁打断我的工作心流，还要我替他们擦屁股",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "traffic": 3,
+                        "risk": 4,
+                        "longterm": 7,
+                        "resource": 2,
+                        "solo": 10
+                    }
+                },
+                {
+                    "text": "大家都在低头做事，却没有一个懂战略的人把资源拼起来变现",
+                    "types": {
+                        "B": 3,
+                        "E": 2
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 6,
+                        "longterm": 4,
+                        "resource": 10,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "团队氛围死气沉沉，没有情绪共鸣和价值观愿景",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 3,
+                        "longterm": 5,
+                        "resource": 6,
+                        "solo": 7
+                    }
+                },
+                {
+                    "text": "决策流程太长，一个简单的赚钱机会非要开五次会讨论",
+                    "types": {
+                        "D": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "traffic": 6,
+                        "risk": 8,
+                        "longterm": 2,
+                        "resource": 7,
+                        "solo": 4
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你要开启一项副业，你倾向的冷启动方式是：",
+            "options": [
+                {
+                    "text": "先花半年时间打磨一个完美的产品或技能，再推向市场",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 3,
+                        "longterm": 9,
+                        "resource": 3,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "用一周时间搞个MVP(最小可行产品)，一边卖一边迭代",
+                    "types": {
+                        "B": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 8,
+                        "longterm": 2,
+                        "resource": 8,
+                        "solo": 4
+                    }
+                },
+                {
+                    "text": "先从零开始写几十篇文章或者做视频，把人设和IP立住",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 3,
+                        "longterm": 7,
+                        "resource": 2,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "先到处去抄别人跑通的模式，直接买号或者砸钱买量测试",
+                    "types": {
+                        "D": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 9,
+                        "longterm": 1,
+                        "resource": 6,
+                        "solo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "看到别人靠一些“吸眼球但没深度”的内容赚了大钱，你会：",
+            "options": [
+                {
+                    "text": "在心里有一丝不屑，坚信长期的价值终将战胜短期的喧嚣",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 3,
+                        "longterm": 10,
+                        "resource": 3,
+                        "solo": 7
+                    }
+                },
+                {
+                    "text": "立刻拆解对方的流量密码，思考自己能不能用更高的维度复制一遍",
+                    "types": {
+                        "B": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 7,
+                        "longterm": 3,
+                        "resource": 8,
+                        "solo": 4
+                    }
+                },
+                {
+                    "text": "痛心疾首，并写长文批判这种现象，反而收获了一波认同自己的粉丝",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 4,
+                        "longterm": 6,
+                        "resource": 4,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "眼红，立刻去买个同样的模板，甚至搞矩阵号批量做",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 8,
+                        "longterm": 1,
+                        "resource": 5,
+                        "solo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你如何看待“打造个人IP”？",
+            "options": [
+                {
+                    "text": "害怕被误解，厌恶过度包装自己，觉得太虚荣了",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 3,
+                        "longterm": 7,
+                        "resource": 4,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "IP只是杠杆，我不介意扮演某个角色，能卖出去东西最重要",
+                    "types": {
+                        "B": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 8,
+                        "longterm": 3,
+                        "resource": 9,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "IP就是我真实的延伸，我渴望在这个世界上留下自己的声音和理念",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 4,
+                        "longterm": 8,
+                        "resource": 3,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "觉得打造IP太慢了，我更喜欢躲在幕后搞不用露脸的流量生意",
+                    "types": {
+                        "D": 3,
+                        "A": 1
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 7,
+                        "longterm": 2,
+                        "resource": 5,
+                        "solo": 6
+                    }
+                }
+            ]
+        },
+        {
+            "q": "遇到事业上的低谷或瓶颈时，你通常的解决方式是：",
+            "options": [
+                {
+                    "text": "把自己关起来，死磕专业技能，试图通过硬实力的突破来破局",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 4,
+                        "longterm": 9,
+                        "resource": 2,
+                        "solo": 10
+                    }
+                },
+                {
+                    "text": "找不同圈层的人喝咖啡、聊项目，从外部的信息碰撞中找新出路",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 7,
+                        "longterm": 3,
+                        "resource": 10,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "在社交媒体上记录自己的低谷期，反而获得了粉丝的鼓励和新连接",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 4,
+                        "longterm": 7,
+                        "resource": 5,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "果断放弃当前沉没成本，迅速切换到一个完全不同的快钱赛道",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 9,
+                        "longterm": 1,
+                        "resource": 5,
+                        "solo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果明天你要开除团队里的一个人，你会选：",
+            "options": [
+                {
+                    "text": "那个很会社交拍马屁，但业务能力一塌糊涂的“公关人”",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "traffic": 4,
+                        "risk": 4,
+                        "longterm": 7,
+                        "resource": 2,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "那个业务极其扎实，但性格孤僻、经常破坏团队气氛的“老黄牛”",
+                    "types": {
+                        "B": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 6,
+                        "longterm": 4,
+                        "resource": 9,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "那个只看短期利益，为了赚钱经常损害客户信任的“套利者”",
+                    "types": {
+                        "E": 3,
+                        "C": 2
+                    },
+                    "scores": {
+                        "traffic": 4,
+                        "risk": 5,
+                        "longterm": 10,
+                        "resource": 8,
+                        "solo": 5
+                    }
+                },
+                {
+                    "text": "那个每天喊口号画大饼，但一个单子都拿不回来的“理想主义者”",
+                    "types": {
+                        "D": 3,
+                        "B": 2
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 7,
+                        "longterm": 2,
+                        "resource": 7,
+                        "solo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你获得了一笔不错的利润时，你下一步最可能会：",
+            "options": [
+                {
+                    "text": "升级自己的生产力工具，或者报门高阶课程继续深造手艺",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 2,
+                        "longterm": 9,
+                        "resource": 3,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "拿出一大半去请客吃饭结交更高阶的大佬，或者砸广告放大流量",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 8,
+                        "longterm": 3,
+                        "resource": 10,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "把钱花在提升自己的生活美学和外在包装上，继续强化人设",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 4,
+                        "longterm": 6,
+                        "resource": 4,
+                        "solo": 7
+                    }
+                },
+                {
+                    "text": "全部拿去买流量、加杠杆，试图在风口结束前再翻一倍",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 10,
+                        "longterm": 1,
+                        "resource": 6,
+                        "solo": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "想象五年后的自己，你最理想的商业形态是：",
+            "options": [
+                {
+                    "text": "成为某个垂直领域的顶尖专家，拥有一间极具溢价的小而美工作室",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "traffic": 3,
+                        "risk": 3,
+                        "longterm": 10,
+                        "resource": 4,
+                        "solo": 10
+                    }
+                },
+                {
+                    "text": "成为站在幕后的操盘手，掌控多家公司的资源分配和流量密码",
+                    "types": {
+                        "B": 3,
+                        "E": 2
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 9,
+                        "longterm": 4,
+                        "resource": 10,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "成为精神领袖或头部IP，拥有千万级极度忠诚的超级个体粉丝群",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 4,
+                        "longterm": 8,
+                        "resource": 6,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "早就赚够了钱退休，每天在海边炒炒币或者做点短线投资",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 6,
+                        "risk": 9,
+                        "longterm": 1,
+                        "resource": 3,
+                        "solo": 5
+                    }
+                }
+            ]
+        },
+        {
+            "q": "面对一门能大幅提升你核心竞争力的昂贵课程或技能，你会：",
+            "options": [
+                {
+                    "text": "毫不犹豫地买下并闭关修炼，我相信硬技能是唯一的护城河",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 3,
+                        "longterm": 9,
+                        "resource": 3,
+                        "solo": 10
+                    }
+                },
+                {
+                    "text": "看是谁讲的，如果是能带给我顶级人脉圈的大佬我就买",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 7,
+                        "longterm": 4,
+                        "resource": 10,
+                        "solo": 3
+                    }
+                },
+                {
+                    "text": "买来不仅自己学，还要立刻做笔记输出，吸粉并打造爱学习的人设",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 4,
+                        "longterm": 7,
+                        "resource": 4,
+                        "solo": 7
+                    }
+                },
+                {
+                    "text": "去二手平台找个盗版或者随便看几篇免费文章，直接拿去实操搞钱",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 8,
+                        "longterm": 1,
+                        "resource": 5,
+                        "solo": 4
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你的项目遭遇了重大失败，并且损失惨重，你的第一反应是：",
+            "options": [
+                {
+                    "text": "极度自责，认为是自己不够专业导致了瑕疵，陷入深度的复盘",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 4,
+                        "longterm": 8,
+                        "resource": 2,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "赶紧安抚核心投资人和关键资源节点，把锅甩给大环境或不可抗力",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 8,
+                        "longterm": 3,
+                        "resource": 10,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "开诚布公地写一篇长文向粉丝道歉，顺便分享失败经验，赢得同情",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 5,
+                        "longterm": 7,
+                        "resource": 5,
+                        "solo": 7
+                    }
+                },
+                {
+                    "text": "无所谓，直接注销公司换个马甲，马不停蹄地去追下一个风口",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 10,
+                        "longterm": 1,
+                        "resource": 4,
+                        "solo": 5
+                    }
+                }
+            ]
+        },
+        {
+            "q": "看到竞争对手原封不动地抄袭了你的产品或模式，并且卖得更好，你会：",
+            "options": [
+                {
+                    "text": "鄙视这种行为，但我会花双倍时间研发出他绝对抄不出的2.0版本",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 3,
+                        "longterm": 10,
+                        "resource": 2,
+                        "solo": 10
+                    }
+                },
+                {
+                    "text": "利用我的渠道优势直接进行价格战和流量压制，在商业上捏死他",
+                    "types": {
+                        "B": 3,
+                        "E": 2
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 8,
+                        "longterm": 4,
+                        "resource": 10,
+                        "solo": 3
+                    }
+                },
+                {
+                    "text": "在社交媒体上挂他，通过维权制造话题，反而给自己导一波流量",
+                    "types": {
+                        "C": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 5,
+                        "longterm": 6,
+                        "resource": 5,
+                        "solo": 7
+                    }
+                },
+                {
+                    "text": "承认他流量玩得比我好，立刻去加他微信，问能不能一起合作赚钱",
+                    "types": {
+                        "D": 3,
+                        "B": 2
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 7,
+                        "longterm": 2,
+                        "resource": 8,
+                        "solo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果有一个年薪百万但在大厂做螺丝钉的机会，和一个年薪十万但可能改变行业的创业机会，你选：",
+            "options": [
+                {
+                    "text": "选大厂，我的手艺在哪里都能发挥，稳定高薪能让我更安心打磨技术",
+                    "types": {
+                        "A": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "traffic": 3,
+                        "risk": 2,
+                        "longterm": 8,
+                        "resource": 3,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "选大厂，但我会利用大厂的光环去疯狂结交人脉，接私活套利",
+                    "types": {
+                        "B": 3,
+                        "D": 1
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 6,
+                        "longterm": 3,
+                        "resource": 9,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "选创业，我不能忍受当螺丝钉，我需要为伟大的愿景和世界级的挑战燃烧自己",
+                    "types": {
+                        "E": 3,
+                        "C": 1
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 9,
+                        "longterm": 10,
+                        "resource": 8,
+                        "solo": 4
+                    }
+                },
+                {
+                    "text": "谁给的钱马上能到账就选谁，不听画大饼，大厂工资到账了再去炒股",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 8,
+                        "longterm": 1,
+                        "resource": 4,
+                        "solo": 5
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你手下一个核心骨干突然要求工资翻倍，否则就离职，你会：",
+            "options": [
+                {
+                    "text": "觉得这是对团队秩序的挑衅，宁愿自己累死重新招人也绝不妥协",
+                    "types": {
+                        "A": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 3,
+                        "risk": 4,
+                        "longterm": 8,
+                        "resource": 2,
+                        "solo": 9
+                    }
+                },
+                {
+                    "text": "跟他算一笔账，用提成或者更虚的期权来替换现金，把他稳住",
+                    "types": {
+                        "B": 3,
+                        "E": 2
+                    },
+                    "scores": {
+                        "traffic": 7,
+                        "risk": 7,
+                        "longterm": 5,
+                        "resource": 10,
+                        "solo": 3
+                    }
+                },
+                {
+                    "text": "动之以情晓之以理，谈公司的困难和情怀，希望他能体谅",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 6,
+                        "risk": 3,
+                        "longterm": 6,
+                        "resource": 5,
+                        "solo": 6
+                    }
+                },
+                {
+                    "text": "立刻答应，只要他能给我赚回三倍的钱，给他十倍工资又怎样",
+                    "types": {
+                        "D": 3,
+                        "B": 1
+                    },
+                    "scores": {
+                        "traffic": 9,
+                        "risk": 10,
+                        "longterm": 2,
+                        "resource": 8,
+                        "solo": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "每天早上醒来，你打开手机第一眼想看的商业数据是：",
+            "options": [
+                {
+                    "text": "产品的交付进度、报错日志或客户的深度长文反馈",
+                    "types": {
+                        "A": 3
+                    },
+                    "scores": {
+                        "traffic": 2,
+                        "risk": 2,
+                        "longterm": 9,
+                        "resource": 3,
+                        "solo": 10
+                    }
+                },
+                {
+                    "text": "人脉圈大佬的最新动态，或者各个社群里的风口八卦",
+                    "types": {
+                        "B": 3,
+                        "E": 1
+                    },
+                    "scores": {
+                        "traffic": 8,
+                        "risk": 6,
+                        "longterm": 3,
+                        "resource": 10,
+                        "solo": 2
+                    }
+                },
+                {
+                    "text": "各个平台的粉丝增长数、点赞数、或者内容后台的数据",
+                    "types": {
+                        "C": 3
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 4,
+                        "longterm": 7,
+                        "resource": 4,
+                        "solo": 8
+                    }
+                },
+                {
+                    "text": "昨晚跑出的利润表、广告ROI（投产比）或者币圈的K线",
+                    "types": {
+                        "D": 3
+                    },
+                    "scores": {
+                        "traffic": 10,
+                        "risk": 10,
+                        "longterm": 1,
+                        "resource": 6,
+                        "solo": 4
+                    }
+                }
+            ]
+        }
     ],
     "results": {
         "A": {

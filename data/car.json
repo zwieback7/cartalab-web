@@ -5,76 +5,557 @@
         "themeColor": "#1A1A1A",
         "upsellText": "解锁《个人社交名片打造手册》",
         "quote": "你选择的不是一辆车，而是你想向世界展示的第二张脸",
-        "footerCta": "携带此档案编号，返回解锁《基于座驾原型的社交圈层跨越指南》"
+        "footerCta": "携带此档案编号，返回解锁《基于座驾原型的社交圈层跨越指南》",
+        "handbookUrl": "/handbooks/car-3133d76f055f.html"
     },
     "axes": [
-        { "id": "tech", "label": "科技依赖" },
-        { "id": "family", "label": "家庭粘性" },
-        { "id": "control", "label": "极致掌控" },
-        { "id": "showoff", "label": "社交张扬" },
-        { "id": "comfort", "label": "极致安逸" }
+        {
+            "id": "tech",
+            "label": "科技依赖"
+        },
+        {
+            "id": "family",
+            "label": "家庭粘性"
+        },
+        {
+            "id": "control",
+            "label": "极致掌控"
+        },
+        {
+            "id": "showoff",
+            "label": "社交张扬"
+        },
+        {
+            "id": "comfort",
+            "label": "极致安逸"
+        }
     ],
     "questions": [
-        { "q": "如果你的车拥有了完全自动驾驶能力，在一段盘山公路上你会：", "options": [
-            { "text": "完全信任AI，自己躺在后排看电影，绝对放松", "types": { "tesla": 3, "li": 2, "xiaomi": 1 }, "scores": { "tech": 10, "family": 5, "control": 1, "showoff": 2, "comfort": 10 } },
-            { "text": "绝对要自己握住方向盘，那种过弯的机械反馈是机器给不了的", "types": { "porsche": 4, "ferrari": 3, "xiaomi": 2 }, "scores": { "tech": 2, "family": 1, "control": 10, "showoff": 8, "comfort": 2 } }
-        ]},
-        { "q": "在买一件昂贵的物品时，你更看重：", "options": [
-            { "text": "极度保值、销量大、不会出错的求稳选择", "types": { "byd": 4, "li": 2, "tesla": 1 }, "scores": { "tech": 3, "family": 9, "control": 5, "showoff": 2, "comfort": 8 } },
-            { "text": "极致的个性和情绪价值，哪怕它毛病很多、且极其不保值", "types": { "ferrari": 4, "rolls_royce": 2, "nio": 2 }, "scores": { "tech": 4, "family": 2, "control": 8, "showoff": 10, "comfort": 5 } }
-        ]},
-        { "q": "当你一个人在深夜的高速公路上开着车，你最享受的状态是：", "options": [
-            { "text": "车内极其安静，听着顶级的音响，感觉整个世界都被隔绝在玻璃之外", "types": { "rolls_royce": 4, "nio": 3, "li": 2 }, "scores": { "tech": 5, "family": 4, "control": 2, "showoff": 7, "comfort": 10 } },
-            { "text": "排气管爆鸣的声浪，肾上腺素飙升，不断超越前车的征服感", "types": { "ferrari": 4, "porsche": 3, "xiaomi": 2 }, "scores": { "tech": 3, "family": 1, "control": 10, "showoff": 9, "comfort": 1 } }
-        ]},
-        { "q": "你如何看待汽车的“冰箱、彩电、大沙发”？", "options": [
-            { "text": "这是刚需！能让家人和孩子在旅途中舒服，比什么操控都重要", "types": { "li": 5, "byd": 2, "xpeng": 1 }, "scores": { "tech": 6, "family": 10, "control": 2, "showoff": 3, "comfort": 9 } },
-            { "text": "极其鄙视，车是用来开的，不是用来当移动起居室的，这是本末倒置", "types": { "porsche": 4, "ferrari": 3, "tesla": 2 }, "scores": { "tech": 4, "family": 1, "control": 9, "showoff": 6, "comfort": 2 } }
-        ]},
-        { "q": "如果你的车是一张名片，你最希望别人看到这辆车时，对你的评价是：", "options": [
-            { "text": "“这人是个顾家、务实、事业有成的靠谱好男人/好女人”", "types": { "li": 4, "byd": 3, "nio": 2 }, "scores": { "tech": 4, "family": 10, "control": 4, "showoff": 3, "comfort": 8 } },
-            { "text": "“这人极度有品味、年轻多金、且带有一种迷人的攻击性”", "types": { "ferrari": 4, "porsche": 4, "xiaomi": 1 }, "scores": { "tech": 3, "family": 1, "control": 8, "showoff": 10, "comfort": 3 } }
-        ]},
-        { "q": "你对“服务”的底线要求是什么？", "options": [
-            { "text": "最好有一种被当做上帝般对待的尊贵感，专属管家随时待命解决一切问题", "types": { "nio": 5, "rolls_royce": 4, "li": 1 }, "scores": { "tech": 5, "family": 6, "control": 3, "showoff": 9, "comfort": 10 } },
-            { "text": "我不需要过度热情的服务，我只需要产品本身的硬件素质极其过硬", "types": { "tesla": 4, "byd": 3, "porsche": 2 }, "scores": { "tech": 8, "family": 4, "control": 8, "showoff": 2, "comfort": 4 } }
-        ]},
-        { "q": "面对硅谷极客文化（极简、无按键、算法至上），你的态度是：", "options": [
-            { "text": "极度推崇，这是第一性原理，这才是未来的趋势", "types": { "tesla": 5, "xpeng": 3, "xiaomi": 2 }, "scores": { "tech": 10, "family": 3, "control": 7, "showoff": 4, "comfort": 3 } },
-            { "text": "觉得这是偷工减料，我需要实体按键的质感和传统豪华的皮革缝线", "types": { "rolls_royce": 4, "porsche": 3, "nio": 2 }, "scores": { "tech": 2, "family": 5, "control": 6, "showoff": 9, "comfort": 9 } }
-        ]},
-        { "q": "在选购数码产品（如手机）时，你更倾向于：", "options": [
-            { "text": "永远追逐最新首发的旗舰机，参数拉满，热爱折腾各种生态和互联", "types": { "xiaomi": 5, "xpeng": 3, "tesla": 2 }, "scores": { "tech": 9, "family": 3, "control": 7, "showoff": 8, "comfort": 4 } },
-            { "text": "买一个用得最省心、续航最好、皮实耐用的，不需要太多花里胡哨的功能", "types": { "byd": 5, "li": 3, "nio": 1 }, "scores": { "tech": 4, "family": 9, "control": 5, "showoff": 2, "comfort": 8 } }
-        ]},
-        { "q": "你觉得“阶层”这种东西是：", "options": [
-            { "text": "不可逾越的鸿沟，血统和传承决定了上限，老钱的味道无法被复制", "types": { "rolls_royce": 5, "porsche": 3, "ferrari": 2 }, "scores": { "tech": 2, "family": 4, "control": 6, "showoff": 10, "comfort": 10 } },
-            { "text": "可以被技术和流量瞬间颠覆的，我更相信草根逆袭和颠覆式创新", "types": { "xiaomi": 5, "tesla": 3, "byd": 2 }, "scores": { "tech": 9, "family": 5, "control": 8, "showoff": 7, "comfort": 3 } }
-        ]},
-        { "q": "如果你现在手里有一百万闲置资金，你更倾向于：", "options": [
-            { "text": "拿去投资高风险高回报的项目，或者买一辆极其拉风的跑车奖励自己", "types": { "ferrari": 5, "porsche": 4, "xiaomi": 1 }, "scores": { "tech": 4, "family": 2, "control": 8, "showoff": 10, "comfort": 2 } },
-            { "text": "给父母买一套带院子的养老房，或者存进极其稳妥的定期理财", "types": { "li": 4, "byd": 4, "rolls_royce": 2 }, "scores": { "tech": 2, "family": 10, "control": 4, "showoff": 3, "comfort": 9 } }
-        ]},
-        { "q": "当你去参加一个极其重要的晚宴时：", "options": [
-            { "text": "必须开最镇得住场子的车，甚至带个司机，这是实力的无声威慑", "types": { "rolls_royce": 5, "ferrari": 2, "nio": 2 }, "scores": { "tech": 3, "family": 4, "control": 3, "showoff": 10, "comfort": 10 } },
-            { "text": "开什么无所谓，甚至打个车去也行，我的能力本身就是最好的入场券", "types": { "tesla": 4, "byd": 4, "xpeng": 2 }, "scores": { "tech": 8, "family": 6, "control": 8, "showoff": 1, "comfort": 5 } }
-        ]},
-        { "q": "你对“驾驶”这件事的潜意识定位是：", "options": [
-            { "text": "一种纯粹的体力劳动，我只想用最轻松的方式从A点移动到B点", "types": { "li": 4, "xpeng": 3, "rolls_royce": 2 }, "scores": { "tech": 7, "family": 8, "control": 1, "showoff": 4, "comfort": 10 } },
-            { "text": "一种与机械沟通的仪式感，甚至是释放生活压力的最后一片净土", "types": { "porsche": 5, "ferrari": 4, "xiaomi": 1 }, "scores": { "tech": 4, "family": 2, "control": 10, "showoff": 8, "comfort": 2 } }
-        ]},
-        { "q": "你如何看待网上关于你所喜欢品牌的负面评论？", "options": [
-            { "text": "无所谓，销量说明一切，我只看客观数据和财报表现", "types": { "byd": 5, "tesla": 3, "li": 2 }, "scores": { "tech": 5, "family": 8, "control": 7, "showoff": 2, "comfort": 6 } },
-            { "text": "会极度护犊子，甚至会在网上跟别人据理力争，认为对方根本不懂这个品牌", "types": { "xiaomi": 5, "nio": 4, "porsche": 1 }, "scores": { "tech": 8, "family": 4, "control": 6, "showoff": 9, "comfort": 4 } }
-        ]},
-        { "q": "如果你要给车贴膜，你最可能选择的颜色是：", "options": [
-            { "text": "极其低调的黑色或银色，最好扔在车堆里根本认不出来", "types": { "byd": 5, "li": 4, "rolls_royce": 1 }, "scores": { "tech": 3, "family": 9, "control": 6, "showoff": 1, "comfort": 8 } },
-            { "text": "极其骚气的迈阿密蓝、熔岩橙或者镭射渐变，必须赚足回头率", "types": { "porsche": 5, "ferrari": 4, "xiaomi": 3 }, "scores": { "tech": 4, "family": 1, "control": 8, "showoff": 10, "comfort": 3 } }
-        ]},
-        { "q": "最后，你觉得一台“完美座驾”应该更像：", "options": [
-            { "text": "一台冰冷但极度聪明的超级计算机，带着我走向未来", "types": { "tesla": 5, "xpeng": 4, "xiaomi": 1 }, "scores": { "tech": 10, "family": 3, "control": 7, "showoff": 4, "comfort": 4 } },
-            { "text": "一头被驯服的野兽，只有我能驾驭它的脾气，我们在轰鸣声中共振", "types": { "ferrari": 5, "porsche": 4, "rolls_royce": 1 }, "scores": { "tech": 2, "family": 1, "control": 10, "showoff": 10, "comfort": 2 } }
-        ]}
+        {
+            "q": "如果你的车拥有了完全自动驾驶能力，在一段盘山公路上你会：",
+            "options": [
+                {
+                    "text": "完全信任AI，自己躺在后排看电影，绝对放松",
+                    "types": {
+                        "tesla": 3,
+                        "li": 2,
+                        "xiaomi": 1
+                    },
+                    "scores": {
+                        "tech": 10,
+                        "family": 5,
+                        "control": 1,
+                        "showoff": 2,
+                        "comfort": 10
+                    }
+                },
+                {
+                    "text": "绝对要自己握住方向盘，那种过弯的机械反馈是机器给不了的",
+                    "types": {
+                        "porsche": 4,
+                        "ferrari": 3,
+                        "xiaomi": 2
+                    },
+                    "scores": {
+                        "tech": 2,
+                        "family": 1,
+                        "control": 10,
+                        "showoff": 8,
+                        "comfort": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在买一件昂贵的物品时，你更看重：",
+            "options": [
+                {
+                    "text": "极度保值、销量大、不会出错的求稳选择",
+                    "types": {
+                        "byd": 4,
+                        "li": 2,
+                        "tesla": 1
+                    },
+                    "scores": {
+                        "tech": 3,
+                        "family": 9,
+                        "control": 5,
+                        "showoff": 2,
+                        "comfort": 8
+                    }
+                },
+                {
+                    "text": "极致的个性和情绪价值，哪怕它毛病很多、且极其不保值",
+                    "types": {
+                        "ferrari": 4,
+                        "rolls_royce": 2,
+                        "nio": 2
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 2,
+                        "control": 8,
+                        "showoff": 10,
+                        "comfort": 5
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你一个人在深夜的高速公路上开着车，你最享受的状态是：",
+            "options": [
+                {
+                    "text": "车内极其安静，听着顶级的音响，感觉整个世界都被隔绝在玻璃之外",
+                    "types": {
+                        "rolls_royce": 4,
+                        "nio": 3,
+                        "li": 2
+                    },
+                    "scores": {
+                        "tech": 5,
+                        "family": 4,
+                        "control": 2,
+                        "showoff": 7,
+                        "comfort": 10
+                    }
+                },
+                {
+                    "text": "排气管爆鸣的声浪，肾上腺素飙升，不断超越前车的征服感",
+                    "types": {
+                        "ferrari": 4,
+                        "porsche": 3,
+                        "xiaomi": 2
+                    },
+                    "scores": {
+                        "tech": 3,
+                        "family": 1,
+                        "control": 10,
+                        "showoff": 9,
+                        "comfort": 1
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你如何看待汽车的“冰箱、彩电、大沙发”？",
+            "options": [
+                {
+                    "text": "这是刚需！能让家人和孩子在旅途中舒服，比什么操控都重要",
+                    "types": {
+                        "li": 5,
+                        "byd": 2,
+                        "xpeng": 1
+                    },
+                    "scores": {
+                        "tech": 6,
+                        "family": 10,
+                        "control": 2,
+                        "showoff": 3,
+                        "comfort": 9
+                    }
+                },
+                {
+                    "text": "极其鄙视，车是用来开的，不是用来当移动起居室的，这是本末倒置",
+                    "types": {
+                        "porsche": 4,
+                        "ferrari": 3,
+                        "tesla": 2
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 1,
+                        "control": 9,
+                        "showoff": 6,
+                        "comfort": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你的车是一张名片，你最希望别人看到这辆车时，对你的评价是：",
+            "options": [
+                {
+                    "text": "“这人是个顾家、务实、事业有成的靠谱好男人/好女人”",
+                    "types": {
+                        "li": 4,
+                        "byd": 3,
+                        "nio": 2
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 10,
+                        "control": 4,
+                        "showoff": 3,
+                        "comfort": 8
+                    }
+                },
+                {
+                    "text": "“这人极度有品味、年轻多金、且带有一种迷人的攻击性”",
+                    "types": {
+                        "ferrari": 4,
+                        "porsche": 4,
+                        "xiaomi": 1
+                    },
+                    "scores": {
+                        "tech": 3,
+                        "family": 1,
+                        "control": 8,
+                        "showoff": 10,
+                        "comfort": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你对“服务”的底线要求是什么？",
+            "options": [
+                {
+                    "text": "最好有一种被当做上帝般对待的尊贵感，专属管家随时待命解决一切问题",
+                    "types": {
+                        "nio": 5,
+                        "rolls_royce": 4,
+                        "li": 1
+                    },
+                    "scores": {
+                        "tech": 5,
+                        "family": 6,
+                        "control": 3,
+                        "showoff": 9,
+                        "comfort": 10
+                    }
+                },
+                {
+                    "text": "我不需要过度热情的服务，我只需要产品本身的硬件素质极其过硬",
+                    "types": {
+                        "tesla": 4,
+                        "byd": 3,
+                        "porsche": 2
+                    },
+                    "scores": {
+                        "tech": 8,
+                        "family": 4,
+                        "control": 8,
+                        "showoff": 2,
+                        "comfort": 4
+                    }
+                }
+            ]
+        },
+        {
+            "q": "面对硅谷极客文化（极简、无按键、算法至上），你的态度是：",
+            "options": [
+                {
+                    "text": "极度推崇，这是第一性原理，这才是未来的趋势",
+                    "types": {
+                        "tesla": 5,
+                        "xpeng": 3,
+                        "xiaomi": 2
+                    },
+                    "scores": {
+                        "tech": 10,
+                        "family": 3,
+                        "control": 7,
+                        "showoff": 4,
+                        "comfort": 3
+                    }
+                },
+                {
+                    "text": "觉得这是偷工减料，我需要实体按键的质感和传统豪华的皮革缝线",
+                    "types": {
+                        "rolls_royce": 4,
+                        "porsche": 3,
+                        "nio": 2
+                    },
+                    "scores": {
+                        "tech": 2,
+                        "family": 5,
+                        "control": 6,
+                        "showoff": 9,
+                        "comfort": 9
+                    }
+                }
+            ]
+        },
+        {
+            "q": "在选购数码产品（如手机）时，你更倾向于：",
+            "options": [
+                {
+                    "text": "永远追逐最新首发的旗舰机，参数拉满，热爱折腾各种生态和互联",
+                    "types": {
+                        "xiaomi": 5,
+                        "xpeng": 3,
+                        "tesla": 2
+                    },
+                    "scores": {
+                        "tech": 9,
+                        "family": 3,
+                        "control": 7,
+                        "showoff": 8,
+                        "comfort": 4
+                    }
+                },
+                {
+                    "text": "买一个用得最省心、续航最好、皮实耐用的，不需要太多花里胡哨的功能",
+                    "types": {
+                        "byd": 5,
+                        "li": 3,
+                        "nio": 1
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 9,
+                        "control": 5,
+                        "showoff": 2,
+                        "comfort": 8
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你觉得“阶层”这种东西是：",
+            "options": [
+                {
+                    "text": "不可逾越的鸿沟，血统和传承决定了上限，老钱的味道无法被复制",
+                    "types": {
+                        "rolls_royce": 5,
+                        "porsche": 3,
+                        "ferrari": 2
+                    },
+                    "scores": {
+                        "tech": 2,
+                        "family": 4,
+                        "control": 6,
+                        "showoff": 10,
+                        "comfort": 10
+                    }
+                },
+                {
+                    "text": "可以被技术和流量瞬间颠覆的，我更相信草根逆袭和颠覆式创新",
+                    "types": {
+                        "xiaomi": 5,
+                        "tesla": 3,
+                        "byd": 2
+                    },
+                    "scores": {
+                        "tech": 9,
+                        "family": 5,
+                        "control": 8,
+                        "showoff": 7,
+                        "comfort": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你现在手里有一百万闲置资金，你更倾向于：",
+            "options": [
+                {
+                    "text": "拿去投资高风险高回报的项目，或者买一辆极其拉风的跑车奖励自己",
+                    "types": {
+                        "ferrari": 5,
+                        "porsche": 4,
+                        "xiaomi": 1
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 2,
+                        "control": 8,
+                        "showoff": 10,
+                        "comfort": 2
+                    }
+                },
+                {
+                    "text": "给父母买一套带院子的养老房，或者存进极其稳妥的定期理财",
+                    "types": {
+                        "li": 4,
+                        "byd": 4,
+                        "rolls_royce": 2
+                    },
+                    "scores": {
+                        "tech": 2,
+                        "family": 10,
+                        "control": 4,
+                        "showoff": 3,
+                        "comfort": 9
+                    }
+                }
+            ]
+        },
+        {
+            "q": "当你去参加一个极其重要的晚宴时：",
+            "options": [
+                {
+                    "text": "必须开最镇得住场子的车，甚至带个司机，这是实力的无声威慑",
+                    "types": {
+                        "rolls_royce": 5,
+                        "ferrari": 2,
+                        "nio": 2
+                    },
+                    "scores": {
+                        "tech": 3,
+                        "family": 4,
+                        "control": 3,
+                        "showoff": 10,
+                        "comfort": 10
+                    }
+                },
+                {
+                    "text": "开什么无所谓，甚至打个车去也行，我的能力本身就是最好的入场券",
+                    "types": {
+                        "tesla": 4,
+                        "byd": 4,
+                        "xpeng": 2
+                    },
+                    "scores": {
+                        "tech": 8,
+                        "family": 6,
+                        "control": 8,
+                        "showoff": 1,
+                        "comfort": 5
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你对“驾驶”这件事的潜意识定位是：",
+            "options": [
+                {
+                    "text": "一种纯粹的体力劳动，我只想用最轻松的方式从A点移动到B点",
+                    "types": {
+                        "li": 4,
+                        "xpeng": 3,
+                        "rolls_royce": 2
+                    },
+                    "scores": {
+                        "tech": 7,
+                        "family": 8,
+                        "control": 1,
+                        "showoff": 4,
+                        "comfort": 10
+                    }
+                },
+                {
+                    "text": "一种与机械沟通的仪式感，甚至是释放生活压力的最后一片净土",
+                    "types": {
+                        "porsche": 5,
+                        "ferrari": 4,
+                        "xiaomi": 1
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 2,
+                        "control": 10,
+                        "showoff": 8,
+                        "comfort": 2
+                    }
+                }
+            ]
+        },
+        {
+            "q": "你如何看待网上关于你所喜欢品牌的负面评论？",
+            "options": [
+                {
+                    "text": "无所谓，销量说明一切，我只看客观数据和财报表现",
+                    "types": {
+                        "byd": 5,
+                        "tesla": 3,
+                        "li": 2
+                    },
+                    "scores": {
+                        "tech": 5,
+                        "family": 8,
+                        "control": 7,
+                        "showoff": 2,
+                        "comfort": 6
+                    }
+                },
+                {
+                    "text": "会极度护犊子，甚至会在网上跟别人据理力争，认为对方根本不懂这个品牌",
+                    "types": {
+                        "xiaomi": 5,
+                        "nio": 4,
+                        "porsche": 1
+                    },
+                    "scores": {
+                        "tech": 8,
+                        "family": 4,
+                        "control": 6,
+                        "showoff": 9,
+                        "comfort": 4
+                    }
+                }
+            ]
+        },
+        {
+            "q": "如果你要给车贴膜，你最可能选择的颜色是：",
+            "options": [
+                {
+                    "text": "极其低调的黑色或银色，最好扔在车堆里根本认不出来",
+                    "types": {
+                        "byd": 5,
+                        "li": 4,
+                        "rolls_royce": 1
+                    },
+                    "scores": {
+                        "tech": 3,
+                        "family": 9,
+                        "control": 6,
+                        "showoff": 1,
+                        "comfort": 8
+                    }
+                },
+                {
+                    "text": "极其骚气的迈阿密蓝、熔岩橙或者镭射渐变，必须赚足回头率",
+                    "types": {
+                        "porsche": 5,
+                        "ferrari": 4,
+                        "xiaomi": 3
+                    },
+                    "scores": {
+                        "tech": 4,
+                        "family": 1,
+                        "control": 8,
+                        "showoff": 10,
+                        "comfort": 3
+                    }
+                }
+            ]
+        },
+        {
+            "q": "最后，你觉得一台“完美座驾”应该更像：",
+            "options": [
+                {
+                    "text": "一台冰冷但极度聪明的超级计算机，带着我走向未来",
+                    "types": {
+                        "tesla": 5,
+                        "xpeng": 4,
+                        "xiaomi": 1
+                    },
+                    "scores": {
+                        "tech": 10,
+                        "family": 3,
+                        "control": 7,
+                        "showoff": 4,
+                        "comfort": 4
+                    }
+                },
+                {
+                    "text": "一头被驯服的野兽，只有我能驾驭它的脾气，我们在轰鸣声中共振",
+                    "types": {
+                        "ferrari": 5,
+                        "porsche": 4,
+                        "rolls_royce": 1
+                    },
+                    "scores": {
+                        "tech": 2,
+                        "family": 1,
+                        "control": 10,
+                        "showoff": 10,
+                        "comfort": 2
+                    }
+                }
+            ]
+        }
     ],
     "results": {
         "tesla": {
