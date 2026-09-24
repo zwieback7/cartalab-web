@@ -1,89 +1,89 @@
 {
     "meta": {
-        "title": "暗影特质解码",
-        "subtitle": "直面你极力隐藏的暗黑天赋与人格反面",
-        "themeColor": "#404040",
-        "upsellText": "解锁《暗黑人格力量整合手册》",
-        "quote": "你的阴影中，藏着你最大的力量",
-        "footerCta": "携带此档案编号，返回解锁《暗黑人格力量整合手册》"
+        "title": "潜意识暗影",
+        "subtitle": "直视你内心深处不被社会允许的阴暗面",
+        "themeColor": "#2C2C2C",
+        "upsellText": "解锁《深层暗影整合与觉醒指南》",
+        "quote": "直到你使潜意识意识化，它将主导你的人生并被称为命运",
+        "footerCta": "携带此档案编号，返回解锁《暗影面整合与能量转化高级指南》"
     },
     "axes": [
-        { "id": "manipulate", "label": "心理操控" },
-        { "id": "narcissism", "label": "隐性自恋" },
-        { "id": "ruthless", "label": "情感冷漠" },
-        { "id": "rebellion", "label": "反叛指数" },
-        { "id": "paranoia", "label": "偏执妄想" }
+        { "id": "destruction", "label": "自毁倾向" },
+        { "id": "jealousy", "label": "隐性嫉妒" },
+        { "id": "manipulation", "label": "精神操控" },
+        { "id": "narcissism", "label": "暗黑自恋" },
+        { "id": "apathy", "label": "情感剥夺" }
     ],
     "questions": [
-        { "q": "在一个团队中，如果你发现领导做了一个愚蠢的决定，你会：", "options": [
-            { "text": "保持沉默，避免冲突，甚至会为了合群而假装赞同", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 1, "paranoia": 4 } },
-            { "text": "不动声色地引导别人去质疑，自己则隔岸观火，寻找夺权的机会", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 7, "ruthless": 8, "rebellion": 9, "paranoia": 6 } }
+        { "q": "当一个一直不如你的朋友，突然在某方面取得了极其耀眼的成就时，你的第一反应是：", "options": [
+            { "text": "表面热情祝贺，但内心深处涌起一阵强烈的刺痛感，甚至想找出Ta成功的漏洞", "types": { "A": 1 }, "scores": { "destruction": 4, "jealousy": 10, "manipulation": 6, "narcissism": 8, "apathy": 2 } },
+            { "text": "觉得这是理所应当的随机事件，不觉得受威胁，甚至开始思考怎么利用Ta的新资源", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 3, "manipulation": 9, "narcissism": 6, "apathy": 8 } }
         ]},
-        { "q": "当别人向你倾诉他们极度痛苦的遭遇时，你潜意识的真实反应往往是：", "options": [
-            { "text": "深深地共情，甚至会跟着一起掉眼泪，觉得他们好可怜", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 1, "rebellion": 2, "paranoia": 3 } },
-            { "text": "大脑冷静得像一台机器，只是在模仿该有的表情，甚至觉得他们有点蠢", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 9, "ruthless": 10, "rebellion": 6, "paranoia": 5 } }
+        { "q": "如果要在一段关系中获得安全感，你更倾向于使用哪种隐秘的手段？", "options": [
+            { "text": "过度付出，把自己变成对方不可或缺的“拯救者”，让对方充满负罪感并离不开我", "types": { "A": 1 }, "scores": { "destruction": 8, "jealousy": 4, "manipulation": 9, "narcissism": 3, "apathy": 1 } },
+            { "text": "巧妙地贬低对方的自信，切断Ta与其他人的深度连接，让Ta只能依赖我的判断", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 6, "manipulation": 10, "narcissism": 9, "apathy": 9 } }
+        ]},
+        { "q": "当你看到极其纯洁、美好、甚至显得有些天真愚蠢的人或事物时：", "options": [
+            { "text": "会产生一种复杂的酸楚，甚至有一种想用现实的残酷去戳破Ta粉红泡泡的冲动", "types": { "A": 1 }, "scores": { "destruction": 7, "jealousy": 9, "manipulation": 4, "narcissism": 6, "apathy": 5 } },
+            { "text": "只觉得他们是极易被收割的猎物，在心里冷笑他们的天真，并保持距离", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 8, "narcissism": 10, "apathy": 10 } }
+        ]},
+        { "q": "在深夜情绪极度崩溃、压力爆表时，你最常浮现的破坏性念头是：", "options": [
+            { "text": "想把所有搞砸，想消失，想用伤害自己的方式让那些在乎我的人感到痛苦和后悔", "types": { "A": 1 }, "scores": { "destruction": 10, "jealousy": 5, "manipulation": 8, "narcissism": 4, "apathy": 3 } },
+            { "text": "想狠狠地报复那个导致我陷入困境的人，在脑海里演练如何摧毁对方的社会关系", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 8, "manipulation": 9, "narcissism": 9, "apathy": 7 } }
         ]},
         { "q": "你如何看待“说谎”这件事？", "options": [
-            { "text": "很有负罪感，哪怕是善意的谎言，说的时候也会心虚", "types": { "A": 1 }, "scores": { "manipulate": 1, "narcissism": 2, "ruthless": 3, "rebellion": 2, "paranoia": 5 } },
-            { "text": "谎言只是一种工具，只要目的正当且逻辑闭环，说谎没有任何心理负担", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 7, "ruthless": 8, "rebellion": 8, "paranoia": 4 } }
+            { "text": "经常因为害怕冲突或想维持完美人设而说谎，事后又陷入极度的自我厌恶", "types": { "A": 1 }, "scores": { "destruction": 7, "jealousy": 4, "manipulation": 5, "narcissism": 8, "apathy": 2 } },
+            { "text": "只要能达到目的，说谎只是一种高效的工具，我可以说得面不改色且毫无负罪感", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 3, "manipulation": 10, "narcissism": 8, "apathy": 9 } }
         ]},
-        { "q": "面对规章制度和道德约束，你内心深处的声音是：", "options": [
-            { "text": "规则是保护弱者的，我们必须遵守，社会才能运转", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 2, "rebellion": 1, "paranoia": 4 } },
-            { "text": "规则是用来束缚蠢人的，聪明人知道如何利用规则甚至打破它", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 10, "ruthless": 7, "rebellion": 10, "paranoia": 5 } }
+        { "q": "当别人当众指出你的某个致命缺点时，你潜意识的反应是：", "options": [
+            { "text": "感到极度的羞耻和崩溃，觉得自己的虚假外壳被击碎了，甚至想找个地缝钻进去", "types": { "A": 1 }, "scores": { "destruction": 9, "jealousy": 7, "manipulation": 2, "narcissism": 10, "apathy": 1 } },
+            { "text": "表面不动声色甚至微笑承认，但内心已经把对方拉入黑名单，并寻找机会反击", "types": { "B": 1 }, "scores": { "destruction": 2, "jealousy": 8, "manipulation": 9, "narcissism": 9, "apathy": 8 } }
         ]},
-        { "q": "如果你拥有可以不留痕迹毁掉一个仇人的能力，你会：", "options": [
-            { "text": "不会去做，因果循环，我不想让自己的灵魂背负罪恶", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 3, "paranoia": 5 } },
-            { "text": "毫不犹豫地执行，我信奉弱肉强食，背叛我的人必须付出代价", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 8, "ruthless": 10, "rebellion": 9, "paranoia": 9 } }
+        { "q": "在你看来，这个世界的底层运转逻辑是：", "options": [
+            { "text": "充满伤害和背叛，所有人最终都会离开我，我注定是个孤独的悲剧主角", "types": { "A": 1 }, "scores": { "destruction": 9, "jealousy": 5, "manipulation": 4, "narcissism": 8, "apathy": 3 } },
+            { "text": "只有权力和利益的交换。弱肉强食，任何情感都可以被标价和利用", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 4, "manipulation": 8, "narcissism": 9, "apathy": 10 } }
         ]},
-        { "q": "在亲密关系中，如果需要，你能多快地切断所有情感联系？", "options": [
-            { "text": "极难，我会反复纠缠、怀念，沉浸在回忆里几个月甚至几年", "types": { "A": 1 }, "scores": { "manipulate": 3, "narcissism": 3, "ruthless": 1, "rebellion": 2, "paranoia": 6 } },
-            { "text": "只要我想，一秒钟就能把心门焊死，对方瞬间就像个陌生人", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 8, "ruthless": 10, "rebellion": 7, "paranoia": 4 } }
+        { "q": "在性或极度亲密的互动中，你更渴望体验到的是：", "options": [
+            { "text": "一种完全被融化、被接纳、甚至带有某种自我献祭般的情感纠缠", "types": { "A": 1 }, "scores": { "destruction": 8, "jealousy": 3, "manipulation": 5, "narcissism": 4, "apathy": 1 } },
+            { "text": "绝对的掌控感，看着对方在自己的引导下失控，这能极大满足我的权力欲", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 10, "narcissism": 9, "apathy": 8 } }
         ]},
-        { "q": "对于“权力”，你最底层的渴望是：", "options": [
-            { "text": "权力带来责任，我其实害怕承担别人的命运，顺其自然就好", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 3, "rebellion": 2, "paranoia": 3 } },
-            { "text": "绝对的迷恋。喜欢能够像摆弄棋子一样操纵局势和人心的感觉", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 9, "ruthless": 8, "rebellion": 9, "paranoia": 7 } }
+        { "q": "如果你意外掌握了一个竞争对手极其致命的隐私把柄：", "options": [
+            { "text": "会感到内心挣扎，害怕遭到报应，可能最终只敢用它来进行隐晦的试探", "types": { "A": 1 }, "scores": { "destruction": 6, "jealousy": 7, "manipulation": 4, "narcissism": 3, "apathy": 2 } },
+            { "text": "毫不犹豫地在最关键的时刻将其引爆，干净利落地摧毁对方的防线", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 5, "manipulation": 10, "narcissism": 8, "apathy": 10 } }
         ]},
-        { "q": "看到比你光芒万丈、抢了你风头的人，你表面微笑，心里：", "options": [
-            { "text": "真的觉得对方很棒，产生由衷的敬佩甚至自卑", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 1, "paranoia": 4 } },
-            { "text": "在疯狂寻找对方的弱点和破绽，思考如何有一天把他踩在脚下", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 10, "ruthless": 8, "rebellion": 8, "paranoia": 9 } }
+        { "q": "当听到一个原本高高在上、让你嫉妒的人突然跌落神坛时，你内心：", "options": [
+            { "text": "会涌起一阵无法抑制的狂喜，甚至觉得这是宇宙在替你讨回公道", "types": { "A": 1 }, "scores": { "destruction": 3, "jealousy": 10, "manipulation": 3, "narcissism": 7, "apathy": 4 } },
+            { "text": "觉得很有趣，只当做茶余饭后的笑料，并思考能从Ta的尸体上分到什么资源", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 4, "manipulation": 8, "narcissism": 6, "apathy": 9 } }
         ]},
-        { "q": "你如何看待人与人之间的“信任”？", "options": [
-            { "text": "信任是基石，我总是倾向于先相信别人，直到被骗", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 2, "rebellion": 2, "paranoia": 2 } },
-            { "text": "人性经不起考验。我不相信任何人，所有人都可能在背叛我，我只相信利益绑定", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 7, "ruthless": 8, "rebellion": 7, "paranoia": 10 } }
+        { "q": "你如何看待自己内心的“阴暗面”？", "options": [
+            { "text": "极力压抑和隐藏，觉得它们很肮脏，害怕被别人发现真实的自己是如此不堪", "types": { "A": 1 }, "scores": { "destruction": 8, "jealousy": 7, "manipulation": 3, "narcissism": 9, "apathy": 2 } },
+            { "text": "完全接纳它们作为我生存武器库的一部分，甚至对自己的冷酷感到一种优越感", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 9, "narcissism": 10, "apathy": 8 } }
         ]},
-        { "q": "如果你为了达到一个伟大的目的，必须要牺牲几个无辜者的利益：", "options": [
-            { "text": "绝对做不到，我不允许自己的手变脏，手段必须纯粹", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 1, "rebellion": 2, "paranoia": 4 } },
-            { "text": "这只是必要的代价。伟大的建筑注定要建立在累累白骨之上", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 9, "ruthless": 10, "rebellion": 8, "paranoia": 5 } }
+        { "q": "如果别人向你倾诉极度痛苦的创伤经历，你的真实状态是：", "options": [
+            { "text": "会深度共情，甚至把对方的痛苦吸收到自己身上，感觉自己快被淹没了", "types": { "A": 1 }, "scores": { "destruction": 7, "jealousy": 2, "manipulation": 4, "narcissism": 2, "apathy": 1 } },
+            { "text": "表面伪装出共情，但内心其实毫无波澜，甚至觉得对方有些脆弱和聒噪", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 1, "manipulation": 8, "narcissism": 7, "apathy": 10 } }
         ]},
-        { "q": "你是否曾在某些瞬间，觉得自己是个冷血动物？", "options": [
-            { "text": "很少，我经常被感动，甚至对路边的小动物都会有极强的同情心", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 3, "ruthless": 1, "rebellion": 2, "paranoia": 3 } },
-            { "text": "经常。看着别人陷入歇斯底里的情绪，我内心深处竟然觉得有点无聊甚至想笑", "types": { "B": 1 }, "scores": { "manipulate": 8, "narcissism": 8, "ruthless": 10, "rebellion": 6, "paranoia": 6 } }
+        { "q": "对于“权力”，你最隐秘的渴望是：", "options": [
+            { "text": "希望获得权力，这样就可以证明给那些曾经看不起我的人看，让他们后悔", "types": { "A": 1 }, "scores": { "destruction": 5, "jealousy": 9, "manipulation": 4, "narcissism": 10, "apathy": 2 } },
+            { "text": "希望拥有绝对的规则制定权，享受那种可以随意操纵别人命运的快感", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 4, "manipulation": 10, "narcissism": 9, "apathy": 9 } }
         ]},
-        { "q": "你觉得自己在人群中扮演的通常是什么角色？", "options": [
-            { "text": "调节者、老好人，害怕冲突，总想让所有人都满意", "types": { "A": 1 }, "scores": { "manipulate": 3, "narcissism": 2, "ruthless": 2, "rebellion": 1, "paranoia": 5 } },
-            { "text": "披着羊皮的狼，表面人畜无害，实际上所有人都在不知不觉中按照我的剧本走", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 9, "ruthless": 7, "rebellion": 8, "paranoia": 6 } }
+        { "q": "当一段感情或合作眼看注定要失败时，你最可能做出的极端行为是：", "options": [
+            { "text": "抢先一步亲手把它彻底砸碎，只要是我主动毁掉的，我就不算被抛弃", "types": { "A": 1 }, "scores": { "destruction": 10, "jealousy": 4, "manipulation": 7, "narcissism": 6, "apathy": 2 } },
+            { "text": "在表面维持和平的同时，暗中转移所有的核心资源，榨干最后的剩余价值", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 3, "manipulation": 9, "narcissism": 6, "apathy": 10 } }
         ]},
-        { "q": "当别人夸奖你时，你潜意识的第一反应是：", "options": [
-            { "text": "受宠若惊，觉得可能自己没有他们说的那么好", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 2, "paranoia": 4 } },
-            { "text": "理所当然，并且在心里暗暗盘算对方夸我是不是有什么企图", "types": { "B": 1 }, "scores": { "manipulate": 7, "narcissism": 10, "ruthless": 6, "rebellion": 5, "paranoia": 9 } }
-        ]},
-        { "q": "关于“复仇”，你更倾向于哪种方式？", "options": [
-            { "text": "随着时间放下，原谅别人也是放过自己", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 1, "rebellion": 2, "paranoia": 3 } },
-            { "text": "十年不晚。像毒蛇一样潜伏，找到对方最致命的软肋，一击毙命，还要让他不知道是谁干的", "types": { "B": 1 }, "scores": { "manipulate": 10, "narcissism": 8, "ruthless": 9, "rebellion": 9, "paranoia": 10 } }
-        ]},
-        { "q": "最后，你敢于承认自己内心有个怪物吗？", "options": [
-            { "text": "我害怕那个怪物，我只想做一个正常的好人", "types": { "A": 1 }, "scores": { "manipulate": 2, "narcissism": 2, "ruthless": 2, "rebellion": 2, "paranoia": 5 } },
-            { "text": "我就是那个怪物本身，且我深深为此着迷", "types": { "B": 1 }, "scores": { "manipulate": 9, "narcissism": 10, "ruthless": 10, "rebellion": 10, "paranoia": 6 } }
+        { "q": "用一个词来形容你灵魂最深处的底色，是：", "options": [
+            { "text": "一团燃烧的、带着剧毒的嫉妒与自我拉扯的火焰", "types": { "A": 1 }, "scores": { "destruction": 9, "jealousy": 10, "manipulation": 5, "narcissism": 8, "apathy": 2 } },
+            { "text": "一片绝对零度、没有任何温度但极其锋利的万年冰川", "types": { "B": 1 }, "scores": { "destruction": 1, "jealousy": 2, "manipulation": 10, "narcissism": 9, "apathy": 10 } }
         ]}
     ],
     "results": {
         "A": {
-            "name": "光明面具 · 压抑的羔羊",
-            "content": "<div class=\"result-section-title\">暗影特质：被阉割的攻击性</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>极力地扮演着一个<span class=\"highlight\">完美的好人</span>。你的暗影人格被你深深地锁在了地下室。你极度害怕冲突，讨厌竞争，甚至对于获取权力和金钱有一种潜意识的“道德负罪感”。但这种过度的压抑，导致你的能量场是虚弱的，你容易成为被欺凌、被索取的“血包”。</div><div class=\"result-section-title\">整合箴言</div><div class=\"result-desc\">你的课题不是变得更好，而是允许自己“变坏”。去找回你那部分被阉割的自私、攻击性和野心。没有阴影的光明是苍白无力的。记住，只有拥有獠牙，你才有资格谈论善良。</div>"
+            "name": "高敏型献祭者 · 隐秘的施虐狂",
+            "content": "<div class=\"result-section-title\">核心诊断：披着羊皮的自我毁灭者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的阴暗面是一座<span class=\"highlight\">随时准备引爆的活火山</span>。在外界看来，你可能是个好人、甚至是个习惯性讨好别人的“牺牲者”。但这正是你最可怕的伪装。你的潜意识里充满了对这个世界的不满与“凭什么”的剧毒嫉妒。你极度渴望被看见、被认可，但又极度自卑。于是，你发展出了一种极其扭曲的“弱者控制术”：你通过不断的自我牺牲、自我伤害，让周围的人对你产生巨大的负罪感。你不是在爱别人，你是在用“我为你付出了这么多”这根沾满毒液的鞭子，对你的伴侣和亲人进行极其残忍的隐性施虐。</div><div class=\"result-section-title\">五维暗影基因解析</div><div class=\"result-desc\"><b>【隐性嫉妒】腐蚀级剧毒（高于90%）：</b>你见不得别人好，尤其是身边原本不如你的人。当他们超越你时，你内心会产生强烈的酸楚和怨恨。你习惯于在心里给别人挑刺，试图通过贬低别人来维持自己那摇摇欲坠的优越感。</div><div class=\"result-desc\"><b>【自毁倾向】毁灭级爆表（高于85%）：</b>“我得不到的，那就一起毁灭吧。”当关系或事业走向失控时，你会爆发出可怕的破坏欲。你会亲手砸碎那些最美好的东西，用伤害自己的方式来惩罚别人，在极度的痛苦中体验一种病态的快感。</div><div class=\"result-desc\"><b>【暗黑自恋】隐秘的优越（高于75%）：</b>你看起来自卑，其实骨子里极度自恋。你觉得别人都不懂你，你认为自己的痛苦是独一无二、最高尚的。你沉浸在一种“悲剧主角”的剧本里无法自拔。</div><div class=\"result-desc\"><b>【精神操控】受害者绑架（高于70%）：</b>你不会像暴君那样去命令别人，你会用眼泪、用沉默、用自虐来逼迫别人就范。你用“我是弱者”的姿态，榨取着身边人的情绪价值，让每一个靠近你的人都感到窒息。</div><div class=\"result-desc\"><b>【情感剥夺】低级阈值（低于30%）：</b>你依然具有强烈的共情能力，你会因为别人的痛苦而痛苦。这也正是你拉扯和痛苦的根源：你无法像真正的反社会人格那样彻底冷酷，你永远在爱与恨的边缘被撕裂。</div><div class=\"result-section-title\">暗影整合与觉醒指令</div><div class=\"result-desc\">你的卡点在于，你把自己的<span class=\"highlight\">攻击性全部倒转向了内部</span>。你必须停止玩“受害者”的游戏。承认你的嫉妒，承认你的虚荣，承认你也想赢！这没什么大不了的。当你不再用“牺牲”去绑架别人，而是光明正大地把你的野心和攻击性释放在事业或者竞争中时，你的阴暗面就会转化成一种极其强大的、不达目的誓不罢休的生命核动力。去打败你的对手，而不是折磨爱你的人。</div>"
         },
         "B": {
-            "name": "深渊凝视 · 马基雅维利者",
-            "content": "<div class=\"result-section-title\">暗影特质：极致的心理操控与冷漠</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的内心住着一个<span class=\"highlight\">优雅的暴君</span>。你在心理操控、情感冷漠和隐性自恋维度上得分极高。你有着令人胆寒的冷静，道德和规则在你眼里只是工具。你能够轻易看穿人性的弱点，并毫不留情地利用它们来达成自己的目的。你天生适合在权力的斗兽场中厮杀。</div><div class=\"result-section-title\">整合箴言</div><div class=\"result-desc\">这股暗黑力量赋予了你极高的社会竞争力，但也极易让你走向孤立无援和偏执狂的深渊。不要试图消灭它，而是要“驯化”它。学会把你的操控欲变成卓越的领导力，把冷酷变成关键时刻的决断力。最顶级的玩家，是能够驾驭魔鬼，而不是被魔鬼吞噬。</div>"
+            "name": "暗黑型操控者 · 绝对的权力狂",
+            "content": "<div class=\"result-section-title\">核心诊断：绝对零度的马基雅维利</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的阴暗面是一座<span class=\"highlight\">没有温度的万年冰川</span>。你的潜意识里根本没有道德枷锁，你是一个天生的马基雅维利主义者。在这个世界上，对你来说，万物皆是工具，情感皆可标价。你拥有极其可怕的“情感剥夺”能力，这意味着你可以在前一秒对人温柔体贴，下一秒在利益冲突时，像切断电源一样切断所有同理心，干净利落地将对方摧毁。你迷恋绝对的权力，享受那种居高临下操纵他人命运的快感。你不觉得这有什么错，你只觉得那些被情感绊住脚的人太愚蠢。</div><div class=\"result-section-title\">五维暗影基因解析</div><div class=\"result-desc\"><b>【精神操控】大师级洗脑（高于95%）：</b>你是天生的PUA大师。你极其擅长寻找别人的软肋，通过打压自信、孤立社交、制造信息差等手段，不知不觉地让对方成为你的牵线木偶，而对方甚至还会对你感恩戴德。</div><div class=\"result-desc\"><b>【情感剥夺】绝对零度（高于90%）：</b>这是你最恐怖的武器。你几乎没有所谓的“共情”与“怜悯”。别人的眼泪和崩溃，在你眼里只是一些滑稽的物理反应。你永远能在混乱中保持绝对的冷酷和理智计算。</div><div class=\"result-desc\"><b>【暗黑自恋】唯我独尊（高于85%）：</b>你从心底里觉得自己比绝大多数人都聪明、高级。你认为规则是用来约束弱者的，而你生来就是为了制定规则和打破规则的。</div><div class=\"result-desc\"><b>【隐性嫉妒】极度缺乏（低于20%）：</b>你很少嫉妒别人，因为你根本没把他们放在眼里。如果有人挡了你的路，你不会去嫉妒，你只会思考用什么最高效的物理或社会手段把障碍清除。</div><div class=\"result-desc\"><b>【自毁倾向】绝缘体（低于15%）：</b>你极其爱惜自己的羽毛和利益。你绝不会为了惩罚别人而伤害自己。在任何极端情况下，你都会做出对自己最有利、哪怕极其残忍的保底决策。</div><div class=\"result-section-title\">暗影整合与觉醒指令</div><div class=\"result-desc\">你并没有被内耗困扰，但你的卡点在于<span class=\"highlight\">极度缺乏真实的生命体验</span>。你把生活变成了一局只有输赢的国际象棋，虽然你总是赢，但你的灵魂正在极度枯萎。长期下去，你会陷入一种巨大的、无法填补的虚无感。你需要尝试在极少数绝对安全的关系里，稍微卸下你那层坚不可摧的“冷酷装甲”。去体验一次不带任何目的性的失控，去允许别人看到你无能为力的一面。只有当你找回那一点点“人的弱点”，你才不至于被高处不胜寒的冰冷彻底冻死。</div>"
         }
     }
 }

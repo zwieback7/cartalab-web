@@ -16,74 +16,74 @@
     ],
     "questions": [
         { "q": "当一笔意料之外的财富降临时，你内心最先涌现的情绪是：", "options": [
-            { "text": "隐隐的担忧，觉得好运必有代价，很快就会失去", "type": "A", "scores": { "deserve": 1, "drive": 2, "risk": 2, "material": 4, "purity": 8 } },
-            { "text": "理所应当的平静，并迅速开始规划如何分配", "type": "B", "scores": { "deserve": 9, "drive": 8, "risk": 6, "material": 7, "purity": 3 } }
+            { "text": "隐隐的担忧，觉得好运必有代价，很快就会失去", "types": { "A": 1 }, "scores": { "deserve": 1, "drive": 2, "risk": 2, "material": 4, "purity": 8 } },
+            { "text": "理所应当的平静，并迅速开始规划如何分配", "types": { "B": 1 }, "scores": { "deserve": 9, "drive": 8, "risk": 6, "material": 7, "purity": 3 } }
         ]},
         { "q": "在购买了一件超出日常消费水平的极度昂贵的物品后，你通常会：", "options": [
-            { "text": "产生强烈的负罪感，反复盘算是否真的值得", "type": "A", "scores": { "deserve": 2, "drive": 3, "risk": 3, "material": 3, "purity": 7 } },
-            { "text": "感受到纯粹的愉悦，认为这种质感能提升自己的能量场", "type": "B", "scores": { "deserve": 8, "drive": 9, "risk": 7, "material": 10, "purity": 4 } }
+            { "text": "产生强烈的负罪感，反复盘算是否真的值得", "types": { "A": 1 }, "scores": { "deserve": 2, "drive": 3, "risk": 3, "material": 3, "purity": 7 } },
+            { "text": "感受到纯粹的愉悦，认为这种质感能提升自己的能量场", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 9, "risk": 7, "material": 10, "purity": 4 } }
         ]},
         { "q": "面对比你富有得多、且正在高谈阔论金钱的人，你的姿态是：", "options": [
-            { "text": "保持距离，甚至在内心产生一丝清高的排斥感", "type": "A", "scores": { "deserve": 4, "drive": 2, "risk": 3, "material": 2, "purity": 10 } },
-            { "text": "充满好奇，试图拆解对方积累财富的底层逻辑", "type": "B", "scores": { "deserve": 7, "drive": 10, "risk": 8, "material": 8, "purity": 2 } }
+            { "text": "保持距离，甚至在内心产生一丝清高的排斥感", "types": { "A": 1 }, "scores": { "deserve": 4, "drive": 2, "risk": 3, "material": 2, "purity": 10 } },
+            { "text": "充满好奇，试图拆解对方积累财富的底层逻辑", "types": { "B": 1 }, "scores": { "deserve": 7, "drive": 10, "risk": 8, "material": 8, "purity": 2 } }
         ]},
         { "q": "职场上出现了一个能让收入翻倍，但面临极大不确定性和指责风险的机会：", "options": [
-            { "text": "比起收益，你更厌恶失控感，宁愿选择当下的平稳", "type": "A", "scores": { "deserve": 5, "drive": 3, "risk": 1, "material": 4, "purity": 6 } },
-            { "text": "肾上腺素飙升，认为巨大的风险往往是跃迁的跳板", "type": "B", "scores": { "deserve": 8, "drive": 9, "risk": 10, "material": 8, "purity": 3 } }
+            { "text": "比起收益，你更厌恶失控感，宁愿选择当下的平稳", "types": { "A": 1 }, "scores": { "deserve": 5, "drive": 3, "risk": 1, "material": 4, "purity": 6 } },
+            { "text": "肾上腺素飙升，认为巨大的风险往往是跃迁的跳板", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 9, "risk": 10, "material": 8, "purity": 3 } }
         ]},
         { "q": "如果你因为决策失误，损失了一大笔钱，你复盘时最痛苦的点在于：", "options": [
-            { "text": "觉得自己很愚蠢，深陷在长期的自我怀疑与内耗中", "type": "A", "scores": { "deserve": 2, "drive": 4, "risk": 2, "material": 6, "purity": 8 } },
-            { "text": "只是心疼数字的减少，并在想如何从别的地方快速搞回来", "type": "B", "scores": { "deserve": 7, "drive": 9, "risk": 8, "material": 10, "purity": 2 } }
+            { "text": "觉得自己很愚蠢，深陷在长期的自我怀疑与内耗中", "types": { "A": 1 }, "scores": { "deserve": 2, "drive": 4, "risk": 2, "material": 6, "purity": 8 } },
+            { "text": "只是心疼数字的减少，并在想如何从别的地方快速搞回来", "types": { "B": 1 }, "scores": { "deserve": 7, "drive": 9, "risk": 8, "material": 10, "purity": 2 } }
         ]},
         { "q": "当朋友向你借一笔不大不小的钱，而你其实不太想借时：", "options": [
-            { "text": "难以开口拒绝，害怕破坏关系，最后委屈自己借出去", "type": "A", "scores": { "deserve": 3, "drive": 2, "risk": 4, "material": 3, "purity": 8 } },
-            { "text": "干脆利落地找个体面的理由拒绝，优先保障自己的现金流", "type": "B", "scores": { "deserve": 8, "drive": 8, "risk": 6, "material": 9, "purity": 3 } }
+            { "text": "难以开口拒绝，害怕破坏关系，最后委屈自己借出去", "types": { "A": 1 }, "scores": { "deserve": 3, "drive": 2, "risk": 4, "material": 3, "purity": 8 } },
+            { "text": "干脆利落地找个体面的理由拒绝，优先保障自己的现金流", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 8, "risk": 6, "material": 9, "purity": 3 } }
         ]},
         { "q": "你如何看待“运气”在财富积累中的作用？", "options": [
-            { "text": "运气决定上限，努力只是基础，对命运抱有敬畏", "type": "A", "scores": { "deserve": 6, "drive": 4, "risk": 5, "material": 5, "purity": 7 } },
-            { "text": "运气也是实力的一部分，随时准备好抓住杠杆", "type": "B", "scores": { "deserve": 8, "drive": 10, "risk": 9, "material": 8, "purity": 3 } }
+            { "text": "运气决定上限，努力只是基础，对命运抱有敬畏", "types": { "A": 1 }, "scores": { "deserve": 6, "drive": 4, "risk": 5, "material": 5, "purity": 7 } },
+            { "text": "运气也是实力的一部分，随时准备好抓住杠杆", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 10, "risk": 9, "material": 8, "purity": 3 } }
         ]},
         { "q": "看到身边不如你优秀的人突然暴富，你的第一反应是：", "options": [
-            { "text": "觉得世界不公平，内心感到不适，甚至想屏蔽对方", "type": "A", "scores": { "deserve": 4, "drive": 3, "risk": 3, "material": 6, "purity": 9 } },
-            { "text": "没有情绪波动，只思考他的风口我能不能复制一份", "type": "B", "scores": { "deserve": 8, "drive": 9, "risk": 8, "material": 9, "purity": 2 } }
+            { "text": "觉得世界不公平，内心感到不适，甚至想屏蔽对方", "types": { "A": 1 }, "scores": { "deserve": 4, "drive": 3, "risk": 3, "material": 6, "purity": 9 } },
+            { "text": "没有情绪波动，只思考他的风口我能不能复制一份", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 9, "risk": 8, "material": 9, "purity": 2 } }
         ]},
         { "q": "让你连续高强度工作一个月，换取一整年不用工作的收入，你会：", "options": [
-            { "text": "会因为剥夺了生活品质和精神自由而感到极度痛苦", "type": "A", "scores": { "deserve": 7, "drive": 4, "risk": 4, "material": 3, "purity": 9 } },
-            { "text": "绝对接受，只要钱给够，可以暂时将情感和疲惫屏蔽", "type": "B", "scores": { "deserve": 7, "drive": 10, "risk": 7, "material": 10, "purity": 2 } }
+            { "text": "会因为剥夺了生活品质和精神自由而感到极度痛苦", "types": { "A": 1 }, "scores": { "deserve": 7, "drive": 4, "risk": 4, "material": 3, "purity": 9 } },
+            { "text": "绝对接受，只要钱给够，可以暂时将情感和疲惫屏蔽", "types": { "B": 1 }, "scores": { "deserve": 7, "drive": 10, "risk": 7, "material": 10, "purity": 2 } }
         ]},
         { "q": "面对“免费体验但需要发朋友圈打广告”的活动，你的态度是：", "options": [
-            { "text": "觉得发这种东西很掉价，宁愿自己花钱买清净", "type": "A", "scores": { "deserve": 8, "drive": 2, "risk": 2, "material": 2, "purity": 10 } },
-            { "text": "如果有价值为什么不薅？这只是基础的价值交换", "type": "B", "scores": { "deserve": 6, "drive": 8, "risk": 6, "material": 8, "purity": 1 } }
+            { "text": "觉得发这种东西很掉价，宁愿自己花钱买清净", "types": { "A": 1 }, "scores": { "deserve": 8, "drive": 2, "risk": 2, "material": 2, "purity": 10 } },
+            { "text": "如果有价值为什么不薅？这只是基础的价值交换", "types": { "B": 1 }, "scores": { "deserve": 6, "drive": 8, "risk": 6, "material": 8, "purity": 1 } }
         ]},
         { "q": "在讨论自己应得的薪资待遇或报价时，你通常：", "options": [
-            { "text": "总是不自觉地把价格报低一点，生怕别人觉得我不值", "type": "A", "scores": { "deserve": 1, "drive": 2, "risk": 2, "material": 4, "purity": 6 } },
-            { "text": "敢于开出略高于市场价的数字，并理直气壮地等待还价", "type": "B", "scores": { "deserve": 10, "drive": 9, "risk": 8, "material": 8, "purity": 3 } }
+            { "text": "总是不自觉地把价格报低一点，生怕别人觉得我不值", "types": { "A": 1 }, "scores": { "deserve": 1, "drive": 2, "risk": 2, "material": 4, "purity": 6 } },
+            { "text": "敢于开出略高于市场价的数字，并理直气壮地等待还价", "types": { "B": 1 }, "scores": { "deserve": 10, "drive": 9, "risk": 8, "material": 8, "purity": 3 } }
         ]},
         { "q": "对于“储蓄”，你潜意识里的感受更接近于：", "options": [
-            { "text": "是对抗未来风险的唯一护城河，看着余额才觉得安全", "type": "A", "scores": { "deserve": 5, "drive": 4, "risk": 1, "material": 8, "purity": 6 } },
-            { "text": "只是暂时的资金停泊，钱必须流动起来或者换成资产", "type": "B", "scores": { "deserve": 8, "drive": 9, "risk": 9, "material": 6, "purity": 3 } }
+            { "text": "是对抗未来风险的唯一护城河，看着余额才觉得安全", "types": { "A": 1 }, "scores": { "deserve": 5, "drive": 4, "risk": 1, "material": 8, "purity": 6 } },
+            { "text": "只是暂时的资金停泊，钱必须流动起来或者换成资产", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 9, "risk": 9, "material": 6, "purity": 3 } }
         ]},
         { "q": "当你身处一个极其奢华、昂贵的场所（如顶级酒店/餐厅）时：", "options": [
-            { "text": "会有些许局促感，总觉得别人能看出自己不属于这里", "type": "A", "scores": { "deserve": 2, "drive": 3, "risk": 3, "material": 5, "purity": 5 } },
-            { "text": "非常享受，并在心里暗暗决定以后要把它变成生活常态", "type": "B", "scores": { "deserve": 9, "drive": 9, "risk": 7, "material": 10, "purity": 2 } }
+            { "text": "会有些许局促感，总觉得别人能看出自己不属于这里", "types": { "A": 1 }, "scores": { "deserve": 2, "drive": 3, "risk": 3, "material": 5, "purity": 5 } },
+            { "text": "非常享受，并在心里暗暗决定以后要把它变成生活常态", "types": { "B": 1 }, "scores": { "deserve": 9, "drive": 9, "risk": 7, "material": 10, "purity": 2 } }
         ]},
         { "q": "如果要用一句话形容金钱，你更认同：", "options": [
-            { "text": "金钱是考验人性的试金石，容易让人迷失本心", "type": "A", "scores": { "deserve": 4, "drive": 2, "risk": 3, "material": 2, "purity": 10 } },
-            { "text": "金钱是通向自由的最短路径，是权力的某种实体化", "type": "B", "scores": { "deserve": 8, "drive": 10, "risk": 8, "material": 10, "purity": 2 } }
+            { "text": "金钱是考验人性的试金石，容易让人迷失本心", "types": { "A": 1 }, "scores": { "deserve": 4, "drive": 2, "risk": 3, "material": 2, "purity": 10 } },
+            { "text": "金钱是通向自由的最短路径，是权力的某种实体化", "types": { "B": 1 }, "scores": { "deserve": 8, "drive": 10, "risk": 8, "material": 10, "purity": 2 } }
         ]},
         { "q": "最后，当你幻想自己实现财富自由后，你脑海中的画面是：", "options": [
-            { "text": "隐居在安静的地方，远离人群，看书种花，过隐士生活", "type": "A", "scores": { "deserve": 7, "drive": 2, "risk": 2, "material": 2, "purity": 10 } },
-            { "text": "在全球各地飞来飞去，掌握更多资源，体验极致的人生", "type": "B", "scores": { "deserve": 9, "drive": 10, "risk": 9, "material": 10, "purity": 2 } }
+            { "text": "隐居在安静的地方，远离人群，看书种花，过隐士生活", "types": { "A": 1 }, "scores": { "deserve": 7, "drive": 2, "risk": 2, "material": 2, "purity": 10 } },
+            { "text": "在全球各地飞来飞去，掌握更多资源，体验极致的人生", "types": { "B": 1 }, "scores": { "deserve": 9, "drive": 10, "risk": 9, "material": 10, "purity": 2 } }
         ]}
     ],
     "results": {
         "A": {
             "name": "漏斗型财库 · 精神隐士",
-            "content": "<div class=\"result-section-title\">核心诊断：金钱过敏症候群</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>骨子里有一种难以察觉的<span class=\"highlight\">“精神洁癖”</span>。在你的潜意识深处，总是隐隐把金钱和<em>“世俗、妥协、甚至肮脏”</em>挂钩。这导致了一个致命的财富卡点：你赚钱的能力可能并不弱，但你的财库像一个<strong>漏斗</strong>。每当你的账户达到某个让你觉得“足够了”的阈值，你就会因为内心的<span class=\"highlight\">“不配得感”</span>，任由金钱以冲动消费或意外的形式流失。</div><div class=\"result-section-title\">多维频率解析</div><div class=\"result-desc\"><b>极低配得感：</b>你总是觉得<em>“好事不会无缘无故降临在我头上”</em>，在谈论应得利益时，你习惯性退让。这是一种隐性的自我霸凌。</div><div class=\"result-desc\"><b>极高精神洁癖：</b>你极度厌恶钻营和算计。在你看来，如果赚钱需要违背你的道德审美，你宁愿受穷。你用<strong>清高</strong>来掩饰对金钱世界运转规则的不适应。</div><div class=\"result-desc\"><b>极度厌恶风险：</b>你渴望平稳，极度害怕失控。这让你避开了大坑，但也让你永远错过了借助杠杆实现阶层跃迁的红利期。</div><div class=\"result-section-title\">卡点显化与破局箴言</div><div class=\"result-desc\">在现实中，你最容易沦为<span class=\"highlight\">“高智商的穷人”</span>。你帮别人赚钱很厉害，轮到自己收钱时却总是心慈手软。你需要立刻停止将“清贫”等同于“高尚”。金钱只是能量的流动，它没有道德属性。不要再用道德绑架自己的欲望。学会理直气壮地说出那句：<em>“这是我应得的。”</em></div>"
+            "content": "<div class=\"result-section-title\">核心诊断：金钱过敏症候群</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>骨子里有一种难以察觉的<span class=\"highlight\">“精神洁癖”</span>。在你的潜意识深处，总是隐隐把金钱和“世俗、妥协、甚至肮脏”挂钩。这导致了一个致命的财富卡点：你赚钱的能力可能并不弱，但你的财库像一个真正的<strong>漏斗</strong>。每当你的账户达到某个让你觉得“足够了”或“安全”的阈值，你就会因为内心的<span class=\"highlight\">不配得感</span>，任由金钱以冲动消费、意外借贷或决策失误的形式流失。你用清高来掩饰对金钱世界运转规则的不适应，最终沦为高智商的穷人。</div><div class=\"result-section-title\">五维能量深度解析</div><div class=\"result-desc\"><b>【配得感】严重匮乏（低于20%）：</b>你总是觉得“好事不会无缘无故降临在我头上”。在谈论应得利益、要求加薪或报价时，你习惯性退让。这是一种隐性的自我霸凌，你总是在潜意识里觉得自己“不值那么多”，这种频率会直接吓跑大额财富。</div><div class=\"result-desc\"><b>【精神洁癖】极度超标（高于85%）：</b>你极度厌恶钻营和算计。在你看来，如果赚钱需要违背你的道德审美，需要你去讨好别人，你宁愿受穷。你对商业社会的基础交换法则有着本能的抗拒，总是站在道德的高地俯视那些正在弯腰捡硬币的人。</div><div class=\"result-desc\"><b>【风险阈值】防守过当（低于30%）：</b>你极度厌恶失控感。面对巨大的利益和伴随的风险，你的第一反应永远是“如果失败了我会失去什么”。你极力避开了大坑，但也让你永远错过了借助杠杆实现阶层跃迁的时代红利期，一生都在线性增长中苦苦挣扎。</div><div class=\"result-desc\"><b>【抓取力】动力衰竭（低于40%）：</b>你对世俗权力和金钱的渴望并不纯粹。一旦满足了基本的生存安全感，你的赚钱动力就会出现断崖式下跌。你缺乏那种不达目的誓不罢休的狼性，稍微遇到阻力，你就会安慰自己“平平淡淡才是真”。</div><div class=\"result-desc\"><b>【物质依恋】飘忽不定（中等波动）：</b>你对奢侈品并没有病态的狂热，你更看重一件物品带来的“精神体验”。但这导致你花钱常常没有底线，只要某个东西触动了你的情绪开关，你会毫不犹豫地为高溢价买单，进一步加剧了财富的流失。</div><div class=\"result-section-title\">破局箴言与行动指令</div><div class=\"result-desc\">立刻停止将“清贫”等同于“高尚”。金钱只是能量的流动，它没有道德属性，是你的清高绑架了你的银行卡。从今天起，练习在每一笔入账时，大声在心里默念三遍：<span class=\"highlight\">“这是我应得的，我完全配得上这份馈赠。”</span>去试着做一次你觉得“俗气”的交易，去直面你对数字的恐惧。只有当你真正接纳了欲望，你的漏斗底端才会被彻底封死，财富的蓄水池才能真正为你建立。</div>"
         },
         "B": {
             "name": "聚宝型财库 · 资源猎手",
-            "content": "<div class=\"result-section-title\">核心诊断：永不餍足的捕食者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>对金钱有着极强的<span class=\"highlight\">渴望与掌控欲</span>，你是天生的“资源猎手”。你不耻于谈钱，甚至将财富视为衡量自我价值和生命重量的核心标尺。你的财库像一个<strong>坚固且不断膨胀的容器</strong>，只进不出。你极其慕强，极具目的性，这让你在世俗标准下极容易取得令人艳羡的成功。</div><div class=\"result-section-title\">多维频率解析</div><div class=\"result-desc\"><b>爆表的抓取力：</b>只要看到机会，你会毫不犹豫地扑上去。你不相信命运，你只相信<em>筹码和杠杆</em>。</div><div class=\"result-desc\"><b>高风险嗜好：</b>你深知<span class=\"highlight\">“富贵险中求”</span>的道理。你不仅能承受压力，甚至在巨大的不确定性中能感到肾上腺素飙升的快感。</div><div class=\"result-desc\"><b>极低精神洁癖：</b>为了达到目的，你可以暂时屏蔽所有的感性、委屈和无用的自尊。在你眼里，情绪是最无用的成本。</div><div class=\"result-section-title\">卡点显化与破局箴言</div><div class=\"result-desc\">你的卡点不在于“赚不到钱”，而在于<span class=\"highlight\">“过度抓取导致的能量反噬”</span>。你常常为了维持账面数字的增长，而牺牲了生活的呼吸感与真实的情感连结。金钱不仅是你的底气，也正在渐渐变成困住你的一座<strong>华丽囚牢</strong>。你现在的必修课，不是如何赚下一百万，而是学会如何停止奔跑，去真正地<em>“拥有”</em>和<em>“体验”</em>你已经打下的江山。</div>"
+            "content": "<div class=\"result-section-title\">核心诊断：永不餍足的捕食者</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>对金钱有着极强的<span class=\"highlight\">渴望与掌控欲</span>，你是天生的“资源猎手”。你不耻于谈钱，甚至将财富视为衡量自我价值和生命重量的核心标尺。你的财库像一个<strong>坚固且不断膨胀的聚宝盆</strong>，只进不出。你极其慕强，极具目的性，完全洞悉了人类社会的丛林法则。这让你在世俗标准下极容易取得令人艳羡的成功。但同时，你也极容易被这种永不餍足的贪婪所反噬，把生活过成了一张只有KPI的财务报表。</div><div class=\"result-section-title\">五维能量深度解析</div><div class=\"result-desc\"><b>【抓取力】侵略级爆表（高于90%）：</b>只要看到机会，你会毫不犹豫地扑上去。你不相信命运，你只相信筹码和杠杆。你的执行力极其恐怖，为了达到目的，你可以暂时屏蔽所有的感性、委屈和无用的自尊。在你眼里，情绪是最无用的成本。</div><div class=\"result-desc\"><b>【风险阈值】高空走钢丝（高于80%）：</b>你深知“富贵险中求”的道理。你不仅能承受巨大的精神压力，甚至在巨大的不确定性中能感到肾上腺素飙升的快感。你敢于All in，敢于借力打力，这种高风险偏好是你实现财富指数级跃迁的核心武器。</div><div class=\"result-desc\"><b>【配得感】王者级自洽（高于85%）：</b>你从不觉得谈钱伤感情，你认为这才是对彼此时间的尊重。你敢于开出高于市场价的数字，并能理直气壮地去索取。当你走进顶级奢华的场所，你的第一反应不是局促，而是“这就是我以后每天的生活”。</div><div class=\"result-desc\"><b>【精神洁癖】实用主义至上（低于20%）：</b>道德对你来说，只在不妨碍搞钱的前提下才有意义。你极其懂得变通，能够完美适应各种灰色地带和复杂的利益纠葛。你不在乎手段是不是绝对光鲜，你只在乎结果是否能让你拿到真金白银。</div><div class=\"result-desc\"><b>【物质依恋】权力具象化（高于75%）：</b>你喜欢昂贵的东西，不仅仅是因为它们好用，更是因为它们是你“社会地位”的战利品。你喜欢看着资产数字的跳动，每一块名表、每一处豪宅，都是你安全感的实体化，也是你压制竞争对手的社交武器。</div><div class=\"result-section-title\">破局箴言与行动指令</div><div class=\"result-desc\">你的卡点不在于“赚不到钱”，而在于<span class=\"highlight\">“过度抓取导致的能量反噬”</span>。你常常为了维持账面数字的无休止增长，而牺牲了生活的呼吸感与真实的亲密连结。金钱不仅是你的底气，也正在渐渐变成困住你的一座华丽囚牢。你现在的必修课，不是如何赚下一百万，而是学会如何停止奔跑，去真正地“拥有”和“体验”你已经打下的江山。试着每周拿出半天时间，做一件没有任何经济回报的“无用之事”。</div>"
         }
     }
 }

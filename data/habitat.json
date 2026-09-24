@@ -1,89 +1,89 @@
 {
     "meta": {
         "title": "灵魂栖息地",
-        "subtitle": "寻找与你同频共振的理想生存场域",
-        "themeColor": "#6B8E7B",
-        "upsellText": "解锁《反内卷生存图鉴》",
-        "quote": "地理位置决定你的能量振频",
-        "footerCta": "携带此档案编号，返回解锁《全球数字游民与反内卷生存图鉴》"
+        "subtitle": "测算最匹配你精神频率的全球地理坐标",
+        "themeColor": "#5B7C6B",
+        "upsellText": "解锁《全球数字游民定居指南》",
+        "quote": "空间不只是容器，它是你情绪的延展",
+        "footerCta": "携带此档案编号，返回解锁《地理套利与灵魂栖息全景指南》"
     },
     "axes": [
-        { "id": "pace", "label": "节奏耐受" },
-        { "id": "nature", "label": "自然亲和" },
-        { "id": "social", "label": "社交密度" },
-        { "id": "culture", "label": "文化剥夺感" },
-        { "id": "efficiency", "label": "效率强迫" }
+        { "id": "nature", "label": "自然渴望" },
+        { "id": "culture", "label": "人文粘性" },
+        { "id": "speed", "label": "节奏适应" },
+        { "id": "social", "label": "社交距离" },
+        { "id": "chaos", "label": "混乱包容" }
     ],
     "questions": [
-        { "q": "如果一个月不能点外卖，且网购需要三天才能送达，你会：", "options": [
-            { "text": "觉得毫无所谓，正好可以自己做饭，享受慢节奏的宁静", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 8, "social": 2, "culture": 3, "efficiency": 1 } },
-            { "text": "绝对崩溃，这严重打破了我的生活效率和便利性安全感", "types": { "B": 1 }, "scores": { "pace": 9, "nature": 2, "social": 6, "culture": 6, "efficiency": 10 } }
+        { "q": "清晨推开窗，你最希望第一眼看到的是：", "options": [
+            { "text": "起伏的森林边界或一望无际的静谧湖水，听不到汽车引擎声", "types": { "A": 1 }, "scores": { "nature": 10, "culture": 3, "speed": 2, "social": 8, "chaos": 2 } },
+            { "text": "楼下已经开始运转的咖啡馆，或者错落有致的城市天际线", "types": { "B": 1 }, "scores": { "nature": 2, "culture": 9, "speed": 8, "social": 4, "chaos": 7 } }
         ]},
-        { "q": "漫步在一条街道上，哪种声音更让你觉得有活力？", "options": [
-            { "text": "风吹过树叶的沙沙声，或是海浪拍打礁石的白噪音", "types": { "A": 1 }, "scores": { "pace": 2, "nature": 10, "social": 2, "culture": 3, "efficiency": 1 } },
-            { "text": "街头咖啡馆的交谈声，汽车轻微的引擎声，霓虹灯下的都市白噪", "types": { "B": 1 }, "scores": { "pace": 8, "nature": 2, "social": 9, "culture": 8, "efficiency": 8 } }
+        { "q": "如果要在以下两种“不完美”的居住环境中二选一，你宁愿：", "options": [
+            { "text": "极其安静但极度不便，买杯咖啡都要开车20分钟，且没有外卖", "types": { "A": 1 }, "scores": { "nature": 8, "culture": 2, "speed": 1, "social": 9, "chaos": 3 } },
+            { "text": "下楼就是繁华商圈，但楼下永远有喧嚣声，空间拥挤且没有绿化", "types": { "B": 1 }, "scores": { "nature": 1, "culture": 8, "speed": 9, "social": 3, "chaos": 8 } }
         ]},
-        { "q": "面对“无效社交”（如酒局、半熟人的聚会），你的态度是：", "options": [
-            { "text": "深恶痛绝，我只想要属于自己的绝对清净", "types": { "A": 1 }, "scores": { "pace": 3, "nature": 6, "social": 1, "culture": 2, "efficiency": 4 } },
-            { "text": "虽然累，但也能在这种人际穿梭中找到某种社会归属感或资源", "types": { "B": 1 }, "scores": { "pace": 7, "nature": 2, "social": 9, "culture": 6, "efficiency": 7 } }
+        { "q": "关于“邻里关系”，你理想的状态是：", "options": [
+            { "text": "保持绝对的边界感，见面点头微笑，但绝不探寻彼此的私生活", "types": { "A": 1 }, "scores": { "nature": 4, "culture": 4, "speed": 6, "social": 10, "chaos": 2 } },
+            { "text": "有一种恰到好处的人情味，甚至可以偶尔去熟识的邻居家蹭杯酒", "types": { "B": 1 }, "scores": { "nature": 5, "culture": 8, "speed": 4, "social": 2, "chaos": 6 } }
         ]},
-        { "q": "以下哪种窗外的景色，能让你瞬间感到被治愈？", "options": [
-            { "text": "一望无际的绿色山野，或者是空旷宁静的海岸线", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 10, "social": 1, "culture": 2, "efficiency": 2 } },
-            { "text": "繁华交织的高架桥，灯火通明、充满现代工业美感的天际线", "types": { "B": 1 }, "scores": { "pace": 9, "nature": 2, "social": 8, "culture": 9, "efficiency": 8 } }
+        { "q": "你对一座城市“效率”的底线要求是：", "options": [
+            { "text": "只要网络极速、物流准时，我不需要这座城市有太多娱乐设施", "types": { "A": 1 }, "scores": { "nature": 6, "culture": 3, "speed": 9, "social": 8, "chaos": 1 } },
+            { "text": "如果一座城市连个像样的艺术展和Livehouse都没有，效率再高也是荒漠", "types": { "B": 1 }, "scores": { "nature": 4, "culture": 10, "speed": 4, "social": 4, "chaos": 8 } }
         ]},
-        { "q": "关于看展、看剧、听音乐会等文化消费：", "options": [
-            { "text": "没有也行，大自然和独处就是最好的精神食粮", "types": { "A": 1 }, "scores": { "pace": 2, "nature": 8, "social": 2, "culture": 1, "efficiency": 3 } },
-            { "text": "是刚需。如果长期处于文化沙漠，我会觉得精神枯萎", "types": { "B": 1 }, "scores": { "pace": 8, "nature": 3, "social": 8, "culture": 10, "efficiency": 7 } }
+        { "q": "走在一个陌生的街区，让你觉得最有安全感的气息是：", "options": [
+            { "text": "干净整洁、秩序井然，甚至有一点冰冷的规则感（如东京、苏黎世）", "types": { "A": 1 }, "scores": { "nature": 3, "culture": 5, "speed": 7, "social": 8, "chaos": 1 } },
+            { "text": "墙上的涂鸦、街头艺人，有一种充满生命力的无序感（如柏林、曼谷）", "types": { "B": 1 }, "scores": { "nature": 5, "culture": 9, "speed": 6, "social": 3, "chaos": 10 } }
         ]},
-        { "q": "如果你的工作完全自由，你倾向于每天的作息是：", "options": [
-            { "text": "日出而作日落而息，时间像水一样自然流淌，没有严格DDL", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 8, "social": 2, "culture": 2, "efficiency": 1 } },
-            { "text": "依旧保持高效率的模块化时间管理，喜欢深夜都市的灵感时刻", "types": { "B": 1 }, "scores": { "pace": 10, "nature": 1, "social": 7, "culture": 8, "efficiency": 10 } }
+        { "q": "你认为什么样的天气最能激发你的创造力或深度思考？", "options": [
+            { "text": "阴沉沉的雨天或者寒冷的大雪，把自己裹在屋里，感到极度安全", "types": { "A": 1 }, "scores": { "nature": 8, "culture": 4, "speed": 3, "social": 9, "chaos": 2 } },
+            { "text": "灿烂的阳光，微风，必须出门走走，去有人的地方吸收能量", "types": { "B": 1 }, "scores": { "nature": 6, "culture": 8, "speed": 7, "social": 2, "chaos": 6 } }
         ]},
-        { "q": "对于“内卷”，你底层的身体反应是：", "options": [
-            { "text": "极度生理性排斥，一想到竞争就想立刻逃离，去过低欲望生活", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 7, "social": 2, "culture": 3, "efficiency": 2 } },
-            { "text": "虽然嘴上抱怨，但其实能从适度的竞争中获得存在感和成就感", "types": { "B": 1 }, "scores": { "pace": 9, "nature": 2, "social": 8, "culture": 7, "efficiency": 9 } }
+        { "q": "如果给你放一个月长假，没有任何工作打扰，你最想做的事是：", "options": [
+            { "text": "去北欧的某个小木屋，只有网络和壁炉，彻底断绝无用社交", "types": { "A": 1 }, "scores": { "nature": 10, "culture": 2, "speed": 2, "social": 10, "chaos": 1 } },
+            { "text": "去纽约或巴黎的某个小公寓，每天看展、看戏，混入当地的亚文化圈", "types": { "B": 1 }, "scores": { "nature": 2, "culture": 10, "speed": 8, "social": 3, "chaos": 8 } }
         ]},
-        { "q": "你的衣柜里，哪类衣服的占比最高？", "options": [
-            { "text": "宽松、棉麻、适合户外或居家躺平的极其舒适的衣服", "types": { "A": 1 }, "scores": { "pace": 2, "nature": 8, "social": 2, "culture": 3, "efficiency": 2 } },
-            { "text": "剪裁利落、设计感强、适合出席各种场合的都市精英装备", "types": { "B": 1 }, "scores": { "pace": 8, "nature": 2, "social": 9, "culture": 8, "efficiency": 8 } }
+        { "q": "当你感到压力爆表时，你修复能量的方式是：", "options": [
+            { "text": "走进深山或者潜入深海，只需要跟非人类的自然生命待在一起", "types": { "A": 1 }, "scores": { "nature": 10, "culture": 2, "speed": 2, "social": 9, "chaos": 2 } },
+            { "text": "扎进人声鼎沸的夜市或者拥挤的酒吧，用烟火气冲淡内心的焦虑", "types": { "B": 1 }, "scores": { "nature": 2, "culture": 8, "speed": 7, "social": 2, "chaos": 9 } }
         ]},
-        { "q": "当你感到极度疲惫时，能让你快速“回血”的方式是：", "options": [
-            { "text": "在森林里走走，或者坐在海边发呆，什么也不想", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 10, "social": 1, "culture": 2, "efficiency": 1 } },
-            { "text": "去昂贵的餐厅大吃一顿，或者去繁华的商场买买买", "types": { "B": 1 }, "scores": { "pace": 8, "nature": 1, "social": 8, "culture": 8, "efficiency": 8 } }
+        { "q": "你如何看待一座城市里的“历史遗迹”与“老旧建筑”？", "options": [
+            { "text": "更偏爱现代化的极简建筑和智能家居，老房子意味着管道老化和虫害", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 3, "speed": 8, "social": 7, "chaos": 2 } },
+            { "text": "极度迷恋踩在百年木地板上的嘎吱声，那里面藏着时间的灵魂", "types": { "B": 1 }, "scores": { "nature": 6, "culture": 10, "speed": 3, "social": 4, "chaos": 8 } }
         ]},
-        { "q": "你如何看待小镇上的“熟人社会”？", "options": [
-            { "text": "挺好的，充满人情味，街坊邻居互相帮忙很温暖", "types": { "A": 1 }, "scores": { "pace": 2, "nature": 6, "social": 8, "culture": 2, "efficiency": 2 } },
-            { "text": "极度窒息，我更喜欢大城市里充满边界感、谁也不认识谁的自由", "types": { "B": 1 }, "scores": { "pace": 9, "nature": 2, "social": 2, "culture": 9, "efficiency": 9 } }
+        { "q": "对于饮食，你的偏好更接近：", "options": [
+            { "text": "高度标准化、成分清晰的健康餐，为了维持身体的最佳运转效率", "types": { "A": 1 }, "scores": { "nature": 3, "culture": 2, "speed": 9, "social": 8, "chaos": 1 } },
+            { "text": "愿意在破败的小巷子里排队一小时，只为吃一口带有锅气的老字号", "types": { "B": 1 }, "scores": { "nature": 4, "culture": 9, "speed": 3, "social": 3, "chaos": 10 } }
         ]},
-        { "q": "如果要去一个陌生的地方长住，你第一件事会确认：", "options": [
-            { "text": "那里的空气好不好，自然风景美不美，生活成本低不低", "types": { "A": 1 }, "scores": { "pace": 2, "nature": 9, "social": 3, "culture": 2, "efficiency": 2 } },
-            { "text": "那里的医疗好不好，咖啡馆多不多，交通是否极度便利", "types": { "B": 1 }, "scores": { "pace": 9, "nature": 1, "social": 8, "culture": 9, "efficiency": 10 } }
+        { "q": "你理想中的办公环境是：", "options": [
+            { "text": "绝对隔音、恒温的独立书房，几块巨大的显示屏，没有任何人打扰", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 2, "speed": 8, "social": 10, "chaos": 1 } },
+            { "text": "有着白噪音的咖啡馆，或者布置得像画廊一样的联合办公空间，能看到不同的人", "types": { "B": 1 }, "scores": { "nature": 4, "culture": 8, "speed": 6, "social": 3, "chaos": 7 } }
         ]},
-        { "q": "你认为自己对物质的依赖程度是：", "options": [
-            { "text": "极简主义，只要有一台电脑和基本温饱，我在哪都能活得很好", "types": { "A": 1 }, "scores": { "pace": 2, "nature": 7, "social": 2, "culture": 3, "efficiency": 2 } },
-            { "text": "较高，我需要高品质的服务、商品和最新鲜的资讯来维持生命力", "types": { "B": 1 }, "scores": { "pace": 8, "nature": 2, "social": 9, "culture": 8, "efficiency": 9 } }
+        { "q": "你最无法忍受哪一种环境缺陷？", "options": [
+            { "text": "到处都是人，去哪里都要排队，空气污浊，没有一块属于自己的清净地", "types": { "A": 1 }, "scores": { "nature": 8, "culture": 3, "speed": 3, "social": 10, "chaos": 2 } },
+            { "text": "千篇一律的街道，没有一家独立书店或特色餐厅，生活枯燥得像一潭死水", "types": { "B": 1 }, "scores": { "nature": 3, "culture": 10, "speed": 4, "social": 2, "chaos": 8 } }
         ]},
-        { "q": "面对未知，你更害怕哪种状态？", "options": [
-            { "text": "每天像齿轮一样高速运转，身体和灵魂双重透支，没有自己的时间", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 8, "social": 2, "culture": 3, "efficiency": 2 } },
-            { "text": "一眼望到头的平庸，远离了世界运转的中心，被时代狠狠抛弃", "types": { "B": 1 }, "scores": { "pace": 10, "nature": 2, "social": 8, "culture": 8, "efficiency": 10 } }
+        { "q": "如果你要挑选一件家具，你最看重的是：", "options": [
+            { "text": "绝对的人体工学和功能性，最好是冷峻的金属或极简的线条设计", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 3, "speed": 8, "social": 6, "chaos": 1 } },
+            { "text": "木材的纹理，或者某位中古设计师的情感表达，有一点瑕疵也无所谓", "types": { "B": 1 }, "scores": { "nature": 8, "culture": 10, "speed": 3, "social": 4, "chaos": 7 } }
         ]},
-        { "q": "想象一下，你中了彩票，实现了财富自由，第一周你会：", "options": [
-            { "text": "买张单程机票去一个安静的岛屿，彻底断联，消失在世界上", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 10, "social": 1, "culture": 2, "efficiency": 1 } },
-            { "text": "买下市中心最顶层的大平层，在落地窗前俯瞰这片曾经奋斗的繁华", "types": { "B": 1 }, "scores": { "pace": 9, "nature": 1, "social": 9, "culture": 10, "efficiency": 8 } }
+        { "q": "你对“四季分明”的执念有多深？", "options": [
+            { "text": "最好一年四季都是恒温的春天，我不喜欢为了极端天气改变生活节拍", "types": { "A": 1 }, "scores": { "nature": 2, "culture": 4, "speed": 8, "social": 5, "chaos": 2 } },
+            { "text": "必须感受到落叶、大雪和蝉鸣，没有季节流转的地方就像是楚门的世界", "types": { "B": 1 }, "scores": { "nature": 10, "culture": 8, "speed": 3, "social": 5, "chaos": 8 } }
         ]},
-        { "q": "最后，你觉得你的灵魂是被什么驱动的？", "options": [
-            { "text": "是风、是海浪、是阳光、是绝对的自由与宁静", "types": { "A": 1 }, "scores": { "pace": 1, "nature": 10, "social": 2, "culture": 2, "efficiency": 1 } },
-            { "text": "是野心、是欲望、是信息的碰撞和不断突破自我的成就感", "types": { "B": 1 }, "scores": { "pace": 10, "nature": 1, "social": 9, "culture": 9, "efficiency": 10 } }
+        { "q": "最终，你觉得物理空间对你而言，本质上是什么？", "options": [
+            { "text": "一个保护壳。把外界的噪音和无序挡在外面，供我高效地自我运转", "types": { "A": 1 }, "scores": { "nature": 4, "culture": 3, "speed": 9, "social": 10, "chaos": 1 } },
+            { "text": "一个巨大的灵感矿场。我需要从城市的缝隙和人群的故事中汲取养分", "types": { "B": 1 }, "scores": { "nature": 6, "culture": 10, "speed": 6, "social": 2, "chaos": 10 } }
         ]}
     ],
     "results": {
         "A": {
-            "name": "自然归属 · 亚热带漂流者",
-            "content": "<div class=\"result-section-title\">场域诊断：低欲望的自然之子</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂对高密度、高压力的都市有着极强的<span class=\"highlight\">排异反应</span>。你并不懒惰，你只是觉得世俗意义上的“卷赢了”毫无意义。大自然、慢节奏、无所事事的自由，才是你的精神充电站。你极度适合成为数字游民，或者在海岛、大理等慢节奏的地方安营扎寨。</div><div class=\"result-section-title\">能量修复建议</div><div class=\"result-desc\">你的能量很容易被钢筋水泥和无效社交抽干。请尽快为自己规划一条逃离路线，哪怕每年只有一个月的时间去过“极简避世生活”，这也是你保持理智和灵性的绝对必需品。</div>"
+            "name": "赛博堡垒 · 秩序修道士",
+            "content": "<div class=\"result-section-title\">核心诊断：极简主义的数字隐士</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂构造具有极强的<span class=\"highlight\">内倾性与结界感</span>。对你而言，物理空间不是用来游荡的，而是用来建立绝对控制权的“堡垒”。你极度厌恶无序、低效和无意义的社交摩擦。你像一个现代赛博世界里的修道士，不需要用繁复的市井烟火来填补内心，你只需要一根极速的网线、一块高分辨率的屏幕和绝对的安静，就能构筑出一个完整、自洽且无比庞大的精神宇宙。你的理想栖息地，是一个完美运转的、被隔离出来的效率舱。</div><div class=\"result-section-title\">五维地理基因解析</div><div class=\"result-desc\"><b>【社交距离】冰川级屏障（高于90%）：</b>你对“边界感”有着近乎生理性的洁癖。你不需要热情的邻居，你反感突如其来的嘘寒问暖。在你的世界里，“不被打扰”是最高级别的奢侈品。</div><div class=\"result-desc\"><b>【混乱包容】零度容忍（低于20%）：</b>你无法忍受脏乱差、毫无逻辑的排队、或者充满噪音的街道。你欣赏的是如同瑞士钟表般精准、冷峻、一切都在轨道上完美运转的极度秩序感。</div><div class=\"result-desc\"><b>【节奏适应】两极化切割（高度极端）：</b>你在工作舱内可以适应极高频率的脑力压榨（如高频交易、深度编码），但一旦切断网络，你要求时间必须绝对静止。你不需要过渡带，你需要物理层面的一键切换。</div><div class=\"result-desc\"><b>【人文粘性】实用主义脱敏（低于30%）：</b>你对所谓的“百年老店”、“街角风情”没有太多的浪漫滤镜。老旧意味着管道失修，风情意味着交通不便。你宁愿住在极其无聊但智能化的玻璃盒子里。</div><div class=\"result-desc\"><b>【自然渴望】高冷型偏好（波动）：</b>你对自然的渴望不是“去公园里野餐”，而是去无人区的雪山、或者是孤岛上的崖壁。你想要的不是温暖的自然，而是具有敬畏感的、能彻底将你与人类社会隔离的旷野。</div><div class=\"result-section-title\">地理套利建议与终极坐标</div><div class=\"result-desc\">你需要停止试图把自己塞进嘈杂的、讲究人情世故的传统熟人社会。你的灵魂更适合前往<span class=\"highlight\">苏黎世、西雅图近郊、或者是北欧（如卑尔根）</span>。甚至，你可以选择成为一个彻底的“数字游民”，寻找全球任何一个提供千兆网络、但方圆一公里内没有人的林中独栋。记住，你不需要被烟火气治愈，你只需要在绝对的孤独中完成自我迭代，孤独就是你的顶级充电桩。</div>"
         },
         "B": {
-            "name": "都市依赖 · 高维电驭叛客",
-            "content": "<div class=\"result-section-title\">场域诊断：吸食信息的赛博格</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>是天生的<span class=\"highlight\">都市动物</span>。虽然你也偶尔向往田园，但如果真把你扔在深山老林里一周，你会因为缺乏便利、资讯和智力刺激而陷入狂躁。你需要高楼大厦带来的压迫感，需要霓虹灯，需要一杯触手可及的冰美式，更需要那种“处于世界中心”的参与感。</div><div class=\"result-section-title\">能量修复建议</div><div class=\"result-desc\">不要再用“我想退休去种田”来骗自己了。你的能量场只能在信息的碰撞和物质的繁华中得到共振。与其向往平淡，不如接受自己对效率和欲望的野心，在这片钢铁森林里杀出一条属于你的血路。</div>"
+            "name": "有机聚落 · 烟火漫游者",
+            "content": "<div class=\"result-section-title\">核心诊断：嗜血灵感的都市波西米亚</div><div class=\"result-desc\"><span class=\"drop-cap-letter\">你</span>的灵魂是一个巨大的<span class=\"highlight\">感受器</span>。你无法在真空、无菌的环境里生存，你需要空气中飘荡着咖啡香气、隐约的音乐声，甚至是一些无伤大雅的杂乱。你是一个真正的“有机体”，空间的斑驳、历史的沉淀、街头路人的神态，都是你汲取生命能量的养料。你迷恋那种充满变数、极其丰富、甚至带有一丝迷人混乱的生态系统。对你而言，城市不是一个由钢筋水泥组成的效率机器，而是一本永远读不完的、活生生的立体小说。</div><div class=\"result-section-title\">五维地理基因解析</div><div class=\"result-desc\"><b>【人文粘性】绝对成瘾（高于90%）：</b>如果把你扔到一个没有艺术展、没有独立咖啡馆、没有地下音乐的郊区，你会迅速枯萎。你极其看重一个街区的“文化厚度”和“审美溢价”，你愿意为了一种情调买单。</div><div class=\"result-desc\"><b>【混乱包容】拥抱无序（高于85%）：</b>你觉得绝对干净、规矩的地方太过无聊。你甚至有些喜欢柏林墙上的涂鸦，或者是曼谷街头那有点吵闹但极具生命力的夜市。你能在一定程度的混乱中，找到惊人的美感和灵感。</div><div class=\"result-desc\"><b>【自然渴望】融合型绿意（中度50%）：</b>你不需要与世隔绝的原始森林，你想要的自然，是中央公园那种嵌在繁华都市里的绿洲。你希望前一秒还在看树叶飘落，下一秒转身就能走进一家温暖的Bistro。</div><div class=\"result-desc\"><b>【社交距离】液态流动感（低于30%）：</b>你讨厌极度冷漠的边界感。你喜欢那种“微小的社交连接”，比如和常去的书店老板聊上两句，或者在酒吧里和一个陌生人交换一个晚上的故事。你享受这种不确定的相遇。</div><div class=\"result-desc\"><b>【节奏适应】爵士乐节拍（偏慢且即兴）：</b>你极度反感朝九晚五的高压轨道，你的生活节奏更像是一首爵士乐，充满着即兴和停顿。你觉得在阳光下发呆一个下午，远比回了十封邮件更具有生命的意义。</div><div class=\"result-section-title\">地理套利建议与终极坐标</div><div class=\"result-desc\">不要再用“逃离北上广去种田”这种伪命题来折磨自己，你根本受不了真正的乡村生活。你需要的是<span class=\"highlight\">“具有高级审美的繁华与破败的交响”</span>。你的灵魂完美契合<span class=\"highlight\">柏林、巴塞罗那、或者是京都</span>。在国内，你可能更适合上海的法租界（而不是陆家嘴）或者大理的某个特定文化圈层。去寻找那些容错率极高、充满亚文化交叠、并且允许你以“漫游”姿态生活的有机聚落，那里才是你灵感彻底爆发的温床。</div>"
         }
     }
 }
